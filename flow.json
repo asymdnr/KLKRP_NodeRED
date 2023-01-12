@@ -7,6 +7,13 @@
         "info": ""
     },
     {
+        "id": "f97ba6bb088d1b36",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": ""
+    },
+    {
         "id": "8178b9f6e8586214",
         "type": "s7 endpoint",
         "d": true,
@@ -72,20 +79,11 @@
         "id": "c982fbb8.1deb38",
         "type": "ui_group",
         "name": "hidden_group",
-        "tab": "7c447e96.4b96a",
+        "tab": "664d663a3ca8c57d",
         "order": 1,
         "disp": false,
         "width": "6",
         "collapse": false
-    },
-    {
-        "id": "7c447e96.4b96a",
-        "type": "ui_tab",
-        "name": "Zooland Sys",
-        "icon": "home",
-        "order": 1,
-        "disabled": false,
-        "hidden": true
     },
     {
         "id": "64690ecdf7ca17a4",
@@ -185,22 +183,11 @@
         }
     },
     {
-        "id": "2ad78d3003ed84b1",
-        "type": "ui_group",
-        "name": "Default",
-        "tab": "7c447e96.4b96a",
-        "order": 2,
-        "disp": true,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
         "id": "664d663a3ca8c57d",
         "type": "ui_tab",
         "name": "OVEN BURNER",
         "icon": "dashboard",
-        "order": 2,
+        "order": 1,
         "disabled": false,
         "hidden": false
     },
@@ -209,18 +196,85 @@
         "type": "ui_group",
         "name": "PCO TT BURNER MODE",
         "tab": "664d663a3ca8c57d",
-        "order": 1,
+        "order": 2,
         "disp": true,
         "width": "6",
         "collapse": false,
         "className": ""
     },
     {
-        "id": "7e48542fd259009e",
+        "id": "e40e97d4.1356e8",
         "type": "ui_group",
-        "name": "PCO TT BURNER STATUS",
-        "tab": "664d663a3ca8c57d",
+        "name": "Menu",
+        "tab": "12c7c5a9.cc3c3a",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "f2aefa84.a9a108",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "12c7c5a9.cc3c3a",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "b09937f3.b814f8",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "12c7c5a9.cc3c3a",
         "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "75944167.0434b",
+        "type": "ui_group",
+        "name": "Group 3",
+        "tab": "12c7c5a9.cc3c3a",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "12c7c5a9.cc3c3a",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "order": 3
+    },
+    {
+        "id": "94da9818ccf4ccfb",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "d8455bbb4b88ca11",
+        "type": "ui_group",
+        "name": "PCO TT BURNER INTERLOCK",
+        "tab": "664d663a3ca8c57d",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "cd06276e19088ece",
+        "type": "ui_group",
+        "name": "CGO TT",
+        "tab": "664d663a3ca8c57d",
+        "order": 4,
         "disp": true,
         "width": "6",
         "collapse": false,
@@ -242,7 +296,7 @@
         "z": "531e23be5dd8efe8",
         "group": "c982fbb8.1deb38",
         "name": "Clock Toolbar",
-        "order": 2,
+        "order": 1,
         "width": "0",
         "height": "0",
         "format": "<script id=\"titleScript\" type=\"text/javascript\">\n\n$(function() {\n    if($('.md-toolbar-tools').length != 0){\n        loadClock();\n    }else setTimeout(loadClock, 500)\n});\n\nfunction loadClock(){\n    $('#clock').remove();\n    var toolbar = $('.md-toolbar-tools');\n    \n    var div = $('<div/>');\n    var p = $('<p/ id=\"clock\">');\n    \n    div.append(p);\n    div[0].style.margin = '5px 5px 5px auto';\n    toolbar.append(div);\n\n    function displayTitle(lh) {\n        p.text(lh); \n    }\n    \n    function upTime() {\n        var d = new Date();\n        p.text(d.toLocaleString());\n    }\n\n    if(document.clockInterval){ \n            clearInterval(document.clockInterval);\n            document.clockInterval = null;\n    }\n        \n    document.clockInterval = setInterval(upTime,1000);\n}\n\n</script>",
@@ -274,7 +328,7 @@
         "name": "OVEN BURNER",
         "info": "",
         "x": 100,
-        "y": 200,
+        "y": 160,
         "wires": []
     },
     {
@@ -282,8 +336,8 @@
         "type": "s7 out",
         "z": "531e23be5dd8efe8",
         "endpoint": "8178b9f6e8586214",
-        "variable": "",
-        "name": "PCO TT BURNER ENABLE",
+        "variable": "PCO_TT_BURNER ENABLE",
+        "name": "",
         "x": 500,
         "y": 320,
         "wires": []
@@ -299,7 +353,7 @@
         "height": 0,
         "passthru": false,
         "label": "DISABLE",
-        "tooltip": "BURNER MODE",
+        "tooltip": "BURNER DISABLE",
         "color": "",
         "bgcolor": "RED",
         "className": "",
@@ -327,7 +381,7 @@
         "height": 0,
         "passthru": false,
         "label": "ENABLE",
-        "tooltip": "BURNER MODE",
+        "tooltip": "BURNER ENABLE",
         "color": "",
         "bgcolor": "GREEN",
         "className": "",
@@ -349,15 +403,15 @@
         "type": "ui_text",
         "z": "531e23be5dd8efe8",
         "group": "182308aa23fdfe0c",
-        "order": 3,
+        "order": 5,
         "width": 0,
         "height": 0,
         "name": "",
-        "label": "BURNER",
+        "label": "BURNER ",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 560,
+        "x": 680,
         "y": 660,
         "wires": []
     },
@@ -367,10 +421,10 @@
         "z": "531e23be5dd8efe8",
         "endpoint": "8178b9f6e8586214",
         "mode": "single",
-        "variable": "PCO TT_ RUN",
+        "variable": "PCO_TT_RUN",
         "diff": true,
-        "name": "PCO TT BURNER RUN",
-        "x": 140,
+        "name": "",
+        "x": 120,
         "y": 660,
         "wires": [
             [
@@ -382,14 +436,14 @@
         "id": "279a78e174af41cc",
         "type": "function",
         "z": "531e23be5dd8efe8",
-        "name": "",
+        "name": "RUNNING STATUS",
         "func": "if (msg.payload == true)\n{\n    msg.payload = \"RUNNING\";\n}\nelse\n{\n    msg.payload = \"STOPPED\";\n}    \n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 340,
+        "x": 370,
         "y": 660,
         "wires": [
             [
@@ -403,8 +457,8 @@
         "z": "531e23be5dd8efe8",
         "name": "BURNER MODE",
         "info": "",
-        "x": 280,
-        "y": 240,
+        "x": 100,
+        "y": 220,
         "wires": []
     },
     {
@@ -413,8 +467,635 @@
         "z": "531e23be5dd8efe8",
         "name": "BURNER STATUS",
         "info": "",
-        "x": 270,
+        "x": 110,
         "y": 580,
         "wires": []
+    },
+    {
+        "id": "c49588c318015f84",
+        "type": "ui_button",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "group": "182308aa23fdfe0c",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "RESET",
+        "tooltip": "BURNER RESET",
+        "color": "",
+        "bgcolor": "GREY",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 120,
+        "y": 400,
+        "wires": [
+            [
+                "22e5e509e337e63c"
+            ]
+        ]
+    },
+    {
+        "id": "63ed38e9034aecec",
+        "type": "s7 out",
+        "z": "531e23be5dd8efe8",
+        "endpoint": "8178b9f6e8586214",
+        "variable": "PCO_TT_RESET",
+        "name": "",
+        "x": 550,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "b852ed5021897352",
+        "type": "ui_text",
+        "z": "531e23be5dd8efe8",
+        "group": "182308aa23fdfe0c",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "FIRING MODE",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 700,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "2369520784470eb3",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "HIGH FIRE",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"HIGH FIRE\";\n}\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 760,
+        "wires": [
+            [
+                "b852ed5021897352"
+            ]
+        ]
+    },
+    {
+        "id": "48efd630e9caaf74",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "LOW FIRE",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"LOW FIRE\";\n}\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 800,
+        "wires": [
+            [
+                "b852ed5021897352"
+            ]
+        ]
+    },
+    {
+        "id": "4aea625171a70cf8",
+        "type": "s7 in",
+        "z": "531e23be5dd8efe8",
+        "endpoint": "8178b9f6e8586214",
+        "mode": "single",
+        "variable": "PCO_TT_HIGH FIRE",
+        "diff": true,
+        "name": "",
+        "x": 140,
+        "y": 760,
+        "wires": [
+            [
+                "2369520784470eb3"
+            ]
+        ]
+    },
+    {
+        "id": "d37602e423170d0a",
+        "type": "s7 in",
+        "z": "531e23be5dd8efe8",
+        "endpoint": "8178b9f6e8586214",
+        "mode": "single",
+        "variable": "PCO_TT_LOW FIRE",
+        "diff": true,
+        "name": "",
+        "x": 140,
+        "y": 800,
+        "wires": [
+            [
+                "48efd630e9caaf74"
+            ]
+        ]
+    },
+    {
+        "id": "22e5e509e337e63c",
+        "type": "trigger",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "op1": "true",
+        "op2": "false",
+        "op1type": "bool",
+        "op2type": "bool",
+        "duration": "250",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 320,
+        "y": 400,
+        "wires": [
+            [
+                "63ed38e9034aecec"
+            ]
+        ]
+    },
+    {
+        "id": "3805708ab8962548",
+        "type": "ui_button",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "group": "e40e97d4.1356e8",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "button1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"group\":{\"hide\":[\"Home_Group_2\",\"Home_Group_3\"],\"show\":[\"Home_Group_1\"]}}",
+        "payloadType": "json",
+        "topic": "",
+        "topicType": "str",
+        "x": 240,
+        "y": 280,
+        "wires": [
+            [
+                "7b397a3453cf8923"
+            ]
+        ]
+    },
+    {
+        "id": "d388c765f5757f31",
+        "type": "ui_button",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "group": "e40e97d4.1356e8",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "button2",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"group\":{\"hide\":[\"Home_Group_1\",\"Home_Group_3\"],\"show\":[\"Home_Group_2\"]}}",
+        "payloadType": "json",
+        "topic": "",
+        "topicType": "str",
+        "x": 240,
+        "y": 320,
+        "wires": [
+            [
+                "7b397a3453cf8923"
+            ]
+        ]
+    },
+    {
+        "id": "e25abf38f669c94e",
+        "type": "ui_button",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "group": "e40e97d4.1356e8",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "button3",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"group\":{\"hide\":[\"Home_Group_1\",\"Home_Group_2\"],\"show\":[\"Home_Group_3\"]}}",
+        "payloadType": "json",
+        "topic": "",
+        "topicType": "str",
+        "x": 240,
+        "y": 360,
+        "wires": [
+            [
+                "7b397a3453cf8923"
+            ]
+        ]
+    },
+    {
+        "id": "d8d35174fb61ef69",
+        "type": "ui_gauge",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "group": "f2aefa84.a9a108",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 810,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "43844d7b72700366",
+        "type": "ui_template",
+        "z": "f97ba6bb088d1b36",
+        "group": "b09937f3.b814f8",
+        "name": "",
+        "order": 0,
+        "width": "6",
+        "height": "3",
+        "format": "This is the start group.<br/>\nPress button 2 to move to the next group.<br/>\nThen slide the slider.",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "templateScope": "local",
+        "x": 820,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7e4f09781908dffa",
+        "type": "ui_button",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "group": "75944167.0434b",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"group\":{\"hide\":[\"Home_Group_2\",\"Home_Group_3\"],\"show\":[\"Home_Group_1\"]}}",
+        "payloadType": "json",
+        "topic": "",
+        "topicType": "str",
+        "x": 810,
+        "y": 280,
+        "wires": [
+            [
+                "7b397a3453cf8923"
+            ]
+        ]
+    },
+    {
+        "id": "7b397a3453cf8923",
+        "type": "ui_ui_control",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "x": 600,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "462aefb984fa3c3d",
+        "type": "ui_slider",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "label": "slider",
+        "tooltip": "",
+        "group": "f2aefa84.a9a108",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "outs": "all",
+        "topic": "",
+        "topicType": "str",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "className": "",
+        "x": 470,
+        "y": 100,
+        "wires": [
+            [
+                "d8d35174fb61ef69",
+                "6c0085598e4f8f87"
+            ]
+        ]
+    },
+    {
+        "id": "db79a4c1470df53a",
+        "type": "ui_template",
+        "z": "f97ba6bb088d1b36",
+        "group": "75944167.0434b",
+        "name": "",
+        "order": 1,
+        "width": "6",
+        "height": "3",
+        "format": "Slider reached > 7 = Passed</br>\nHit Reset to go back to stage 1</br>\nOr wait 10 seconds.",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 820,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6c0085598e4f8f87",
+        "type": "function",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "func": "if (msg.payload > 7)\n{\n    m2 = {payload : 0};\n    msg.payload = {\"group\":{\"hide\":[\"Home_Group_1\",\"Home_Group_2\"],\"show\":[\"Home_Group_3\"]}};\n    return [ m2, msg];\n}\nreturn null;",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 220,
+        "wires": [
+            [
+                "462aefb984fa3c3d",
+                "d8d35174fb61ef69"
+            ],
+            [
+                "eb0d8ed37914d710"
+            ]
+        ]
+    },
+    {
+        "id": "d58a80f9ea463cbe",
+        "type": "inject",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"group\":{\"hide\":[\"Home_Group_2\",\"Home_Group_3\"],\"show\":[\"Home_Group_1\"]}}",
+        "payloadType": "json",
+        "x": 250,
+        "y": 240,
+        "wires": [
+            [
+                "7b397a3453cf8923"
+            ]
+        ]
+    },
+    {
+        "id": "eb0d8ed37914d710",
+        "type": "trigger",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "op1": "",
+        "op2": "{\"group\":{\"hide\":[\"Home_Group_2\",\"Home_Group_3\"],\"show\":[\"Home_Group_1\"]}}",
+        "op1type": "pay",
+        "op2type": "json",
+        "duration": "10",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 530,
+        "y": 280,
+        "wires": [
+            [
+                "7b397a3453cf8923"
+            ]
+        ]
+    },
+    {
+        "id": "4ea9aa3e3f9c0d47",
+        "type": "comment",
+        "z": "f97ba6bb088d1b36",
+        "name": "Example of Hiding Group at Dashboard",
+        "info": "",
+        "x": 260,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "8e7d1070c458fd78",
+        "type": "comment",
+        "z": "531e23be5dd8efe8",
+        "name": "BURNER INTERLOCK",
+        "info": "",
+        "x": 120,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "e67ee8057610ecd1",
+        "type": "ui_button",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "group": "182308aa23fdfe0c",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "INTERLOCK",
+        "tooltip": "BURNER INTERLOCK",
+        "color": "",
+        "bgcolor": "{{msg.payload}}",
+        "className": "",
+        "icon": "",
+        "payload": "{\"group\":{\"show\":[\"OVEN_BURNER_PCO_TT_BURNER_INTERLOCK\"]}}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 670,
+        "y": 460,
+        "wires": [
+            [
+                "2948310533641581"
+            ]
+        ]
+    },
+    {
+        "id": "bc1d0b076c269dae",
+        "type": "s7 in",
+        "z": "531e23be5dd8efe8",
+        "endpoint": "8178b9f6e8586214",
+        "mode": "single",
+        "variable": "PCO_TT_COMMON INTERLOCK",
+        "diff": true,
+        "name": "",
+        "x": 200,
+        "y": 460,
+        "wires": [
+            [
+                "90b41bb1b1e5de0b"
+            ]
+        ]
+    },
+    {
+        "id": "90b41bb1b1e5de0b",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "RUNNING STATUS",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"GREY\";\n}\nelse\n{\n    msg.payload = \"RED\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 460,
+        "wires": [
+            [
+                "e67ee8057610ecd1"
+            ]
+        ]
+    },
+    {
+        "id": "30dad1a50e6d4d39",
+        "type": "ui_button",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "group": "d8455bbb4b88ca11",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "HIDE",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"group\":{\"hide\":[\"OVEN_BURNER_PCO_TT_BURNER_INTERLOCK\"]}}",
+        "payloadType": "json",
+        "topic": "",
+        "topicType": "str",
+        "x": 130,
+        "y": 920,
+        "wires": [
+            [
+                "44b53a3d233d9c1f"
+            ]
+        ],
+        "info": "This is use to hide the Interlock Status"
+    },
+    {
+        "id": "2948310533641581",
+        "type": "ui_ui_control",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "events": "all",
+        "x": 980,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e0d72ea15a1aa37a",
+        "type": "link in",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "links": [
+            "44b53a3d233d9c1f"
+        ],
+        "x": 875,
+        "y": 420,
+        "wires": [
+            [
+                "2948310533641581"
+            ]
+        ]
+    },
+    {
+        "id": "44b53a3d233d9c1f",
+        "type": "link out",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "links": [
+            "e0d72ea15a1aa37a"
+        ],
+        "x": 215,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "96da6c7b82c75d93",
+        "type": "ui_button",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "group": "cd06276e19088ece",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "button",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 260,
+        "y": 580,
+        "wires": [
+            []
+        ]
     }
 ]
