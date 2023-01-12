@@ -1,1 +1,420 @@
-[]
+[
+    {
+        "id": "531e23be5dd8efe8",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "8178b9f6e8586214",
+        "type": "s7 endpoint",
+        "d": true,
+        "transport": "iso-on-tcp",
+        "address": "100.0.0.73",
+        "port": "102",
+        "rack": "0",
+        "slot": "1",
+        "localtsaphi": "01",
+        "localtsaplo": "00",
+        "remotetsaphi": "01",
+        "remotetsaplo": "00",
+        "connmode": "rack-slot",
+        "adapter": "",
+        "busaddr": "2",
+        "cycletime": "1000",
+        "timeout": "2000",
+        "name": "LINE 3 PLC",
+        "vartable": [
+            {
+                "addr": "DB60,X0.0",
+                "name": "PCO_TT_BURNER ENABLE"
+            },
+            {
+                "addr": "DB60,X4.7",
+                "name": "PCO_TT_COMMON INTERLOCK"
+            },
+            {
+                "addr": "DB60,X6.4",
+                "name": "PCO_TT_TRIP"
+            },
+            {
+                "addr": "DB60,X6.5",
+                "name": "PCO_TT_RUN"
+            },
+            {
+                "addr": "DB60,X6.6",
+                "name": "PCO_TT_RESET"
+            },
+            {
+                "addr": "DB60,X6.7",
+                "name": "PCO_TT_HIGH FIRE"
+            },
+            {
+                "addr": "DB60,X7.0",
+                "name": "PCO_TT_LOW FIRE"
+            },
+            {
+                "addr": "DB60,REAL10",
+                "name": "PCO_TT_SV"
+            },
+            {
+                "addr": "DB60,INT34",
+                "name": "PCO_TT_PID P"
+            },
+            {
+                "addr": "DB60,INT36",
+                "name": "PCO_TT_PID I"
+            }
+        ]
+    },
+    {
+        "id": "c982fbb8.1deb38",
+        "type": "ui_group",
+        "name": "hidden_group",
+        "tab": "7c447e96.4b96a",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "7c447e96.4b96a",
+        "type": "ui_tab",
+        "name": "Zooland Sys",
+        "icon": "home",
+        "order": 1,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "64690ecdf7ca17a4",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "2ad78d3003ed84b1",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "7c447e96.4b96a",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "664d663a3ca8c57d",
+        "type": "ui_tab",
+        "name": "OVEN BURNER",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "182308aa23fdfe0c",
+        "type": "ui_group",
+        "name": "PCO TT BURNER MODE",
+        "tab": "664d663a3ca8c57d",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7e48542fd259009e",
+        "type": "ui_group",
+        "name": "PCO TT BURNER STATUS",
+        "tab": "664d663a3ca8c57d",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1a6a73230e00c124",
+        "type": "comment",
+        "z": "531e23be5dd8efe8",
+        "name": "Important Programming Notes",
+        "info": "Updated on 12/1/2023\nTo store a memory in NodeRED use global memory to store the value, so that we can call the memory elsewhere within the project.\n\nFunction \nto retrieve the memory use: example-\nglobal.get(var1)\n\nto set the global memory use: example-\nglobal.set(var1,msg.payload);\n\n\n",
+        "x": 540,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "b97bc1c0.cb899",
+        "type": "ui_template",
+        "z": "531e23be5dd8efe8",
+        "group": "c982fbb8.1deb38",
+        "name": "Clock Toolbar",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "format": "<script id=\"titleScript\" type=\"text/javascript\">\n\n$(function() {\n    if($('.md-toolbar-tools').length != 0){\n        loadClock();\n    }else setTimeout(loadClock, 500)\n});\n\nfunction loadClock(){\n    $('#clock').remove();\n    var toolbar = $('.md-toolbar-tools');\n    \n    var div = $('<div/>');\n    var p = $('<p/ id=\"clock\">');\n    \n    div.append(p);\n    div[0].style.margin = '5px 5px 5px auto';\n    toolbar.append(div);\n\n    function displayTitle(lh) {\n        p.text(lh); \n    }\n    \n    function upTime() {\n        var d = new Date();\n        p.text(d.toLocaleString());\n    }\n\n    if(document.clockInterval){ \n            clearInterval(document.clockInterval);\n            document.clockInterval = null;\n    }\n        \n    document.clockInterval = setInterval(upTime,1000);\n}\n\n</script>",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "global",
+        "className": "",
+        "x": 120,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fa3e4d121d9191c2",
+        "type": "comment",
+        "z": "531e23be5dd8efe8",
+        "name": "This is use to show date and time at header",
+        "info": "",
+        "x": 210,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "da0691e9d480e047",
+        "type": "comment",
+        "z": "531e23be5dd8efe8",
+        "name": "OVEN BURNER",
+        "info": "",
+        "x": 100,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "20b29bc734692b17",
+        "type": "s7 out",
+        "z": "531e23be5dd8efe8",
+        "endpoint": "8178b9f6e8586214",
+        "variable": "",
+        "name": "PCO TT BURNER ENABLE",
+        "x": 500,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "b268c73d16fb60ca",
+        "type": "ui_button",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "group": "182308aa23fdfe0c",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "DISABLE",
+        "tooltip": "BURNER MODE",
+        "color": "",
+        "bgcolor": "RED",
+        "className": "",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 120,
+        "y": 340,
+        "wires": [
+            [
+                "20b29bc734692b17"
+            ]
+        ]
+    },
+    {
+        "id": "cfd2b4beb556b27b",
+        "type": "ui_button",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "group": "182308aa23fdfe0c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "ENABLE",
+        "tooltip": "BURNER MODE",
+        "color": "",
+        "bgcolor": "GREEN",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 120,
+        "y": 300,
+        "wires": [
+            [
+                "20b29bc734692b17"
+            ]
+        ]
+    },
+    {
+        "id": "752784e40c7b57b2",
+        "type": "ui_text",
+        "z": "531e23be5dd8efe8",
+        "group": "182308aa23fdfe0c",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "BURNER",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 560,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "73650e755179b3f6",
+        "type": "s7 in",
+        "z": "531e23be5dd8efe8",
+        "endpoint": "8178b9f6e8586214",
+        "mode": "single",
+        "variable": "PCO TT_ RUN",
+        "diff": true,
+        "name": "PCO TT BURNER RUN",
+        "x": 140,
+        "y": 660,
+        "wires": [
+            [
+                "279a78e174af41cc"
+            ]
+        ]
+    },
+    {
+        "id": "279a78e174af41cc",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"RUNNING\";\n}\nelse\n{\n    msg.payload = \"STOPPED\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 660,
+        "wires": [
+            [
+                "752784e40c7b57b2"
+            ]
+        ]
+    },
+    {
+        "id": "c9415ea119deeef9",
+        "type": "comment",
+        "z": "531e23be5dd8efe8",
+        "name": "BURNER MODE",
+        "info": "",
+        "x": 280,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "bb1a554c7d2d1d49",
+        "type": "comment",
+        "z": "531e23be5dd8efe8",
+        "name": "BURNER STATUS",
+        "info": "",
+        "x": 270,
+        "y": 580,
+        "wires": []
+    }
+]
