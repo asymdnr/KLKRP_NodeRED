@@ -94,7 +94,7 @@
                 "default": "#0094CE",
                 "baseColor": "#0094CE",
                 "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": false,
+                "edited": true,
                 "reset": false
             },
             "darkTheme": {
@@ -279,6 +279,45 @@
         "width": "6",
         "collapse": false,
         "className": ""
+    },
+    {
+        "id": "a4448716.200ac8",
+        "type": "ui_group",
+        "name": "LEVEL",
+        "tab": "6e01408.cda5dc",
+        "order": 1,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6e01408.cda5dc",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "track_changes",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "cf817aa5.c91f38",
+        "type": "ui_group",
+        "name": "Valor máximo e mínimo registrados",
+        "tab": "afeb27be.73ba48",
+        "order": 4,
+        "disp": true,
+        "width": "16",
+        "collapse": false
+    },
+    {
+        "id": "afeb27be.73ba48",
+        "type": "ui_tab",
+        "name": "HC-SR04 - Distância",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
     },
     {
         "id": "1a6a73230e00c124",
@@ -625,6 +664,149 @@
         ]
     },
     {
+        "id": "8e7d1070c458fd78",
+        "type": "comment",
+        "z": "531e23be5dd8efe8",
+        "name": "BURNER INTERLOCK",
+        "info": "",
+        "x": 120,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "e67ee8057610ecd1",
+        "type": "ui_button",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "group": "182308aa23fdfe0c",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "INTERLOCK",
+        "tooltip": "BURNER INTERLOCK",
+        "color": "",
+        "bgcolor": "{{msg.payload}}",
+        "className": "",
+        "icon": "",
+        "payload": "{\"group\":{\"show\":[\"OVEN_BURNER_PCO_TT_BURNER_INTERLOCK\"]}}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 670,
+        "y": 460,
+        "wires": [
+            [
+                "2948310533641581"
+            ]
+        ]
+    },
+    {
+        "id": "bc1d0b076c269dae",
+        "type": "s7 in",
+        "z": "531e23be5dd8efe8",
+        "endpoint": "8178b9f6e8586214",
+        "mode": "single",
+        "variable": "PCO_TT_COMMON INTERLOCK",
+        "diff": true,
+        "name": "",
+        "x": 200,
+        "y": 460,
+        "wires": [
+            [
+                "90b41bb1b1e5de0b"
+            ]
+        ]
+    },
+    {
+        "id": "90b41bb1b1e5de0b",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "RUNNING STATUS",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"GREY\";\n}\nelse\n{\n    msg.payload = \"RED\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 460,
+        "wires": [
+            [
+                "e67ee8057610ecd1"
+            ]
+        ]
+    },
+    {
+        "id": "30dad1a50e6d4d39",
+        "type": "ui_button",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "group": "d8455bbb4b88ca11",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "HIDE",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"group\":{\"hide\":[\"OVEN_BURNER_PCO_TT_BURNER_INTERLOCK\"]}}",
+        "payloadType": "json",
+        "topic": "",
+        "topicType": "str",
+        "x": 130,
+        "y": 920,
+        "wires": [
+            [
+                "44b53a3d233d9c1f"
+            ]
+        ],
+        "info": "This is use to hide the Interlock Status"
+    },
+    {
+        "id": "2948310533641581",
+        "type": "ui_ui_control",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "events": "all",
+        "x": 980,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e0d72ea15a1aa37a",
+        "type": "link in",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "links": [
+            "44b53a3d233d9c1f"
+        ],
+        "x": 875,
+        "y": 420,
+        "wires": [
+            [
+                "2948310533641581"
+            ]
+        ]
+    },
+    {
+        "id": "44b53a3d233d9c1f",
+        "type": "link out",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "links": [
+            "e0d72ea15a1aa37a"
+        ],
+        "x": 215,
+        "y": 920,
+        "wires": []
+    },
+    {
         "id": "3805708ab8962548",
         "type": "ui_button",
         "z": "f97ba6bb088d1b36",
@@ -930,149 +1112,6 @@
         "wires": []
     },
     {
-        "id": "8e7d1070c458fd78",
-        "type": "comment",
-        "z": "531e23be5dd8efe8",
-        "name": "BURNER INTERLOCK",
-        "info": "",
-        "x": 120,
-        "y": 880,
-        "wires": []
-    },
-    {
-        "id": "e67ee8057610ecd1",
-        "type": "ui_button",
-        "z": "531e23be5dd8efe8",
-        "name": "",
-        "group": "182308aa23fdfe0c",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "INTERLOCK",
-        "tooltip": "BURNER INTERLOCK",
-        "color": "",
-        "bgcolor": "{{msg.payload}}",
-        "className": "",
-        "icon": "",
-        "payload": "{\"group\":{\"show\":[\"OVEN_BURNER_PCO_TT_BURNER_INTERLOCK\"]}}",
-        "payloadType": "json",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 670,
-        "y": 460,
-        "wires": [
-            [
-                "2948310533641581"
-            ]
-        ]
-    },
-    {
-        "id": "bc1d0b076c269dae",
-        "type": "s7 in",
-        "z": "531e23be5dd8efe8",
-        "endpoint": "8178b9f6e8586214",
-        "mode": "single",
-        "variable": "PCO_TT_COMMON INTERLOCK",
-        "diff": true,
-        "name": "",
-        "x": 200,
-        "y": 460,
-        "wires": [
-            [
-                "90b41bb1b1e5de0b"
-            ]
-        ]
-    },
-    {
-        "id": "90b41bb1b1e5de0b",
-        "type": "function",
-        "z": "531e23be5dd8efe8",
-        "name": "RUNNING STATUS",
-        "func": "if (msg.payload == true)\n{\n    msg.payload = \"GREY\";\n}\nelse\n{\n    msg.payload = \"RED\";\n}    \n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 470,
-        "y": 460,
-        "wires": [
-            [
-                "e67ee8057610ecd1"
-            ]
-        ]
-    },
-    {
-        "id": "30dad1a50e6d4d39",
-        "type": "ui_button",
-        "z": "531e23be5dd8efe8",
-        "name": "",
-        "group": "d8455bbb4b88ca11",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "HIDE",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "{\"group\":{\"hide\":[\"OVEN_BURNER_PCO_TT_BURNER_INTERLOCK\"]}}",
-        "payloadType": "json",
-        "topic": "",
-        "topicType": "str",
-        "x": 130,
-        "y": 920,
-        "wires": [
-            [
-                "44b53a3d233d9c1f"
-            ]
-        ],
-        "info": "This is use to hide the Interlock Status"
-    },
-    {
-        "id": "2948310533641581",
-        "type": "ui_ui_control",
-        "z": "531e23be5dd8efe8",
-        "name": "",
-        "events": "all",
-        "x": 980,
-        "y": 460,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e0d72ea15a1aa37a",
-        "type": "link in",
-        "z": "531e23be5dd8efe8",
-        "name": "",
-        "links": [
-            "44b53a3d233d9c1f"
-        ],
-        "x": 875,
-        "y": 420,
-        "wires": [
-            [
-                "2948310533641581"
-            ]
-        ]
-    },
-    {
-        "id": "44b53a3d233d9c1f",
-        "type": "link out",
-        "z": "531e23be5dd8efe8",
-        "name": "",
-        "links": [
-            "e0d72ea15a1aa37a"
-        ],
-        "x": 215,
-        "y": 920,
-        "wires": []
-    },
-    {
         "id": "96da6c7b82c75d93",
         "type": "ui_button",
         "z": "f97ba6bb088d1b36",
@@ -1096,6 +1135,629 @@
         "y": 580,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "85de7d2a.d10f5",
+        "type": "ui_slider",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "label": "slider",
+        "tooltip": "",
+        "group": "a4448716.200ac8",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "",
+        "topicType": "str",
+        "min": "-5",
+        "max": 10,
+        "step": "0.1",
+        "className": "",
+        "x": 570,
+        "y": 680,
+        "wires": [
+            [
+                "d58bdaf1.d93048"
+            ]
+        ]
+    },
+    {
+        "id": "d58bdaf1.d93048",
+        "type": "function",
+        "z": "f97ba6bb088d1b36",
+        "name": "prepare",
+        "func": "var last = context.get('last') || 'under'\nvar threshold = 0\nvar undermessage = {topic:'under',payload:null}\nvar overmessage = {topic:'over',payload:null}\nvar unsentmessage = null\n\nif(msg.payload > threshold){\n    if(last == 'under'){\n        undermessage.payload = threshold\n        overmessage.payload = threshold\n        unsentmessage = msg\n    }\n    else{\n        overmessage.payload = msg.payload\n    }\n    last = 'over'\n}\nelse{\n    if(last == 'over'){\n        overmessage.payload = threshold\n        undermessage.payload = threshold\n        unsentmessage = msg\n    }\n    else{\n        undermessage.payload = msg.payload\n    }\n    last = 'under'\n}\ncontext.set('last',last)\n\nreturn [[overmessage,undermessage],unsentmessage]",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 680,
+        "wires": [
+            [
+                "277cf5b5.1c633a",
+                "e67178c2da95622d"
+            ],
+            [
+                "3679a19c.ac113e",
+                "e67178c2da95622d"
+            ]
+        ]
+    },
+    {
+        "id": "277cf5b5.1c633a",
+        "type": "ui_chart",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "group": "a4448716.200ac8",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "-5",
+        "ymax": "10",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 990,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "125535f9.c93eca",
+        "type": "inject",
+        "z": "f97ba6bb088d1b36",
+        "name": "Clear chart",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[]",
+        "payloadType": "json",
+        "x": 720,
+        "y": 480,
+        "wires": [
+            [
+                "277cf5b5.1c633a"
+            ]
+        ]
+    },
+    {
+        "id": "3679a19c.ac113e",
+        "type": "delay",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "20",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 670,
+        "y": 900,
+        "wires": [
+            [
+                "d58bdaf1.d93048"
+            ]
+        ]
+    },
+    {
+        "id": "e67178c2da95622d",
+        "type": "debug",
+        "z": "f97ba6bb088d1b36",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1140,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "2e839284cb1b1be9",
+        "type": "inject",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 300,
+        "y": 980,
+        "wires": [
+            [
+                "7a4a00aadccbfa9a"
+            ]
+        ]
+    },
+    {
+        "id": "7a4a00aadccbfa9a",
+        "type": "change",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "date"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8a137bbe.92b958",
+        "type": "change",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "max",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 590,
+        "y": 1360,
+        "wires": [
+            [
+                "4b392913.b6cd48"
+            ]
+        ]
+    },
+    {
+        "id": "a638cb2f.c87ac8",
+        "type": "ui_button",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "group": "cf817aa5.c91f38",
+        "order": 5,
+        "width": 8,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset - Maximum value",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "-0",
+        "payloadType": "num",
+        "topic": "",
+        "topicType": "str",
+        "x": 350,
+        "y": 1300,
+        "wires": [
+            [
+                "8a137bbe.92b958"
+            ]
+        ]
+    },
+    {
+        "id": "a14d793c.ec4b88",
+        "type": "ui_text",
+        "z": "f97ba6bb088d1b36",
+        "group": "cf817aa5.c91f38",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "name": "Max Value",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 890,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "3d26ea37.f552b6",
+        "type": "switch",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "max",
+                "vt": "flow"
+            },
+            {
+                "t": "lt",
+                "v": "min",
+                "vt": "flow"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 450,
+        "y": 1400,
+        "wires": [
+            [
+                "8a137bbe.92b958"
+            ],
+            [
+                "1377db47.ec6675"
+            ]
+        ]
+    },
+    {
+        "id": "4b392913.b6cd48",
+        "type": "function",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "func": "if(msg.payload == -1)\n{\n msg.payload = \"-\"\n}else\n{\n msg.payload = msg.payload + \" cm \"\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 1360,
+        "wires": [
+            [
+                "a14d793c.ec4b88",
+                "17c6fe5d.7c1092"
+            ]
+        ]
+    },
+    {
+        "id": "8d7fc11.652a84",
+        "type": "function",
+        "z": "f97ba6bb088d1b36",
+        "name": "Composição data/hora",
+        "func": "var a = \"(\"+msg.mydom+\"/\"+msg.mymonthn+\"/\"+msg.myyear+ \" - \" +msg.mytimes+\")\";\nmsg.payload = a;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1180,
+        "y": 1280,
+        "wires": [
+            [
+                "57f633dc.17b0fc"
+            ]
+        ]
+    },
+    {
+        "id": "57f633dc.17b0fc",
+        "type": "ui_text",
+        "z": "f97ba6bb088d1b36",
+        "group": "cf817aa5.c91f38",
+        "order": 2,
+        "width": 5,
+        "height": 1,
+        "name": "Max Hour",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1180,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "1377db47.ec6675",
+        "type": "change",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "min",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 590,
+        "y": 1440,
+        "wires": [
+            [
+                "d99940c4.a82bf"
+            ]
+        ]
+    },
+    {
+        "id": "9e8de5b.9ed3318",
+        "type": "ui_button",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "group": "cf817aa5.c91f38",
+        "order": 6,
+        "width": 8,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset - Minimum Value",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "0",
+        "payloadType": "num",
+        "topic": "",
+        "topicType": "str",
+        "x": 330,
+        "y": 1500,
+        "wires": [
+            [
+                "1377db47.ec6675"
+            ]
+        ]
+    },
+    {
+        "id": "d99940c4.a82bf",
+        "type": "function",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "func": "if(msg.payload == 1000)\n{\n msg.payload = \"-\"\n}else\n{\n msg.payload = msg.payload + \" cm \"\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 1440,
+        "wires": [
+            [
+                "105c2154.24f3cf",
+                "366a70a1.6a146"
+            ]
+        ]
+    },
+    {
+        "id": "105c2154.24f3cf",
+        "type": "ui_text",
+        "z": "f97ba6bb088d1b36",
+        "group": "cf817aa5.c91f38",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "name": "valor min",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 920,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "df36bba2.63e798",
+        "type": "function",
+        "z": "f97ba6bb088d1b36",
+        "name": "Composição data/hora",
+        "func": "var a = \"(\"+msg.mydom+\"/\"+msg.mymonthn+\"/\"+msg.myyear+ \" - \" +msg.mytimes+\")\";\nmsg.payload = a;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1060,
+        "y": 1580,
+        "wires": [
+            [
+                "d0f47e73.808f5"
+            ]
+        ]
+    },
+    {
+        "id": "d0f47e73.808f5",
+        "type": "ui_text",
+        "z": "f97ba6bb088d1b36",
+        "group": "cf817aa5.c91f38",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "name": "Min Hour",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1220,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "edf76319.1dc86",
+        "type": "function",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "func": "\nmsg.payload = Number(msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 1400,
+        "wires": [
+            [
+                "3d26ea37.f552b6"
+            ]
+        ]
+    },
+    {
+        "id": "17c6fe5d.7c1092",
+        "type": "simpletime",
+        "z": "f97ba6bb088d1b36",
+        "name": "Data/hora",
+        "mydate": true,
+        "myymd": true,
+        "myyear": true,
+        "mymonth": true,
+        "mymonthn": true,
+        "mydom": true,
+        "mydoy": true,
+        "myday": true,
+        "myhourpm": true,
+        "myhour": true,
+        "mytime": true,
+        "mytimes": true,
+        "myminute": true,
+        "myminutes": true,
+        "mysecond": true,
+        "mymillis": true,
+        "myepoch": true,
+        "myrawdate": true,
+        "mypm": true,
+        "x": 880,
+        "y": 1240,
+        "wires": [
+            [
+                "8d7fc11.652a84"
+            ]
+        ]
+    },
+    {
+        "id": "366a70a1.6a146",
+        "type": "simpletime",
+        "z": "f97ba6bb088d1b36",
+        "name": "Data/hora",
+        "x": 840,
+        "y": 1560,
+        "wires": [
+            [
+                "df36bba2.63e798"
+            ]
+        ]
+    },
+    {
+        "id": "f6087883345fb7ed",
+        "type": "ui_numeric",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "label": "numeric",
+        "tooltip": "",
+        "group": "cf817aa5.c91f38",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "20000",
+        "step": "100",
+        "className": "",
+        "x": 100,
+        "y": 1400,
+        "wires": [
+            [
+                "edf76319.1dc86"
+            ]
+        ]
+    },
+    {
+        "id": "ad81dab3bbc3b5bc",
+        "type": "inject",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 90,
+        "y": 1500,
+        "wires": [
+            [
+                "edf76319.1dc86",
+                "f6087883345fb7ed"
+            ]
         ]
     }
 ]
