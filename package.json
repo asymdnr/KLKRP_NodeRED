@@ -2,7 +2,13 @@
     "name": "KLKRP_NodeRED",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-s7": "3.1.0",
+        "node-red-contrib-simpletime": "2.10.4",
+        "node-red-contrib-ui-led": "0.4.11",
+        "node-red-dashboard": "3.1.7",
+        "feezal": "0.8.1"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flow.json",

@@ -2,14 +2,36 @@
     {
         "id": "531e23be5dd8efe8",
         "type": "tab",
-        "label": "Flow 1",
+        "label": "Oven Burner Node",
         "disabled": false,
         "info": ""
     },
     {
         "id": "f97ba6bb088d1b36",
         "type": "tab",
-        "label": "Flow 2",
+        "label": "example",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "8acee42642b61076",
+        "type": "tab",
+        "label": "Chart Exercise",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "60463e3a.b7fb4",
+        "type": "tab",
+        "label": "graph csv",
+        "disabled": true,
+        "info": ""
+    },
+    {
+        "id": "f6f2187d.f17ca8",
+        "type": "tab",
+        "label": "Grafana on NR",
         "disabled": false,
         "info": ""
     },
@@ -72,6 +94,50 @@
             {
                 "addr": "DB60,INT36",
                 "name": "PCO_TT_PID I"
+            },
+            {
+                "addr": "DB45,REAL8928",
+                "name": "PCO_TT_PV"
+            },
+            {
+                "addr": "DB45,REAL8932",
+                "name": "PCO_TT_RH"
+            },
+            {
+                "addr": "DB45,REAL8936",
+                "name": "PCO_TT_RL"
+            },
+            {
+                "addr": "DB45,REAL8948",
+                "name": "PCO_TT_ALM_SV_HH"
+            },
+            {
+                "addr": "DB45,REAL8952",
+                "name": "PCO_TT_ALM_SV_H"
+            },
+            {
+                "addr": "DB45,REAL8956",
+                "name": "PCO_TT_ALM_SV_L"
+            },
+            {
+                "addr": "DB45,REAL8960",
+                "name": "PCO_TT_ALM_SV_LL"
+            },
+            {
+                "addr": "DB45,REAL8974",
+                "name": "PCO_TT_HYS_SV_HH"
+            },
+            {
+                "addr": "DB45,REAL8978",
+                "name": "PCO_TT_HYS_SV_H"
+            },
+            {
+                "addr": "DB45,REAL8982",
+                "name": "PCO_TT_HYS_SV_L"
+            },
+            {
+                "addr": "DB45,REAL8986",
+                "name": "PCO_TT_HYS_SV_LL"
             }
         ]
     },
@@ -80,7 +146,7 @@
         "type": "ui_group",
         "name": "hidden_group",
         "tab": "664d663a3ca8c57d",
-        "order": 1,
+        "order": 2,
         "disp": false,
         "width": "6",
         "collapse": false
@@ -194,9 +260,9 @@
     {
         "id": "182308aa23fdfe0c",
         "type": "ui_group",
-        "name": "PCO TT BURNER MODE",
+        "name": "PCO TT BURNER CONTROL",
         "tab": "664d663a3ca8c57d",
-        "order": 2,
+        "order": 3,
         "disp": true,
         "width": "6",
         "collapse": false,
@@ -250,20 +316,11 @@
         "order": 3
     },
     {
-        "id": "94da9818ccf4ccfb",
-        "type": "ui_group",
-        "name": "Group 1",
-        "tab": "",
-        "order": 1,
-        "disp": true,
-        "width": 6
-    },
-    {
         "id": "d8455bbb4b88ca11",
         "type": "ui_group",
         "name": "PCO TT BURNER INTERLOCK",
         "tab": "664d663a3ca8c57d",
-        "order": 3,
+        "order": 5,
         "disp": true,
         "width": "6",
         "collapse": false,
@@ -272,9 +329,9 @@
     {
         "id": "cd06276e19088ece",
         "type": "ui_group",
-        "name": "CGO TT",
+        "name": "LINE SELECTION",
         "tab": "664d663a3ca8c57d",
-        "order": 4,
+        "order": 1,
         "disp": true,
         "width": "6",
         "collapse": false,
@@ -318,6 +375,127 @@
         "order": 1,
         "disabled": false,
         "hidden": false
+    },
+    {
+        "id": "582c9e0d9b66fdb0",
+        "type": "ui_tab",
+        "name": "Chart",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "a192fc2f03a86dda",
+        "type": "ui_group",
+        "name": "Ex1",
+        "tab": "582c9e0d9b66fdb0",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2ac8e3fa.8b8584",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "ebb1ed1c.5ebe2",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "ebb1ed1c.5ebe2",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "dc4d8303.df87",
+        "type": "ui_group",
+        "name": "Charts",
+        "tab": "18e7297.06310d7",
+        "order": 1,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "18e7297.06310d7",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard"
+    },
+    {
+        "id": "2d4fe667.28f8ba",
+        "type": "ui_group",
+        "name": "demo",
+        "tab": "1caa8458.b17814",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "1caa8458.b17814",
+        "type": "ui_tab",
+        "name": "Demo",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "7398a6b80bbb57c0",
+        "type": "ui_group",
+        "name": "Tab1",
+        "tab": "81896b925ac877f3",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "81896b925ac877f3",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "bbc3532f.41ca7",
+        "type": "ui_group",
+        "name": "Grafana",
+        "tab": "1ff97cd4.681d5b",
+        "order": 1,
+        "disp": false,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1ff97cd4.681d5b",
+        "type": "ui_tab",
+        "name": "GrafanaTest",
+        "icon": "dashboard",
+        "order": 37
+    },
+    {
+        "id": "10edf20cd1978f63",
+        "type": "ui_group",
+        "name": "PCO TT ALARM SETTING",
+        "tab": "664d663a3ca8c57d",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "1a6a73230e00c124",
@@ -378,7 +556,7 @@
         "variable": "PCO_TT_BURNER ENABLE",
         "name": "",
         "x": 500,
-        "y": 320,
+        "y": 280,
         "wires": []
     },
     {
@@ -397,12 +575,12 @@
         "bgcolor": "RED",
         "className": "",
         "icon": "",
-        "payload": "false",
+        "payload": "true",
         "payloadType": "bool",
         "topic": "topic",
         "topicType": "msg",
         "x": 120,
-        "y": 340,
+        "y": 300,
         "wires": [
             [
                 "20b29bc734692b17"
@@ -425,12 +603,12 @@
         "bgcolor": "GREEN",
         "className": "",
         "icon": "",
-        "payload": "true",
+        "payload": "false",
         "payloadType": "bool",
         "topic": "topic",
         "topicType": "msg",
         "x": 120,
-        "y": 300,
+        "y": 260,
         "wires": [
             [
                 "20b29bc734692b17"
@@ -442,7 +620,7 @@
         "type": "ui_text",
         "z": "531e23be5dd8efe8",
         "group": "182308aa23fdfe0c",
-        "order": 5,
+        "order": 8,
         "width": 0,
         "height": 0,
         "name": "",
@@ -451,7 +629,7 @@
         "layout": "row-spread",
         "className": "",
         "x": 680,
-        "y": 660,
+        "y": 1380,
         "wires": []
     },
     {
@@ -464,7 +642,7 @@
         "diff": true,
         "name": "",
         "x": 120,
-        "y": 660,
+        "y": 1380,
         "wires": [
             [
                 "279a78e174af41cc"
@@ -483,7 +661,7 @@
         "finalize": "",
         "libs": [],
         "x": 370,
-        "y": 660,
+        "y": 1380,
         "wires": [
             [
                 "752784e40c7b57b2"
@@ -507,7 +685,7 @@
         "name": "BURNER STATUS",
         "info": "",
         "x": 110,
-        "y": 580,
+        "y": 1300,
         "wires": []
     },
     {
@@ -516,7 +694,7 @@
         "z": "531e23be5dd8efe8",
         "name": "",
         "group": "182308aa23fdfe0c",
-        "order": 4,
+        "order": 11,
         "width": 0,
         "height": 0,
         "passthru": false,
@@ -531,7 +709,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 120,
-        "y": 400,
+        "y": 340,
         "wires": [
             [
                 "22e5e509e337e63c"
@@ -545,8 +723,8 @@
         "endpoint": "8178b9f6e8586214",
         "variable": "PCO_TT_RESET",
         "name": "",
-        "x": 550,
-        "y": 400,
+        "x": 530,
+        "y": 340,
         "wires": []
     },
     {
@@ -554,7 +732,7 @@
         "type": "ui_text",
         "z": "531e23be5dd8efe8",
         "group": "182308aa23fdfe0c",
-        "order": 6,
+        "order": 9,
         "width": 0,
         "height": 0,
         "name": "",
@@ -562,8 +740,8 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 700,
-        "y": 740,
+        "x": 660,
+        "y": 1420,
         "wires": []
     },
     {
@@ -577,8 +755,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 390,
-        "y": 760,
+        "x": 350,
+        "y": 1420,
         "wires": [
             [
                 "b852ed5021897352"
@@ -596,8 +774,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 390,
-        "y": 800,
+        "x": 350,
+        "y": 1460,
         "wires": [
             [
                 "b852ed5021897352"
@@ -614,7 +792,7 @@
         "diff": true,
         "name": "",
         "x": 140,
-        "y": 760,
+        "y": 1420,
         "wires": [
             [
                 "2369520784470eb3"
@@ -631,7 +809,7 @@
         "diff": true,
         "name": "",
         "x": 140,
-        "y": 800,
+        "y": 1460,
         "wires": [
             [
                 "48efd630e9caaf74"
@@ -655,8 +833,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 320,
-        "y": 400,
+        "x": 300,
+        "y": 340,
         "wires": [
             [
                 "63ed38e9034aecec"
@@ -669,8 +847,8 @@
         "z": "531e23be5dd8efe8",
         "name": "BURNER INTERLOCK",
         "info": "",
-        "x": 120,
-        "y": 880,
+        "x": 140,
+        "y": 1640,
         "wires": []
     },
     {
@@ -679,11 +857,11 @@
         "z": "531e23be5dd8efe8",
         "name": "",
         "group": "182308aa23fdfe0c",
-        "order": 3,
+        "order": 10,
         "width": 0,
         "height": 0,
         "passthru": false,
-        "label": "INTERLOCK",
+        "label": "PCO BURNER INTERLOCK",
         "tooltip": "BURNER INTERLOCK",
         "color": "",
         "bgcolor": "{{msg.payload}}",
@@ -693,8 +871,8 @@
         "payloadType": "json",
         "topic": "topic",
         "topicType": "msg",
-        "x": 670,
-        "y": 460,
+        "x": 720,
+        "y": 420,
         "wires": [
             [
                 "2948310533641581"
@@ -711,7 +889,7 @@
         "diff": true,
         "name": "",
         "x": 200,
-        "y": 460,
+        "y": 420,
         "wires": [
             [
                 "90b41bb1b1e5de0b"
@@ -730,7 +908,7 @@
         "finalize": "",
         "libs": [],
         "x": 470,
-        "y": 460,
+        "y": 420,
         "wires": [
             [
                 "e67ee8057610ecd1"
@@ -743,7 +921,7 @@
         "z": "531e23be5dd8efe8",
         "name": "",
         "group": "d8455bbb4b88ca11",
-        "order": 2,
+        "order": 8,
         "width": 0,
         "height": 0,
         "passthru": false,
@@ -757,8 +935,8 @@
         "payloadType": "json",
         "topic": "",
         "topicType": "str",
-        "x": 130,
-        "y": 920,
+        "x": 150,
+        "y": 1680,
         "wires": [
             [
                 "44b53a3d233d9c1f"
@@ -773,7 +951,7 @@
         "name": "",
         "events": "all",
         "x": 980,
-        "y": 460,
+        "y": 420,
         "wires": [
             []
         ]
@@ -782,12 +960,12 @@
         "id": "e0d72ea15a1aa37a",
         "type": "link in",
         "z": "531e23be5dd8efe8",
-        "name": "",
+        "name": "PCO LINK 2_1",
         "links": [
             "44b53a3d233d9c1f"
         ],
-        "x": 875,
-        "y": 420,
+        "x": 815,
+        "y": 380,
         "wires": [
             [
                 "2948310533641581"
@@ -798,13 +976,960 @@
         "id": "44b53a3d233d9c1f",
         "type": "link out",
         "z": "531e23be5dd8efe8",
-        "name": "",
+        "name": "PCO LINK 2_2",
+        "mode": "link",
         "links": [
             "e0d72ea15a1aa37a"
         ],
-        "x": 215,
-        "y": 920,
+        "x": 235,
+        "y": 1680,
         "wires": []
+    },
+    {
+        "id": "03705633eccd0f1e",
+        "type": "ui_led",
+        "z": "531e23be5dd8efe8",
+        "order": 1,
+        "group": "d8455bbb4b88ca11",
+        "width": 0,
+        "height": 0,
+        "label": "INTERLOCK 1",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "false",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": true,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "INTERLOCK1",
+        "x": 580,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "4ebfb17d149b3681",
+        "type": "ui_led",
+        "z": "531e23be5dd8efe8",
+        "order": 2,
+        "group": "d8455bbb4b88ca11",
+        "width": 0,
+        "height": 0,
+        "label": "INTERLOCK 2",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "false",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": true,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "INTERLOCK 2",
+        "x": 580,
+        "y": 1740,
+        "wires": []
+    },
+    {
+        "id": "4d5a6d9c8d73ed45",
+        "type": "ui_led",
+        "z": "531e23be5dd8efe8",
+        "order": 3,
+        "group": "d8455bbb4b88ca11",
+        "width": 0,
+        "height": 0,
+        "label": "INTERLOCK 3",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "false",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "INTERLOCK 3",
+        "x": 580,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "adaf8abedc53967f",
+        "type": "ui_led",
+        "z": "531e23be5dd8efe8",
+        "order": 4,
+        "group": "d8455bbb4b88ca11",
+        "width": 0,
+        "height": 0,
+        "label": "INTERLOCK 4",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "false",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": true,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "INTERLOCK 4",
+        "x": 580,
+        "y": 1820,
+        "wires": []
+    },
+    {
+        "id": "9ef5d8d312068ee6",
+        "type": "ui_led",
+        "z": "531e23be5dd8efe8",
+        "order": 5,
+        "group": "d8455bbb4b88ca11",
+        "width": 0,
+        "height": 0,
+        "label": "INTERLOCK 5",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "false",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": true,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "INTERLOCK 5",
+        "x": 580,
+        "y": 1860,
+        "wires": []
+    },
+    {
+        "id": "18b5a21b8f1b225e",
+        "type": "ui_led",
+        "z": "531e23be5dd8efe8",
+        "order": 6,
+        "group": "d8455bbb4b88ca11",
+        "width": 0,
+        "height": 0,
+        "label": "INTERLOCK 6",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "true",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "false",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": true,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "INTERLOCK 6",
+        "x": 580,
+        "y": 1900,
+        "wires": []
+    },
+    {
+        "id": "9e7ffcbd2dec6c4b",
+        "type": "s7 out",
+        "z": "531e23be5dd8efe8",
+        "endpoint": "8178b9f6e8586214",
+        "variable": "PCO_TT_PID P",
+        "name": "",
+        "x": 440,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "f197a2abf9d6658c",
+        "type": "s7 out",
+        "z": "531e23be5dd8efe8",
+        "endpoint": "8178b9f6e8586214",
+        "variable": "PCO_TT_PID I",
+        "name": "",
+        "x": 440,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "14f05e24f4a6f77b",
+        "type": "ui_text_input",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "label": "SET VALUE (°C)",
+        "tooltip": "",
+        "group": "182308aa23fdfe0c",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "number",
+        "delay": "10",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 150,
+        "y": 460,
+        "wires": [
+            [
+                "d26a9199a5dfa56e"
+            ]
+        ]
+    },
+    {
+        "id": "5f18e18d611e4814",
+        "type": "ui_gauge",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "group": "182308aa23fdfe0c",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "PCO TT",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "200",
+        "colors": [
+            "#ffff29",
+            "#11ee11",
+            "#ff0000"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 700,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "319589604de509b9",
+        "type": "ui_text_input",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "label": "PID P",
+        "tooltip": "",
+        "group": "182308aa23fdfe0c",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "number",
+        "delay": "10",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 110,
+        "y": 620,
+        "wires": [
+            [
+                "9e7ffcbd2dec6c4b"
+            ]
+        ]
+    },
+    {
+        "id": "55fbf2ba885ed060",
+        "type": "ui_text_input",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "label": "PID I",
+        "tooltip": "",
+        "group": "182308aa23fdfe0c",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "number",
+        "delay": "10",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 110,
+        "y": 660,
+        "wires": [
+            [
+                "f197a2abf9d6658c"
+            ]
+        ]
+    },
+    {
+        "id": "682c9829fa8e6469",
+        "type": "s7 out",
+        "z": "531e23be5dd8efe8",
+        "endpoint": "8178b9f6e8586214",
+        "variable": "PCO_TT_SV",
+        "name": "",
+        "x": 990,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "d26a9199a5dfa56e",
+        "type": "switch",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "btwn",
+                "v": "0",
+                "vt": "num",
+                "v2": "test_rh",
+                "v2t": "global"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 370,
+        "y": 460,
+        "wires": [
+            [
+                "f2a1b09e5153f1d5"
+            ],
+            [
+                "fbe858ae85cf2d05",
+                "1a1720033abb7d19"
+            ]
+        ]
+    },
+    {
+        "id": "5f8ada846dc4fadc",
+        "type": "s7 in",
+        "z": "531e23be5dd8efe8",
+        "endpoint": "8178b9f6e8586214",
+        "mode": "single",
+        "variable": "PCO_TT_RH",
+        "diff": true,
+        "name": "",
+        "x": 870,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0fe103d8a862e9f1",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "GLOBAL MEM. RH",
+        "func": "global.set(msg.topic,msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1090,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "53843c2059cfa9e6",
+        "type": "ui_toast",
+        "z": "531e23be5dd8efe8",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "Cancel",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 1010,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fbe858ae85cf2d05",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "Warning Pop Up",
+        "func": "var test_rh=global.get(\"test_rh\");\nmsg.topic = \"Warning\"\nmsg.payload = \"Invalid Value. Insert Between 0 - \" + test_rh;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 500,
+        "wires": [
+            [
+                "53843c2059cfa9e6"
+            ]
+        ]
+    },
+    {
+        "id": "88e69eccc8008dde",
+        "type": "change",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "PCO_TT_SV",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 200,
+        "y": 560,
+        "wires": [
+            [
+                "14f05e24f4a6f77b"
+            ]
+        ]
+    },
+    {
+        "id": "f2a1b09e5153f1d5",
+        "type": "change",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "PCO_TT_SV",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 460,
+        "wires": [
+            [
+                "682c9829fa8e6469"
+            ]
+        ]
+    },
+    {
+        "id": "5fe42aa1f1038ee1",
+        "type": "comment",
+        "z": "531e23be5dd8efe8",
+        "name": "Save RH as global memory",
+        "info": "",
+        "x": 910,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "b1f77fb70b656ea7",
+        "type": "link in",
+        "z": "531e23be5dd8efe8",
+        "name": "PCO LINK 1_2",
+        "links": [
+            "1a1720033abb7d19"
+        ],
+        "x": 75,
+        "y": 560,
+        "wires": [
+            [
+                "88e69eccc8008dde"
+            ]
+        ]
+    },
+    {
+        "id": "1a1720033abb7d19",
+        "type": "link out",
+        "z": "531e23be5dd8efe8",
+        "name": "PCO LINK 1_1",
+        "mode": "link",
+        "links": [
+            "b1f77fb70b656ea7"
+        ],
+        "x": 465,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "600e782887d15982",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "SET COLOUR RANGE",
+        "func": "var RH = global.get(\"PCO_TT_RH\");\nvar HH = global.get(\"PCO_TT_HH\");\nvar H = global.get(\"PCO_TT_H\");\nvar L = global.get(\"PCO_TT_L\");\nvar LL = global.get(\"PCO_TT_LL\");\n\n\nmsg.ui_control = {options:{customSectors: {\n  percents: false, \n  ranges: [{\n    color : \"#009900\",\n    lo : 0,\n    hi : LL\n  },{\n    color : \"#33cccc\",\n    lo : LL,\n    hi : L\n  },{\n    color : \"#3366ff\",\n    lo : L,\n    hi : H\n  },{\n    color : \"#ff00ff\",\n    lo : H,\n    hi : HH\n  },{\n    color : \"#ff0000\",\n    lo : HH,\n    hi : RH\n  }]\n    \n}}}\ndelete msg.payload\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 800,
+        "wires": [
+            [
+                "5f18e18d611e4814"
+            ]
+        ]
+    },
+    {
+        "id": "4349615eda7dbdb4",
+        "type": "comment",
+        "z": "531e23be5dd8efe8",
+        "name": "ALARM SETTING",
+        "info": "",
+        "x": 110,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "9c3e8781caabaff6",
+        "type": "ui_button",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "group": "182308aa23fdfe0c",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "PCO TT AND CTT SETTING",
+        "tooltip": "BURNER INTERLOCK",
+        "color": "",
+        "bgcolor": "{{msg.payload}}",
+        "className": "",
+        "icon": "",
+        "payload": "{\"group\":{\"show\":[\"OVEN_BURNER_PCO_TT_ALARM_SETTING\"]}}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 160,
+        "y": 900,
+        "wires": [
+            [
+                "978429571333756f"
+            ]
+        ]
+    },
+    {
+        "id": "978429571333756f",
+        "type": "ui_ui_control",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "events": "all",
+        "x": 400,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bbfada5e88e72278",
+        "type": "ui_button",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "group": "10edf20cd1978f63",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "HIDE",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"group\":{\"hide\":[\"OVEN_BURNER_PCO_TT_ALARM_SETTING\"]}}",
+        "payloadType": "json",
+        "topic": "",
+        "topicType": "str",
+        "x": 550,
+        "y": 900,
+        "wires": [
+            [
+                "8eda9e7cede93ede"
+            ]
+        ],
+        "info": "This is use to hide the Interlock Status"
+    },
+    {
+        "id": "8eda9e7cede93ede",
+        "type": "link out",
+        "z": "531e23be5dd8efe8",
+        "name": "PCO LINK 3_2",
+        "mode": "link",
+        "links": [
+            "35ef7bf729d0c410"
+        ],
+        "x": 645,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "35ef7bf729d0c410",
+        "type": "link in",
+        "z": "531e23be5dd8efe8",
+        "name": "PCO LINK 3_1",
+        "links": [
+            "8eda9e7cede93ede"
+        ],
+        "x": 295,
+        "y": 840,
+        "wires": [
+            [
+                "978429571333756f"
+            ]
+        ]
+    },
+    {
+        "id": "c160bd9a71a0face",
+        "type": "random",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "low": 1,
+        "high": "200",
+        "inte": "false",
+        "property": "payload",
+        "x": 320,
+        "y": 740,
+        "wires": [
+            [
+                "5a76a7e40f4c0227"
+            ]
+        ]
+    },
+    {
+        "id": "5d55666e578f0292",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "GLOBAL MEM. HH",
+        "func": "global.set(\"PCO_TT_HH\",msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a3dad1aac0366692",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "GLOBAL MEM. H",
+        "func": "global.set(msg.topic,msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b325fc4722598793",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "GLOBAL MEM. L",
+        "func": "global.set(msg.topic,msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 1060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5d9d1656276b2b2a",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "GLOBAL MEM. LL",
+        "func": "global.set(msg.topic,msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "34d73c82abb763a1",
+        "type": "inject",
+        "z": "531e23be5dd8efe8",
+        "name": "INJECT",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 740,
+        "wires": [
+            [
+                "c160bd9a71a0face"
+            ]
+        ]
+    },
+    {
+        "id": "03c7c082244cd929",
+        "type": "ui_text_input",
+        "z": "531e23be5dd8efe8",
+        "name": "123",
+        "label": "PCO TT ALM HH",
+        "tooltip": "123",
+        "group": "10edf20cd1978f63",
+        "order": 4,
+        "width": "2",
+        "height": "2",
+        "passthru": true,
+        "mode": "number",
+        "delay": "10",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 130,
+        "y": 980,
+        "wires": [
+            [
+                "343d3903ca764622",
+                "75b6db6b2a9078c7"
+            ]
+        ]
+    },
+    {
+        "id": "343d3903ca764622",
+        "type": "debug",
+        "z": "531e23be5dd8efe8",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 280,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "75b6db6b2a9078c7",
+        "type": "debug",
+        "z": "531e23be5dd8efe8",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "topic",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 120,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "1b7bc2cc.67803d",
+        "type": "inject",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "33.333333333333",
+        "payloadType": "num",
+        "x": 710,
+        "y": 1000,
+        "wires": [
+            [
+                "99b851f3.561a88",
+                "34ead28c.3a592e"
+            ]
+        ]
+    },
+    {
+        "id": "99b851f3.561a88",
+        "type": "debug",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "34ead28c.3a592e",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "func": "msg.payload = Number(msg.payload.toFixed(2));\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 980,
+        "wires": [
+            [
+                "e28f0a7f.fabbc"
+            ]
+        ]
+    },
+    {
+        "id": "e28f0a7f.fabbc",
+        "type": "debug",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 990,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "215b390a387706e3",
+        "type": "change",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 960,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5a76a7e40f4c0227",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "function 1",
+        "func": "msg.payload = Number(msg.payload.toFixed(2));\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 740,
+        "wires": [
+            [
+                "5f18e18d611e4814",
+                "e28f0a7f.fabbc"
+            ]
+        ]
     },
     {
         "id": "3805708ab8962548",
@@ -1303,60 +2428,6 @@
         "wires": []
     },
     {
-        "id": "2e839284cb1b1be9",
-        "type": "inject",
-        "z": "f97ba6bb088d1b36",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 300,
-        "y": 980,
-        "wires": [
-            [
-                "7a4a00aadccbfa9a"
-            ]
-        ]
-    },
-    {
-        "id": "7a4a00aadccbfa9a",
-        "type": "change",
-        "z": "f97ba6bb088d1b36",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "",
-                "tot": "date"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 540,
-        "y": 1020,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "8a137bbe.92b958",
         "type": "change",
         "z": "f97ba6bb088d1b36",
@@ -1757,6 +2828,527 @@
             [
                 "edf76319.1dc86",
                 "f6087883345fb7ed"
+            ]
+        ]
+    },
+    {
+        "id": "5c4c5120.bb035",
+        "type": "ui_gauge",
+        "z": "f97ba6bb088d1b36",
+        "d": true,
+        "name": "",
+        "group": "a4448716.200ac8",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value | number:1}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 1390,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "b26a6748.70f428",
+        "type": "function",
+        "z": "f97ba6bb088d1b36",
+        "name": "options",
+        "func": "msg.ui_control = {options:{customSectors: {\n  percents: false, \n  ranges: [{\n    color : \"#009900\",\n    lo : 0,\n    hi : 2\n  },{\n    color : \"#33cccc\",\n    lo : 2.1,\n    hi : 4\n  },{\n    color : \"#3366ff\",\n    lo : 4.1,\n    hi : 6\n  },{\n    color : \"#ff00ff\",\n    lo : 6.1,\n    hi : 8\n  },{\n    color : \"#ff0000\",\n    lo : 8.1,\n    hi : 10\n  }]\n    \n}}}\ndelete msg.payload\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1240,
+        "y": 180,
+        "wires": [
+            [
+                "5c4c5120.bb035"
+            ]
+        ]
+    },
+    {
+        "id": "ef9011e5.8e00d",
+        "type": "ui_slider",
+        "z": "f97ba6bb088d1b36",
+        "d": true,
+        "name": "",
+        "label": "slider",
+        "tooltip": "",
+        "group": "a4448716.200ac8",
+        "order": 12,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "",
+        "topicType": "str",
+        "min": 0,
+        "max": 10,
+        "step": "2",
+        "className": "",
+        "x": 1050,
+        "y": 100,
+        "wires": [
+            [
+                "5c4c5120.bb035"
+            ]
+        ]
+    },
+    {
+        "id": "3a76c83429c088fb",
+        "type": "inject",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 1070,
+        "y": 180,
+        "wires": [
+            [
+                "b26a6748.70f428"
+            ]
+        ]
+    },
+    {
+        "id": "11c425e769adb2d7",
+        "type": "comment",
+        "z": "f97ba6bb088d1b36",
+        "name": "option for 5 colour gauge",
+        "info": "",
+        "x": 1110,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "69c27e08bfe7f57c",
+        "type": "function",
+        "z": "8acee42642b61076",
+        "name": "graph generate",
+        "func": "\n//declare variable for the Graph value\n//can be any value\nvar data=context.get(\"data\")||[];\n\nif(typeof data[0]==\"undefined\"|| msg.topic == \"clear\")\n{\n    data[0] =0; \n    msg.payload = [];\n}\nelse\n\n data[0] +=1;\nmsg.payload = {topic: \"temperature\", payload: data[0] };\n context.set(\"data\",data);\n \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 260,
+        "wires": [
+            [
+                "9e0164d9c53f66e0"
+            ]
+        ]
+    },
+    {
+        "id": "9e0164d9c53f66e0",
+        "type": "ui_chart",
+        "z": "8acee42642b61076",
+        "name": "",
+        "group": "a192fc2f03a86dda",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 990,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "64897a9beca04581",
+        "type": "inject",
+        "z": "8acee42642b61076",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "site1",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 460,
+        "y": 260,
+        "wires": [
+            [
+                "69c27e08bfe7f57c"
+            ]
+        ]
+    },
+    {
+        "id": "fd6a782f.8607a8",
+        "type": "inject",
+        "z": "60463e3a.b7fb4",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "start",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 150,
+        "y": 80,
+        "wires": [
+            [
+                "f6d3c9af.1c6d18"
+            ]
+        ]
+    },
+    {
+        "id": "ff0ba1e2.f46ab",
+        "type": "ui_chart",
+        "z": "60463e3a.b7fb4",
+        "name": "",
+        "group": "2ac8e3fa.8b8584",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "2",
+        "removeOlderPoints": "1000",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "x": 590,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2466e014.fe459",
+        "type": "debug",
+        "z": "60463e3a.b7fb4",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 570,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "f6d3c9af.1c6d18",
+        "type": "file in",
+        "z": "60463e3a.b7fb4",
+        "name": "",
+        "filename": "example.csv",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 260,
+        "y": 160,
+        "wires": [
+            [
+                "3d784d1.a733332",
+                "2466e014.fe459"
+            ]
+        ]
+    },
+    {
+        "id": "3d784d1.a733332",
+        "type": "csv",
+        "z": "60463e3a.b7fb4",
+        "name": "",
+        "sep": ",",
+        "hdrin": true,
+        "hdrout": "",
+        "multi": "mult",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": false,
+        "include_null_values": false,
+        "x": 350,
+        "y": 240,
+        "wires": [
+            [
+                "f3d8e5f0.29d548",
+                "2466e014.fe459"
+            ]
+        ]
+    },
+    {
+        "id": "f3d8e5f0.29d548",
+        "type": "function",
+        "z": "60463e3a.b7fb4",
+        "name": "graph generate",
+        "func": "\nfunction toTimestamp(strDate){\n     var datum = Date.parse(strDate);\n     return datum/1000;\n    }\nvar payload=msg.payload;\n\n\nvar data_out=[];\nvar a1=[];\nvar a2=[];\nvar a3=[];\nvar a4=[];\nfor(let i=0;i<payload.length;i++)\n{\n  \nvar Data= payload[i].Data.split(\"-\");\nvar t=Data[2]+\"/\"+Data[1]+\"/\"+Data[0];\nvar timestamp=toTimestamp(t+\" \"+payload[i][\"Godzina\"]);\n\n\nvar temp1={ \"x\": timestamp, \"y\":parseInt( payload[i][\"Temp_RS-485\"]) };\nvar temp2={ \"x\": timestamp, \"y\":parseInt( payload[i][\"Wilg_RS-485\"]) };\nvar temp3={ \"x\": timestamp, \"y\": parseInt(payload[i][\"Temperatura I\"])};\nvar temp4={\"x\": timestamp, \"y\": parseInt(payload[i][\"Wilgotność I\"])};\n\na1.push(temp1);\na2.push(temp2);\na3.push(temp3);\na4.push(temp4);\n \n \n //\n \n \n}\n\ndata_out=[a1,a2,a3,a4];\nmsg.payload=[{\n\"series\": [\"Temp_RS-485\",\"Wilg_RS-485\",\"Temperatura I\",\"Wilgotność I\"],\n\"data\":data_out,\n\"labels\": [\"Temp_RS-485\",\"Wilg_RS-485\",\"Temperatura I\",\"Wilgotność I\"]\n}];\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 360,
+        "wires": [
+            [
+                "2466e014.fe459",
+                "ff0ba1e2.f46ab"
+            ]
+        ]
+    },
+    {
+        "id": "de8150aa.71733",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "SetTimeRange",
+        "func": "msg.fromdate=msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 200,
+        "wires": [
+            [
+                "aeaaadf4.7dcb",
+                "9d22cca6.a6c168"
+            ]
+        ]
+    },
+    {
+        "id": "14f5cd67.1fbd6b",
+        "type": "ui_template",
+        "z": "f6f2187d.f17ca8",
+        "group": "bbc3532f.41ca7",
+        "name": "Line Chart",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "format": "<html>\n<iframe id=\"myFrame\" width=\"600px\" height=\"300px\" style = \"overflow:hidden; margin:auto; border:0px solid green;\"></iframe>\n\n<script>\n//NOTE, more then one chart on a page, rename in the second and following \n//templates the \"myframe\" variable so that every template has a unique name.\n(function(scope) {\n    // watch msg object from Node-RED\n    scope.$watch('msg', function(msg) {\n        // new message received\n        var x = document.getElementById('myFrame');\n        x.setAttribute('src', msg.payload); \n        });\n})(scope);\n</script>\n</html>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1090,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "aeaaadf4.7dcb",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "BuildTemplate",
+        "func": "//NOTE, more then one chart on a page, rename in the second and following \n//templates the \"myframe\" variable so that every template has a unique name.\n\nlet panelid=4\n\nmsg.payload = \"http://localhost:3000/d-solo/1qgAQ874k/test-dash?orgId=1\"+\n\"&refresh=1m\"+\n\"&theme=light\"+\n\"&from=\"+ msg.fromdate +\n\"&to=now&panelId=\"+panelid\n\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 180,
+        "wires": [
+            [
+                "14f5cd67.1fbd6b"
+            ]
+        ]
+    },
+    {
+        "id": "4769fee0.9701d8",
+        "type": "ui_template",
+        "z": "f6f2187d.f17ca8",
+        "group": "bbc3532f.41ca7",
+        "name": "Numbers",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "format": "<html>\n<iframe id=\"myFrame2\" width=\"600px\" height=\"300px\" style = \"overflow:hidden; margin:auto; border:0px solid green;\"></iframe>\n\n<script>\n//NOTE, more then one chart on a page, rename in the second and following \n//templates the \"myframe\" variable so that every template has a unique name.\n(function(scope) {\n    // watch msg object from Node-RED\n    scope.$watch('msg', function(msg) {\n        // new message received\n        var x = document.getElementById('myFrame2');\n        x.setAttribute('src', msg.payload); \n        });\n})(scope);\n</script>\n</html>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1080,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9d22cca6.a6c168",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "BuildTemplate",
+        "func": "//NOTE, more then one chart on a page, rename in the second and following \n//templates the \"myframe\" variable so that every template has a unique name.\n\nlet panelid=2\n\nmsg.payload = \"http://localhost:3000/d-solo/1qgAQ874k/test-dash?orgId=1\"+\n\"&refresh=1m\"+\n\"&theme=dark\"+\n\"&from=\"+ msg.fromdate +\n\"&to=\"+ msg.enddate +\n\"&panelId=\"+panelid\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 240,
+        "wires": [
+            [
+                "4769fee0.9701d8"
+            ]
+        ]
+    },
+    {
+        "id": "a9fb70d370f4f6f1",
+        "type": "ui_dropdown",
+        "z": "f6f2187d.f17ca8",
+        "name": "Range Dropdown",
+        "label": "Interval",
+        "tooltip": "",
+        "place": "Select Interval",
+        "group": "bbc3532f.41ca7",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "7 D",
+                "value": "now-7d",
+                "type": "str"
+            },
+            {
+                "label": "14 D",
+                "value": "now-14d",
+                "type": "str"
+            },
+            {
+                "label": "20 D",
+                "value": "now-20d",
+                "type": "str"
+            },
+            {
+                "label": "30 D",
+                "value": "now-30d",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 430,
+        "y": 200,
+        "wires": [
+            [
+                "de8150aa.71733"
+            ]
+        ]
+    },
+    {
+        "id": "b372fba84ebeb01e",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "Trigger on start",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "2",
+        "topic": "",
+        "payload": "now-14d",
+        "payloadType": "str",
+        "x": 200,
+        "y": 200,
+        "wires": [
+            [
+                "a9fb70d370f4f6f1"
             ]
         ]
     }
