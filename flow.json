@@ -1321,7 +1321,7 @@
                 "t": "btwn",
                 "v": "0",
                 "vt": "num",
-                "v2": "test_rh",
+                "v2": "PCO_TT_RH",
                 "v2t": "global"
             },
             {
@@ -1369,8 +1369,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1090,
-        "y": 140,
+        "x": 1110,
+        "y": 220,
         "wires": [
             []
         ]
@@ -1401,7 +1401,7 @@
         "type": "function",
         "z": "531e23be5dd8efe8",
         "name": "Warning Pop Up",
-        "func": "var test_rh=global.get(\"test_rh\");\nmsg.topic = \"Warning\"\nmsg.payload = \"Invalid Value. Insert Between 0 - \" + test_rh;\nreturn msg;",
+        "func": "var test_rh=global.get(\"PCO_TT_RH\");\nmsg.topic = \"Warning\"\nmsg.payload = \"Invalid Value. Insert Between 0 - \" + test_rh;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -1928,6 +1928,35 @@
             [
                 "5f18e18d611e4814",
                 "e28f0a7f.fabbc"
+            ]
+        ]
+    },
+    {
+        "id": "8dbd51a75553cf33",
+        "type": "inject",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "PCO_TT_RH",
+        "payload": "200",
+        "payloadType": "num",
+        "x": 900,
+        "y": 220,
+        "wires": [
+            [
+                "0fe103d8a862e9f1"
             ]
         ]
     },
