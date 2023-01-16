@@ -9,36 +9,14 @@
     {
         "id": "f97ba6bb088d1b36",
         "type": "tab",
-        "label": "example",
+        "label": "Motor Node",
         "disabled": false,
         "info": ""
     },
     {
-        "id": "8acee42642b61076",
+        "id": "2bc02f46.a8e46",
         "type": "tab",
-        "label": "Chart Exercise",
-        "disabled": true,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "60463e3a.b7fb4",
-        "type": "tab",
-        "label": "graph csv",
-        "disabled": true,
-        "info": ""
-    },
-    {
-        "id": "f6f2187d.f17ca8",
-        "type": "tab",
-        "label": "Grafana on NR",
-        "disabled": false,
-        "info": ""
-    },
-    {
-        "id": "d2f356e8.51d6e8",
-        "type": "tab",
-        "label": "Flow 1",
+        "label": "Flow 2",
         "disabled": false,
         "info": ""
     },
@@ -235,14 +213,14 @@
                 "accents": "blue",
                 "warn": "red",
                 "background": "grey",
-                "palette": "light"
+                "palette": "dark"
             }
         },
         "site": {
             "name": "Node-RED Dashboard",
             "hideToolbar": "false",
-            "allowSwipe": "mouse",
-            "lockMenu": "true",
+            "allowSwipe": "true",
+            "lockMenu": "icon",
             "allowTempTheme": "true",
             "dateFormat": "DD/MM/YYYY",
             "sizes": {
@@ -261,7 +239,7 @@
         "id": "664d663a3ca8c57d",
         "type": "ui_tab",
         "name": "OVEN BURNER",
-        "icon": "dashboard",
+        "icon": "fa-free-code-camp",
         "order": 1,
         "disabled": false,
         "hidden": false
@@ -276,53 +254,6 @@
         "width": "28",
         "collapse": true,
         "className": ""
-    },
-    {
-        "id": "e40e97d4.1356e8",
-        "type": "ui_group",
-        "name": "Menu",
-        "tab": "12c7c5a9.cc3c3a",
-        "order": 1,
-        "disp": true,
-        "width": "6",
-        "collapse": false
-    },
-    {
-        "id": "f2aefa84.a9a108",
-        "type": "ui_group",
-        "name": "Group 2",
-        "tab": "12c7c5a9.cc3c3a",
-        "order": 3,
-        "disp": true,
-        "width": "6",
-        "collapse": false
-    },
-    {
-        "id": "b09937f3.b814f8",
-        "type": "ui_group",
-        "name": "Group 1",
-        "tab": "12c7c5a9.cc3c3a",
-        "order": 2,
-        "disp": true,
-        "width": "6",
-        "collapse": false
-    },
-    {
-        "id": "75944167.0434b",
-        "type": "ui_group",
-        "name": "Group 3",
-        "tab": "12c7c5a9.cc3c3a",
-        "order": 4,
-        "disp": true,
-        "width": "6",
-        "collapse": false
-    },
-    {
-        "id": "12c7c5a9.cc3c3a",
-        "type": "ui_tab",
-        "name": "Home",
-        "icon": "dashboard",
-        "order": 6
     },
     {
         "id": "d8455bbb4b88ca11",
@@ -347,157 +278,6 @@
         "className": ""
     },
     {
-        "id": "a4448716.200ac8",
-        "type": "ui_group",
-        "name": "LEVEL",
-        "tab": "6e01408.cda5dc",
-        "order": 1,
-        "disp": true,
-        "width": "8",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "6e01408.cda5dc",
-        "type": "ui_tab",
-        "name": "Home",
-        "icon": "track_changes",
-        "order": 2,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "cf817aa5.c91f38",
-        "type": "ui_group",
-        "name": "Valor máximo e mínimo registrados",
-        "tab": "afeb27be.73ba48",
-        "order": 4,
-        "disp": true,
-        "width": "16",
-        "collapse": false
-    },
-    {
-        "id": "afeb27be.73ba48",
-        "type": "ui_tab",
-        "name": "HC-SR04 - Distância",
-        "icon": "dashboard",
-        "order": 3,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "582c9e0d9b66fdb0",
-        "type": "ui_tab",
-        "name": "Chart",
-        "icon": "dashboard",
-        "order": 7,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "a192fc2f03a86dda",
-        "type": "ui_group",
-        "name": "Ex1",
-        "tab": "582c9e0d9b66fdb0",
-        "order": 1,
-        "disp": true,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "2ac8e3fa.8b8584",
-        "type": "ui_group",
-        "name": "Default",
-        "tab": "ebb1ed1c.5ebe2",
-        "order": 1,
-        "disp": true,
-        "width": "12",
-        "collapse": false
-    },
-    {
-        "id": "ebb1ed1c.5ebe2",
-        "type": "ui_tab",
-        "name": "Home",
-        "icon": "dashboard",
-        "order": 8,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "dc4d8303.df87",
-        "type": "ui_group",
-        "name": "Charts",
-        "tab": "18e7297.06310d7",
-        "order": 1,
-        "disp": true,
-        "width": "6"
-    },
-    {
-        "id": "18e7297.06310d7",
-        "type": "ui_tab",
-        "name": "Home",
-        "icon": "dashboard",
-        "order": 9
-    },
-    {
-        "id": "2d4fe667.28f8ba",
-        "type": "ui_group",
-        "name": "demo",
-        "tab": "1caa8458.b17814",
-        "order": 1,
-        "disp": true,
-        "width": "12",
-        "collapse": false
-    },
-    {
-        "id": "1caa8458.b17814",
-        "type": "ui_tab",
-        "name": "Demo",
-        "icon": "dashboard",
-        "order": 4,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "7398a6b80bbb57c0",
-        "type": "ui_group",
-        "name": "Tab1",
-        "tab": "81896b925ac877f3",
-        "order": 1,
-        "disp": false,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "81896b925ac877f3",
-        "type": "ui_tab",
-        "name": "Home",
-        "icon": "",
-        "order": 5,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "bbc3532f.41ca7",
-        "type": "ui_group",
-        "name": "Grafana",
-        "tab": "1ff97cd4.681d5b",
-        "order": 1,
-        "disp": false,
-        "width": "12",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "1ff97cd4.681d5b",
-        "type": "ui_tab",
-        "name": "GrafanaTest",
-        "icon": "dashboard",
-        "order": 10
-    },
-    {
         "id": "10edf20cd1978f63",
         "type": "ui_group",
         "name": "PCO TT ALARM SETTING",
@@ -507,92 +287,6 @@
         "width": 6,
         "collapse": false,
         "className": ""
-    },
-    {
-        "id": "dce9e7a2.d20c78",
-        "type": "ui_group",
-        "name": "Object detection",
-        "tab": "",
-        "order": 1,
-        "disp": true,
-        "width": "9",
-        "collapse": false
-    },
-    {
-        "id": "fbf3ac92fc202dfe",
-        "type": "ui_group",
-        "name": "Linear Vertical",
-        "tab": "",
-        "order": 1,
-        "disp": true,
-        "width": "4",
-        "collapse": false
-    },
-    {
-        "id": "3a12888e4343653b",
-        "type": "ui_group",
-        "name": "Full Round",
-        "tab": "",
-        "order": 2,
-        "disp": true,
-        "width": "7",
-        "collapse": false
-    },
-    {
-        "id": "d34a1a5499b12501",
-        "type": "ui_group",
-        "name": "Half Round",
-        "tab": "",
-        "order": 3,
-        "disp": true,
-        "width": 7,
-        "collapse": false
-    },
-    {
-        "id": "4392c40833e9f6ba",
-        "type": "ui_group",
-        "name": "Linear Horizontal",
-        "tab": "",
-        "order": 7,
-        "disp": true,
-        "width": 15,
-        "collapse": false
-    },
-    {
-        "id": "ca7cc11270e58851",
-        "type": "yeelight-compat-hue-config",
-        "hostname": "",
-        "port": "55443",
-        "name": ""
-    },
-    {
-        "id": "985a3531.0ce638",
-        "type": "ui_group",
-        "name": "Gauge",
-        "tab": "dd890cfb.b56fc",
-        "order": 1,
-        "disp": false,
-        "width": 30,
-        "collapse": false
-    },
-    {
-        "id": "c3500612.c24038",
-        "type": "ui_group",
-        "name": "Btn1",
-        "tab": "94f74e9f.6a717",
-        "order": 1,
-        "disp": true,
-        "width": "2",
-        "collapse": false
-    },
-    {
-        "id": "dd890cfb.b56fc",
-        "type": "ui_tab",
-        "name": "Samudra LED",
-        "icon": "TEST",
-        "order": 2,
-        "disabled": false,
-        "hidden": false
     },
     {
         "id": "7b8af8da263b78ce",
@@ -606,39 +300,115 @@
         "className": ""
     },
     {
-        "id": "1ed11c7.232e364",
+        "id": "35d1279dc3c417ba",
+        "type": "ui_tab",
+        "name": "Motor",
+        "icon": "toys",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "f38030ca387e052d",
         "type": "ui_group",
-        "name": "Dynamic table example",
-        "tab": "12628f32.c04c99",
+        "name": "CGT_STIR_RHS",
+        "tab": "35d1279dc3c417ba",
         "order": 1,
         "disp": true,
-        "width": "4",
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3d9e45e.bcd50ba",
+        "type": "ui_group",
+        "name": "Radial Gauges",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
         "collapse": false
     },
     {
-        "id": "12628f32.c04c99",
+        "id": "49b17fdb.a4e67",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "ac0de5e5.b75fb8",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "ac0de5e5.b75fb8",
         "type": "ui_tab",
-        "name": "Home",
+        "name": "Tab1",
         "icon": "dashboard"
     },
     {
-        "id": "b42b15c65c79a41b",
+        "id": "aa6a1221.d871c",
+        "type": "ui_group",
+        "name": "Group 3",
+        "tab": "0bcba62bfbb44b2a",
+        "order": 3,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "0bcba62bfbb44b2a",
+        "type": "ui_tab",
+        "name": "Tab 7",
+        "icon": "dashboard",
+        "order": 7
+    },
+    {
+        "id": "ff6b2d8064d36675",
         "type": "ui_spacer",
         "z": "531e23be5dd8efe8",
         "name": "spacer",
         "group": "182308aa23fdfe0c",
-        "order": 9,
-        "width": 2,
+        "order": 6,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "3c4a43cb87a6b4fa",
+        "id": "8277b9e42e351e11",
         "type": "ui_spacer",
         "z": "531e23be5dd8efe8",
         "name": "spacer",
         "group": "182308aa23fdfe0c",
-        "order": 12,
-        "width": 2,
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7f14bd2591bbda31",
+        "type": "ui_spacer",
+        "z": "531e23be5dd8efe8",
+        "name": "spacer",
+        "group": "182308aa23fdfe0c",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "bb67e652ed84521d",
+        "type": "ui_spacer",
+        "z": "531e23be5dd8efe8",
+        "name": "spacer",
+        "group": "182308aa23fdfe0c",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "447ec6ba7a5fd33f",
+        "type": "ui_spacer",
+        "z": "531e23be5dd8efe8",
+        "name": "spacer",
+        "group": "182308aa23fdfe0c",
+        "order": 20,
+        "width": 1,
         "height": 1
     },
     {
@@ -688,8 +458,8 @@
         "z": "531e23be5dd8efe8",
         "name": "OVEN BURNER",
         "info": "",
-        "x": 100,
-        "y": 160,
+        "x": 120,
+        "y": 120,
         "wires": []
     },
     {
@@ -699,7 +469,7 @@
         "endpoint": "8178b9f6e8586214",
         "variable": "PCO_TT_BURNER ENABLE",
         "name": "",
-        "x": 500,
+        "x": 740,
         "y": 280,
         "wires": []
     },
@@ -709,25 +479,27 @@
         "z": "531e23be5dd8efe8",
         "name": "",
         "group": "182308aa23fdfe0c",
-        "order": 5,
-        "width": 6,
+        "order": 7,
+        "width": 5,
         "height": 1,
         "passthru": false,
         "label": "DISABLE",
         "tooltip": "BURNER DISABLE",
-        "color": "",
-        "bgcolor": "RED",
+        "color": "{{text}}",
+        "bgcolor": "{{colour}}",
         "className": "",
         "icon": "",
         "payload": "true",
         "payloadType": "bool",
         "topic": "topic",
         "topicType": "msg",
-        "x": 120,
+        "x": 440,
         "y": 300,
         "wires": [
             [
-                "20b29bc734692b17"
+                "20b29bc734692b17",
+                "7c926711f59f2ede",
+                "59d7561b9b7eab1e"
             ]
         ]
     },
@@ -738,24 +510,26 @@
         "name": "",
         "group": "182308aa23fdfe0c",
         "order": 1,
-        "width": 6,
+        "width": 5,
         "height": 1,
         "passthru": false,
         "label": "ENABLE",
         "tooltip": "BURNER ENABLE",
         "color": "",
-        "bgcolor": "GREEN",
+        "bgcolor": "{{colour}}",
         "className": "",
         "icon": "",
         "payload": "false",
         "payloadType": "bool",
         "topic": "topic",
         "topicType": "msg",
-        "x": 120,
-        "y": 260,
+        "x": 440,
+        "y": 220,
         "wires": [
             [
-                "20b29bc734692b17"
+                "20b29bc734692b17",
+                "638dd364e0679c6e",
+                "0040289591de748f"
             ]
         ]
     },
@@ -765,7 +539,7 @@
         "z": "531e23be5dd8efe8",
         "group": "182308aa23fdfe0c",
         "order": 3,
-        "width": 6,
+        "width": 5,
         "height": 1,
         "name": "",
         "label": "BURNER ",
@@ -818,8 +592,8 @@
         "z": "531e23be5dd8efe8",
         "name": "BURNER MODE",
         "info": "",
-        "x": 100,
-        "y": 220,
+        "x": 120,
+        "y": 160,
         "wires": []
     },
     {
@@ -838,8 +612,8 @@
         "z": "531e23be5dd8efe8",
         "name": "",
         "group": "182308aa23fdfe0c",
-        "order": 10,
-        "width": 6,
+        "order": 15,
+        "width": 5,
         "height": 1,
         "passthru": false,
         "label": "BURNER RESET",
@@ -853,7 +627,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 150,
-        "y": 340,
+        "y": 380,
         "wires": [
             [
                 "22e5e509e337e63c"
@@ -868,7 +642,7 @@
         "variable": "PCO_TT_RESET",
         "name": "",
         "x": 590,
-        "y": 340,
+        "y": 380,
         "wires": []
     },
     {
@@ -876,8 +650,8 @@
         "type": "ui_text",
         "z": "531e23be5dd8efe8",
         "group": "182308aa23fdfe0c",
-        "order": 6,
-        "width": 6,
+        "order": 12,
+        "width": 5,
         "height": 1,
         "name": "",
         "label": "FIRING MODE",
@@ -893,7 +667,7 @@
         "type": "function",
         "z": "531e23be5dd8efe8",
         "name": "HIGH FIRE",
-        "func": "if (msg.payload == true)\n{\n    msg.payload = \"HIGH FIRE\";\n}\n\n\nreturn msg;",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"HIGH FIRE\";\n}\nelse\n    msg.payload = \"-\";\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -901,25 +675,6 @@
         "libs": [],
         "x": 370,
         "y": 2220,
-        "wires": [
-            [
-                "b852ed5021897352"
-            ]
-        ]
-    },
-    {
-        "id": "48efd630e9caaf74",
-        "type": "function",
-        "z": "531e23be5dd8efe8",
-        "name": "LOW FIRE",
-        "func": "if (msg.payload == true)\n{\n    msg.payload = \"LOW FIRE\";\n}\n\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 370,
-        "y": 2260,
         "wires": [
             [
                 "b852ed5021897352"
@@ -956,7 +711,7 @@
         "y": 2260,
         "wires": [
             [
-                "48efd630e9caaf74"
+                "503c816c11329039"
             ]
         ]
     },
@@ -978,7 +733,7 @@
         "topic": "topic",
         "outputs": 1,
         "x": 360,
-        "y": 340,
+        "y": 380,
         "wires": [
             [
                 "63ed38e9034aecec"
@@ -992,7 +747,7 @@
         "name": "BURNER INTERLOCK",
         "info": "",
         "x": 120,
-        "y": 2320,
+        "y": 2500,
         "wires": []
     },
     {
@@ -1001,9 +756,9 @@
         "z": "531e23be5dd8efe8",
         "name": "",
         "group": "182308aa23fdfe0c",
-        "order": 15,
-        "width": 0,
-        "height": 0,
+        "order": 19,
+        "width": 5,
+        "height": 1,
         "passthru": false,
         "label": "PCO BURNER INTERLOCK",
         "tooltip": "BURNER INTERLOCK",
@@ -1016,7 +771,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 720,
-        "y": 420,
+        "y": 460,
         "wires": [
             [
                 "2948310533641581"
@@ -1033,7 +788,7 @@
         "diff": true,
         "name": "",
         "x": 200,
-        "y": 420,
+        "y": 460,
         "wires": [
             [
                 "90b41bb1b1e5de0b"
@@ -1052,7 +807,7 @@
         "finalize": "",
         "libs": [],
         "x": 470,
-        "y": 420,
+        "y": 460,
         "wires": [
             [
                 "e67ee8057610ecd1"
@@ -1080,7 +835,7 @@
         "topic": "",
         "topicType": "str",
         "x": 130,
-        "y": 2360,
+        "y": 2540,
         "wires": [
             [
                 "44b53a3d233d9c1f"
@@ -1095,7 +850,7 @@
         "name": "",
         "events": "all",
         "x": 980,
-        "y": 420,
+        "y": 460,
         "wires": [
             []
         ]
@@ -1109,7 +864,7 @@
             "44b53a3d233d9c1f"
         ],
         "x": 815,
-        "y": 380,
+        "y": 420,
         "wires": [
             [
                 "2948310533641581"
@@ -1126,7 +881,7 @@
             "e0d72ea15a1aa37a"
         ],
         "x": 215,
-        "y": 2360,
+        "y": 2540,
         "wires": []
     },
     {
@@ -1156,8 +911,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "ESTOP",
-        "x": 540,
-        "y": 2380,
+        "x": 580,
+        "y": 2580,
         "wires": []
     },
     {
@@ -1187,8 +942,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "MAIN DRIVE OFF FB",
-        "x": 580,
-        "y": 2420,
+        "x": 620,
+        "y": 2620,
         "wires": []
     },
     {
@@ -1218,8 +973,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "PCO TT HH ALARM",
-        "x": 580,
-        "y": 2460,
+        "x": 620,
+        "y": 2660,
         "wires": []
     },
     {
@@ -1249,8 +1004,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "PCO CTT HH ALARM",
-        "x": 580,
-        "y": 2500,
+        "x": 620,
+        "y": 2700,
         "wires": []
     },
     {
@@ -1280,8 +1035,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "PCO BL OFF FB",
-        "x": 570,
-        "y": 2540,
+        "x": 610,
+        "y": 2740,
         "wires": []
     },
     {
@@ -1311,8 +1066,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "PCO TT WIRE BREAK",
-        "x": 580,
-        "y": 2580,
+        "x": 620,
+        "y": 2780,
         "wires": []
     },
     {
@@ -1323,7 +1078,7 @@
         "variable": "PCO_TT_PID P",
         "name": "",
         "x": 440,
-        "y": 620,
+        "y": 660,
         "wires": []
     },
     {
@@ -1334,7 +1089,7 @@
         "variable": "PCO_TT_PID I",
         "name": "",
         "x": 440,
-        "y": 660,
+        "y": 700,
         "wires": []
     },
     {
@@ -1343,10 +1098,10 @@
         "z": "531e23be5dd8efe8",
         "name": "",
         "label": "SET VALUE (°C)",
-        "tooltip": "",
+        "tooltip": "OVEN BURNER SET VALUE",
         "group": "182308aa23fdfe0c",
-        "order": 7,
-        "width": 6,
+        "order": 11,
+        "width": 5,
         "height": 1,
         "passthru": true,
         "mode": "number",
@@ -1356,7 +1111,7 @@
         "className": "",
         "topicType": "msg",
         "x": 150,
-        "y": 460,
+        "y": 500,
         "wires": [
             [
                 "d26a9199a5dfa56e"
@@ -1370,7 +1125,7 @@
         "name": "",
         "group": "182308aa23fdfe0c",
         "order": 2,
-        "width": 8,
+        "width": 6,
         "height": 4,
         "gtype": "gage",
         "title": "PCO TT PV",
@@ -1395,11 +1150,11 @@
         "type": "ui_text_input",
         "z": "531e23be5dd8efe8",
         "name": "",
-        "label": "PID PROPORTIONAL (P)",
+        "label": "PID (P)",
         "tooltip": "",
         "group": "182308aa23fdfe0c",
-        "order": 8,
-        "width": 4,
+        "order": 16,
+        "width": 2,
         "height": 1,
         "passthru": true,
         "mode": "number",
@@ -1408,8 +1163,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "msg",
-        "x": 170,
-        "y": 620,
+        "x": 120,
+        "y": 660,
         "wires": [
             [
                 "9e7ffcbd2dec6c4b"
@@ -1421,11 +1176,11 @@
         "type": "ui_text_input",
         "z": "531e23be5dd8efe8",
         "name": "",
-        "label": "PID INTEGRAL (I)",
+        "label": "PID (I)",
         "tooltip": "",
         "group": "182308aa23fdfe0c",
-        "order": 11,
-        "width": 4,
+        "order": 18,
+        "width": 2,
         "height": 1,
         "passthru": true,
         "mode": "number",
@@ -1434,8 +1189,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "msg",
-        "x": 150,
-        "y": 660,
+        "x": 110,
+        "y": 700,
         "wires": [
             [
                 "f197a2abf9d6658c"
@@ -1450,7 +1205,7 @@
         "variable": "PCO_TT_SV",
         "name": "",
         "x": 990,
-        "y": 460,
+        "y": 500,
         "wires": []
     },
     {
@@ -1476,7 +1231,7 @@
         "repair": false,
         "outputs": 2,
         "x": 370,
-        "y": 460,
+        "y": 500,
         "wires": [
             [
                 "f2a1b09e5153f1d5"
@@ -1537,7 +1292,7 @@
         "topic": "",
         "name": "",
         "x": 1010,
-        "y": 500,
+        "y": 540,
         "wires": [
             []
         ]
@@ -1554,7 +1309,7 @@
         "finalize": "",
         "libs": [],
         "x": 660,
-        "y": 500,
+        "y": 540,
         "wires": [
             [
                 "53843c2059cfa9e6"
@@ -1581,7 +1336,7 @@
         "to": "",
         "reg": false,
         "x": 200,
-        "y": 500,
+        "y": 540,
         "wires": [
             [
                 "14f05e24f4a6f77b"
@@ -1608,7 +1363,7 @@
         "to": "",
         "reg": false,
         "x": 690,
-        "y": 460,
+        "y": 500,
         "wires": [
             [
                 "682c9829fa8e6469"
@@ -1634,7 +1389,7 @@
             "1a1720033abb7d19"
         ],
         "x": 75,
-        "y": 500,
+        "y": 540,
         "wires": [
             [
                 "88e69eccc8008dde"
@@ -1651,7 +1406,7 @@
             "b1f77fb70b656ea7"
         ],
         "x": 465,
-        "y": 500,
+        "y": 540,
         "wires": []
     },
     {
@@ -1689,9 +1444,9 @@
         "z": "531e23be5dd8efe8",
         "name": "",
         "group": "182308aa23fdfe0c",
-        "order": 13,
-        "width": 0,
-        "height": 0,
+        "order": 9,
+        "width": 5,
+        "height": 1,
         "passthru": false,
         "label": "PCO TT ALARM SETTING",
         "tooltip": "ALARM SETTING",
@@ -2408,7 +2163,7 @@
         "name": "",
         "group": "182308aa23fdfe0c",
         "order": 4,
-        "width": 8,
+        "width": 6,
         "height": 4,
         "gtype": "gage",
         "title": "PCO CTT PV",
@@ -2532,12 +2287,12 @@
         "id": "6881e3e5.30927c",
         "type": "ui_template",
         "z": "531e23be5dd8efe8",
-        "group": "c3500612.c24038",
+        "group": "",
         "name": "Custom Text Input Dashoard size",
         "order": 0,
         "width": 0,
         "height": 0,
-        "format": "<style id='custom-styles'>\n    .nr-dashboard-theme .nr-dashboard-textinput input {\n        border-color: #eeeeee;\n        color: #eeeeee;\n        border-bottom-width: 1px;\n        font-family: inherit;\n        padding-left: 5px;\n        font-size: 20px;\n        height: 35px;\n    }\n</style>",
+        "format": "<style id='custom-styles'>\n    .nr-dashboard-theme .nr-dashboard-textinput input {\n        border-color: #eeeeee;\n        color: #eeeeee;\n        border-bottom-width: 1px;\n        font-family: inherit;\n        padding-left: 5px;\n        font-size: 25px;\n        height: 45px;\n    }\n</style>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -2555,9 +2310,9 @@
         "z": "531e23be5dd8efe8",
         "name": "",
         "group": "182308aa23fdfe0c",
-        "order": 14,
-        "width": 0,
-        "height": 0,
+        "order": 13,
+        "width": 5,
+        "height": 1,
         "passthru": false,
         "label": "PCO CTT ALARM SETTING",
         "tooltip": "ALARM SETTING",
@@ -3163,14 +2918,16 @@
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
-        "payloadType": "str",
+        "payload": "{\"group\":{\"show\":[\"OVEN_BURNER_PCO_TT_BURNER_CONTROL\"]}}",
+        "payloadType": "json",
         "topic": "topic",
         "topicType": "msg",
-        "x": 1870,
+        "x": 1710,
         "y": 40,
         "wires": [
-            []
+            [
+                "2948310533641581"
+            ]
         ]
     },
     {
@@ -3189,14 +2946,16 @@
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "",
-        "payloadType": "str",
+        "payload": "{\"group\":{\"hide\":[\"OVEN_BURNER_PCO_TT_BURNER_CONTROL\"]}}",
+        "payloadType": "json",
         "topic": "topic",
         "topicType": "msg",
-        "x": 1870,
+        "x": 1710,
         "y": 80,
         "wires": [
-            []
+            [
+                "2948310533641581"
+            ]
         ]
     },
     {
@@ -3538,1493 +3297,918 @@
         ]
     },
     {
-        "id": "3805708ab8962548",
-        "type": "ui_button",
-        "z": "f97ba6bb088d1b36",
-        "name": "",
-        "group": "e40e97d4.1356e8",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "button1",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "{\"group\":{\"hide\":[\"Home_Group_2\",\"Home_Group_3\"],\"show\":[\"Home_Group_1\"]}}",
-        "payloadType": "json",
-        "topic": "",
-        "topicType": "str",
-        "x": 240,
+        "id": "638dd364e0679c6e",
+        "type": "change",
+        "z": "531e23be5dd8efe8",
+        "name": "green when enable",
+        "rules": [
+            {
+                "t": "set",
+                "p": "colour",
+                "pt": "msg",
+                "to": "green",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 190,
+        "y": 200,
+        "wires": [
+            [
+                "cfd2b4beb556b27b"
+            ]
+        ]
+    },
+    {
+        "id": "7c926711f59f2ede",
+        "type": "change",
+        "z": "531e23be5dd8efe8",
+        "name": "grey when disable",
+        "rules": [
+            {
+                "t": "set",
+                "p": "colour",
+                "pt": "msg",
+                "to": "grey",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 190,
+        "y": 240,
+        "wires": [
+            [
+                "cfd2b4beb556b27b"
+            ]
+        ]
+    },
+    {
+        "id": "59d7561b9b7eab1e",
+        "type": "change",
+        "z": "531e23be5dd8efe8",
+        "name": "green when disable",
+        "rules": [
+            {
+                "t": "set",
+                "p": "colour",
+                "pt": "msg",
+                "to": "green",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 190,
         "y": 280,
         "wires": [
             [
-                "7b397a3453cf8923"
+                "b268c73d16fb60ca"
             ]
         ]
     },
     {
-        "id": "d388c765f5757f31",
-        "type": "ui_button",
-        "z": "f97ba6bb088d1b36",
-        "name": "",
-        "group": "e40e97d4.1356e8",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "button2",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "{\"group\":{\"hide\":[\"Home_Group_1\",\"Home_Group_3\"],\"show\":[\"Home_Group_2\"]}}",
-        "payloadType": "json",
-        "topic": "",
-        "topicType": "str",
-        "x": 240,
+        "id": "0040289591de748f",
+        "type": "change",
+        "z": "531e23be5dd8efe8",
+        "name": "grey when enable",
+        "rules": [
+            {
+                "t": "set",
+                "p": "colour",
+                "pt": "msg",
+                "to": "grey",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 190,
         "y": 320,
         "wires": [
             [
-                "7b397a3453cf8923"
+                "b268c73d16fb60ca"
             ]
         ]
     },
     {
-        "id": "e25abf38f669c94e",
-        "type": "ui_button",
-        "z": "f97ba6bb088d1b36",
+        "id": "4a58b7a474e27e9e",
+        "type": "ui_text",
+        "z": "531e23be5dd8efe8",
+        "group": "182308aa23fdfe0c",
+        "order": 8,
+        "width": 5,
+        "height": 1,
         "name": "",
-        "group": "e40e97d4.1356e8",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "button3",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
+        "label": "BURNER STATUS",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
         "className": "",
-        "icon": "",
-        "payload": "{\"group\":{\"hide\":[\"Home_Group_1\",\"Home_Group_2\"],\"show\":[\"Home_Group_3\"]}}",
-        "payloadType": "json",
-        "topic": "",
-        "topicType": "str",
-        "x": 240,
-        "y": 360,
-        "wires": [
-            [
-                "7b397a3453cf8923"
-            ]
-        ]
-    },
-    {
-        "id": "d8d35174fb61ef69",
-        "type": "ui_gauge",
-        "z": "f97ba6bb088d1b36",
-        "name": "",
-        "group": "f2aefa84.a9a108",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "gtype": "gage",
-        "title": "Gauge",
-        "label": "units",
-        "format": "{{value}}",
-        "min": 0,
-        "max": 10,
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "className": "",
-        "x": 810,
-        "y": 180,
+        "x": 730,
+        "y": 2300,
         "wires": []
     },
     {
-        "id": "43844d7b72700366",
-        "type": "ui_template",
-        "z": "f97ba6bb088d1b36",
-        "group": "b09937f3.b814f8",
+        "id": "96c6058dc273322e",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "RUNNING STATUS",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"TRIPPED\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 2300,
+        "wires": [
+            [
+                "4a58b7a474e27e9e"
+            ]
+        ]
+    },
+    {
+        "id": "2a510e31c5d5e94c",
+        "type": "s7 in",
+        "z": "531e23be5dd8efe8",
+        "endpoint": "8178b9f6e8586214",
+        "mode": "single",
+        "variable": "PCO_TT_TRIP",
+        "diff": true,
         "name": "",
-        "order": 0,
-        "width": "6",
-        "height": "3",
-        "format": "This is the start group.<br/>\nPress button 2 to move to the next group.<br/>\nThen slide the slider.",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "templateScope": "local",
-        "x": 820,
+        "x": 140,
+        "y": 2300,
+        "wires": [
+            [
+                "96c6058dc273322e"
+            ]
+        ]
+    },
+    {
+        "id": "af24f7ce8693f336",
+        "type": "ui_text",
+        "z": "531e23be5dd8efe8",
+        "group": "182308aa23fdfe0c",
+        "order": 5,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "ALARM STATE",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 780,
+        "y": 2380,
+        "wires": []
+    },
+    {
+        "id": "da1a08a3c508ee27",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "FAIL TO RUN",
+        "func": "\nif (msg.payload == true)\n    {\n    msg.payload = \"FAIL TO RUN\";\n    }\nelse \n    msg.payload = \"-\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 2380,
+        "wires": [
+            [
+                "af24f7ce8693f336"
+            ]
+        ]
+    },
+    {
+        "id": "dc448859f7df2724",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "FAIL TO STOP",
+        "func": "\nif (msg.payload == true)\n    {\n    msg.payload = \"FAIL TO STOP\";\n    }\nelse \n    msg.payload = \"-\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 2420,
+        "wires": [
+            [
+                "af24f7ce8693f336"
+            ]
+        ]
+    },
+    {
+        "id": "503c816c11329039",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "HIGH FIRE",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"LOW FIRE\";\n}\nelse\n    msg.payload = \"-\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 2260,
+        "wires": [
+            [
+                "b852ed5021897352"
+            ]
+        ]
+    },
+    {
+        "id": "26f293446a2014b7",
+        "type": "s7 out",
+        "z": "f97ba6bb088d1b36",
+        "endpoint": "8178b9f6e8586214",
+        "variable": "PCO_TT_BURNER ENABLE",
+        "name": "",
+        "x": 1640,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "20b410c09d814249",
+        "type": "ui_button",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "group": "f38030ca387e052d",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "MANUAL",
+        "tooltip": "BURNER DISABLE",
+        "color": "{{text}}",
+        "bgcolor": "{{colour}}",
+        "className": "",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1340,
+        "y": 200,
+        "wires": [
+            [
+                "26f293446a2014b7",
+                "0b040c9070d9d819",
+                "aed178b9f9f9dfb6"
+            ]
+        ]
+    },
+    {
+        "id": "c9f5fc695ee7c2c3",
+        "type": "ui_button",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "group": "f38030ca387e052d",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "AUTO",
+        "tooltip": "BURNER ENABLE",
+        "color": "",
+        "bgcolor": "{{colour}}",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1330,
+        "y": 100,
+        "wires": [
+            [
+                "26f293446a2014b7",
+                "5bd732ed6b7b0c94",
+                "1db40167d13777f6"
+            ]
+        ]
+    },
+    {
+        "id": "de1727b1b5674191",
+        "type": "comment",
+        "z": "f97ba6bb088d1b36",
+        "name": "MOTOR SELECTION MODE",
+        "info": "",
+        "x": 1060,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "5bd732ed6b7b0c94",
+        "type": "change",
+        "z": "f97ba6bb088d1b36",
+        "name": "green when enable",
+        "rules": [
+            {
+                "t": "set",
+                "p": "colour",
+                "pt": "msg",
+                "to": "green",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1090,
+        "y": 100,
+        "wires": [
+            [
+                "c9f5fc695ee7c2c3"
+            ]
+        ]
+    },
+    {
+        "id": "0b040c9070d9d819",
+        "type": "change",
+        "z": "f97ba6bb088d1b36",
+        "name": "grey when disable",
+        "rules": [
+            {
+                "t": "set",
+                "p": "colour",
+                "pt": "msg",
+                "to": "grey",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1090,
+        "y": 140,
+        "wires": [
+            [
+                "c9f5fc695ee7c2c3"
+            ]
+        ]
+    },
+    {
+        "id": "aed178b9f9f9dfb6",
+        "type": "change",
+        "z": "f97ba6bb088d1b36",
+        "name": "green when disable",
+        "rules": [
+            {
+                "t": "set",
+                "p": "colour",
+                "pt": "msg",
+                "to": "green",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1090,
+        "y": 180,
+        "wires": [
+            [
+                "20b410c09d814249"
+            ]
+        ]
+    },
+    {
+        "id": "1db40167d13777f6",
+        "type": "change",
+        "z": "f97ba6bb088d1b36",
+        "name": "grey when enable",
+        "rules": [
+            {
+                "t": "set",
+                "p": "colour",
+                "pt": "msg",
+                "to": "grey",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1090,
+        "y": 220,
+        "wires": [
+            [
+                "20b410c09d814249"
+            ]
+        ]
+    },
+    {
+        "id": "e22ffd6bc88dbab8",
+        "type": "s7 out",
+        "z": "f97ba6bb088d1b36",
+        "endpoint": "8178b9f6e8586214",
+        "variable": "PCO_TT_BURNER ENABLE",
+        "name": "",
+        "x": 1640,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "a9877d1f1dd38be5",
+        "type": "ui_button",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "group": "f38030ca387e052d",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "STOP",
+        "tooltip": "BURNER DISABLE",
+        "color": "{{text}}",
+        "bgcolor": "{{colour}}",
+        "className": "",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1430,
+        "y": 380,
+        "wires": [
+            [
+                "e22ffd6bc88dbab8",
+                "9e8b9d8b4f23d766",
+                "f8bbf7efcd54da26"
+            ]
+        ]
+    },
+    {
+        "id": "55f4f548ed79ffbe",
+        "type": "ui_button",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "group": "f38030ca387e052d",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "RUN",
+        "tooltip": "BURNER ENABLE",
+        "color": "",
+        "bgcolor": "{{colour}}",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1430,
+        "y": 280,
+        "wires": [
+            [
+                "e22ffd6bc88dbab8",
+                "f558851cad2ebaa4",
+                "39f19e7b1287c952"
+            ]
+        ]
+    },
+    {
+        "id": "f558851cad2ebaa4",
+        "type": "change",
+        "z": "f97ba6bb088d1b36",
+        "name": "green when enable",
+        "rules": [
+            {
+                "t": "set",
+                "p": "colour",
+                "pt": "msg",
+                "to": "green",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1090,
+        "y": 280,
+        "wires": [
+            [
+                "55f4f548ed79ffbe"
+            ]
+        ]
+    },
+    {
+        "id": "9e8b9d8b4f23d766",
+        "type": "change",
+        "z": "f97ba6bb088d1b36",
+        "name": "grey when disable",
+        "rules": [
+            {
+                "t": "set",
+                "p": "colour",
+                "pt": "msg",
+                "to": "grey",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1090,
+        "y": 320,
+        "wires": [
+            [
+                "55f4f548ed79ffbe"
+            ]
+        ]
+    },
+    {
+        "id": "f8bbf7efcd54da26",
+        "type": "change",
+        "z": "f97ba6bb088d1b36",
+        "name": "green when disable",
+        "rules": [
+            {
+                "t": "set",
+                "p": "colour",
+                "pt": "msg",
+                "to": "red",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1090,
+        "y": 360,
+        "wires": [
+            [
+                "a9877d1f1dd38be5"
+            ]
+        ]
+    },
+    {
+        "id": "39f19e7b1287c952",
+        "type": "change",
+        "z": "f97ba6bb088d1b36",
+        "name": "grey when enable",
+        "rules": [
+            {
+                "t": "set",
+                "p": "colour",
+                "pt": "msg",
+                "to": "grey",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1090,
+        "y": 400,
+        "wires": [
+            [
+                "a9877d1f1dd38be5"
+            ]
+        ]
+    },
+    {
+        "id": "938db1e33ebc8884",
+        "type": "ui_text",
+        "z": "f97ba6bb088d1b36",
+        "group": "f38030ca387e052d",
+        "order": 8,
+        "width": "0",
+        "height": "0",
+        "name": "",
+        "label": "MOTOR STATUS",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1570,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "18bd759a85cfa48d",
+        "type": "function",
+        "z": "f97ba6bb088d1b36",
+        "name": "TRIPPED STATUS",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"TRIPPED\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1290,
+        "y": 640,
+        "wires": [
+            [
+                "938db1e33ebc8884"
+            ]
+        ]
+    },
+    {
+        "id": "ccb71026800c3670",
+        "type": "s7 in",
+        "z": "f97ba6bb088d1b36",
+        "endpoint": "8178b9f6e8586214",
+        "mode": "single",
+        "variable": "PCO_TT_TRIP",
+        "diff": true,
+        "name": "",
+        "x": 1040,
+        "y": 640,
+        "wires": [
+            [
+                "18bd759a85cfa48d"
+            ]
+        ]
+    },
+    {
+        "id": "8e4fe7f61b904be9",
+        "type": "s7 in",
+        "z": "f97ba6bb088d1b36",
+        "endpoint": "8178b9f6e8586214",
+        "mode": "single",
+        "variable": "PCO_TT_RUN",
+        "diff": true,
+        "name": "",
+        "x": 1040,
+        "y": 600,
+        "wires": [
+            [
+                "ce2b3567be875c91"
+            ]
+        ]
+    },
+    {
+        "id": "ce2b3567be875c91",
+        "type": "function",
+        "z": "f97ba6bb088d1b36",
+        "name": "RUNNING STATUS",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"RUNNING\";\n}\nelse\n{\n    msg.payload = \"STOPPED\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1290,
+        "y": 600,
+        "wires": [
+            [
+                "5d1fd2ee67e3376a"
+            ]
+        ]
+    },
+    {
+        "id": "5d1fd2ee67e3376a",
+        "type": "ui_text",
+        "z": "f97ba6bb088d1b36",
+        "group": "f38030ca387e052d",
+        "order": 3,
+        "width": "0",
+        "height": "0",
+        "name": "",
+        "label": "MOTOR",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1600,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "87bcb788f579e584",
+        "type": "comment",
+        "z": "f97ba6bb088d1b36",
+        "name": "MOTOR STATUS",
+        "info": "",
+        "x": 1000,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "3d85bb9267af63c1",
+        "type": "function",
+        "z": "f97ba6bb088d1b36",
+        "name": "DISABLED BUTTON",
+        "func": "if (msg.payload == true)\n{\n    msg.enabled = false;\n}\nelse\n{\n    msg.enabled = true;\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1180,
+        "y": 440,
+        "wires": [
+            [
+                "55f4f548ed79ffbe",
+                "a9877d1f1dd38be5"
+            ]
+        ]
+    },
+    {
+        "id": "b4573498bd6b09bc",
+        "type": "ui_text",
+        "z": "f97ba6bb088d1b36",
+        "group": "f38030ca387e052d",
+        "order": 8,
+        "width": "0",
+        "height": "0",
+        "name": "",
+        "label": "ALARM STATE",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1580,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "d2be066e9f588b43",
+        "type": "function",
+        "z": "f97ba6bb088d1b36",
+        "name": "FAIL TO RUN",
+        "func": "\nif (msg.payload == true)\n    {\n    msg.payload = \"FAIL TO RUN\";\n    }\nelse \n    msg.payload = \"-\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1300,
+        "y": 680,
+        "wires": [
+            [
+                "b4573498bd6b09bc"
+            ]
+        ]
+    },
+    {
+        "id": "ae0faf42fe4ec4e9",
+        "type": "function",
+        "z": "f97ba6bb088d1b36",
+        "name": "FAIL TO STOP",
+        "func": "\nif (msg.payload == true)\n    {\n    msg.payload = \"FAIL TO STOP\";\n    }\nelse \n    msg.payload = \"-\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1300,
+        "y": 720,
+        "wires": [
+            [
+                "b4573498bd6b09bc"
+            ]
+        ]
+    },
+    {
+        "id": "e13d663b3f139e30",
+        "type": "comment",
+        "z": "f97ba6bb088d1b36",
+        "name": "MOTOR PV AND SV",
+        "info": "",
+        "x": 1030,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "5bfdfd75.5562a4",
+        "type": "inject",
+        "z": "2bc02f46.a8e46",
+        "name": "Hide",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"group\":{\"hide\":[\"Tab1_Group_1\"]}}",
+        "payloadType": "json",
+        "x": 190,
+        "y": 100,
+        "wires": [
+            [
+                "476fc34d.bc2a0c"
+            ]
+        ]
+    },
+    {
+        "id": "476fc34d.bc2a0c",
+        "type": "ui_ui_control",
+        "z": "2bc02f46.a8e46",
+        "name": "",
+        "x": 420,
         "y": 120,
         "wires": [
             []
         ]
     },
     {
-        "id": "7e4f09781908dffa",
-        "type": "ui_button",
-        "z": "f97ba6bb088d1b36",
-        "name": "",
-        "group": "75944167.0434b",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "Reset",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "{\"group\":{\"hide\":[\"Home_Group_2\",\"Home_Group_3\"],\"show\":[\"Home_Group_1\"]}}",
+        "id": "6ebe218f.c626",
+        "type": "inject",
+        "z": "2bc02f46.a8e46",
+        "name": "Show",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"group\":{\"show\":[\"Tab1_Group_1\"]}}",
         "payloadType": "json",
-        "topic": "",
-        "topicType": "str",
-        "x": 810,
-        "y": 280,
+        "x": 190,
+        "y": 180,
         "wires": [
             [
-                "7b397a3453cf8923"
+                "476fc34d.bc2a0c"
             ]
         ]
     },
     {
-        "id": "7b397a3453cf8923",
-        "type": "ui_ui_control",
-        "z": "f97ba6bb088d1b36",
-        "name": "",
-        "x": 600,
-        "y": 420,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "462aefb984fa3c3d",
-        "type": "ui_slider",
-        "z": "f97ba6bb088d1b36",
-        "name": "",
-        "label": "slider",
-        "tooltip": "",
-        "group": "f2aefa84.a9a108",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "outs": "all",
-        "topic": "",
-        "topicType": "str",
-        "min": 0,
-        "max": 10,
-        "step": 1,
-        "className": "",
-        "x": 470,
-        "y": 100,
-        "wires": [
-            [
-                "d8d35174fb61ef69",
-                "6c0085598e4f8f87"
-            ]
-        ]
-    },
-    {
-        "id": "db79a4c1470df53a",
-        "type": "ui_template",
-        "z": "f97ba6bb088d1b36",
-        "group": "75944167.0434b",
-        "name": "",
-        "order": 1,
-        "width": "6",
-        "height": "3",
-        "format": "Slider reached > 7 = Passed</br>\nHit Reset to go back to stage 1</br>\nOr wait 10 seconds.",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "className": "",
-        "x": 820,
-        "y": 240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "6c0085598e4f8f87",
+        "id": "f2a787bd.015a88",
         "type": "function",
-        "z": "f97ba6bb088d1b36",
-        "name": "",
-        "func": "if (msg.payload > 7)\n{\n    m2 = {payload : 0};\n    msg.payload = {\"group\":{\"hide\":[\"Home_Group_1\",\"Home_Group_2\"],\"show\":[\"Home_Group_3\"]}};\n    return [ m2, msg];\n}\nreturn null;",
-        "outputs": 2,
+        "z": "2bc02f46.a8e46",
+        "name": "Create payload",
+        "func": "msg.payload = {key1:\"Earth\",key2:\"Wind\",key3:\"Fire\", key4:\"Water\", key5:\"Node-RED \"};\nreturn msg;",
+        "outputs": "1",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 450,
-        "y": 220,
+        "x": 400,
+        "y": 320,
         "wires": [
             [
-                "462aefb984fa3c3d",
-                "d8d35174fb61ef69"
-            ],
-            [
-                "eb0d8ed37914d710"
+                "fa84a230.b0719"
             ]
         ]
     },
     {
-        "id": "d58a80f9ea463cbe",
+        "id": "13c1f4d.609ae0b",
         "type": "inject",
-        "z": "f97ba6bb088d1b36",
+        "z": "2bc02f46.a8e46",
         "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
         "repeat": "",
         "crontab": "",
         "once": true,
-        "onceDelay": 0.1,
+        "onceDelay": "",
         "topic": "",
-        "payload": "{\"group\":{\"hide\":[\"Home_Group_2\",\"Home_Group_3\"],\"show\":[\"Home_Group_1\"]}}",
-        "payloadType": "json",
-        "x": 250,
-        "y": 240,
-        "wires": [
-            [
-                "7b397a3453cf8923"
-            ]
-        ]
-    },
-    {
-        "id": "eb0d8ed37914d710",
-        "type": "trigger",
-        "z": "f97ba6bb088d1b36",
-        "name": "",
-        "op1": "",
-        "op2": "{\"group\":{\"hide\":[\"Home_Group_2\",\"Home_Group_3\"],\"show\":[\"Home_Group_1\"]}}",
-        "op1type": "pay",
-        "op2type": "json",
-        "duration": "10",
-        "extend": false,
-        "overrideDelay": false,
-        "units": "s",
-        "reset": "",
-        "bytopic": "all",
-        "topic": "topic",
-        "outputs": 1,
-        "x": 530,
-        "y": 280,
-        "wires": [
-            [
-                "7b397a3453cf8923"
-            ]
-        ]
-    },
-    {
-        "id": "4ea9aa3e3f9c0d47",
-        "type": "comment",
-        "z": "f97ba6bb088d1b36",
-        "name": "Example of Hiding Group at Dashboard",
-        "info": "",
-        "x": 260,
-        "y": 60,
-        "wires": []
-    },
-    {
-        "id": "85de7d2a.d10f5",
-        "type": "ui_slider",
-        "z": "f97ba6bb088d1b36",
-        "name": "",
-        "label": "slider",
-        "tooltip": "",
-        "group": "a4448716.200ac8",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "outs": "all",
-        "topic": "",
-        "topicType": "str",
-        "min": "-5",
-        "max": 10,
-        "step": "0.1",
-        "className": "",
-        "x": 570,
-        "y": 680,
-        "wires": [
-            [
-                "d58bdaf1.d93048"
-            ]
-        ]
-    },
-    {
-        "id": "d58bdaf1.d93048",
-        "type": "function",
-        "z": "f97ba6bb088d1b36",
-        "name": "prepare",
-        "func": "var last = context.get('last') || 'under'\nvar threshold = 0\nvar undermessage = {topic:'under',payload:null}\nvar overmessage = {topic:'over',payload:null}\nvar unsentmessage = null\n\nif(msg.payload > threshold){\n    if(last == 'under'){\n        undermessage.payload = threshold\n        overmessage.payload = threshold\n        unsentmessage = msg\n    }\n    else{\n        overmessage.payload = msg.payload\n    }\n    last = 'over'\n}\nelse{\n    if(last == 'over'){\n        overmessage.payload = threshold\n        undermessage.payload = threshold\n        unsentmessage = msg\n    }\n    else{\n        undermessage.payload = msg.payload\n    }\n    last = 'under'\n}\ncontext.set('last',last)\n\nreturn [[overmessage,undermessage],unsentmessage]",
-        "outputs": 2,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 740,
-        "y": 680,
-        "wires": [
-            [
-                "277cf5b5.1c633a",
-                "e67178c2da95622d"
-            ],
-            [
-                "3679a19c.ac113e",
-                "e67178c2da95622d"
-            ]
-        ]
-    },
-    {
-        "id": "277cf5b5.1c633a",
-        "type": "ui_chart",
-        "z": "f97ba6bb088d1b36",
-        "name": "",
-        "group": "a4448716.200ac8",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "label": "chart",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "-5",
-        "ymax": "10",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "60",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#ff0000",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "className": "",
-        "x": 990,
-        "y": 620,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "125535f9.c93eca",
-        "type": "inject",
-        "z": "f97ba6bb088d1b36",
-        "name": "Clear chart",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "[]",
-        "payloadType": "json",
-        "x": 720,
-        "y": 480,
-        "wires": [
-            [
-                "277cf5b5.1c633a"
-            ]
-        ]
-    },
-    {
-        "id": "3679a19c.ac113e",
-        "type": "delay",
-        "z": "f97ba6bb088d1b36",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "20",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 670,
-        "y": 900,
-        "wires": [
-            [
-                "d58bdaf1.d93048"
-            ]
-        ]
-    },
-    {
-        "id": "e67178c2da95622d",
-        "type": "debug",
-        "z": "f97ba6bb088d1b36",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1140,
-        "y": 780,
-        "wires": []
-    },
-    {
-        "id": "8a137bbe.92b958",
-        "type": "change",
-        "z": "f97ba6bb088d1b36",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "max",
-                "pt": "flow",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 590,
-        "y": 1360,
-        "wires": [
-            [
-                "4b392913.b6cd48"
-            ]
-        ]
-    },
-    {
-        "id": "a638cb2f.c87ac8",
-        "type": "ui_button",
-        "z": "f97ba6bb088d1b36",
-        "name": "",
-        "group": "cf817aa5.c91f38",
-        "order": 5,
-        "width": 8,
-        "height": 1,
-        "passthru": false,
-        "label": "Reset - Maximum value",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "-0",
-        "payloadType": "num",
-        "topic": "",
-        "topicType": "str",
-        "x": 350,
-        "y": 1300,
-        "wires": [
-            [
-                "8a137bbe.92b958"
-            ]
-        ]
-    },
-    {
-        "id": "a14d793c.ec4b88",
-        "type": "ui_text",
-        "z": "f97ba6bb088d1b36",
-        "group": "cf817aa5.c91f38",
-        "order": 1,
-        "width": 3,
-        "height": 1,
-        "name": "Max Value",
-        "label": "",
-        "format": "{{msg.payload}}",
-        "layout": "row-left",
-        "className": "",
-        "x": 890,
-        "y": 1380,
-        "wires": []
-    },
-    {
-        "id": "3d26ea37.f552b6",
-        "type": "switch",
-        "z": "f97ba6bb088d1b36",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "gt",
-                "v": "max",
-                "vt": "flow"
-            },
-            {
-                "t": "lt",
-                "v": "min",
-                "vt": "flow"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 450,
-        "y": 1400,
-        "wires": [
-            [
-                "8a137bbe.92b958"
-            ],
-            [
-                "1377db47.ec6675"
-            ]
-        ]
-    },
-    {
-        "id": "4b392913.b6cd48",
-        "type": "function",
-        "z": "f97ba6bb088d1b36",
-        "name": "",
-        "func": "if(msg.payload == -1)\n{\n msg.payload = \"-\"\n}else\n{\n msg.payload = msg.payload + \" cm \"\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 740,
-        "y": 1360,
-        "wires": [
-            [
-                "a14d793c.ec4b88",
-                "17c6fe5d.7c1092"
-            ]
-        ]
-    },
-    {
-        "id": "8d7fc11.652a84",
-        "type": "function",
-        "z": "f97ba6bb088d1b36",
-        "name": "Composição data/hora",
-        "func": "var a = \"(\"+msg.mydom+\"/\"+msg.mymonthn+\"/\"+msg.myyear+ \" - \" +msg.mytimes+\")\";\nmsg.payload = a;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1180,
-        "y": 1280,
-        "wires": [
-            [
-                "57f633dc.17b0fc"
-            ]
-        ]
-    },
-    {
-        "id": "57f633dc.17b0fc",
-        "type": "ui_text",
-        "z": "f97ba6bb088d1b36",
-        "group": "cf817aa5.c91f38",
-        "order": 2,
-        "width": 5,
-        "height": 1,
-        "name": "Max Hour",
-        "label": "",
-        "format": "{{msg.payload}}",
-        "layout": "row-left",
-        "className": "",
-        "x": 1180,
-        "y": 1380,
-        "wires": []
-    },
-    {
-        "id": "1377db47.ec6675",
-        "type": "change",
-        "z": "f97ba6bb088d1b36",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "min",
-                "pt": "flow",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 590,
-        "y": 1440,
-        "wires": [
-            [
-                "d99940c4.a82bf"
-            ]
-        ]
-    },
-    {
-        "id": "9e8de5b.9ed3318",
-        "type": "ui_button",
-        "z": "f97ba6bb088d1b36",
-        "name": "",
-        "group": "cf817aa5.c91f38",
-        "order": 6,
-        "width": 8,
-        "height": 1,
-        "passthru": false,
-        "label": "Reset - Minimum Value",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "0",
-        "payloadType": "num",
-        "topic": "",
-        "topicType": "str",
-        "x": 330,
-        "y": 1500,
-        "wires": [
-            [
-                "1377db47.ec6675"
-            ]
-        ]
-    },
-    {
-        "id": "d99940c4.a82bf",
-        "type": "function",
-        "z": "f97ba6bb088d1b36",
-        "name": "",
-        "func": "if(msg.payload == 1000)\n{\n msg.payload = \"-\"\n}else\n{\n msg.payload = msg.payload + \" cm \"\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 740,
-        "y": 1440,
-        "wires": [
-            [
-                "105c2154.24f3cf",
-                "366a70a1.6a146"
-            ]
-        ]
-    },
-    {
-        "id": "105c2154.24f3cf",
-        "type": "ui_text",
-        "z": "f97ba6bb088d1b36",
-        "group": "cf817aa5.c91f38",
-        "order": 3,
-        "width": 3,
-        "height": 1,
-        "name": "valor min",
-        "label": "",
-        "format": "{{msg.payload}}",
-        "layout": "row-left",
-        "className": "",
-        "x": 920,
-        "y": 1440,
-        "wires": []
-    },
-    {
-        "id": "df36bba2.63e798",
-        "type": "function",
-        "z": "f97ba6bb088d1b36",
-        "name": "Composição data/hora",
-        "func": "var a = \"(\"+msg.mydom+\"/\"+msg.mymonthn+\"/\"+msg.myyear+ \" - \" +msg.mytimes+\")\";\nmsg.payload = a;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1060,
-        "y": 1580,
-        "wires": [
-            [
-                "d0f47e73.808f5"
-            ]
-        ]
-    },
-    {
-        "id": "d0f47e73.808f5",
-        "type": "ui_text",
-        "z": "f97ba6bb088d1b36",
-        "group": "cf817aa5.c91f38",
-        "order": 4,
-        "width": 5,
-        "height": 1,
-        "name": "Min Hour",
-        "label": "",
-        "format": "{{msg.payload}}",
-        "layout": "row-left",
-        "className": "",
-        "x": 1220,
-        "y": 1460,
-        "wires": []
-    },
-    {
-        "id": "edf76319.1dc86",
-        "type": "function",
-        "z": "f97ba6bb088d1b36",
-        "name": "",
-        "func": "\nmsg.payload = Number(msg.payload);\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 280,
-        "y": 1400,
-        "wires": [
-            [
-                "3d26ea37.f552b6"
-            ]
-        ]
-    },
-    {
-        "id": "17c6fe5d.7c1092",
-        "type": "simpletime",
-        "z": "f97ba6bb088d1b36",
-        "name": "Data/hora",
-        "mydate": true,
-        "myymd": true,
-        "myyear": true,
-        "mymonth": true,
-        "mymonthn": true,
-        "mydom": true,
-        "mydoy": true,
-        "myday": true,
-        "myhourpm": true,
-        "myhour": true,
-        "mytime": true,
-        "mytimes": true,
-        "myminute": true,
-        "myminutes": true,
-        "mysecond": true,
-        "mymillis": true,
-        "myepoch": true,
-        "myrawdate": true,
-        "mypm": true,
-        "x": 880,
-        "y": 1240,
-        "wires": [
-            [
-                "8d7fc11.652a84"
-            ]
-        ]
-    },
-    {
-        "id": "366a70a1.6a146",
-        "type": "simpletime",
-        "z": "f97ba6bb088d1b36",
-        "name": "Data/hora",
-        "x": 840,
-        "y": 1560,
-        "wires": [
-            [
-                "df36bba2.63e798"
-            ]
-        ]
-    },
-    {
-        "id": "f6087883345fb7ed",
-        "type": "ui_numeric",
-        "z": "f97ba6bb088d1b36",
-        "name": "",
-        "label": "numeric",
-        "tooltip": "",
-        "group": "cf817aa5.c91f38",
-        "order": 6,
-        "width": 0,
-        "height": 0,
-        "wrap": false,
-        "passthru": true,
-        "topic": "topic",
-        "topicType": "msg",
-        "format": "{{value}}",
-        "min": 0,
-        "max": "20000",
-        "step": "100",
-        "className": "",
-        "x": 100,
-        "y": 1400,
-        "wires": [
-            [
-                "edf76319.1dc86"
-            ]
-        ]
-    },
-    {
-        "id": "ad81dab3bbc3b5bc",
-        "type": "inject",
-        "z": "f97ba6bb088d1b36",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "0",
-        "payloadType": "num",
-        "x": 90,
-        "y": 1500,
-        "wires": [
-            [
-                "edf76319.1dc86",
-                "f6087883345fb7ed"
-            ]
-        ]
-    },
-    {
-        "id": "5c4c5120.bb035",
-        "type": "ui_gauge",
-        "z": "f97ba6bb088d1b36",
-        "d": true,
-        "name": "",
-        "group": "a4448716.200ac8",
-        "order": 13,
-        "width": 0,
-        "height": 0,
-        "gtype": "gage",
-        "title": "gauge",
-        "label": "units",
-        "format": "{{value | number:1}}",
-        "min": 0,
-        "max": 10,
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "className": "",
-        "x": 1390,
-        "y": 100,
-        "wires": []
-    },
-    {
-        "id": "b26a6748.70f428",
-        "type": "function",
-        "z": "f97ba6bb088d1b36",
-        "name": "options",
-        "func": "msg.ui_control = {options:{customSectors: {\n  percents: false, \n  ranges: [{\n    color : \"#009900\",\n    lo : 0,\n    hi : 2\n  },{\n    color : \"#33cccc\",\n    lo : 2.1,\n    hi : 4\n  },{\n    color : \"#3366ff\",\n    lo : 4.1,\n    hi : 6\n  },{\n    color : \"#ff00ff\",\n    lo : 6.1,\n    hi : 8\n  },{\n    color : \"#ff0000\",\n    lo : 8.1,\n    hi : 10\n  }]\n    \n}}}\ndelete msg.payload\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1240,
-        "y": 180,
-        "wires": [
-            [
-                "5c4c5120.bb035"
-            ]
-        ]
-    },
-    {
-        "id": "ef9011e5.8e00d",
-        "type": "ui_slider",
-        "z": "f97ba6bb088d1b36",
-        "d": true,
-        "name": "",
-        "label": "slider",
-        "tooltip": "",
-        "group": "a4448716.200ac8",
-        "order": 12,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "outs": "end",
-        "topic": "",
-        "topicType": "str",
-        "min": 0,
-        "max": 10,
-        "step": "2",
-        "className": "",
-        "x": 1050,
-        "y": 100,
-        "wires": [
-            [
-                "5c4c5120.bb035"
-            ]
-        ]
-    },
-    {
-        "id": "3a76c83429c088fb",
-        "type": "inject",
-        "z": "f97ba6bb088d1b36",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 1070,
-        "y": 180,
-        "wires": [
-            [
-                "b26a6748.70f428"
-            ]
-        ]
-    },
-    {
-        "id": "11c425e769adb2d7",
-        "type": "comment",
-        "z": "f97ba6bb088d1b36",
-        "name": "option for 5 colour gauge",
-        "info": "",
-        "x": 1110,
-        "y": 60,
-        "wires": []
-    },
-    {
-        "id": "69c27e08bfe7f57c",
-        "type": "function",
-        "z": "8acee42642b61076",
-        "name": "graph generate",
-        "func": "\n//declare variable for the Graph value\n//can be any value\nvar data=context.get(\"data\")||[];\n\nif(typeof data[0]==\"undefined\"|| msg.topic == \"clear\")\n{\n    data[0] =0; \n    msg.payload = [];\n}\nelse\n\n data[0] +=1;\nmsg.payload = {topic: \"temperature\", payload: data[0] };\n context.set(\"data\",data);\n \nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 760,
-        "y": 260,
-        "wires": [
-            [
-                "9e0164d9c53f66e0"
-            ]
-        ]
-    },
-    {
-        "id": "9e0164d9c53f66e0",
-        "type": "ui_chart",
-        "z": "8acee42642b61076",
-        "name": "",
-        "group": "a192fc2f03a86dda",
-        "order": 7,
-        "width": 0,
-        "height": 0,
-        "label": "chart",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "",
-        "ymax": "",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "className": "",
-        "x": 990,
-        "y": 260,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "64897a9beca04581",
-        "type": "inject",
-        "z": "8acee42642b61076",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "1",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "site1",
-        "payload": "1",
-        "payloadType": "num",
-        "x": 460,
-        "y": 260,
-        "wires": [
-            [
-                "69c27e08bfe7f57c"
-            ]
-        ]
-    },
-    {
-        "id": "fd6a782f.8607a8",
-        "type": "inject",
-        "z": "60463e3a.b7fb4",
-        "name": "",
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "start",
-        "payload": "1",
-        "payloadType": "num",
-        "x": 150,
-        "y": 80,
-        "wires": [
-            [
-                "f6d3c9af.1c6d18"
-            ]
-        ]
-    },
-    {
-        "id": "ff0ba1e2.f46ab",
-        "type": "ui_chart",
-        "z": "60463e3a.b7fb4",
-        "name": "",
-        "group": "2ac8e3fa.8b8584",
-        "order": 5,
-        "width": 0,
-        "height": 0,
-        "label": "chart",
-        "chartType": "line",
-        "legend": "true",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "",
-        "ymax": "",
-        "removeOlder": "2",
-        "removeOlderPoints": "1000",
-        "removeOlderUnit": "3600",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": true,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "x": 590,
-        "y": 340,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "2466e014.fe459",
-        "type": "debug",
-        "z": "60463e3a.b7fb4",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "x": 570,
-        "y": 160,
-        "wires": []
-    },
-    {
-        "id": "f6d3c9af.1c6d18",
-        "type": "file in",
-        "z": "60463e3a.b7fb4",
-        "name": "",
-        "filename": "example.csv",
-        "filenameType": "str",
-        "format": "utf8",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "allProps": false,
-        "x": 260,
-        "y": 160,
-        "wires": [
-            [
-                "3d784d1.a733332",
-                "2466e014.fe459"
-            ]
-        ]
-    },
-    {
-        "id": "3d784d1.a733332",
-        "type": "csv",
-        "z": "60463e3a.b7fb4",
-        "name": "",
-        "sep": ",",
-        "hdrin": true,
-        "hdrout": "",
-        "multi": "mult",
-        "ret": "\\n",
-        "temp": "",
-        "skip": "0",
-        "strings": true,
-        "include_empty_strings": false,
-        "include_null_values": false,
-        "x": 350,
-        "y": 240,
-        "wires": [
-            [
-                "f3d8e5f0.29d548",
-                "2466e014.fe459"
-            ]
-        ]
-    },
-    {
-        "id": "f3d8e5f0.29d548",
-        "type": "function",
-        "z": "60463e3a.b7fb4",
-        "name": "graph generate",
-        "func": "\nfunction toTimestamp(strDate){\n     var datum = Date.parse(strDate);\n     return datum/1000;\n    }\nvar payload=msg.payload;\n\n\nvar data_out=[];\nvar a1=[];\nvar a2=[];\nvar a3=[];\nvar a4=[];\nfor(let i=0;i<payload.length;i++)\n{\n  \nvar Data= payload[i].Data.split(\"-\");\nvar t=Data[2]+\"/\"+Data[1]+\"/\"+Data[0];\nvar timestamp=toTimestamp(t+\" \"+payload[i][\"Godzina\"]);\n\n\nvar temp1={ \"x\": timestamp, \"y\":parseInt( payload[i][\"Temp_RS-485\"]) };\nvar temp2={ \"x\": timestamp, \"y\":parseInt( payload[i][\"Wilg_RS-485\"]) };\nvar temp3={ \"x\": timestamp, \"y\": parseInt(payload[i][\"Temperatura I\"])};\nvar temp4={\"x\": timestamp, \"y\": parseInt(payload[i][\"Wilgotność I\"])};\n\na1.push(temp1);\na2.push(temp2);\na3.push(temp3);\na4.push(temp4);\n \n \n //\n \n \n}\n\ndata_out=[a1,a2,a3,a4];\nmsg.payload=[{\n\"series\": [\"Temp_RS-485\",\"Wilg_RS-485\",\"Temperatura I\",\"Wilgotność I\"],\n\"data\":data_out,\n\"labels\": [\"Temp_RS-485\",\"Wilg_RS-485\",\"Temperatura I\",\"Wilgotność I\"]\n}];\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 360,
-        "y": 360,
-        "wires": [
-            [
-                "2466e014.fe459",
-                "ff0ba1e2.f46ab"
-            ]
-        ]
-    },
-    {
-        "id": "de8150aa.71733",
-        "type": "function",
-        "z": "f6f2187d.f17ca8",
-        "name": "SetTimeRange",
-        "func": "msg.fromdate=msg.payload;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 660,
-        "y": 200,
-        "wires": [
-            [
-                "aeaaadf4.7dcb",
-                "9d22cca6.a6c168"
-            ]
-        ]
-    },
-    {
-        "id": "14f5cd67.1fbd6b",
-        "type": "ui_template",
-        "z": "f6f2187d.f17ca8",
-        "group": "bbc3532f.41ca7",
-        "name": "Line Chart",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "format": "<html>\n<iframe id=\"myFrame\" width=\"600px\" height=\"300px\" style = \"overflow:hidden; margin:auto; border:0px solid green;\"></iframe>\n\n<script>\n//NOTE, more then one chart on a page, rename in the second and following \n//templates the \"myframe\" variable so that every template has a unique name.\n(function(scope) {\n    // watch msg object from Node-RED\n    scope.$watch('msg', function(msg) {\n        // new message received\n        var x = document.getElementById('myFrame');\n        x.setAttribute('src', msg.payload); \n        });\n})(scope);\n</script>\n</html>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "className": "",
-        "x": 1090,
-        "y": 180,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "aeaaadf4.7dcb",
-        "type": "function",
-        "z": "f6f2187d.f17ca8",
-        "name": "BuildTemplate",
-        "func": "//NOTE, more then one chart on a page, rename in the second and following \n//templates the \"myframe\" variable so that every template has a unique name.\n\nlet panelid=4\n\nmsg.payload = \"http://localhost:3000/d-solo/1qgAQ874k/test-dash?orgId=1\"+\n\"&refresh=1m\"+\n\"&theme=light\"+\n\"&from=\"+ msg.fromdate +\n\"&to=now&panelId=\"+panelid\n\nreturn msg;\n\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 880,
-        "y": 180,
-        "wires": [
-            [
-                "14f5cd67.1fbd6b"
-            ]
-        ]
-    },
-    {
-        "id": "4769fee0.9701d8",
-        "type": "ui_template",
-        "z": "f6f2187d.f17ca8",
-        "group": "bbc3532f.41ca7",
-        "name": "Numbers",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "format": "<html>\n<iframe id=\"myFrame2\" width=\"600px\" height=\"300px\" style = \"overflow:hidden; margin:auto; border:0px solid green;\"></iframe>\n\n<script>\n//NOTE, more then one chart on a page, rename in the second and following \n//templates the \"myframe\" variable so that every template has a unique name.\n(function(scope) {\n    // watch msg object from Node-RED\n    scope.$watch('msg', function(msg) {\n        // new message received\n        var x = document.getElementById('myFrame2');\n        x.setAttribute('src', msg.payload); \n        });\n})(scope);\n</script>\n</html>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "className": "",
-        "x": 1080,
-        "y": 240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "9d22cca6.a6c168",
-        "type": "function",
-        "z": "f6f2187d.f17ca8",
-        "name": "BuildTemplate",
-        "func": "//NOTE, more then one chart on a page, rename in the second and following \n//templates the \"myframe\" variable so that every template has a unique name.\n\nlet panelid=2\n\nmsg.payload = \"http://localhost:3000/d-solo/1qgAQ874k/test-dash?orgId=1\"+\n\"&refresh=1m\"+\n\"&theme=dark\"+\n\"&from=\"+ msg.fromdate +\n\"&to=\"+ msg.enddate +\n\"&panelId=\"+panelid\n\nreturn msg;\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 880,
-        "y": 240,
-        "wires": [
-            [
-                "4769fee0.9701d8"
-            ]
-        ]
-    },
-    {
-        "id": "a9fb70d370f4f6f1",
-        "type": "ui_dropdown",
-        "z": "f6f2187d.f17ca8",
-        "name": "Range Dropdown",
-        "label": "Interval",
-        "tooltip": "",
-        "place": "Select Interval",
-        "group": "bbc3532f.41ca7",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "7 D",
-                "value": "now-7d",
-                "type": "str"
-            },
-            {
-                "label": "14 D",
-                "value": "now-14d",
-                "type": "str"
-            },
-            {
-                "label": "20 D",
-                "value": "now-20d",
-                "type": "str"
-            },
-            {
-                "label": "30 D",
-                "value": "now-30d",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "topicType": "msg",
-        "className": "",
-        "x": 430,
-        "y": 200,
-        "wires": [
-            [
-                "de8150aa.71733"
-            ]
-        ]
-    },
-    {
-        "id": "b372fba84ebeb01e",
-        "type": "inject",
-        "z": "f6f2187d.f17ca8",
-        "name": "Trigger on start",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": "2",
-        "topic": "",
-        "payload": "now-14d",
+        "payload": "Start",
         "payloadType": "str",
-        "x": 200,
-        "y": 200,
+        "x": 210,
+        "y": 320,
         "wires": [
             [
-                "a9fb70d370f4f6f1"
+                "f2a787bd.015a88"
             ]
         ]
     },
     {
-        "id": "afb44ebd.9f5c88",
-        "type": "delay",
-        "z": "d2f356e8.51d6e8",
-        "name": "replicate on other displays",
-        "pauseType": "delay",
-        "timeout": "100",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 470,
-        "y": 340,
-        "wires": [
-            [
-                "8cfe7bc7.f574e8"
-            ]
-        ]
-    },
-    {
-        "id": "8cfe7bc7.f574e8",
+        "id": "fa84a230.b0719",
         "type": "ui_template",
-        "z": "d2f356e8.51d6e8",
-        "group": "1ed11c7.232e364",
-        "name": "Interval list",
-        "order": 5,
+        "z": "2bc02f46.a8e46",
+        "group": "49b17fdb.a4e67",
+        "name": "Text Panel 1",
+        "order": 0,
         "width": "0",
         "height": "0",
-        "format": "<script>\n(function(scope) {\n    scope.startH = 0;\n    scope.startM = 0;\n    scope.duration = 45;\n    scope.valve1 = 1;\n    scope.valve2 = 0;\n    scope.intervals = [];\n\n    scope.$watch('msg', function(msg){\n        if (msg) {\n            if (msg.payload) {\n                scope.intervals = msg.payload;\n                // Force repaint to adjust to table height\n                $(\"#tblIntervals\").parent().css(\"height\",\"\");\n            }\n        }\n    } );\n    \n    scope.valveList = function(valves) {\n        for (var arValves=[], i=0; 1<<i <= valves; i++) { if (valves & 1<<i) arValves.push(i+1); }\n        return arValves.join(\"+\");\n    }\n\n    scope.add = function() {\n        scope.intervals.push({\n            startH : scope.startH,\n            startM : scope.startM,\n            duration : scope.duration,\n            valve : scope.valve1 + scope.valve2\n        });\n        $(\"#tblIntervals\").parent().css(\"height\",\"\");\n        scope.intervals.sort(function(a,b){return a.startH*60+a.startM-b.startH*60-b.startM})\n        scope.send({payload:scope.intervals});\n    };\n\n    scope.remove = function(row) {\n        var removed = scope.intervals.splice(scope.intervals.indexOf(row),1);\n        $(\"#tblIntervals\").parent().css(\"height\",\"\");\n        scope.startH = removed[0].startH;\n        scope.startM = removed[0].startM;\n        scope.duration = removed[0].duration;\n        scope.valve1 = (removed[0].valve & 1);\n        scope.valve2 = (removed[0].valve & 2);\n        scope.send({payload:scope.intervals});\n    }\n})(scope)\n</script>\n\n<style>\ntable.intervals {\n    border-collapse: collapse;\n    width: 100%;\n}\ntable.intervals td, table.intervals th {\n    border: 1px solid #555;\n    padding: 1px;\n}\ntable.intervals tr:nth-child(odd) { background-color: #555; }\ntable.intervals tr:hover {background-color: #888;}\n</style>\n\n<div style=\"\">\n    <p class=\"nr-dashboard-cardtitle\">Add new interval</p>\n    <table>\n        <tr>\n            <td>Start:</td>\n            <td>\n                <input type=number min=0 max=23 style=\"width:35px\" ng-model=\"startH\">:<input type=number min=0 max=59 style=\"width:35px\" ng-model=\"startM\">\n            </td>\n        </tr>\n        <tr>\n            <td>Duration:</td>\n            <td><input type=number min=1 style=\"width:50px;\" ng-model=\"duration\"> s</td>\n        </tr>\n        <tr>\n            <td>Valve</td>\n            <td>\n                <input id=\"chkValve1\" type=\"checkbox\" ng-model=\"valve1\" ng-true-value=1 ng-false-value=0><label for=\"chkValve1\">1</label>\n                <input id=\"chkValve2\" type=\"checkbox\" ng-model=\"valve2\" ng-true-value=2 ng-false-value=0><label for=\"chkValve2\">2</label>\n            </td>\n        </tr>\n        <tr>\n            <td colspan=2><md-button ng-click=\"add()\">Add</md-button></td>\n        </tr>\n    </table>\n</div>\n\n<div id=\"tblIntervals\">\n    <p class=\"nr-dashboard-cardtitle\">Time Intervals</p>\n    <table class=\"intervals\">\n        <tr>\n            <td>Start</td>\n            <td>Durat.</td>\n            <td colspan=2>Valve</td>\n        </tr>\n        <tr ng-repeat=\"i in intervals\">\n            <td>{{i.startH}}:{{(\"0\"+i.startM).slice(-2)}}</td>\n            <td align=\"right\" style=\"padding-left:0px; padding-right:10px;\">{{i.duration}} s</td>\n            <td align=\"center\">{{valveList(i.valve)}}</td>\n            <td style=\"cursor:pointer;\" ng-click=\"remove(i)\" title=\"Remove\">&times;</td>\n        </tr>\n    </table>\n</div>",
-        "storeOutMessages": true,
+        "format": "<style>\n\n    #tex1 {\n        font-weight:bolder;\n        letter-spacing: 4px;\n        fill: red;\n    }\n    \n    #tex2 {\n        font-weight:bolder;\n        letter-spacing: 4px;\n        fill: lime;\n    }\n    \n    #tex3 {\n        font-weight:bolder;\n        letter-spacing: 4px;\n        fill: aqua;\n    }\n    \n    #tex4 {\n        font-weight:bolder;\n        letter-spacing: 4px;\n        fill: white;\n    }\n    \n    #tex5 {\n        font-weight:bolder;\n        letter-spacing: 4px;\n        fill: yellow;\n}\n    \n</style>\n\n\n<svg>\n\n\n<text id=\"tex1\" x=\"10\" y=\"10\" > {{msg.payload.key1}} </text>\n<text id=\"tex2\" x=\"10\" y=\"30\" > {{msg.payload.key2}} </text>\n<text id=\"tex3\" x=\"10\" y=\"50\" > {{msg.payload.key3}} </text>\n<text id=\"tex4\" x=\"10\" y=\"70\" > {{msg.payload.key4}} </text>\n<text id=\"tex5\" x=\"10\" y=\"90\" > {{msg.payload.key5}} </text>\n\n\n</svg>\n\n\n\n",
+        "storeOutMessages": false,
         "fwdInMessages": false,
         "resendOnRefresh": false,
         "templateScope": "local",
         "className": "",
-        "x": 490,
-        "y": 180,
+        "x": 590,
+        "y": 320,
         "wires": [
-            [
-                "afb44ebd.9f5c88"
-            ]
-        ]
-    },
-    {
-        "id": "3a6318aa.8adf98",
-        "type": "inject",
-        "z": "d2f356e8.51d6e8",
-        "name": "init",
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 110,
-        "y": 180,
-        "wires": [
-            [
-                "810e4ac0.2f53d"
-            ]
-        ]
-    },
-    {
-        "id": "810e4ac0.2f53d",
-        "type": "change",
-        "z": "d2f356e8.51d6e8",
-        "name": "set sample data",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "[{\"startH\":7,\"startM\":0,\"duration\":45,\"valve\":1}]",
-                "tot": "json"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 280,
-        "y": 180,
-        "wires": [
-            [
-                "8cfe7bc7.f574e8"
-            ]
+            []
         ]
     }
 ]
