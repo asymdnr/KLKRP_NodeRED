@@ -14,6 +14,14 @@
         "info": ""
     },
     {
+        "id": "f56bc6acb992506d",
+        "type": "tab",
+        "label": "Tank",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "2bc02f46.a8e46",
         "type": "tab",
         "label": "Flow 2",
@@ -320,96 +328,62 @@
         "className": ""
     },
     {
-        "id": "3d9e45e.bcd50ba",
-        "type": "ui_group",
-        "name": "Radial Gauges",
-        "tab": "",
-        "order": 2,
-        "disp": true,
-        "width": "6",
-        "collapse": false
+        "id": "032577c3b750a832",
+        "type": "ui_tab",
+        "name": "Tank",
+        "icon": "broken_image",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
     },
     {
-        "id": "49b17fdb.a4e67",
+        "id": "3bc390d38bd82689",
         "type": "ui_group",
-        "name": "Group 1",
-        "tab": "ac0de5e5.b75fb8",
+        "name": "ACID TANK 1",
+        "tab": "032577c3b750a832",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7198f93e.4f6f5",
+        "type": "ui_group",
+        "name": "Ashfield weather",
+        "tab": "de0f6b36.132fa8",
         "order": 1,
         "disp": true,
         "width": "6",
         "collapse": false
     },
     {
-        "id": "ac0de5e5.b75fb8",
+        "id": "de0f6b36.132fa8",
         "type": "ui_tab",
-        "name": "Tab1",
-        "icon": "dashboard"
-    },
-    {
-        "id": "aa6a1221.d871c",
-        "type": "ui_group",
-        "name": "Group 3",
-        "tab": "0bcba62bfbb44b2a",
-        "order": 3,
-        "disp": true,
-        "width": 6
-    },
-    {
-        "id": "0bcba62bfbb44b2a",
-        "type": "ui_tab",
-        "name": "Tab 7",
+        "name": "Weather",
         "icon": "dashboard",
-        "order": 7
+        "order": 27,
+        "disabled": false,
+        "hidden": false
     },
     {
-        "id": "ff6b2d8064d36675",
-        "type": "ui_spacer",
-        "z": "531e23be5dd8efe8",
-        "name": "spacer",
-        "group": "182308aa23fdfe0c",
-        "order": 6,
-        "width": 1,
-        "height": 1
+        "id": "93fae10c.09faa",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "6ff5405c.a8e6",
+        "order": 1,
+        "disp": true,
+        "width": "9",
+        "collapse": false
     },
     {
-        "id": "8277b9e42e351e11",
-        "type": "ui_spacer",
-        "z": "531e23be5dd8efe8",
-        "name": "spacer",
-        "group": "182308aa23fdfe0c",
-        "order": 10,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "7f14bd2591bbda31",
-        "type": "ui_spacer",
-        "z": "531e23be5dd8efe8",
-        "name": "spacer",
-        "group": "182308aa23fdfe0c",
-        "order": 14,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "bb67e652ed84521d",
-        "type": "ui_spacer",
-        "z": "531e23be5dd8efe8",
-        "name": "spacer",
-        "group": "182308aa23fdfe0c",
-        "order": 17,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "447ec6ba7a5fd33f",
-        "type": "ui_spacer",
-        "z": "531e23be5dd8efe8",
-        "name": "spacer",
-        "group": "182308aa23fdfe0c",
-        "order": 20,
-        "width": 1,
-        "height": 1
+        "id": "6ff5405c.a8e6",
+        "type": "ui_tab",
+        "name": "TEST",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
     },
     {
         "id": "1a6a73230e00c124",
@@ -542,12 +516,12 @@
         "width": 5,
         "height": 1,
         "name": "",
-        "label": "BURNER ",
+        "label": "BURNER FEEDBACK",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 700,
-        "y": 2180,
+        "x": 760,
+        "y": 2840,
         "wires": []
     },
     {
@@ -559,8 +533,8 @@
         "variable": "PCO_TT_RUN",
         "diff": true,
         "name": "",
-        "x": 140,
-        "y": 2180,
+        "x": 160,
+        "y": 2840,
         "wires": [
             [
                 "279a78e174af41cc"
@@ -578,8 +552,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 390,
-        "y": 2180,
+        "x": 410,
+        "y": 2840,
         "wires": [
             [
                 "752784e40c7b57b2"
@@ -603,7 +577,7 @@
         "name": "BURNER STATUS",
         "info": "",
         "x": 130,
-        "y": 2100,
+        "y": 2760,
         "wires": []
     },
     {
@@ -658,8 +632,8 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 680,
-        "y": 2220,
+        "x": 700,
+        "y": 2880,
         "wires": []
     },
     {
@@ -673,8 +647,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 370,
-        "y": 2220,
+        "x": 390,
+        "y": 2880,
         "wires": [
             [
                 "b852ed5021897352"
@@ -690,8 +664,8 @@
         "variable": "PCO_TT_HIGH FIRE",
         "diff": true,
         "name": "",
-        "x": 160,
-        "y": 2220,
+        "x": 180,
+        "y": 2880,
         "wires": [
             [
                 "2369520784470eb3"
@@ -707,8 +681,8 @@
         "variable": "PCO_TT_LOW FIRE",
         "diff": true,
         "name": "",
-        "x": 160,
-        "y": 2260,
+        "x": 180,
+        "y": 2920,
         "wires": [
             [
                 "503c816c11329039"
@@ -746,8 +720,8 @@
         "z": "531e23be5dd8efe8",
         "name": "BURNER INTERLOCK",
         "info": "",
-        "x": 120,
-        "y": 2500,
+        "x": 140,
+        "y": 3160,
         "wires": []
     },
     {
@@ -756,7 +730,7 @@
         "z": "531e23be5dd8efe8",
         "name": "",
         "group": "182308aa23fdfe0c",
-        "order": 19,
+        "order": 13,
         "width": 5,
         "height": 1,
         "passthru": false,
@@ -834,8 +808,8 @@
         "payloadType": "json",
         "topic": "",
         "topicType": "str",
-        "x": 130,
-        "y": 2540,
+        "x": 150,
+        "y": 3200,
         "wires": [
             [
                 "44b53a3d233d9c1f"
@@ -880,8 +854,8 @@
         "links": [
             "e0d72ea15a1aa37a"
         ],
-        "x": 215,
-        "y": 2540,
+        "x": 235,
+        "y": 3200,
         "wires": []
     },
     {
@@ -911,8 +885,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "ESTOP",
-        "x": 580,
-        "y": 2580,
+        "x": 600,
+        "y": 3240,
         "wires": []
     },
     {
@@ -942,8 +916,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "MAIN DRIVE OFF FB",
-        "x": 620,
-        "y": 2620,
+        "x": 640,
+        "y": 3280,
         "wires": []
     },
     {
@@ -973,8 +947,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "PCO TT HH ALARM",
-        "x": 620,
-        "y": 2660,
+        "x": 640,
+        "y": 3320,
         "wires": []
     },
     {
@@ -1004,8 +978,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "PCO CTT HH ALARM",
-        "x": 620,
-        "y": 2700,
+        "x": 640,
+        "y": 3360,
         "wires": []
     },
     {
@@ -1035,8 +1009,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "PCO BL OFF FB",
-        "x": 610,
-        "y": 2740,
+        "x": 630,
+        "y": 3400,
         "wires": []
     },
     {
@@ -1066,8 +1040,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "PCO TT WIRE BREAK",
-        "x": 620,
-        "y": 2780,
+        "x": 640,
+        "y": 3440,
         "wires": []
     },
     {
@@ -1077,7 +1051,7 @@
         "endpoint": "8178b9f6e8586214",
         "variable": "PCO_TT_PID P",
         "name": "",
-        "x": 440,
+        "x": 480,
         "y": 660,
         "wires": []
     },
@@ -1088,7 +1062,7 @@
         "endpoint": "8178b9f6e8586214",
         "variable": "PCO_TT_PID I",
         "name": "",
-        "x": 440,
+        "x": 480,
         "y": 700,
         "wires": []
     },
@@ -1126,7 +1100,7 @@
         "group": "182308aa23fdfe0c",
         "order": 2,
         "width": 6,
-        "height": 4,
+        "height": 3,
         "gtype": "gage",
         "title": "PCO TT PV",
         "label": "°C",
@@ -1153,7 +1127,7 @@
         "label": "PID (P)",
         "tooltip": "",
         "group": "182308aa23fdfe0c",
-        "order": 16,
+        "order": 19,
         "width": 2,
         "height": 1,
         "passthru": true,
@@ -1163,7 +1137,7 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "msg",
-        "x": 120,
+        "x": 300,
         "y": 660,
         "wires": [
             [
@@ -1179,7 +1153,7 @@
         "label": "PID (I)",
         "tooltip": "",
         "group": "182308aa23fdfe0c",
-        "order": 18,
+        "order": 21,
         "width": 2,
         "height": 1,
         "passthru": true,
@@ -1189,7 +1163,7 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "msg",
-        "x": 110,
+        "x": 290,
         "y": 700,
         "wires": [
             [
@@ -1420,8 +1394,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 470,
-        "y": 840,
+        "x": 450,
+        "y": 800,
         "wires": [
             [
                 "5f18e18d611e4814"
@@ -1444,7 +1418,7 @@
         "z": "531e23be5dd8efe8",
         "name": "",
         "group": "182308aa23fdfe0c",
-        "order": 9,
+        "order": 5,
         "width": 5,
         "height": 1,
         "passthru": false,
@@ -1511,7 +1485,7 @@
         "id": "8eda9e7cede93ede",
         "type": "link out",
         "z": "531e23be5dd8efe8",
-        "name": "PCO LINK 3_2",
+        "name": "PCO LINK TT 2",
         "mode": "link",
         "links": [
             "35ef7bf729d0c410"
@@ -1524,7 +1498,7 @@
         "id": "35ef7bf729d0c410",
         "type": "link in",
         "z": "531e23be5dd8efe8",
-        "name": "PCO LINK 3_1",
+        "name": "PCO LINK TT 1",
         "links": [
             "8eda9e7cede93ede"
         ],
@@ -1568,7 +1542,8 @@
         "y": 1080,
         "wires": [
             [
-                "a4941b01d1463972"
+                "a4941b01d1463972",
+                "48db4fececec8501"
             ]
         ]
     },
@@ -1587,7 +1562,8 @@
         "y": 1120,
         "wires": [
             [
-                "080d9396ee98e37f"
+                "080d9396ee98e37f",
+                "48db4fececec8501"
             ]
         ]
     },
@@ -1606,7 +1582,8 @@
         "y": 1160,
         "wires": [
             [
-                "d4aca6a0cc6e8843"
+                "d4aca6a0cc6e8843",
+                "48db4fececec8501"
             ]
         ]
     },
@@ -1625,7 +1602,8 @@
         "y": 1200,
         "wires": [
             [
-                "beb54117bf1798f5"
+                "beb54117bf1798f5",
+                "48db4fececec8501"
             ]
         ]
     },
@@ -1672,7 +1650,7 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "msg",
-        "x": 130,
+        "x": 230,
         "y": 1080,
         "wires": [
             [
@@ -1685,7 +1663,7 @@
         "type": "function",
         "z": "531e23be5dd8efe8",
         "name": "2 Decimal Place",
-        "func": "msg.payload = Number(msg.payload.toFixed(2));\n\nreturn msg;",
+        "func": "msg.payload = Number(msg.payload.toFixed(2));\n\nvar RH = global.get(\"PCO_TT_RH\");\n\n//if sensor wire break or out of range\nif (msg.payload < 0 || msg.payload > RH) \n{\n    msg.payload = \"Error\"\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -1746,7 +1724,7 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "msg",
-        "x": 120,
+        "x": 220,
         "y": 1120,
         "wires": [
             [
@@ -1772,7 +1750,7 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "msg",
-        "x": 120,
+        "x": 220,
         "y": 1160,
         "wires": [
             [
@@ -1798,7 +1776,7 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "msg",
-        "x": 120,
+        "x": 220,
         "y": 1200,
         "wires": [
             [
@@ -2153,7 +2131,7 @@
         "name": "CHAMBER TT PV AND ALARM SETTING",
         "info": "",
         "x": 180,
-        "y": 1480,
+        "y": 1740,
         "wires": []
     },
     {
@@ -2164,7 +2142,7 @@
         "group": "182308aa23fdfe0c",
         "order": 4,
         "width": 6,
-        "height": 4,
+        "height": 3,
         "gtype": "gage",
         "title": "PCO CTT PV",
         "label": "°C",
@@ -2179,8 +2157,8 @@
         "seg1": "",
         "seg2": "",
         "className": "",
-        "x": 680,
-        "y": 1520,
+        "x": 740,
+        "y": 1840,
         "wires": []
     },
     {
@@ -2194,8 +2172,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 470,
-        "y": 1480,
+        "x": 550,
+        "y": 1800,
         "wires": [
             [
                 "3c3db064774ea81a"
@@ -2211,8 +2189,8 @@
         "high": "200",
         "inte": "false",
         "property": "payload",
-        "x": 260,
-        "y": 1600,
+        "x": 280,
+        "y": 1920,
         "wires": [
             [
                 "82d6079b592d68db"
@@ -2236,8 +2214,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 120,
-        "y": 1600,
+        "x": 140,
+        "y": 1920,
         "wires": [
             [
                 "5952011739991237"
@@ -2249,14 +2227,14 @@
         "type": "function",
         "z": "531e23be5dd8efe8",
         "name": "2 Decimal Place",
-        "func": "msg.payload = Number(msg.payload.toFixed(2));\n\nreturn msg;",
+        "func": "msg.payload = Number(msg.payload.toFixed(2));\n\nvar RH = global.get(\"PCO_TT_RH\");\n\n//if sensor wire break or out of range\nif (msg.payload < 0 || msg.payload > RH) \n{\n    msg.payload = \"Error\"\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 460,
-        "y": 1520,
+        "x": 480,
+        "y": 1840,
         "wires": [
             [
                 "3c3db064774ea81a"
@@ -2269,8 +2247,8 @@
         "z": "531e23be5dd8efe8",
         "name": "For test only",
         "info": "",
-        "x": 110,
-        "y": 1560,
+        "x": 130,
+        "y": 1880,
         "wires": []
     },
     {
@@ -2279,8 +2257,8 @@
         "z": "531e23be5dd8efe8",
         "name": "CHAMBER TT PV AND ALARM SETTING",
         "info": "",
-        "x": 1100,
-        "y": 1520,
+        "x": 1120,
+        "y": 1840,
         "wires": []
     },
     {
@@ -2310,7 +2288,7 @@
         "z": "531e23be5dd8efe8",
         "name": "",
         "group": "182308aa23fdfe0c",
-        "order": 13,
+        "order": 9,
         "width": 5,
         "height": 1,
         "passthru": false,
@@ -2324,8 +2302,8 @@
         "payloadType": "json",
         "topic": "topic",
         "topicType": "msg",
-        "x": 160,
-        "y": 1680,
+        "x": 180,
+        "y": 2000,
         "wires": [
             [
                 "0fcbdf73762289cc"
@@ -2338,8 +2316,8 @@
         "z": "531e23be5dd8efe8",
         "name": "",
         "events": "all",
-        "x": 400,
-        "y": 1680,
+        "x": 420,
+        "y": 2000,
         "wires": [
             []
         ]
@@ -2364,8 +2342,8 @@
         "payloadType": "json",
         "topic": "",
         "topicType": "str",
-        "x": 550,
-        "y": 1680,
+        "x": 570,
+        "y": 2000,
         "wires": [
             [
                 "baabce67e4ff11d6"
@@ -2377,25 +2355,25 @@
         "id": "baabce67e4ff11d6",
         "type": "link out",
         "z": "531e23be5dd8efe8",
-        "name": "PCO LINK 3_2",
+        "name": "PCO LINK CTT 2",
         "mode": "link",
         "links": [
             "5b994a286ae299dd"
         ],
-        "x": 645,
-        "y": 1680,
+        "x": 665,
+        "y": 2000,
         "wires": []
     },
     {
         "id": "5b994a286ae299dd",
         "type": "link in",
         "z": "531e23be5dd8efe8",
-        "name": "PCO LINK 3_1",
+        "name": "PCO LINK CTT 1",
         "links": [
             "baabce67e4ff11d6"
         ],
-        "x": 295,
-        "y": 1640,
+        "x": 315,
+        "y": 1960,
         "wires": [
             [
                 "0fcbdf73762289cc"
@@ -2413,11 +2391,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 570,
-        "y": 1720,
+        "x": 590,
+        "y": 2040,
         "wires": [
             [
-                "828388826c80204a"
+                "828388826c80204a",
+                "035f40454fd411a8"
             ]
         ]
     },
@@ -2432,11 +2411,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 570,
-        "y": 1760,
+        "x": 590,
+        "y": 2080,
         "wires": [
             [
-                "5e51f2d1e2782f7b"
+                "5e51f2d1e2782f7b",
+                "035f40454fd411a8"
             ]
         ]
     },
@@ -2451,11 +2431,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 570,
-        "y": 1800,
+        "x": 590,
+        "y": 2120,
         "wires": [
             [
-                "f3272deed5690f4e"
+                "f3272deed5690f4e",
+                "035f40454fd411a8"
             ]
         ]
     },
@@ -2470,11 +2451,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 570,
-        "y": 1840,
+        "x": 590,
+        "y": 2160,
         "wires": [
             [
-                "4a729a04281d1c91"
+                "4a729a04281d1c91",
+                "035f40454fd411a8"
             ]
         ]
     },
@@ -2496,8 +2478,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "msg",
-        "x": 130,
-        "y": 1720,
+        "x": 150,
+        "y": 2040,
         "wires": [
             [
                 "158116ad7511f292"
@@ -2522,8 +2504,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "msg",
-        "x": 120,
-        "y": 1760,
+        "x": 140,
+        "y": 2080,
         "wires": [
             [
                 "e81e4bb848bee964"
@@ -2548,8 +2530,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "msg",
-        "x": 120,
-        "y": 1800,
+        "x": 140,
+        "y": 2120,
         "wires": [
             [
                 "a47a40cea17f73c8"
@@ -2574,8 +2556,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "msg",
-        "x": 120,
-        "y": 1840,
+        "x": 140,
+        "y": 2160,
         "wires": [
             [
                 "ba469e8a679d5d06"
@@ -2588,8 +2570,8 @@
         "z": "531e23be5dd8efe8",
         "name": "To include Alarm limit later if needed",
         "info": "",
-        "x": 1200,
-        "y": 1800,
+        "x": 1220,
+        "y": 2120,
         "wires": []
     },
     {
@@ -2614,8 +2596,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 370,
-        "y": 1840,
+        "x": 410,
+        "y": 2180,
         "wires": [
             [
                 "264e9ba31b1a1a08"
@@ -2637,8 +2619,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 560,
-        "y": 1880,
+        "x": 580,
+        "y": 2200,
         "wires": [
             [
                 "a3cfbb28c58de19f"
@@ -2664,8 +2646,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 180,
-        "y": 1880,
+        "x": 280,
+        "y": 2220,
         "wires": [
             [
                 "6324927c0420d414"
@@ -2687,8 +2669,8 @@
         "className": "",
         "topic": "",
         "name": "",
-        "x": 810,
-        "y": 1880,
+        "x": 830,
+        "y": 2200,
         "wires": [
             []
         ]
@@ -2711,8 +2693,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "msg",
-        "x": 130,
-        "y": 1940,
+        "x": 370,
+        "y": 2260,
         "wires": [
             [
                 "f31dc77a48c47967"
@@ -2737,8 +2719,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "msg",
-        "x": 120,
-        "y": 1980,
+        "x": 360,
+        "y": 2300,
         "wires": [
             [
                 "0599f6ad88a2e88d"
@@ -2763,8 +2745,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "msg",
-        "x": 120,
-        "y": 2020,
+        "x": 360,
+        "y": 2340,
         "wires": [
             [
                 "104e236f96102db2"
@@ -2789,8 +2771,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "msg",
-        "x": 130,
-        "y": 2060,
+        "x": 370,
+        "y": 2380,
         "wires": [
             [
                 "4dd0f93955cc3f47"
@@ -2804,8 +2786,8 @@
         "endpoint": "8178b9f6e8586214",
         "variable": "PCO_TT_ALM_SV_HH",
         "name": "",
-        "x": 910,
-        "y": 1720,
+        "x": 930,
+        "y": 2040,
         "wires": []
     },
     {
@@ -2815,8 +2797,8 @@
         "endpoint": "8178b9f6e8586214",
         "variable": "PCO_TT_ALM_SV_H",
         "name": "",
-        "x": 900,
-        "y": 1760,
+        "x": 920,
+        "y": 2080,
         "wires": []
     },
     {
@@ -2826,8 +2808,8 @@
         "endpoint": "8178b9f6e8586214",
         "variable": "PCO_TT_ALM_SV_L",
         "name": "",
-        "x": 900,
-        "y": 1800,
+        "x": 920,
+        "y": 2120,
         "wires": []
     },
     {
@@ -2837,8 +2819,8 @@
         "endpoint": "8178b9f6e8586214",
         "variable": "PCO_TT_ALM_SV_LL",
         "name": "",
-        "x": 900,
-        "y": 1840,
+        "x": 920,
+        "y": 2160,
         "wires": []
     },
     {
@@ -2848,8 +2830,8 @@
         "endpoint": "8178b9f6e8586214",
         "variable": "PCO_TT_HYS_SV_HH",
         "name": "",
-        "x": 910,
-        "y": 1940,
+        "x": 930,
+        "y": 2260,
         "wires": []
     },
     {
@@ -2859,8 +2841,8 @@
         "endpoint": "8178b9f6e8586214",
         "variable": "PCO_TT_HYS_SV_H",
         "name": "",
-        "x": 900,
-        "y": 1980,
+        "x": 920,
+        "y": 2300,
         "wires": []
     },
     {
@@ -2870,8 +2852,8 @@
         "endpoint": "8178b9f6e8586214",
         "variable": "PCO_TT_HYS_SV_L",
         "name": "",
-        "x": 900,
-        "y": 2020,
+        "x": 920,
+        "y": 2340,
         "wires": []
     },
     {
@@ -2881,8 +2863,8 @@
         "endpoint": "8178b9f6e8586214",
         "variable": "PCO_TT_HYS_SV_LL",
         "name": "",
-        "x": 900,
-        "y": 2060,
+        "x": 920,
+        "y": 2380,
         "wires": []
     },
     {
@@ -2894,8 +2876,8 @@
         "variable": "PCO_TT_PV",
         "diff": true,
         "name": "",
-        "x": 110,
-        "y": 1520,
+        "x": 130,
+        "y": 1840,
         "wires": [
             [
                 "82d6079b592d68db"
@@ -3417,23 +3399,23 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 730,
-        "y": 2300,
+        "x": 750,
+        "y": 2960,
         "wires": []
     },
     {
         "id": "96c6058dc273322e",
         "type": "function",
         "z": "531e23be5dd8efe8",
-        "name": "RUNNING STATUS",
+        "name": "TRIPPED STATUS",
         "func": "if (msg.payload == true)\n{\n    msg.payload = \"TRIPPED\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 390,
-        "y": 2300,
+        "x": 410,
+        "y": 2960,
         "wires": [
             [
                 "4a58b7a474e27e9e"
@@ -3449,30 +3431,13 @@
         "variable": "PCO_TT_TRIP",
         "diff": true,
         "name": "",
-        "x": 140,
-        "y": 2300,
+        "x": 160,
+        "y": 2960,
         "wires": [
             [
                 "96c6058dc273322e"
             ]
         ]
-    },
-    {
-        "id": "af24f7ce8693f336",
-        "type": "ui_text",
-        "z": "531e23be5dd8efe8",
-        "group": "182308aa23fdfe0c",
-        "order": 5,
-        "width": 5,
-        "height": 1,
-        "name": "",
-        "label": "ALARM STATE",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "className": "",
-        "x": 780,
-        "y": 2380,
-        "wires": []
     },
     {
         "id": "da1a08a3c508ee27",
@@ -3485,11 +3450,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 500,
-        "y": 2380,
+        "x": 400,
+        "y": 3000,
         "wires": [
             [
-                "af24f7ce8693f336"
+                "4a58b7a474e27e9e"
             ]
         ]
     },
@@ -3504,11 +3469,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 500,
-        "y": 2420,
+        "x": 400,
+        "y": 3040,
         "wires": [
             [
-                "af24f7ce8693f336"
+                "4a58b7a474e27e9e"
             ]
         ]
     },
@@ -3516,18 +3481,441 @@
         "id": "503c816c11329039",
         "type": "function",
         "z": "531e23be5dd8efe8",
-        "name": "HIGH FIRE",
+        "name": "LOW FIRE",
         "func": "if (msg.payload == true)\n{\n    msg.payload = \"LOW FIRE\";\n}\nelse\n    msg.payload = \"-\";\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 370,
-        "y": 2260,
+        "x": 390,
+        "y": 2920,
         "wires": [
             [
                 "b852ed5021897352"
+            ]
+        ]
+    },
+    {
+        "id": "a055c06329248bd2",
+        "type": "link out",
+        "z": "531e23be5dd8efe8",
+        "name": "PCO LINK TT PV 2",
+        "mode": "link",
+        "links": [
+            "9b07a00133e44a66"
+        ],
+        "x": 935,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "9b07a00133e44a66",
+        "type": "link in",
+        "z": "531e23be5dd8efe8",
+        "name": "PCO LINK TT PV 1",
+        "links": [
+            "a055c06329248bd2"
+        ],
+        "x": 245,
+        "y": 800,
+        "wires": [
+            [
+                "600e782887d15982"
+            ]
+        ]
+    },
+    {
+        "id": "48db4fececec8501",
+        "type": "trigger",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "op1": "",
+        "op2": "true",
+        "op1type": "nul",
+        "op2type": "bool",
+        "duration": "10",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 790,
+        "y": 1020,
+        "wires": [
+            [
+                "a055c06329248bd2",
+                "7d275339fd69235b"
+            ]
+        ],
+        "info": "Commented on 17/1/2023\r\nThis is used to refresh the display setpoint whenever new value is inputted"
+    },
+    {
+        "id": "7d275339fd69235b",
+        "type": "debug",
+        "z": "531e23be5dd8efe8",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "035f40454fd411a8",
+        "type": "trigger",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "op1": "",
+        "op2": "true",
+        "op1type": "nul",
+        "op2type": "bool",
+        "duration": "10",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 790,
+        "y": 1960,
+        "wires": [
+            [
+                "f8cb867804729bce"
+            ]
+        ],
+        "info": "Commented on 17/1/2023\r\nThis is used to refresh the display setpoint whenever new value is inputted"
+    },
+    {
+        "id": "f8cb867804729bce",
+        "type": "link out",
+        "z": "531e23be5dd8efe8",
+        "name": "PCO LINK CTT PV 2",
+        "mode": "link",
+        "links": [
+            "2fa1031655451917"
+        ],
+        "x": 1015,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "2fa1031655451917",
+        "type": "link in",
+        "z": "531e23be5dd8efe8",
+        "name": "PCO LINK CTT PV 1",
+        "links": [
+            "f8cb867804729bce"
+        ],
+        "x": 395,
+        "y": 1780,
+        "wires": [
+            [
+                "f0a1a51dd3837d8f"
+            ]
+        ]
+    },
+    {
+        "id": "28bc3ae8c7d2842c",
+        "type": "ui_text",
+        "z": "531e23be5dd8efe8",
+        "group": "182308aa23fdfe0c",
+        "order": 17,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "TT STATUS",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 870,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "3c82b1dcab5a0fa4",
+        "type": "ui_text",
+        "z": "531e23be5dd8efe8",
+        "group": "182308aa23fdfe0c",
+        "order": 23,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "CTT STATUS",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 900,
+        "y": 2420,
+        "wires": []
+    },
+    {
+        "id": "0f658119ba1fccc0",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "WIRE BREAK",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"WIRE BREAK\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 2420,
+        "wires": [
+            [
+                "3c82b1dcab5a0fa4"
+            ]
+        ]
+    },
+    {
+        "id": "d6a166862f1c3c8e",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "HIGH HIGH ALM",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"ALM HIGH HIGH\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 2500,
+        "wires": [
+            [
+                "3c82b1dcab5a0fa4"
+            ]
+        ]
+    },
+    {
+        "id": "d0671bda5f64e669",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "HIGH ALM",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"ALM HIGH\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 2540,
+        "wires": [
+            [
+                "3c82b1dcab5a0fa4"
+            ]
+        ]
+    },
+    {
+        "id": "a385ece0ac9d3447",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "LOW ALM",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"ALM LOW\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 2580,
+        "wires": [
+            [
+                "3c82b1dcab5a0fa4"
+            ]
+        ]
+    },
+    {
+        "id": "1acf67c564edf539",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "LOW LOW ALM",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"ALM LOW LOW\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 2620,
+        "wires": [
+            [
+                "3c82b1dcab5a0fa4"
+            ]
+        ]
+    },
+    {
+        "id": "bf8b317344e9863c",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "OUT OF RANGE",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"OUT OF RANGE\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 2460,
+        "wires": [
+            [
+                "3c82b1dcab5a0fa4"
+            ]
+        ]
+    },
+    {
+        "id": "32f687b6911e4ce8",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "WIRE BREAK",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"WIRE BREAK\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1460,
+        "wires": [
+            [
+                "28bc3ae8c7d2842c"
+            ]
+        ]
+    },
+    {
+        "id": "ade1d02e1f95631e",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "HIGH HIGH ALM",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"ALM HIGH HIGH\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 1540,
+        "wires": [
+            [
+                "28bc3ae8c7d2842c"
+            ]
+        ]
+    },
+    {
+        "id": "66817a09b4513270",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "HIGH ALM",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"ALM HIGH\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 1580,
+        "wires": [
+            [
+                "28bc3ae8c7d2842c"
+            ]
+        ]
+    },
+    {
+        "id": "e70a51df1fb8559b",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "LOW ALM",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"ALM LOW\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 1620,
+        "wires": [
+            [
+                "28bc3ae8c7d2842c"
+            ]
+        ]
+    },
+    {
+        "id": "6c158ba0bf3d2c38",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "LOW LOW ALM",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"ALM LOW LOW\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1660,
+        "wires": [
+            [
+                "28bc3ae8c7d2842c"
+            ]
+        ]
+    },
+    {
+        "id": "fe9760669005d80c",
+        "type": "function",
+        "z": "531e23be5dd8efe8",
+        "name": "OUT OF RANGE",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"OUT OF RANGE\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 1500,
+        "wires": [
+            [
+                "28bc3ae8c7d2842c"
+            ]
+        ]
+    },
+    {
+        "id": "e55de3c875824d37",
+        "type": "s7 in",
+        "z": "531e23be5dd8efe8",
+        "endpoint": "8178b9f6e8586214",
+        "mode": "single",
+        "variable": "PCO_TT_PID P",
+        "diff": true,
+        "name": "",
+        "x": 100,
+        "y": 660,
+        "wires": [
+            [
+                "319589604de509b9"
+            ]
+        ]
+    },
+    {
+        "id": "15be5024caa79fb5",
+        "type": "s7 in",
+        "z": "531e23be5dd8efe8",
+        "endpoint": "8178b9f6e8586214",
+        "mode": "single",
+        "variable": "PCO_TT_PID I",
+        "diff": true,
+        "name": "",
+        "x": 100,
+        "y": 700,
+        "wires": [
+            [
+                "55fbf2ba885ed060"
             ]
         ]
     },
@@ -3538,8 +3926,8 @@
         "endpoint": "8178b9f6e8586214",
         "variable": "PCO_TT_BURNER ENABLE",
         "name": "",
-        "x": 1640,
-        "y": 160,
+        "x": 740,
+        "y": 140,
         "wires": []
     },
     {
@@ -3562,13 +3950,11 @@
         "payloadType": "bool",
         "topic": "topic",
         "topicType": "msg",
-        "x": 1340,
-        "y": 200,
+        "x": 520,
+        "y": 160,
         "wires": [
             [
-                "26f293446a2014b7",
-                "0b040c9070d9d819",
-                "aed178b9f9f9dfb6"
+                "26f293446a2014b7"
             ]
         ]
     },
@@ -3592,13 +3978,11 @@
         "payloadType": "bool",
         "topic": "topic",
         "topicType": "msg",
-        "x": 1330,
+        "x": 510,
         "y": 100,
         "wires": [
             [
-                "26f293446a2014b7",
-                "5bd732ed6b7b0c94",
-                "1db40167d13777f6"
+                "26f293446a2014b7"
             ]
         ]
     },
@@ -3608,117 +3992,9 @@
         "z": "f97ba6bb088d1b36",
         "name": "MOTOR SELECTION MODE",
         "info": "",
-        "x": 1060,
-        "y": 60,
+        "x": 160,
+        "y": 40,
         "wires": []
-    },
-    {
-        "id": "5bd732ed6b7b0c94",
-        "type": "change",
-        "z": "f97ba6bb088d1b36",
-        "name": "green when enable",
-        "rules": [
-            {
-                "t": "set",
-                "p": "colour",
-                "pt": "msg",
-                "to": "green",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1090,
-        "y": 100,
-        "wires": [
-            [
-                "c9f5fc695ee7c2c3"
-            ]
-        ]
-    },
-    {
-        "id": "0b040c9070d9d819",
-        "type": "change",
-        "z": "f97ba6bb088d1b36",
-        "name": "grey when disable",
-        "rules": [
-            {
-                "t": "set",
-                "p": "colour",
-                "pt": "msg",
-                "to": "grey",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1090,
-        "y": 140,
-        "wires": [
-            [
-                "c9f5fc695ee7c2c3"
-            ]
-        ]
-    },
-    {
-        "id": "aed178b9f9f9dfb6",
-        "type": "change",
-        "z": "f97ba6bb088d1b36",
-        "name": "green when disable",
-        "rules": [
-            {
-                "t": "set",
-                "p": "colour",
-                "pt": "msg",
-                "to": "green",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1090,
-        "y": 180,
-        "wires": [
-            [
-                "20b410c09d814249"
-            ]
-        ]
-    },
-    {
-        "id": "1db40167d13777f6",
-        "type": "change",
-        "z": "f97ba6bb088d1b36",
-        "name": "grey when enable",
-        "rules": [
-            {
-                "t": "set",
-                "p": "colour",
-                "pt": "msg",
-                "to": "grey",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1090,
-        "y": 220,
-        "wires": [
-            [
-                "20b410c09d814249"
-            ]
-        ]
     },
     {
         "id": "e22ffd6bc88dbab8",
@@ -3727,8 +4003,8 @@
         "endpoint": "8178b9f6e8586214",
         "variable": "PCO_TT_BURNER ENABLE",
         "name": "",
-        "x": 1640,
-        "y": 340,
+        "x": 740,
+        "y": 320,
         "wires": []
     },
     {
@@ -3751,13 +4027,11 @@
         "payloadType": "bool",
         "topic": "topic",
         "topicType": "msg",
-        "x": 1430,
-        "y": 380,
+        "x": 530,
+        "y": 360,
         "wires": [
             [
-                "e22ffd6bc88dbab8",
-                "9e8b9d8b4f23d766",
-                "f8bbf7efcd54da26"
+                "e22ffd6bc88dbab8"
             ]
         ]
     },
@@ -3781,121 +4055,11 @@
         "payloadType": "bool",
         "topic": "topic",
         "topicType": "msg",
-        "x": 1430,
+        "x": 530,
         "y": 280,
         "wires": [
             [
-                "e22ffd6bc88dbab8",
-                "f558851cad2ebaa4",
-                "39f19e7b1287c952"
-            ]
-        ]
-    },
-    {
-        "id": "f558851cad2ebaa4",
-        "type": "change",
-        "z": "f97ba6bb088d1b36",
-        "name": "green when enable",
-        "rules": [
-            {
-                "t": "set",
-                "p": "colour",
-                "pt": "msg",
-                "to": "green",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1090,
-        "y": 280,
-        "wires": [
-            [
-                "55f4f548ed79ffbe"
-            ]
-        ]
-    },
-    {
-        "id": "9e8b9d8b4f23d766",
-        "type": "change",
-        "z": "f97ba6bb088d1b36",
-        "name": "grey when disable",
-        "rules": [
-            {
-                "t": "set",
-                "p": "colour",
-                "pt": "msg",
-                "to": "grey",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1090,
-        "y": 320,
-        "wires": [
-            [
-                "55f4f548ed79ffbe"
-            ]
-        ]
-    },
-    {
-        "id": "f8bbf7efcd54da26",
-        "type": "change",
-        "z": "f97ba6bb088d1b36",
-        "name": "green when disable",
-        "rules": [
-            {
-                "t": "set",
-                "p": "colour",
-                "pt": "msg",
-                "to": "red",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1090,
-        "y": 360,
-        "wires": [
-            [
-                "a9877d1f1dd38be5"
-            ]
-        ]
-    },
-    {
-        "id": "39f19e7b1287c952",
-        "type": "change",
-        "z": "f97ba6bb088d1b36",
-        "name": "grey when enable",
-        "rules": [
-            {
-                "t": "set",
-                "p": "colour",
-                "pt": "msg",
-                "to": "grey",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1090,
-        "y": 400,
-        "wires": [
-            [
-                "a9877d1f1dd38be5"
+                "e22ffd6bc88dbab8"
             ]
         ]
     },
@@ -3904,16 +4068,16 @@
         "type": "ui_text",
         "z": "f97ba6bb088d1b36",
         "group": "f38030ca387e052d",
-        "order": 8,
-        "width": "0",
-        "height": "0",
+        "order": 6,
+        "width": 0,
+        "height": 0,
         "name": "",
         "label": "MOTOR STATUS",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 1570,
-        "y": 640,
+        "x": 690,
+        "y": 620,
         "wires": []
     },
     {
@@ -3927,8 +4091,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1290,
-        "y": 640,
+        "x": 390,
+        "y": 620,
         "wires": [
             [
                 "938db1e33ebc8884"
@@ -3944,8 +4108,8 @@
         "variable": "PCO_TT_TRIP",
         "diff": true,
         "name": "",
-        "x": 1040,
-        "y": 640,
+        "x": 140,
+        "y": 620,
         "wires": [
             [
                 "18bd759a85cfa48d"
@@ -3961,8 +4125,8 @@
         "variable": "PCO_TT_RUN",
         "diff": true,
         "name": "",
-        "x": 1040,
-        "y": 600,
+        "x": 140,
+        "y": 580,
         "wires": [
             [
                 "ce2b3567be875c91"
@@ -3980,8 +4144,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1290,
-        "y": 600,
+        "x": 390,
+        "y": 580,
         "wires": [
             [
                 "5d1fd2ee67e3376a"
@@ -3993,16 +4157,16 @@
         "type": "ui_text",
         "z": "f97ba6bb088d1b36",
         "group": "f38030ca387e052d",
-        "order": 3,
-        "width": "0",
-        "height": "0",
+        "order": 5,
+        "width": 0,
+        "height": 0,
         "name": "",
         "label": "MOTOR",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 1600,
-        "y": 600,
+        "x": 720,
+        "y": 580,
         "wires": []
     },
     {
@@ -4011,8 +4175,8 @@
         "z": "f97ba6bb088d1b36",
         "name": "MOTOR STATUS",
         "info": "",
-        "x": 1000,
-        "y": 560,
+        "x": 100,
+        "y": 540,
         "wires": []
     },
     {
@@ -4026,31 +4190,14 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1180,
-        "y": 440,
+        "x": 340,
+        "y": 320,
         "wires": [
             [
                 "55f4f548ed79ffbe",
                 "a9877d1f1dd38be5"
             ]
         ]
-    },
-    {
-        "id": "b4573498bd6b09bc",
-        "type": "ui_text",
-        "z": "f97ba6bb088d1b36",
-        "group": "f38030ca387e052d",
-        "order": 8,
-        "width": "0",
-        "height": "0",
-        "name": "",
-        "label": "ALARM STATE",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "className": "",
-        "x": 1580,
-        "y": 680,
-        "wires": []
     },
     {
         "id": "d2be066e9f588b43",
@@ -4063,11 +4210,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1300,
-        "y": 680,
+        "x": 400,
+        "y": 660,
         "wires": [
             [
-                "b4573498bd6b09bc"
+                "938db1e33ebc8884"
             ]
         ]
     },
@@ -4082,11 +4229,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1300,
-        "y": 720,
+        "x": 400,
+        "y": 700,
         "wires": [
             [
-                "b4573498bd6b09bc"
+                "938db1e33ebc8884"
             ]
         ]
     },
@@ -4096,9 +4243,768 @@
         "z": "f97ba6bb088d1b36",
         "name": "MOTOR PV AND SV",
         "info": "",
-        "x": 1030,
-        "y": 760,
+        "x": 150,
+        "y": 940,
         "wires": []
+    },
+    {
+        "id": "b720ebb7c6806ba8",
+        "type": "function",
+        "z": "f97ba6bb088d1b36",
+        "name": "CHANGE COLOUR ",
+        "func": "if (msg.payload == true)\n{\n    msg.colour = \"green\";\n}\nelse\n{\n    msg.colour = \"grey\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 100,
+        "wires": [
+            [
+                "c9f5fc695ee7c2c3"
+            ]
+        ]
+    },
+    {
+        "id": "1687fd1e292c0279",
+        "type": "function",
+        "z": "f97ba6bb088d1b36",
+        "name": "CHANGE COLOUR",
+        "func": "if (msg.payload == false)\n{\n    msg.colour = \"green\";\n}\nelse\n{\n    msg.colour = \"grey\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 160,
+        "wires": [
+            [
+                "20b410c09d814249"
+            ]
+        ]
+    },
+    {
+        "id": "5ae5c19e090ca73e",
+        "type": "ui_gauge",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "group": "f38030ca387e052d",
+        "order": 7,
+        "width": 6,
+        "height": 3,
+        "gtype": "gage",
+        "title": "CGT STIR RHS PV",
+        "label": "Hz",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#11ee11",
+            "#11ee11",
+            "#11ee11"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 730,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "7620a7c3eaf36a73",
+        "type": "random",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "low": "-10",
+        "high": "51",
+        "inte": "false",
+        "property": "payload",
+        "x": 300,
+        "y": 1080,
+        "wires": [
+            [
+                "d2ed0b73551096ac"
+            ]
+        ]
+    },
+    {
+        "id": "f448f74a77e0e494",
+        "type": "inject",
+        "z": "f97ba6bb088d1b36",
+        "name": "INJECT",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 1080,
+        "wires": [
+            [
+                "7620a7c3eaf36a73"
+            ]
+        ]
+    },
+    {
+        "id": "d2ed0b73551096ac",
+        "type": "function",
+        "z": "f97ba6bb088d1b36",
+        "name": "2 Decimal Place",
+        "func": "msg.payload = Number(msg.payload.toFixed(2));\n\n//if sensor wire break or out of range\nif (msg.payload < 0 || msg.payload > 50) \n{\n    msg.payload = \"Error\"\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 1000,
+        "wires": [
+            [
+                "5ae5c19e090ca73e"
+            ]
+        ]
+    },
+    {
+        "id": "a3715a54b54eab47",
+        "type": "s7 in",
+        "z": "f97ba6bb088d1b36",
+        "endpoint": "8178b9f6e8586214",
+        "mode": "single",
+        "variable": "PCO_TT_PV",
+        "diff": true,
+        "name": "",
+        "x": 150,
+        "y": 1000,
+        "wires": [
+            [
+                "d2ed0b73551096ac"
+            ]
+        ]
+    },
+    {
+        "id": "a83e1fbd05fad752",
+        "type": "comment",
+        "z": "f97ba6bb088d1b36",
+        "name": "For test only",
+        "info": "",
+        "x": 150,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "1bb0122a3df44d6b",
+        "type": "function",
+        "z": "f97ba6bb088d1b36",
+        "name": "CHANGE COLOUR ",
+        "func": "if (msg.payload == true)\n{\n    msg.colour = \"green\";\n}\nelse\n{\n    msg.colour = \"grey\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 280,
+        "wires": [
+            [
+                "55f4f548ed79ffbe"
+            ]
+        ]
+    },
+    {
+        "id": "e87ca924aaf37a7d",
+        "type": "function",
+        "z": "f97ba6bb088d1b36",
+        "name": "CHANGE COLOUR",
+        "func": "if (msg.payload == false)\n{\n    msg.colour = \"red\";\n}\nelse\n{\n    msg.colour = \"grey\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 360,
+        "wires": [
+            [
+                "a9877d1f1dd38be5"
+            ]
+        ]
+    },
+    {
+        "id": "9ea39a5036c099d5",
+        "type": "function",
+        "z": "f97ba6bb088d1b36",
+        "name": "WIRE BREAK",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"WIRE BREAK\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 740,
+        "wires": [
+            [
+                "4c5901cadcab7ebd"
+            ]
+        ]
+    },
+    {
+        "id": "26ad9a675b60574a",
+        "type": "function",
+        "z": "f97ba6bb088d1b36",
+        "name": "OUT OF RANGE",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"OUT OF RANGE\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 780,
+        "wires": [
+            [
+                "4c5901cadcab7ebd"
+            ]
+        ]
+    },
+    {
+        "id": "fac1dbd2e0f97d1b",
+        "type": "ui_text_input",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "label": "MOTOR SPEED SV (Hz)",
+        "tooltip": "MOTOR SPEED SET VALUE",
+        "group": "f38030ca387e052d",
+        "order": 8,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "10",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 250,
+        "y": 1140,
+        "wires": [
+            [
+                "8f0f5e1926e63b2c"
+            ]
+        ]
+    },
+    {
+        "id": "3a412e64884618dd",
+        "type": "s7 out",
+        "z": "f97ba6bb088d1b36",
+        "endpoint": "8178b9f6e8586214",
+        "variable": "PCO_TT_SV",
+        "name": "",
+        "x": 1030,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "8f0f5e1926e63b2c",
+        "type": "switch",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "btwn",
+                "v": "0",
+                "vt": "num",
+                "v2": "50",
+                "v2t": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 430,
+        "y": 1140,
+        "wires": [
+            [
+                "5f83f5cd1475bc16"
+            ],
+            [
+                "a2fed4fdd4270066",
+                "b321f898d2c5c7a7"
+            ]
+        ]
+    },
+    {
+        "id": "c8af20bab8f650b8",
+        "type": "ui_toast",
+        "z": "f97ba6bb088d1b36",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "Cancel",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 1050,
+        "y": 1180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a2fed4fdd4270066",
+        "type": "function",
+        "z": "f97ba6bb088d1b36",
+        "name": "Warning Pop Up",
+        "func": "\nmsg.topic = \"Warning\"\nmsg.payload = \"Invalid Value. Insert Between 0 - 50\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 1180,
+        "wires": [
+            [
+                "c8af20bab8f650b8"
+            ]
+        ]
+    },
+    {
+        "id": "80e2f315be4a0a37",
+        "type": "change",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "CGT_STIRRHS_SV",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 260,
+        "y": 1180,
+        "wires": [
+            [
+                "fac1dbd2e0f97d1b"
+            ]
+        ]
+    },
+    {
+        "id": "5f83f5cd1475bc16",
+        "type": "change",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "CGT_STIRRHS_SV",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 730,
+        "y": 1140,
+        "wires": [
+            [
+                "3a412e64884618dd"
+            ]
+        ]
+    },
+    {
+        "id": "05d5347187b9bd46",
+        "type": "link in",
+        "z": "f97ba6bb088d1b36",
+        "name": "CGT STIRRHS SV_2",
+        "links": [
+            "b321f898d2c5c7a7"
+        ],
+        "x": 105,
+        "y": 1180,
+        "wires": [
+            [
+                "80e2f315be4a0a37"
+            ]
+        ]
+    },
+    {
+        "id": "b321f898d2c5c7a7",
+        "type": "link out",
+        "z": "f97ba6bb088d1b36",
+        "name": "CGT STIRRHS SV_1",
+        "mode": "link",
+        "links": [
+            "05d5347187b9bd46"
+        ],
+        "x": 515,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "4c5901cadcab7ebd",
+        "type": "ui_text",
+        "z": "f97ba6bb088d1b36",
+        "group": "f38030ca387e052d",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "MOTOR VFD",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 680,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "be9e3e91ea353edc",
+        "type": "inject",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 1030,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "017ccf025d69351a",
+        "type": "inject",
+        "z": "f97ba6bb088d1b36",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 1030,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "587516e76051629e",
+        "type": "s7 out",
+        "z": "f56bc6acb992506d",
+        "endpoint": "8178b9f6e8586214",
+        "variable": "PCO_TT_BURNER ENABLE",
+        "name": "",
+        "x": 740,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "04a3a268f936c3bd",
+        "type": "ui_button",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "group": "3bc390d38bd82689",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "MANUAL",
+        "tooltip": "BURNER DISABLE",
+        "color": "{{text}}",
+        "bgcolor": "{{colour}}",
+        "className": "",
+        "icon": "{{icon}}",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 520,
+        "y": 160,
+        "wires": [
+            [
+                "587516e76051629e"
+            ]
+        ]
+    },
+    {
+        "id": "20990cccbb42ddd7",
+        "type": "ui_button",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "group": "3bc390d38bd82689",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "AUTO",
+        "tooltip": "BURNER ENABLE",
+        "color": "",
+        "bgcolor": "{{colour}}",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 510,
+        "y": 100,
+        "wires": [
+            [
+                "587516e76051629e"
+            ]
+        ]
+    },
+    {
+        "id": "fcd091d4a1a93224",
+        "type": "comment",
+        "z": "f56bc6acb992506d",
+        "name": "MOTOR SELECTION MODE",
+        "info": "",
+        "x": 160,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "01a4da8a2b17d418",
+        "type": "s7 out",
+        "z": "f56bc6acb992506d",
+        "endpoint": "8178b9f6e8586214",
+        "variable": "PCO_TT_BURNER ENABLE",
+        "name": "",
+        "x": 740,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "652d3ae7d3ce751f",
+        "type": "ui_button",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "group": "3bc390d38bd82689",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "STOP",
+        "tooltip": "BURNER DISABLE",
+        "color": "{{text}}",
+        "bgcolor": "{{colour}}",
+        "className": "",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 530,
+        "y": 360,
+        "wires": [
+            [
+                "01a4da8a2b17d418"
+            ]
+        ]
+    },
+    {
+        "id": "a73d12abe7e2caf5",
+        "type": "ui_button",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "group": "3bc390d38bd82689",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "RUN",
+        "tooltip": "BURNER ENABLE",
+        "color": "",
+        "bgcolor": "{{colour}}",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 530,
+        "y": 280,
+        "wires": [
+            [
+                "01a4da8a2b17d418"
+            ]
+        ]
+    },
+    {
+        "id": "791bffeb22cf3d5b",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "DISABLED BUTTON",
+        "func": "if (msg.payload == true)\n{\n    msg.enabled = false;\n}\nelse\n{\n    msg.enabled = true;\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 320,
+        "wires": [
+            [
+                "a73d12abe7e2caf5",
+                "652d3ae7d3ce751f"
+            ]
+        ]
+    },
+    {
+        "id": "dd29409086ad69b1",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "CHANGE COLOUR ",
+        "func": "if (msg.payload == true)\n{\n    msg.colour = \"green\";\n}\nelse\n{\n    msg.colour = \"grey\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 100,
+        "wires": [
+            [
+                "20990cccbb42ddd7"
+            ]
+        ]
+    },
+    {
+        "id": "1e7d1eac75a9f418",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "CHANGE COLOUR",
+        "func": "if (msg.payload == false)\n{\n    msg.colour = \"green\";\n}\nelse\n{\n    msg.colour = \"grey\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 160,
+        "wires": [
+            [
+                "04a3a268f936c3bd"
+            ]
+        ]
+    },
+    {
+        "id": "286a6c4bd9bf974d",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "CHANGE COLOUR ",
+        "func": "if (msg.payload == true)\n{\n    msg.colour = \"green\";\n}\nelse\n{\n    msg.colour = \"grey\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 280,
+        "wires": [
+            [
+                "a73d12abe7e2caf5"
+            ]
+        ]
+    },
+    {
+        "id": "8c1f4c4fc21608b9",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "CHANGE COLOUR",
+        "func": "if (msg.payload == false)\n{\n    msg.colour = \"red\";\n}\nelse\n{\n    msg.colour = \"grey\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 360,
+        "wires": [
+            [
+                "652d3ae7d3ce751f"
+            ]
+        ]
+    },
+    {
+        "id": "ccbcebccb68b6ca5",
+        "type": "inject",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 360,
+        "y": 200,
+        "wires": [
+            [
+                "04a3a268f936c3bd"
+            ]
+        ]
     },
     {
         "id": "5bfdfd75.5562a4",
@@ -4194,7 +5100,7 @@
         "id": "fa84a230.b0719",
         "type": "ui_template",
         "z": "2bc02f46.a8e46",
-        "group": "49b17fdb.a4e67",
+        "group": "",
         "name": "Text Panel 1",
         "order": 0,
         "width": "0",
