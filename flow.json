@@ -148,7 +148,7 @@
         "id": "64690ecdf7ca17a4",
         "type": "ui_base",
         "theme": {
-            "name": "theme-custom",
+            "name": "theme-dark",
             "lightTheme": {
                 "default": "#0094CE",
                 "baseColor": "#0094CE",
@@ -166,51 +166,51 @@
             "customTheme": {
                 "name": "Untitled Theme 1",
                 "default": "#4B7930",
-                "baseColor": "#4B7930",
+                "baseColor": "#5c983a",
                 "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
                 "reset": false
             },
             "themeState": {
                 "base-color": {
-                    "default": "#4B7930",
-                    "value": "#4B7930",
+                    "default": "#097479",
+                    "value": "#097479",
                     "edited": true
                 },
                 "page-titlebar-backgroundColor": {
-                    "value": "#4B7930",
+                    "value": "#097479",
                     "edited": false
                 },
                 "page-backgroundColor": {
-                    "value": "#928b8b",
+                    "value": "#111111",
                     "edited": true
                 },
                 "page-sidebar-backgroundColor": {
                     "value": "#333333",
-                    "edited": false
+                    "edited": true
                 },
                 "group-textColor": {
-                    "value": "#6db046",
+                    "value": "#0eb8c0",
                     "edited": false
                 },
                 "group-borderColor": {
                     "value": "#555555",
-                    "edited": false
+                    "edited": true
                 },
                 "group-backgroundColor": {
                     "value": "#333333",
-                    "edited": false
+                    "edited": true
                 },
                 "widget-textColor": {
                     "value": "#eeeeee",
                     "edited": false
                 },
                 "widget-backgroundColor": {
-                    "value": "#4b7930",
+                    "value": "#097479",
                     "edited": false
                 },
                 "widget-borderColor": {
                     "value": "#333333",
-                    "edited": false
+                    "edited": true
                 },
                 "base-font": {
                     "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
@@ -228,7 +228,7 @@
             "name": "Node-RED Dashboard",
             "hideToolbar": "false",
             "allowSwipe": "true",
-            "lockMenu": "icon",
+            "lockMenu": "true",
             "allowTempTheme": "true",
             "dateFormat": "DD/MM/YYYY",
             "sizes": {
@@ -310,7 +310,7 @@
     {
         "id": "35d1279dc3c417ba",
         "type": "ui_tab",
-        "name": "Motor",
+        "name": "MOTOR",
         "icon": "toys",
         "order": 2,
         "disabled": false,
@@ -319,7 +319,7 @@
     {
         "id": "f38030ca387e052d",
         "type": "ui_group",
-        "name": "CGT_STIR_RHS",
+        "name": "CGT STIRRER RHS",
         "tab": "35d1279dc3c417ba",
         "order": 1,
         "disp": true,
@@ -330,7 +330,7 @@
     {
         "id": "032577c3b750a832",
         "type": "ui_tab",
-        "name": "Tank",
+        "name": "TANK",
         "icon": "broken_image",
         "order": 3,
         "disabled": false,
@@ -339,11 +339,11 @@
     {
         "id": "3bc390d38bd82689",
         "type": "ui_group",
-        "name": "ACID TANK 1",
+        "name": "ACT1 TANK CONTROL",
         "tab": "032577c3b750a832",
-        "order": 1,
+        "order": 2,
         "disp": true,
-        "width": "6",
+        "width": 28,
         "collapse": false,
         "className": ""
     },
@@ -384,6 +384,208 @@
         "order": 3,
         "disabled": false,
         "hidden": false
+    },
+    {
+        "id": "90294327ba84bde4",
+        "type": "ui_spacer",
+        "z": "531e23be5dd8efe8",
+        "name": "spacer",
+        "group": "182308aa23fdfe0c",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5b93dad879699ac0",
+        "type": "ui_spacer",
+        "z": "531e23be5dd8efe8",
+        "name": "spacer",
+        "group": "182308aa23fdfe0c",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "15709f7975cd03ea",
+        "type": "ui_spacer",
+        "z": "531e23be5dd8efe8",
+        "name": "spacer",
+        "group": "182308aa23fdfe0c",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1683b2ed57fa2e91",
+        "type": "ui_spacer",
+        "z": "531e23be5dd8efe8",
+        "name": "spacer",
+        "group": "182308aa23fdfe0c",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a39a2e170b308cb6",
+        "type": "ui_spacer",
+        "z": "531e23be5dd8efe8",
+        "name": "spacer",
+        "group": "182308aa23fdfe0c",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a597a8ae32b41dce",
+        "type": "ui_spacer",
+        "z": "531e23be5dd8efe8",
+        "name": "spacer",
+        "group": "182308aa23fdfe0c",
+        "order": 21,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "910134314b5fdd02",
+        "type": "ui_spacer",
+        "z": "531e23be5dd8efe8",
+        "name": "spacer",
+        "group": "182308aa23fdfe0c",
+        "order": 23,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "103a94778801ce41",
+        "type": "ui_group",
+        "name": "ACT1 INV",
+        "tab": "032577c3b750a832",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "cc1b923d.14259",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "28f4e723.1c8a68",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "28f4e723.1c8a68",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "0a934e3350b374b5",
+        "type": "ui_group",
+        "name": "ACT1 TT ALARM SETTING",
+        "tab": "032577c3b750a832",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4253e9a4571a0156",
+        "type": "ui_group",
+        "name": "ACT1 LT ALARM SETTING",
+        "tab": "032577c3b750a832",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6cb5411a7e994a0e",
+        "type": "ui_group",
+        "name": "LINE SELECTION",
+        "tab": "032577c3b750a832",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7dad506faf5b84dc",
+        "type": "ui_spacer",
+        "z": "f56bc6acb992506d",
+        "name": "spacer",
+        "group": "3bc390d38bd82689",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a1cb76b6cbf6aa91",
+        "type": "ui_spacer",
+        "z": "f56bc6acb992506d",
+        "name": "spacer",
+        "group": "3bc390d38bd82689",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6ff81c2149b50165",
+        "type": "ui_spacer",
+        "z": "f56bc6acb992506d",
+        "name": "spacer",
+        "group": "3bc390d38bd82689",
+        "order": 9,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "bdf6f46d92359c93",
+        "type": "ui_spacer",
+        "z": "f56bc6acb992506d",
+        "name": "spacer",
+        "group": "3bc390d38bd82689",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e3f98a726b2143b0",
+        "type": "ui_spacer",
+        "z": "f56bc6acb992506d",
+        "name": "spacer",
+        "group": "3bc390d38bd82689",
+        "order": 13,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "0b3eff72845bdf5e",
+        "type": "ui_spacer",
+        "z": "f56bc6acb992506d",
+        "name": "spacer",
+        "group": "3bc390d38bd82689",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "17d71709a80ec5a5",
+        "type": "ui_spacer",
+        "z": "f56bc6acb992506d",
+        "name": "spacer",
+        "group": "3bc390d38bd82689",
+        "order": 19,
+        "width": 3,
+        "height": 1
     },
     {
         "id": "1a6a73230e00c124",
@@ -739,7 +941,7 @@
         "color": "",
         "bgcolor": "{{msg.payload}}",
         "className": "",
-        "icon": "",
+        "icon": "picture_in_picture_alt",
         "payload": "{\"group\":{\"show\":[\"OVEN_BURNER_PCO_TT_BURNER_INTERLOCK\"]}}",
         "payloadType": "json",
         "topic": "topic",
@@ -798,17 +1000,17 @@
         "width": 0,
         "height": 0,
         "passthru": false,
-        "label": "HIDE",
+        "label": "CLOSE",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
         "className": "",
-        "icon": "",
+        "icon": "clear",
         "payload": "{\"group\":{\"hide\":[\"OVEN_BURNER_PCO_TT_BURNER_INTERLOCK\"]}}",
         "payloadType": "json",
         "topic": "",
         "topicType": "str",
-        "x": 150,
+        "x": 160,
         "y": 3200,
         "wires": [
             [
@@ -835,7 +1037,8 @@
         "z": "531e23be5dd8efe8",
         "name": "PCO LINK 2_1",
         "links": [
-            "44b53a3d233d9c1f"
+            "44b53a3d233d9c1f",
+            "fceb29252fcf0826"
         ],
         "x": 815,
         "y": 420,
@@ -1153,7 +1356,7 @@
         "label": "PID (I)",
         "tooltip": "",
         "group": "182308aa23fdfe0c",
-        "order": 21,
+        "order": 20,
         "width": 2,
         "height": 1,
         "passthru": true,
@@ -1427,7 +1630,7 @@
         "color": "",
         "bgcolor": "{{msg.payload}}",
         "className": "",
-        "icon": "",
+        "icon": "settings",
         "payload": "{\"group\":{\"show\":[\"OVEN_BURNER_PCO_TT_ALARM_SETTING\"]}}",
         "payloadType": "json",
         "topic": "topic",
@@ -1462,17 +1665,17 @@
         "width": 6,
         "height": 1,
         "passthru": false,
-        "label": "HIDE",
+        "label": "CLOSE",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
         "className": "",
-        "icon": "",
+        "icon": "close",
         "payload": "{\"group\":{\"hide\":[\"OVEN_BURNER_PCO_TT_ALARM_SETTING\"]}}",
         "payloadType": "json",
         "topic": "",
         "topicType": "str",
-        "x": 550,
+        "x": 560,
         "y": 1040,
         "wires": [
             [
@@ -2297,7 +2500,7 @@
         "color": "",
         "bgcolor": "{{msg.payload}}",
         "className": "",
-        "icon": "",
+        "icon": "settings",
         "payload": "{\"group\":{\"show\":[\"OVEN_BURNER_PCO_CTT_ALARM_SETTING\"]}}",
         "payloadType": "json",
         "topic": "topic",
@@ -2332,17 +2535,17 @@
         "width": 6,
         "height": 1,
         "passthru": false,
-        "label": "HIDE",
+        "label": "CLOSE",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
         "className": "",
-        "icon": "",
+        "icon": "clear",
         "payload": "{\"group\":{\"hide\":[\"OVEN_BURNER_PCO_CTT_ALARM_SETTING\"]}}",
         "payloadType": "json",
         "topic": "",
         "topicType": "str",
-        "x": 570,
+        "x": 580,
         "y": 2000,
         "wires": [
             [
@@ -3546,27 +3749,10 @@
         "y": 1020,
         "wires": [
             [
-                "a055c06329248bd2",
-                "7d275339fd69235b"
+                "a055c06329248bd2"
             ]
         ],
         "info": "Commented on 17/1/2023\r\nThis is used to refresh the display setpoint whenever new value is inputted"
-    },
-    {
-        "id": "7d275339fd69235b",
-        "type": "debug",
-        "z": "531e23be5dd8efe8",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1100,
-        "y": 980,
-        "wires": []
     },
     {
         "id": "035f40454fd411a8",
@@ -3613,7 +3799,8 @@
         "z": "531e23be5dd8efe8",
         "name": "PCO LINK CTT PV 1",
         "links": [
-            "f8cb867804729bce"
+            "f8cb867804729bce",
+            "d7ec07dfc9c951b3"
         ],
         "x": 395,
         "y": 1780,
@@ -3645,7 +3832,7 @@
         "type": "ui_text",
         "z": "531e23be5dd8efe8",
         "group": "182308aa23fdfe0c",
-        "order": 23,
+        "order": 22,
         "width": 4,
         "height": 1,
         "name": "",
@@ -3917,6 +4104,29 @@
             [
                 "55fbf2ba885ed060"
             ]
+        ]
+    },
+    {
+        "id": "ebd067a34ef63e9b",
+        "type": "inject",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "props": [
+            {
+                "p": "enabled",
+                "v": "false",
+                "vt": "bool"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1010,
+        "y": 1560,
+        "wires": [
+            []
         ]
     },
     {
@@ -4738,271 +4948,2170 @@
         ]
     },
     {
-        "id": "587516e76051629e",
-        "type": "s7 out",
-        "z": "f56bc6acb992506d",
-        "endpoint": "8178b9f6e8586214",
-        "variable": "PCO_TT_BURNER ENABLE",
-        "name": "",
-        "x": 740,
-        "y": 140,
-        "wires": []
-    },
-    {
-        "id": "04a3a268f936c3bd",
-        "type": "ui_button",
-        "z": "f56bc6acb992506d",
-        "name": "",
-        "group": "3bc390d38bd82689",
-        "order": 3,
-        "width": 3,
-        "height": 1,
-        "passthru": false,
-        "label": "MANUAL",
-        "tooltip": "BURNER DISABLE",
-        "color": "{{text}}",
-        "bgcolor": "{{colour}}",
-        "className": "",
-        "icon": "{{icon}}",
-        "payload": "false",
-        "payloadType": "bool",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 520,
-        "y": 160,
-        "wires": [
-            [
-                "587516e76051629e"
-            ]
-        ]
-    },
-    {
-        "id": "20990cccbb42ddd7",
-        "type": "ui_button",
-        "z": "f56bc6acb992506d",
-        "name": "",
-        "group": "3bc390d38bd82689",
-        "order": 1,
-        "width": 3,
-        "height": 1,
-        "passthru": false,
-        "label": "AUTO",
-        "tooltip": "BURNER ENABLE",
-        "color": "",
-        "bgcolor": "{{colour}}",
-        "className": "",
-        "icon": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 510,
-        "y": 100,
-        "wires": [
-            [
-                "587516e76051629e"
-            ]
-        ]
-    },
-    {
         "id": "fcd091d4a1a93224",
         "type": "comment",
         "z": "f56bc6acb992506d",
-        "name": "MOTOR SELECTION MODE",
+        "name": "ACID TANK",
         "info": "",
-        "x": 160,
+        "x": 110,
         "y": 40,
         "wires": []
     },
     {
-        "id": "01a4da8a2b17d418",
-        "type": "s7 out",
+        "id": "3439d2d5445ce7eb",
+        "type": "ui_text",
         "z": "f56bc6acb992506d",
-        "endpoint": "8178b9f6e8586214",
-        "variable": "PCO_TT_BURNER ENABLE",
+        "group": "3bc390d38bd82689",
+        "order": 3,
+        "width": 6,
+        "height": 1,
         "name": "",
-        "x": 740,
-        "y": 320,
+        "label": "ACT1 INV STATE",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 770,
+        "y": 2680,
         "wires": []
     },
     {
-        "id": "652d3ae7d3ce751f",
-        "type": "ui_button",
+        "id": "e0e1b0877a9d1fdd",
+        "type": "function",
         "z": "f56bc6acb992506d",
-        "name": "",
-        "group": "3bc390d38bd82689",
-        "order": 4,
-        "width": 3,
-        "height": 1,
-        "passthru": false,
-        "label": "STOP",
-        "tooltip": "BURNER DISABLE",
-        "color": "{{text}}",
-        "bgcolor": "{{colour}}",
-        "className": "",
-        "icon": "",
-        "payload": "false",
-        "payloadType": "bool",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 530,
-        "y": 360,
+        "name": "STATE",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"AUTO\";\n}\nelse\n{\n    msg.payload = \"MANUAL\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 2680,
         "wires": [
             [
-                "01a4da8a2b17d418"
+                "3439d2d5445ce7eb"
             ]
         ]
     },
     {
-        "id": "a73d12abe7e2caf5",
+        "id": "cd6beb3aaafb769e",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "MODE",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"AUTO\";\n}\nelse\n{\n    msg.payload = \"MANUAL\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 2640,
+        "wires": [
+            [
+                "8837ace92586e588"
+            ]
+        ]
+    },
+    {
+        "id": "8837ace92586e588",
+        "type": "ui_text",
+        "z": "f56bc6acb992506d",
+        "group": "3bc390d38bd82689",
+        "order": 14,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "ACT1 INV MODE",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 770,
+        "y": 2640,
+        "wires": []
+    },
+    {
+        "id": "91700e259968ce84",
         "type": "ui_button",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "group": "3bc390d38bd82689",
+        "order": 17,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "ACT1 INV CONTROL",
+        "tooltip": "ACT1 INLET VALVE CONTROL",
+        "color": "",
+        "bgcolor": "{{msg.payload}}",
+        "className": "",
+        "icon": "settings",
+        "payload": "{\"group\":{\"show\":[\"TANK_ACT1_INV\"]}}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 180,
+        "y": 2760,
+        "wires": [
+            [
+                "c6a4b80ff2862f2c"
+            ]
+        ]
+    },
+    {
+        "id": "c6a4b80ff2862f2c",
+        "type": "ui_ui_control",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "events": "all",
+        "x": 540,
+        "y": 2760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fd3c4940c0657207",
+        "type": "ui_button",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "group": "103a94778801ce41",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "CLOSE",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "clear",
+        "payload": "{\"group\":{\"hide\":[\"TANK_ACT1_INV\"]}}",
+        "payloadType": "json",
+        "topic": "",
+        "topicType": "str",
+        "x": 220,
+        "y": 2800,
+        "wires": [
+            [
+                "c6a4b80ff2862f2c"
+            ]
+        ],
+        "info": "This is use to hide the Interlock Status"
+    },
+    {
+        "id": "b6c3d6e9a209d79c",
+        "type": "comment",
+        "z": "f56bc6acb992506d",
+        "name": "ACT1 INV",
+        "info": "",
+        "x": 140,
+        "y": 2720,
+        "wires": []
+    },
+    {
+        "id": "1f4feebac283c6c9",
+        "type": "ui_gauge",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "group": "3bc390d38bd82689",
+        "order": 1,
+        "width": 6,
+        "height": 3,
+        "gtype": "gage",
+        "title": "ACT1 TT PV",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#11ee11",
+            "#11ee11",
+            "#11ee11"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 690,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "f8c15656fcec7704",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "2 Decimal Place",
+        "func": "msg.payload = Number(msg.payload.toFixed(2));\n\n//if sensor wire break or out of range\nif (msg.payload < 0 || msg.payload > 50) \n{\n    msg.payload = \"Error\"\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 180,
+        "wires": [
+            [
+                "1f4feebac283c6c9"
+            ]
+        ]
+    },
+    {
+        "id": "3cc06cb9ccb52c57",
+        "type": "s7 in",
+        "z": "f56bc6acb992506d",
+        "endpoint": "8178b9f6e8586214",
+        "mode": "single",
+        "variable": "PCO_TT_PV",
+        "diff": true,
+        "name": "",
+        "x": 270,
+        "y": 180,
+        "wires": [
+            [
+                "f8c15656fcec7704"
+            ]
+        ]
+    },
+    {
+        "id": "84984140a79561be",
+        "type": "ui_text_input",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "label": "ACT1 TT SV (°C)",
+        "tooltip": "ACT1 TEMPERATURE SV",
+        "group": "3bc390d38bd82689",
+        "order": 15,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "10",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 250,
+        "y": 260,
+        "wires": [
+            [
+                "6493375cad03c55c"
+            ]
+        ]
+    },
+    {
+        "id": "bf8fa6275e29164b",
+        "type": "s7 out",
+        "z": "f56bc6acb992506d",
+        "endpoint": "8178b9f6e8586214",
+        "variable": "PCO_TT_SV",
+        "name": "",
+        "x": 1050,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "6493375cad03c55c",
+        "type": "switch",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "btwn",
+                "v": "0",
+                "vt": "num",
+                "v2": "ACT1_TT_RH",
+                "v2t": "global"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 450,
+        "y": 260,
+        "wires": [
+            [
+                "571bed819dadba75"
+            ],
+            [
+                "cd721c8aa48174bb",
+                "f0a78d764af5a8fe"
+            ]
+        ]
+    },
+    {
+        "id": "b9e19bcbc4257b49",
+        "type": "ui_toast",
+        "z": "f56bc6acb992506d",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "Cancel",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 1070,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f0a78d764af5a8fe",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "Warning Pop Up",
+        "func": "var RH = global.get(\"ACT1_TT_RH\");\n\nmsg.topic = \"Warning\"\nmsg.payload = \"Invalid Value. Insert Between 0 - \" + RH ;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 300,
+        "wires": [
+            [
+                "b9e19bcbc4257b49"
+            ]
+        ]
+    },
+    {
+        "id": "cd721c8aa48174bb",
+        "type": "change",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "ACT1_TT_SV",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 300,
+        "wires": [
+            [
+                "84984140a79561be"
+            ]
+        ]
+    },
+    {
+        "id": "571bed819dadba75",
+        "type": "change",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ACT1_TT_SV",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 750,
+        "y": 260,
+        "wires": [
+            [
+                "bf8fa6275e29164b"
+            ]
+        ]
+    },
+    {
+        "id": "1bba918d5aafb0fc",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "Set Max Gauge",
+        "func": "global.set(msg.topic, msg.payload);\n\nmsg = \n{\n    ui_control:\n    {\n    max:msg.payload\n    }\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 140,
+        "wires": [
+            [
+                "1f4feebac283c6c9"
+            ]
+        ]
+    },
+    {
+        "id": "fbcc3c229450229c",
+        "type": "ui_button",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "group": "3bc390d38bd82689",
+        "order": 10,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "ACT1 TT ALARM SETTING",
+        "tooltip": "ALARM SETTING",
+        "color": "",
+        "bgcolor": "{{msg.payload}}",
+        "className": "",
+        "icon": "settings",
+        "payload": "{\"group\":{\"show\":[\"TANK_ACT1_TT_ALARM_SETTING\"]}}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 180,
+        "y": 400,
+        "wires": [
+            [
+                "5a75b09226fcdc37"
+            ]
+        ]
+    },
+    {
+        "id": "5a75b09226fcdc37",
+        "type": "ui_ui_control",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "events": "all",
+        "x": 420,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "19cca3d5e8fea13b",
+        "type": "ui_button",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "group": "0a934e3350b374b5",
+        "order": 9,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "CLOSE",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "clear",
+        "payload": "{\"group\":{\"hide\":[\"TANK_ACT1_TT_ALARM_SETTING\"]}}",
+        "payloadType": "json",
+        "topic": "",
+        "topicType": "str",
+        "x": 220,
+        "y": 360,
+        "wires": [
+            [
+                "5a75b09226fcdc37"
+            ]
+        ],
+        "info": "This is use to hide the Interlock Status"
+    },
+    {
+        "id": "b7ede01654d5662d",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "GLOBAL MEM. HH",
+        "func": "global.set(msg.topic,msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 440,
+        "wires": [
+            [
+                "1cacbad75db01885",
+                "1ed6ca9a0b442d5a"
+            ]
+        ]
+    },
+    {
+        "id": "62082a90c4b271d8",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "GLOBAL MEM. H",
+        "func": "global.set(msg.topic,msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 480,
+        "wires": [
+            [
+                "f715235318340b03",
+                "1ed6ca9a0b442d5a"
+            ]
+        ]
+    },
+    {
+        "id": "047ee032971dd98f",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "GLOBAL MEM. L",
+        "func": "global.set(msg.topic,msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 520,
+        "wires": [
+            [
+                "4b48e04e30ae6cae",
+                "1ed6ca9a0b442d5a"
+            ]
+        ]
+    },
+    {
+        "id": "2ec16c1c2a86d1f1",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "GLOBAL MEM. LL",
+        "func": "global.set(msg.topic,msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 560,
+        "wires": [
+            [
+                "db6d6a6430634913",
+                "1ed6ca9a0b442d5a"
+            ]
+        ]
+    },
+    {
+        "id": "d128b562f6d367f6",
+        "type": "ui_text_input",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "label": "PCO TT ALM HH",
+        "tooltip": "ALARM HIGH HIGH SP",
+        "group": "0a934e3350b374b5",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "10",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 150,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a32f539f66194619",
+        "type": "ui_text_input",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "label": "PCO TT ALM H",
+        "tooltip": "ALARM HIGH SP",
+        "group": "0a934e3350b374b5",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "10",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 140,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "aa76cb8a7d5feb76",
+        "type": "ui_text_input",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "label": "PCO TT ALM L",
+        "tooltip": "ALARM LOW SP",
+        "group": "0a934e3350b374b5",
+        "order": 5,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "10",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 140,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "11372bb4788eb88a",
+        "type": "ui_text_input",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "label": "PCO TT ALM LL",
+        "tooltip": "ALARM LOW LOW SP",
+        "group": "0a934e3350b374b5",
+        "order": 7,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "10",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 140,
+        "y": 560,
+        "wires": [
+            [
+                "743a804edbca6d7f"
+            ]
+        ]
+    },
+    {
+        "id": "545d0faf9165698f",
+        "type": "comment",
+        "z": "f56bc6acb992506d",
+        "name": "To include Alarm limit later if needed",
+        "info": "",
+        "x": 1220,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "743a804edbca6d7f",
+        "type": "switch",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "btwn",
+                "v": "0",
+                "vt": "num",
+                "v2": "ACT1_TT_L",
+                "v2t": "global"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 350,
+        "y": 560,
+        "wires": [
+            [
+                "2ec16c1c2a86d1f1"
+            ],
+            [
+                "1a20d58aded5fb27",
+                "f3d12873a6cfb25e"
+            ]
+        ]
+    },
+    {
+        "id": "1a20d58aded5fb27",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "Warning Pop Up",
+        "func": "var L =global.get(\"PCO_TT_L\");\n\nmsg.topic = \"Warning\"\nmsg.payload = \"Invalid Value Insert Between 0 -\" + L;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 600,
+        "wires": [
+            [
+                "1ff8360d4bf17ada"
+            ]
+        ]
+    },
+    {
+        "id": "f3d12873a6cfb25e",
+        "type": "change",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "ACT1_TT_LL",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 280,
+        "y": 620,
+        "wires": [
+            [
+                "11372bb4788eb88a"
+            ]
+        ]
+    },
+    {
+        "id": "1ff8360d4bf17ada",
+        "type": "ui_toast",
+        "z": "f56bc6acb992506d",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "Cancel",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 890,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1cacbad75db01885",
+        "type": "s7 out",
+        "z": "f56bc6acb992506d",
+        "endpoint": "8178b9f6e8586214",
+        "variable": "PCO_TT_ALM_SV_HH",
+        "name": "",
+        "x": 930,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "f715235318340b03",
+        "type": "s7 out",
+        "z": "f56bc6acb992506d",
+        "endpoint": "8178b9f6e8586214",
+        "variable": "PCO_TT_ALM_SV_H",
+        "name": "",
+        "x": 920,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "4b48e04e30ae6cae",
+        "type": "s7 out",
+        "z": "f56bc6acb992506d",
+        "endpoint": "8178b9f6e8586214",
+        "variable": "PCO_TT_ALM_SV_L",
+        "name": "",
+        "x": 920,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "db6d6a6430634913",
+        "type": "s7 out",
+        "z": "f56bc6acb992506d",
+        "endpoint": "8178b9f6e8586214",
+        "variable": "PCO_TT_ALM_SV_LL",
+        "name": "",
+        "x": 920,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "1ed6ca9a0b442d5a",
+        "type": "trigger",
+        "z": "f56bc6acb992506d",
+        "name": "refresh sector",
+        "op1": "",
+        "op2": "true",
+        "op1type": "nul",
+        "op2type": "bool",
+        "duration": "10",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 800,
+        "y": 360,
+        "wires": [
+            [
+                "9ed42ed91ea1548a"
+            ]
+        ],
+        "info": "Commented on 17/1/2023\r\nThis is used to refresh the display setpoint whenever new value is inputted"
+    },
+    {
+        "id": "54cf8fb589ef0d4f",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "SET COLOUR RANGE",
+        "func": "var RH = global.get(\"PCO_TT_RH\");\nvar HH = global.get(\"PCO_TT_HH\");\nvar H = global.get(\"PCO_TT_H\");\nvar L = global.get(\"PCO_TT_L\");\nvar LL = global.get(\"PCO_TT_LL\");\n\n\nmsg.ui_control = {options:{customSectors: {\n  percents: false, \n  ranges: [{\n    color: \"#000BFD\",\n    lo : 0,\n    hi : LL\n  },{\n    color: \"#FDF600\",\n    lo : LL,\n    hi : L\n  },{\n    color: \"#1BFD00\",\n    lo : L,\n    hi : H\n  },{\n    color: \"#FD9200\",\n    lo : H,\n    hi : HH\n  },{\n    color : \"#FF0000\",\n    lo : HH,\n    hi : RH\n  }]\n    \n}}}\ndelete msg.payload\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 220,
+        "wires": [
+            [
+                "1f4feebac283c6c9"
+            ]
+        ]
+    },
+    {
+        "id": "9ed42ed91ea1548a",
+        "type": "link out",
+        "z": "f56bc6acb992506d",
+        "name": "ACT1 TT 2",
+        "mode": "link",
+        "links": [
+            "36557be65ef7b5cf"
+        ],
+        "x": 955,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "36557be65ef7b5cf",
+        "type": "link in",
+        "z": "f56bc6acb992506d",
+        "name": "ACT1 TT 1",
+        "links": [
+            "9ed42ed91ea1548a"
+        ],
+        "x": 295,
+        "y": 220,
+        "wires": [
+            [
+                "54cf8fb589ef0d4f"
+            ]
+        ]
+    },
+    {
+        "id": "e26f67db00fc388e",
+        "type": "ui_text_input",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "label": "HYSTERESIS HH",
+        "tooltip": "HYSTERESIS HIGH HIGH",
+        "group": "0a934e3350b374b5",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "10",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 150,
+        "y": 660,
+        "wires": [
+            [
+                "a82e09a3accf922d"
+            ]
+        ]
+    },
+    {
+        "id": "e31ca499472c224c",
+        "type": "ui_text_input",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "label": "HYSTERESIS H",
+        "tooltip": "HYSTERESIS LOW LOW",
+        "group": "0a934e3350b374b5",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "10",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 140,
+        "y": 700,
+        "wires": [
+            [
+                "f46275b3f8e1781d"
+            ]
+        ]
+    },
+    {
+        "id": "f1caca345c950278",
+        "type": "ui_text_input",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "label": "HYSTERESIS L",
+        "tooltip": "HYSTERESIS LOW",
+        "group": "0a934e3350b374b5",
+        "order": 8,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "10",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 140,
+        "y": 740,
+        "wires": [
+            [
+                "adb6739856124917"
+            ]
+        ]
+    },
+    {
+        "id": "07513944d4d51276",
+        "type": "ui_text_input",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "label": "HYSTERESIS LL",
+        "tooltip": "HYSTERESIS LOW LOW",
+        "group": "0a934e3350b374b5",
+        "order": 6,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "10",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 150,
+        "y": 780,
+        "wires": [
+            [
+                "2858f0e293243a34"
+            ]
+        ]
+    },
+    {
+        "id": "a82e09a3accf922d",
+        "type": "s7 out",
+        "z": "f56bc6acb992506d",
+        "endpoint": "8178b9f6e8586214",
+        "variable": "PCO_TT_HYS_SV_HH",
+        "name": "",
+        "x": 930,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "f46275b3f8e1781d",
+        "type": "s7 out",
+        "z": "f56bc6acb992506d",
+        "endpoint": "8178b9f6e8586214",
+        "variable": "PCO_TT_HYS_SV_H",
+        "name": "",
+        "x": 920,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "adb6739856124917",
+        "type": "s7 out",
+        "z": "f56bc6acb992506d",
+        "endpoint": "8178b9f6e8586214",
+        "variable": "PCO_TT_HYS_SV_L",
+        "name": "",
+        "x": 920,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "2858f0e293243a34",
+        "type": "s7 out",
+        "z": "f56bc6acb992506d",
+        "endpoint": "8178b9f6e8586214",
+        "variable": "PCO_TT_HYS_SV_LL",
+        "name": "",
+        "x": 920,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "bfeff3d4fceb0b13",
+        "type": "ui_text",
+        "z": "f56bc6acb992506d",
+        "group": "3bc390d38bd82689",
+        "order": 18,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "TT STATUS",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 890,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "2f577a01f96ce847",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "WIRE BREAK",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"WIRE BREAK\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 820,
+        "wires": [
+            [
+                "bfeff3d4fceb0b13"
+            ]
+        ]
+    },
+    {
+        "id": "e3f5fa21de7a3102",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "HIGH HIGH ALM",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"ALM HIGH HIGH\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 900,
+        "wires": [
+            [
+                "bfeff3d4fceb0b13"
+            ]
+        ]
+    },
+    {
+        "id": "7b0f9bd5a9c8963e",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "HIGH ALM",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"ALM HIGH\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 940,
+        "wires": [
+            [
+                "bfeff3d4fceb0b13"
+            ]
+        ]
+    },
+    {
+        "id": "d939703492bb827c",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "LOW ALM",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"ALM LOW\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 980,
+        "wires": [
+            [
+                "bfeff3d4fceb0b13"
+            ]
+        ]
+    },
+    {
+        "id": "e416e06befae343f",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "LOW LOW ALM",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"ALM LOW LOW\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 1020,
+        "wires": [
+            [
+                "bfeff3d4fceb0b13"
+            ]
+        ]
+    },
+    {
+        "id": "72624eed871f4f1a",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "OUT OF RANGE",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"OUT OF RANGE\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 860,
+        "wires": [
+            [
+                "bfeff3d4fceb0b13"
+            ]
+        ]
+    },
+    {
+        "id": "ce250d1daf018222",
+        "type": "comment",
+        "z": "f56bc6acb992506d",
+        "name": "ACID TEMPERATURE",
+        "info": "",
+        "x": 420,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "1437f291b9a9de49",
+        "type": "ui_gauge",
         "z": "f56bc6acb992506d",
         "name": "",
         "group": "3bc390d38bd82689",
         "order": 2,
-        "width": 3,
-        "height": 1,
-        "passthru": false,
-        "label": "RUN",
-        "tooltip": "BURNER ENABLE",
-        "color": "",
-        "bgcolor": "{{colour}}",
+        "width": 6,
+        "height": 3,
+        "gtype": "gage",
+        "title": "ACT1 LT PV",
+        "label": "mm",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#11ee11",
+            "#11ee11",
+            "#11ee11"
+        ],
+        "seg1": "",
+        "seg2": "",
         "className": "",
-        "icon": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 530,
-        "y": 280,
-        "wires": [
-            [
-                "01a4da8a2b17d418"
-            ]
-        ]
+        "x": 610,
+        "y": 1220,
+        "wires": []
     },
     {
-        "id": "791bffeb22cf3d5b",
+        "id": "d1467605784978ef",
         "type": "function",
         "z": "f56bc6acb992506d",
-        "name": "DISABLED BUTTON",
-        "func": "if (msg.payload == true)\n{\n    msg.enabled = false;\n}\nelse\n{\n    msg.enabled = true;\n}    \n\nreturn msg;",
+        "name": "2 Decimal Place",
+        "func": "msg.payload = Number(msg.payload.toFixed(2));\n\n//if sensor wire break or out of range\nif (msg.payload < 0 || msg.payload > 50) \n{\n    msg.payload = \"Error\"\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 340,
-        "y": 320,
+        "x": 400,
+        "y": 1220,
         "wires": [
             [
-                "a73d12abe7e2caf5",
-                "652d3ae7d3ce751f"
+                "1437f291b9a9de49"
             ]
         ]
     },
     {
-        "id": "dd29409086ad69b1",
-        "type": "function",
-        "z": "f56bc6acb992506d",
-        "name": "CHANGE COLOUR ",
-        "func": "if (msg.payload == true)\n{\n    msg.colour = \"green\";\n}\nelse\n{\n    msg.colour = \"grey\";\n}    \n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 340,
-        "y": 100,
-        "wires": [
-            [
-                "20990cccbb42ddd7"
-            ]
-        ]
-    },
-    {
-        "id": "1e7d1eac75a9f418",
-        "type": "function",
-        "z": "f56bc6acb992506d",
-        "name": "CHANGE COLOUR",
-        "func": "if (msg.payload == false)\n{\n    msg.colour = \"green\";\n}\nelse\n{\n    msg.colour = \"grey\";\n}    \n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 340,
-        "y": 160,
-        "wires": [
-            [
-                "04a3a268f936c3bd"
-            ]
-        ]
-    },
-    {
-        "id": "286a6c4bd9bf974d",
-        "type": "function",
-        "z": "f56bc6acb992506d",
-        "name": "CHANGE COLOUR ",
-        "func": "if (msg.payload == true)\n{\n    msg.colour = \"green\";\n}\nelse\n{\n    msg.colour = \"grey\";\n}    \n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 340,
-        "y": 280,
-        "wires": [
-            [
-                "a73d12abe7e2caf5"
-            ]
-        ]
-    },
-    {
-        "id": "8c1f4c4fc21608b9",
-        "type": "function",
-        "z": "f56bc6acb992506d",
-        "name": "CHANGE COLOUR",
-        "func": "if (msg.payload == false)\n{\n    msg.colour = \"red\";\n}\nelse\n{\n    msg.colour = \"grey\";\n}    \n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 340,
-        "y": 360,
-        "wires": [
-            [
-                "652d3ae7d3ce751f"
-            ]
-        ]
-    },
-    {
-        "id": "ccbcebccb68b6ca5",
-        "type": "inject",
+        "id": "909213ee86872137",
+        "type": "ui_text_input",
         "z": "f56bc6acb992506d",
         "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 360,
-        "y": 200,
+        "label": "ACT1 LT SV (°C)",
+        "tooltip": "ACT1 TEMPERATURE SV",
+        "group": "3bc390d38bd82689",
+        "order": 8,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "10",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 170,
+        "y": 1300,
         "wires": [
             [
-                "04a3a268f936c3bd"
+                "796348c15623fe17"
+            ]
+        ]
+    },
+    {
+        "id": "1f786dc0cb516734",
+        "type": "s7 out",
+        "z": "f56bc6acb992506d",
+        "endpoint": "8178b9f6e8586214",
+        "variable": "PCO_TT_SV",
+        "name": "",
+        "x": 970,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "796348c15623fe17",
+        "type": "switch",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "btwn",
+                "v": "0",
+                "vt": "num",
+                "v2": "ACT1_LT_RH",
+                "v2t": "global"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 370,
+        "y": 1300,
+        "wires": [
+            [
+                "02381f36df8679fd"
+            ],
+            [
+                "5d7a706cf54827f2",
+                "3387f01616e9941a"
+            ]
+        ]
+    },
+    {
+        "id": "adab7f130cb8a4c5",
+        "type": "ui_toast",
+        "z": "f56bc6acb992506d",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "Cancel",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 990,
+        "y": 1340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3387f01616e9941a",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "Warning Pop Up",
+        "func": "var RH = global.get(\"ACT1_TT_RH\");\n\nmsg.topic = \"Warning\"\nmsg.payload = \"Invalid Value. Insert Between 0 - \" + RH ;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 1340,
+        "wires": [
+            [
+                "adab7f130cb8a4c5"
+            ]
+        ]
+    },
+    {
+        "id": "5d7a706cf54827f2",
+        "type": "change",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "ACT1_LT_SV",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 1340,
+        "wires": [
+            [
+                "909213ee86872137"
+            ]
+        ]
+    },
+    {
+        "id": "02381f36df8679fd",
+        "type": "change",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ACT1_LT_SV",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 670,
+        "y": 1300,
+        "wires": [
+            [
+                "1f786dc0cb516734"
+            ]
+        ]
+    },
+    {
+        "id": "d40deddee90f0328",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "Set Max Gauge",
+        "func": "global.set(msg.topic, msg.payload);\n\nmsg = \n{\n    ui_control:\n    {\n    max:msg.payload\n    }\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 1180,
+        "wires": [
+            [
+                "1437f291b9a9de49"
+            ]
+        ]
+    },
+    {
+        "id": "e2cb10bd8d3c6f2d",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "SET COLOUR RANGE",
+        "func": "var RH = global.get(\"PCO_TT_RH\");\nvar HH = global.get(\"PCO_TT_HH\");\nvar H = global.get(\"PCO_TT_H\");\nvar L = global.get(\"PCO_TT_L\");\nvar LL = global.get(\"PCO_TT_LL\");\n\n\nmsg.ui_control = {options:{customSectors: {\n  percents: false, \n  ranges: [{\n    color: \"#000BFD\",\n    lo : 0,\n    hi : LL\n  },{\n    color: \"#FDF600\",\n    lo : LL,\n    hi : L\n  },{\n    color: \"#1BFD00\",\n    lo : L,\n    hi : H\n  },{\n    color: \"#FD9200\",\n    lo : H,\n    hi : HH\n  },{\n    color : \"#FF0000\",\n    lo : HH,\n    hi : RH\n  }]\n    \n}}}\ndelete msg.payload\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 1260,
+        "wires": [
+            [
+                "1437f291b9a9de49"
+            ]
+        ]
+    },
+    {
+        "id": "c359a30b763ec67e",
+        "type": "comment",
+        "z": "f56bc6acb992506d",
+        "name": "ACID LEVEL",
+        "info": "",
+        "x": 310,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "693552d5830162f1",
+        "type": "link in",
+        "z": "f56bc6acb992506d",
+        "name": "ACT1 LT 1",
+        "links": [
+            "d3925dbae3c7af6b"
+        ],
+        "x": 215,
+        "y": 1260,
+        "wires": [
+            [
+                "e2cb10bd8d3c6f2d"
+            ]
+        ]
+    },
+    {
+        "id": "b20711f8138c262d",
+        "type": "ui_button",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "group": "3bc390d38bd82689",
+        "order": 6,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "ACT1 LT ALARM SETTING",
+        "tooltip": "ALARM SETTING",
+        "color": "",
+        "bgcolor": "{{msg.payload}}",
+        "className": "",
+        "icon": "settings",
+        "payload": "{\"group\":{\"show\":[\"TANK_ACT1_LT_ALARM_SETTING\"]}}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 180,
+        "y": 1440,
+        "wires": [
+            [
+                "c9313b6a56c55e76"
+            ]
+        ]
+    },
+    {
+        "id": "c9313b6a56c55e76",
+        "type": "ui_ui_control",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "events": "all",
+        "x": 420,
+        "y": 1440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "936d7c1c6ad64b0d",
+        "type": "ui_button",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "group": "4253e9a4571a0156",
+        "order": 9,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "CLOSE",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "clear",
+        "payload": "{\"group\":{\"hide\":[\"TANK_ACT1_LT_ALARM_SETTING\"]}}",
+        "payloadType": "json",
+        "topic": "",
+        "topicType": "str",
+        "x": 220,
+        "y": 1400,
+        "wires": [
+            [
+                "c9313b6a56c55e76"
+            ]
+        ],
+        "info": "This is use to hide the Interlock Status"
+    },
+    {
+        "id": "aa0ed9baa0ff311e",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "GLOBAL MEM. HH",
+        "func": "global.set(msg.topic,msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 1480,
+        "wires": [
+            [
+                "fe049b3c1007490c",
+                "37727a4d1263dd4d"
+            ]
+        ]
+    },
+    {
+        "id": "4f180a7aa77a2e30",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "GLOBAL MEM. H",
+        "func": "global.set(msg.topic,msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 1520,
+        "wires": [
+            [
+                "7d9c1db201e9cff5",
+                "37727a4d1263dd4d"
+            ]
+        ]
+    },
+    {
+        "id": "7db4b8c975149bb9",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "GLOBAL MEM. L",
+        "func": "global.set(msg.topic,msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 1560,
+        "wires": [
+            [
+                "3cd9f7e5d5835f3e",
+                "37727a4d1263dd4d"
+            ]
+        ]
+    },
+    {
+        "id": "43c0faa7af55cf6c",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "GLOBAL MEM. LL",
+        "func": "global.set(msg.topic,msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 1600,
+        "wires": [
+            [
+                "9957e75e18f33b52",
+                "37727a4d1263dd4d"
+            ]
+        ]
+    },
+    {
+        "id": "d0f08f274837bfac",
+        "type": "ui_text_input",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "label": "ACT1 LT ALM HH",
+        "tooltip": "ALARM HIGH HIGH SP",
+        "group": "4253e9a4571a0156",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "10",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 150,
+        "y": 1480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "71185294c8930bee",
+        "type": "ui_text_input",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "label": "ACT1 LT ALM H",
+        "tooltip": "ALARM HIGH SP",
+        "group": "4253e9a4571a0156",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "10",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 140,
+        "y": 1520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cb084280a43e1b9b",
+        "type": "ui_text_input",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "label": "ACT1 LT ALM L",
+        "tooltip": "ALARM LOW SP",
+        "group": "4253e9a4571a0156",
+        "order": 5,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "10",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 140,
+        "y": 1560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ca95e329e6431d6e",
+        "type": "ui_text_input",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "label": "ACT1 LT ALM LL",
+        "tooltip": "ALARM LOW LOW SP",
+        "group": "4253e9a4571a0156",
+        "order": 7,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "10",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 150,
+        "y": 1600,
+        "wires": [
+            [
+                "0118080e57402a9d"
+            ]
+        ]
+    },
+    {
+        "id": "a953a12169874795",
+        "type": "comment",
+        "z": "f56bc6acb992506d",
+        "name": "To include Alarm limit later if needed",
+        "info": "",
+        "x": 1220,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "0118080e57402a9d",
+        "type": "switch",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "btwn",
+                "v": "0",
+                "vt": "num",
+                "v2": "ACT1_TT_L",
+                "v2t": "global"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 350,
+        "y": 1600,
+        "wires": [
+            [
+                "43c0faa7af55cf6c"
+            ],
+            [
+                "69f3dd480303ec97",
+                "818ef6cdb8cb78db"
+            ]
+        ]
+    },
+    {
+        "id": "69f3dd480303ec97",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "Warning Pop Up",
+        "func": "var L =global.get(\"PCO_TT_L\");\n\nmsg.topic = \"Warning\"\nmsg.payload = \"Invalid Value Insert Between 0 -\" + L;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1640,
+        "wires": [
+            [
+                "860b21fde59a1563"
+            ]
+        ]
+    },
+    {
+        "id": "818ef6cdb8cb78db",
+        "type": "change",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "ACT1_TT_LL",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 280,
+        "y": 1660,
+        "wires": [
+            [
+                "ca95e329e6431d6e"
+            ]
+        ]
+    },
+    {
+        "id": "860b21fde59a1563",
+        "type": "ui_toast",
+        "z": "f56bc6acb992506d",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "Cancel",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 890,
+        "y": 1640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fe049b3c1007490c",
+        "type": "s7 out",
+        "z": "f56bc6acb992506d",
+        "endpoint": "8178b9f6e8586214",
+        "variable": "PCO_TT_ALM_SV_HH",
+        "name": "",
+        "x": 930,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "7d9c1db201e9cff5",
+        "type": "s7 out",
+        "z": "f56bc6acb992506d",
+        "endpoint": "8178b9f6e8586214",
+        "variable": "PCO_TT_ALM_SV_H",
+        "name": "",
+        "x": 920,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "3cd9f7e5d5835f3e",
+        "type": "s7 out",
+        "z": "f56bc6acb992506d",
+        "endpoint": "8178b9f6e8586214",
+        "variable": "PCO_TT_ALM_SV_L",
+        "name": "",
+        "x": 920,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "9957e75e18f33b52",
+        "type": "s7 out",
+        "z": "f56bc6acb992506d",
+        "endpoint": "8178b9f6e8586214",
+        "variable": "PCO_TT_ALM_SV_LL",
+        "name": "",
+        "x": 920,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "37727a4d1263dd4d",
+        "type": "trigger",
+        "z": "f56bc6acb992506d",
+        "name": "refresh sector",
+        "op1": "",
+        "op2": "true",
+        "op1type": "nul",
+        "op2type": "bool",
+        "duration": "10",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 800,
+        "y": 1400,
+        "wires": [
+            [
+                "d3925dbae3c7af6b"
+            ]
+        ],
+        "info": "Commented on 17/1/2023\r\nThis is used to refresh the display setpoint whenever new value is inputted"
+    },
+    {
+        "id": "d3925dbae3c7af6b",
+        "type": "link out",
+        "z": "f56bc6acb992506d",
+        "name": "ACT1 LT 2",
+        "mode": "link",
+        "links": [
+            "693552d5830162f1"
+        ],
+        "x": 955,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "bff8b45fd0577ef8",
+        "type": "ui_text_input",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "label": "HYSTERESIS HH",
+        "tooltip": "HYSTERESIS HIGH HIGH",
+        "group": "4253e9a4571a0156",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "10",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 610,
+        "y": 1700,
+        "wires": [
+            [
+                "2e75c61f208539b8"
+            ]
+        ]
+    },
+    {
+        "id": "a18e0f235c89d55e",
+        "type": "ui_text_input",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "label": "HYSTERESIS H",
+        "tooltip": "HYSTERESIS LOW LOW",
+        "group": "4253e9a4571a0156",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "10",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 600,
+        "y": 1740,
+        "wires": [
+            [
+                "7dc38b2cc40df6cc"
+            ]
+        ]
+    },
+    {
+        "id": "43b3d41c4d05bbf6",
+        "type": "ui_text_input",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "label": "HYSTERESIS L",
+        "tooltip": "HYSTERESIS LOW",
+        "group": "4253e9a4571a0156",
+        "order": 8,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "10",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 600,
+        "y": 1780,
+        "wires": [
+            [
+                "4016cf4078867277"
+            ]
+        ]
+    },
+    {
+        "id": "379478fc9105a055",
+        "type": "ui_text_input",
+        "z": "f56bc6acb992506d",
+        "name": "",
+        "label": "HYSTERESIS LL",
+        "tooltip": "HYSTERESIS LOW LOW",
+        "group": "4253e9a4571a0156",
+        "order": 6,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "10",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 610,
+        "y": 1820,
+        "wires": [
+            [
+                "6a8876bf73c79b07"
+            ]
+        ]
+    },
+    {
+        "id": "2e75c61f208539b8",
+        "type": "s7 out",
+        "z": "f56bc6acb992506d",
+        "endpoint": "8178b9f6e8586214",
+        "variable": "PCO_TT_HYS_SV_HH",
+        "name": "",
+        "x": 930,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "7dc38b2cc40df6cc",
+        "type": "s7 out",
+        "z": "f56bc6acb992506d",
+        "endpoint": "8178b9f6e8586214",
+        "variable": "PCO_TT_HYS_SV_H",
+        "name": "",
+        "x": 920,
+        "y": 1740,
+        "wires": []
+    },
+    {
+        "id": "4016cf4078867277",
+        "type": "s7 out",
+        "z": "f56bc6acb992506d",
+        "endpoint": "8178b9f6e8586214",
+        "variable": "PCO_TT_HYS_SV_L",
+        "name": "",
+        "x": 920,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "6a8876bf73c79b07",
+        "type": "s7 out",
+        "z": "f56bc6acb992506d",
+        "endpoint": "8178b9f6e8586214",
+        "variable": "PCO_TT_HYS_SV_LL",
+        "name": "",
+        "x": 920,
+        "y": 1820,
+        "wires": []
+    },
+    {
+        "id": "8cf5e10833622635",
+        "type": "ui_text",
+        "z": "f56bc6acb992506d",
+        "group": "3bc390d38bd82689",
+        "order": 12,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "ACT1 LT STATE",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 900,
+        "y": 1860,
+        "wires": []
+    },
+    {
+        "id": "b68837023a3e1ca1",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "WIRE BREAK",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"WIRE BREAK\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 1860,
+        "wires": [
+            [
+                "8cf5e10833622635"
+            ]
+        ]
+    },
+    {
+        "id": "8e39f0dbe1d07cbb",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "HIGH HIGH ALM",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"ALM HIGH HIGH\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1940,
+        "wires": [
+            [
+                "8cf5e10833622635"
+            ]
+        ]
+    },
+    {
+        "id": "f6aec69481ef4e93",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "HIGH ALM",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"ALM HIGH\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 1980,
+        "wires": [
+            [
+                "8cf5e10833622635"
+            ]
+        ]
+    },
+    {
+        "id": "a89b17e3cc18ae24",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "LOW ALM",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"ALM LOW\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 2020,
+        "wires": [
+            [
+                "8cf5e10833622635"
+            ]
+        ]
+    },
+    {
+        "id": "adf0cc53a8b9ef31",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "LOW LOW ALM",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"ALM LOW LOW\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 2060,
+        "wires": [
+            [
+                "8cf5e10833622635"
+            ]
+        ]
+    },
+    {
+        "id": "77e56107157cb74d",
+        "type": "function",
+        "z": "f56bc6acb992506d",
+        "name": "OUT OF RANGE",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"OUT OF RANGE\";\n}\nelse\n{\n    msg.payload = \"-\";\n}    \n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1900,
+        "wires": [
+            [
+                "8cf5e10833622635"
             ]
         ]
     },
