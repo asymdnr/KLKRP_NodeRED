@@ -22,16 +22,30 @@
         "env": []
     },
     {
-        "id": "2bc02f46.a8e46",
+        "id": "c93ec0f3.64b248",
         "type": "tab",
-        "label": "EXAMPLE2",
+        "label": "EXAMPLE3",
         "disabled": false,
         "info": ""
     },
     {
-        "id": "c93ec0f3.64b248",
+        "id": "60463e3a.b7fb4",
         "type": "tab",
-        "label": "EXAMPLE3",
+        "label": "graph csv",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "cd9e47f3.c0e718",
+        "type": "tab",
+        "label": "chart example",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "6e3ea82b.1fc4d8",
+        "type": "tab",
+        "label": "example historical",
         "disabled": false,
         "info": ""
     },
@@ -54,9 +68,7 @@
             "c5de07a.b64baf8"
         ],
         "x": 54,
-        "y": 119,
-        "w": 532,
-        "h": 222
+        "y": 119
     },
     {
         "id": "76f83664.100318",
@@ -77,9 +89,7 @@
             "eef95bfa.0b0278"
         ],
         "x": 54,
-        "y": 359,
-        "w": 532,
-        "h": 222
+        "y": 359
     },
     {
         "id": "d3804d10.dfa69",
@@ -100,9 +110,7 @@
             "20b92e73.40a742"
         ],
         "x": 674,
-        "y": 119,
-        "w": 532,
-        "h": 222
+        "y": 119
     },
     {
         "id": "8a8084342085eb6f",
@@ -459,9 +467,7 @@
             "b81b6aa5b71dd29a"
         ],
         "x": 54,
-        "y": 19,
-        "w": 972,
-        "h": 482
+        "y": 19
     },
     {
         "id": "f840e9332560a7cf",
@@ -480,9 +486,7 @@
             "adf2b66bbfef77da"
         ],
         "x": 54,
-        "y": 519,
-        "w": 852,
-        "h": 122
+        "y": 519
     },
     {
         "id": "eb31b411689ba5ea",
@@ -508,9 +512,7 @@
             "e514383c619be0cf"
         ],
         "x": 54,
-        "y": 659,
-        "w": 1292,
-        "h": 202
+        "y": 659
     },
     {
         "id": "928ec4a3e9eb4898",
@@ -550,9 +552,7 @@
             "5e0bd196401e9f8e"
         ],
         "x": 54,
-        "y": 79,
-        "w": 1292,
-        "h": 402
+        "y": 79
     },
     {
         "id": "7afdfb632f0290dd",
@@ -618,9 +618,7 @@
             "a76fb98fc1f03921"
         ],
         "x": 54,
-        "y": 619,
-        "w": 1332,
-        "h": 822
+        "y": 619
     },
     {
         "id": "6f9ddfef4f750f18",
@@ -650,9 +648,7 @@
             "0f59d084e41e7eb0"
         ],
         "x": 54,
-        "y": 1479,
-        "w": 1312,
-        "h": 302
+        "y": 1479
     },
     {
         "id": "92ef5d8656c0079f",
@@ -718,9 +714,7 @@
             "668f193105a901a1"
         ],
         "x": 54,
-        "y": 1799,
-        "w": 1332,
-        "h": 822
+        "y": 1799
     },
     {
         "id": "9c3d9a4f6626aa35",
@@ -758,9 +752,7 @@
             "179d24b7d9192684"
         ],
         "x": 54,
-        "y": 2639,
-        "w": 1012,
-        "h": 562
+        "y": 2639
     },
     {
         "id": "8178b9f6e8586214",
@@ -19925,6 +19917,247 @@
         ]
     },
     {
+        "id": "44d9222c.07961c",
+        "type": "ui_group",
+        "name": "Charts",
+        "tab": "f779dd92.cf698",
+        "order": 2,
+        "disp": false,
+        "width": "6"
+    },
+    {
+        "id": "afe97566.fbda58",
+        "type": "ui_group",
+        "name": "Inputs",
+        "tab": "f779dd92.cf698",
+        "order": 1,
+        "disp": false,
+        "width": "6"
+    },
+    {
+        "id": "ef33233b.dd28f",
+        "type": "ui_group",
+        "name": "Group 3",
+        "tab": "f779dd92.cf698",
+        "order": 3,
+        "disp": false,
+        "width": "6"
+    },
+    {
+        "id": "f779dd92.cf698",
+        "type": "ui_tab",
+        "name": "Charts",
+        "icon": "dashboard",
+        "order": 2
+    },
+    {
+        "id": "365f6b900be3a1a6",
+        "type": "ui_group",
+        "name": "Group",
+        "tab": "",
+        "order": null,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "ddff4c51.b23e",
+        "type": "ui_group",
+        "z": "c93ec0f3.64b248",
+        "name": "G2",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "2ac8e3fa.8b8584",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "ebb1ed1c.5ebe2",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "ebb1ed1c.5ebe2",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "595895b0.98866c",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "c9285c84.26c5a",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "c9285c84.26c5a",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard"
+    },
+    {
+        "id": "435211f1.bcadf",
+        "type": "websocket-listener",
+        "path": "/ws/rtchart",
+        "wholemsg": "false"
+    },
+    {
+        "id": "480f6c25.dd7064",
+        "type": "ui_group",
+        "name": "Chart Scaling",
+        "tab": "20d4bd59.a21a22",
+        "order": 2,
+        "disp": true,
+        "width": "3",
+        "collapse": true
+    },
+    {
+        "id": "20d4bd59.a21a22",
+        "type": "ui_tab",
+        "name": "DS Pilot Extrusion Line",
+        "icon": "dashboard",
+        "order": 2
+    },
+    {
+        "id": "eebc9008.c66",
+        "type": "ui_group",
+        "name": "Dashboard",
+        "tab": "69dacb8c.3da294",
+        "order": 1,
+        "disp": true,
+        "width": "4",
+        "collapse": false
+    },
+    {
+        "id": "195cd998.7632b6",
+        "type": "ui_group",
+        "name": "Charts",
+        "tab": "69dacb8c.3da294",
+        "order": 3,
+        "disp": true,
+        "width": 11
+    },
+    {
+        "id": "b555fa85.b63bd8",
+        "type": "ui_group",
+        "name": "Chart Scaling",
+        "tab": "69dacb8c.3da294",
+        "order": 2,
+        "disp": true,
+        "width": "3",
+        "collapse": true
+    },
+    {
+        "id": "69dacb8c.3da294",
+        "type": "ui_tab",
+        "name": "DS Pilot Extrusion Line",
+        "icon": "dashboard",
+        "order": 2
+    },
+    {
+        "id": "a2c09fe8.458d6",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "5074feb8.5be66",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "5074feb8.5be66",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "7df748d.cf8d2b8",
+        "type": "ui_group",
+        "name": "Steuerung",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "3",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e79e709c.0f8a08",
+        "type": "ui_group",
+        "name": "Temperaturen",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 27,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "e3824b36.3f4de",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "8fd59465.d1e5e",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "8fd59465.d1e5e",
+        "type": "ui_tab",
+        "name": "Test Coast Time",
+        "icon": "dashboard"
+    },
+    {
+        "id": "8b5cde76.edd58",
+        "type": "ui_group",
+        "name": "",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "d580992f.308f18",
+        "type": "MySQLdatabase",
+        "d": true,
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "mqtt_data",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "2fdee068.4551f8",
+        "type": "ui_group",
+        "name": "Select Date time range",
+        "tab": "b724c3ac.56f638",
+        "order": 1,
+        "disp": true,
+        "width": "16",
+        "collapse": false
+    },
+    {
+        "id": "b724c3ac.56f638",
+        "type": "ui_tab",
+        "name": "HISTORICAL",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
         "id": "1a6a73230e00c124",
         "type": "comment",
         "z": "531e23be5dd8efe8",
@@ -29011,117 +29244,6 @@
         ]
     },
     {
-        "id": "5bfdfd75.5562a4",
-        "type": "inject",
-        "z": "2bc02f46.a8e46",
-        "name": "Hide",
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "{\"group\":{\"hide\":[\"Tab1_Group_1\"]}}",
-        "payloadType": "json",
-        "x": 190,
-        "y": 100,
-        "wires": [
-            [
-                "476fc34d.bc2a0c"
-            ]
-        ]
-    },
-    {
-        "id": "476fc34d.bc2a0c",
-        "type": "ui_ui_control",
-        "z": "2bc02f46.a8e46",
-        "name": "",
-        "x": 420,
-        "y": 120,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "6ebe218f.c626",
-        "type": "inject",
-        "z": "2bc02f46.a8e46",
-        "name": "Show",
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "{\"group\":{\"show\":[\"Tab1_Group_1\"]}}",
-        "payloadType": "json",
-        "x": 190,
-        "y": 180,
-        "wires": [
-            [
-                "476fc34d.bc2a0c"
-            ]
-        ]
-    },
-    {
-        "id": "f2a787bd.015a88",
-        "type": "function",
-        "z": "2bc02f46.a8e46",
-        "name": "Create payload",
-        "func": "msg.payload = {key1:\"Earth\",key2:\"Wind\",key3:\"Fire\", key4:\"Water\", key5:\"Node-RED \"};\nreturn msg;",
-        "outputs": "1",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 400,
-        "y": 320,
-        "wires": [
-            [
-                "fa84a230.b0719"
-            ]
-        ]
-    },
-    {
-        "id": "13c1f4d.609ae0b",
-        "type": "inject",
-        "z": "2bc02f46.a8e46",
-        "name": "",
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": "",
-        "topic": "",
-        "payload": "Start",
-        "payloadType": "str",
-        "x": 210,
-        "y": 320,
-        "wires": [
-            [
-                "f2a787bd.015a88"
-            ]
-        ]
-    },
-    {
-        "id": "fa84a230.b0719",
-        "type": "ui_template",
-        "z": "2bc02f46.a8e46",
-        "group": "",
-        "name": "Text Panel 1",
-        "order": 0,
-        "width": "0",
-        "height": "0",
-        "format": "<style>\n\n    #tex1 {\n        font-weight:bolder;\n        letter-spacing: 4px;\n        fill: red;\n    }\n    \n    #tex2 {\n        font-weight:bolder;\n        letter-spacing: 4px;\n        fill: lime;\n    }\n    \n    #tex3 {\n        font-weight:bolder;\n        letter-spacing: 4px;\n        fill: aqua;\n    }\n    \n    #tex4 {\n        font-weight:bolder;\n        letter-spacing: 4px;\n        fill: white;\n    }\n    \n    #tex5 {\n        font-weight:bolder;\n        letter-spacing: 4px;\n        fill: yellow;\n}\n    \n</style>\n\n\n<svg>\n\n\n<text id=\"tex1\" x=\"10\" y=\"10\" > {{msg.payload.key1}} </text>\n<text id=\"tex2\" x=\"10\" y=\"30\" > {{msg.payload.key2}} </text>\n<text id=\"tex3\" x=\"10\" y=\"50\" > {{msg.payload.key3}} </text>\n<text id=\"tex4\" x=\"10\" y=\"70\" > {{msg.payload.key4}} </text>\n<text id=\"tex5\" x=\"10\" y=\"90\" > {{msg.payload.key5}} </text>\n\n\n</svg>\n\n\n\n",
-        "storeOutMessages": false,
-        "fwdInMessages": false,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "className": "",
-        "x": 590,
-        "y": 320,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "3c759dea.4b6ce2",
         "type": "ui_button",
         "z": "c93ec0f3.64b248",
@@ -29728,5 +29850,2962 @@
                 "ba07289e.12a928"
             ]
         ]
+    },
+    {
+        "id": "a48dbabf.4f5808",
+        "type": "function",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "func": "var m={};\nm.labels = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\", \"July\"];\nm.series = ['Series A', 'Series B', 'Series C'];\nm.data = [\n    [65, 59, 80, 81, 56, 55, 40],\n    [28, 48, 40, 19, 86, 27, 90],\n    [38, 28, 20, 49, 45, 60, 20]\n  ];\nreturn {payload:[m]};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 1060,
+        "wires": [
+            [
+                "650b4d79.f130c4",
+                "4a76f20d.8e4ddc",
+                "58ab75b.7e7d58c",
+                "90af7f6b.a9a9e"
+            ]
+        ]
+    },
+    {
+        "id": "650b4d79.f130c4",
+        "type": "ui_chart",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "group": "44d9222c.07961c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "line chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "No Data",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 950,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e403a5c3.e8fe28",
+        "type": "function",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "func": "var chart = [{\n    \"series\":[\"A\",\"B\",\"C\"],\n    \"data\":[[{\"x\":1504029632890,\"y\":5},{\"x\":1504029636001,\"y\":4},{\"x\":1504029638656,\"y\":2}],[{\"x\":1504029633514,\"y\":6},{\"x\":1504029636622,\"y\":7},{\"x\":1504029639539,\"y\":6}],[{\"x\":1504029634400,\"y\":7},{\"x\":1504029637959,\"y\":9},{\"x\":1504029640317,\"y\":7}]],\n    \"labels\":[\"\"]\n}];\nmsg.payload = chart;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 900,
+        "wires": [
+            [
+                "650b4d79.f130c4"
+            ]
+        ]
+    },
+    {
+        "id": "487b12db.06998c",
+        "type": "ui_button",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "group": "afe97566.fbda58",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Time Line 1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 540,
+        "y": 900,
+        "wires": [
+            [
+                "e403a5c3.e8fe28"
+            ]
+        ]
+    },
+    {
+        "id": "4a76f20d.8e4ddc",
+        "type": "ui_chart",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "group": "44d9222c.07961c",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "bar chart",
+        "chartType": "bar",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "No Data",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 2,
+        "x": 950,
+        "y": 860,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "20bdd016.7aed1",
+        "type": "ui_button",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "group": "afe97566.fbda58",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "array",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 520,
+        "y": 1060,
+        "wires": [
+            [
+                "a48dbabf.4f5808"
+            ]
+        ]
+    },
+    {
+        "id": "5083c707.fc7158",
+        "type": "random",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "low": "1",
+        "high": "10000000",
+        "inte": "true",
+        "property": "payload",
+        "x": 700,
+        "y": 1260,
+        "wires": [
+            [
+                "650b4d79.f130c4"
+            ]
+        ]
+    },
+    {
+        "id": "9dc648e5.2a4238",
+        "type": "inject",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 540,
+        "y": 1260,
+        "wires": [
+            [
+                "5083c707.fc7158"
+            ]
+        ]
+    },
+    {
+        "id": "b0090ec8.78586",
+        "type": "function",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "func": "var m={};\nm.labels = [10,20,30,40,50,60,70];\nm.series = ['Series A', 'Series B', 'Series C', 'Series D'];\nm.data = [\n    [65, 59, 80, 81, 56, 55, 40],\n    [28, 48, 40, 19, 86, 27, 90],\n    [38, 28, 20, 49, 45, 60, 20],\n    [58, 18, 40, 29, 15, 30, 60]\n  ];\nreturn {payload:[m]};",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 680,
+        "y": 1100,
+        "wires": [
+            [
+                "650b4d79.f130c4",
+                "4a76f20d.8e4ddc",
+                "58ab75b.7e7d58c",
+                "90af7f6b.a9a9e"
+            ]
+        ]
+    },
+    {
+        "id": "b20275c0.f96e88",
+        "type": "ui_button",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "group": "afe97566.fbda58",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "array2",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 520,
+        "y": 1100,
+        "wires": [
+            [
+                "b0090ec8.78586"
+            ]
+        ]
+    },
+    {
+        "id": "ab8c5bb0.4508e8",
+        "type": "function",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "func": "var chart = [{\n    \"series\":[\"A\",\"B\",\"C\"],\n        \"data\":[[{\"x\":1,\"y\":5},{\"x\":2,\"y\":4},{\"x\":3,\"y\":2}],[{\"x\":4,\"y\":6},{\"x\":5,\"y\":7},{\"x\":6,\"y\":6}],[{\"x\":7,\"y\":7},{\"x\":8,\"y\":9},{\"x\":9,\"y\":7}]],\n    \"labels\":[\"\"]\n}];\nmsg.payload = chart;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 940,
+        "wires": [
+            [
+                "650b4d79.f130c4"
+            ]
+        ]
+    },
+    {
+        "id": "43f904d1.7a134c",
+        "type": "ui_button",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "group": "afe97566.fbda58",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Time Line 2",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 540,
+        "y": 940,
+        "wires": [
+            [
+                "ab8c5bb0.4508e8"
+            ]
+        ]
+    },
+    {
+        "id": "829fdc33.00756",
+        "type": "function",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "func": "var m = {};\nm.labels = [\"Download\", \"In-Store\", \"Mail-Order\"];\nm.data = [[300, 500, 100]];\nm.series = [\"Sales\"];\nreturn {payload:[m],topic:msg.topic};",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 700,
+        "y": 1300,
+        "wires": [
+            [
+                "90af7f6b.a9a9e",
+                "4a76f20d.8e4ddc",
+                "650b4d79.f130c4",
+                "ecc5d625.b10208",
+                "ad18c6bb.5616b8",
+                "58ab75b.7e7d58c"
+            ]
+        ]
+    },
+    {
+        "id": "90af7f6b.a9a9e",
+        "type": "ui_chart",
+        "z": "c93ec0f3.64b248",
+        "name": "pie chart",
+        "group": "44d9222c.07961c",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "pie chart",
+        "chartType": "pie",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": "30",
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 2,
+        "x": 990,
+        "y": 1040,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "e3265c1e.a374",
+        "type": "ui_button",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "group": "afe97566.fbda58",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "array for pie",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "Pie 4 T",
+        "x": 540,
+        "y": 1300,
+        "wires": [
+            [
+                "829fdc33.00756"
+            ]
+        ]
+    },
+    {
+        "id": "f8f677b.1576d88",
+        "type": "function",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "func": "var chart = [{\n    \"series\":[\"A\",\"B\",\"C\"],\n        \"data\":[[{\"x\":1000000,\"y\":5},{\"x\":2000000,\"y\":4},{\"x\":3000000,\"y\":2}],[{\"x\":4000000,\"y\":6},{\"x\":5000000,\"y\":7},{\"x\":6000000,\"y\":6}],[{\"x\":7000000,\"y\":7},{\"x\":8000000,\"y\":9},{\"x\":9000000,\"y\":7}]],\n    \"labels\":[\"\"]\n}];\nmsg.payload = chart;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 980,
+        "wires": [
+            [
+                "650b4d79.f130c4"
+            ]
+        ]
+    },
+    {
+        "id": "f3e12c6.63e10d",
+        "type": "ui_button",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "group": "afe97566.fbda58",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Time Line 3",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 540,
+        "y": 980,
+        "wires": [
+            [
+                "f8f677b.1576d88"
+            ]
+        ]
+    },
+    {
+        "id": "42352d8a.c44564",
+        "type": "function",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "func": "var chart = [{\n    \"series\":[\"A\",\"B\",\"C\"],\n        \"data\":[[{\"x\":1000000000,\"y\":5},{\"x\":2000000000,\"y\":4},{\"x\":3000000000,\"y\":2}],[{\"x\":4000000000,\"y\":6},{\"x\":5000000000,\"y\":7},{\"x\":6000000000,\"y\":6}],[{\"x\":7000000000,\"y\":7},{\"x\":8000000000,\"y\":9},{\"x\":9000000000,\"y\":7}]],\n    \"labels\":[\"\"]\n}];\nmsg.payload = chart;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 1020,
+        "wires": [
+            [
+                "650b4d79.f130c4"
+            ]
+        ]
+    },
+    {
+        "id": "f6d9c377.8e3bf",
+        "type": "ui_button",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "group": "afe97566.fbda58",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Time Line 4",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 540,
+        "y": 1020,
+        "wires": [
+            [
+                "42352d8a.c44564"
+            ]
+        ]
+    },
+    {
+        "id": "a9999623.3ecc08",
+        "type": "function",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "func": "var m={\n    \"series\":[\"X\",\"Y\",\"Z\"],\n    \"data\":[[5,6,9],[3,8,5],[6,7,2]],\n    \"labels\":[\"Jan\",\"Feb\",\"Mar\"]\n};\nreturn {payload:[m]};",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 680,
+        "y": 1220,
+        "wires": [
+            [
+                "650b4d79.f130c4",
+                "4a76f20d.8e4ddc",
+                "90af7f6b.a9a9e",
+                "ecc5d625.b10208",
+                "ad18c6bb.5616b8",
+                "58ab75b.7e7d58c"
+            ]
+        ]
+    },
+    {
+        "id": "4acffbad.64b224",
+        "type": "ui_button",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "group": "afe97566.fbda58",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "array3c",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 530,
+        "y": 1220,
+        "wires": [
+            [
+                "a9999623.3ecc08"
+            ]
+        ]
+    },
+    {
+        "id": "24b7730c.4a578c",
+        "type": "ui_button",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "group": "afe97566.fbda58",
+        "order": 11,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "array 2 for pie",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "Pie Hole",
+        "x": 550,
+        "y": 1340,
+        "wires": [
+            [
+                "fd0702c5.9feba"
+            ]
+        ]
+    },
+    {
+        "id": "fd0702c5.9feba",
+        "type": "function",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "func": "var m = {};\nm.labels = ['2006', '2007', '2008', '2009', '2010', '2011', '2012'];\nm.data = [[28, 48, 40, 19, 86, 27, 90]];\nm.series = ['Series A'];\nreturn {payload:[m],topic:msg.topic};",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 700,
+        "y": 1340,
+        "wires": [
+            [
+                "90af7f6b.a9a9e",
+                "4a76f20d.8e4ddc",
+                "ad18c6bb.5616b8",
+                "ecc5d625.b10208",
+                "650b4d79.f130c4",
+                "58ab75b.7e7d58c"
+            ]
+        ]
+    },
+    {
+        "id": "ea92c7ed.51ace8",
+        "type": "function",
+        "z": "c93ec0f3.64b248",
+        "name": "topic",
+        "func": "var m = [\n    {topic:\"X\", payload:22},\n    {topic:\"Y\", payload:66},\n    {topic:\"Z\", payload:42}\n    ];\nreturn [m];",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 680,
+        "y": 860,
+        "wires": [
+            [
+                "4a76f20d.8e4ddc",
+                "90af7f6b.a9a9e",
+                "650b4d79.f130c4",
+                "58ab75b.7e7d58c"
+            ]
+        ]
+    },
+    {
+        "id": "520a6f12.347fd",
+        "type": "inject",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 530,
+        "y": 860,
+        "wires": [
+            [
+                "ea92c7ed.51ace8"
+            ]
+        ]
+    },
+    {
+        "id": "91c7e52e.e90908",
+        "type": "function",
+        "z": "c93ec0f3.64b248",
+        "name": "label",
+        "func": "var m = [\n    {label:\"A\", payload:22},\n    {label:\"B\", payload:66},\n    {label:\"C\", payload:42},\n    ];\nreturn [m];",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 680,
+        "y": 820,
+        "wires": [
+            [
+                "4a76f20d.8e4ddc",
+                "90af7f6b.a9a9e",
+                "650b4d79.f130c4",
+                "58ab75b.7e7d58c"
+            ]
+        ]
+    },
+    {
+        "id": "16488b9e.ab8074",
+        "type": "inject",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 530,
+        "y": 820,
+        "wires": [
+            [
+                "91c7e52e.e90908"
+            ]
+        ]
+    },
+    {
+        "id": "f7c8e510.a97688",
+        "type": "function",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "func": "var m={\n    \"series\":[\"X\",\"Y\",\"Z\"],\n    \"data\":[[5],[3],[6]],\n    \"labels\":[\"Jan\"]\n};\nreturn {payload:[m]};",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 680,
+        "y": 1140,
+        "wires": [
+            [
+                "4a76f20d.8e4ddc",
+                "ecc5d625.b10208",
+                "ad18c6bb.5616b8",
+                "650b4d79.f130c4",
+                "58ab75b.7e7d58c",
+                "90af7f6b.a9a9e"
+            ]
+        ]
+    },
+    {
+        "id": "75e26eee.82da2",
+        "type": "ui_button",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "group": "afe97566.fbda58",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "array3a",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 530,
+        "y": 1140,
+        "wires": [
+            [
+                "f7c8e510.a97688"
+            ]
+        ]
+    },
+    {
+        "id": "4f7a2070.17bf2",
+        "type": "function",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "func": "var m={\n    \"series\":[\"X\"],\n    \"data\":[[5,3,6]],\n    \"labels\":[\"Jan\",\"Feb\",\"Mar\"]\n};\nreturn {payload:[m]};",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 680,
+        "y": 1180,
+        "wires": [
+            [
+                "4a76f20d.8e4ddc",
+                "650b4d79.f130c4",
+                "ad18c6bb.5616b8",
+                "ecc5d625.b10208",
+                "58ab75b.7e7d58c",
+                "90af7f6b.a9a9e"
+            ]
+        ]
+    },
+    {
+        "id": "259b3aa4.010d16",
+        "type": "ui_button",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "group": "afe97566.fbda58",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "array3b",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 530,
+        "y": 1180,
+        "wires": [
+            [
+                "4f7a2070.17bf2"
+            ]
+        ]
+    },
+    {
+        "id": "58ab75b.7e7d58c",
+        "type": "ui_chart",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "group": "ef33233b.dd28f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "horizontal bar",
+        "chartType": "horizontalBar",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": "30",
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 2,
+        "x": 970,
+        "y": 920,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "ecc5d625.b10208",
+        "type": "ui_chart",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "group": "ef33233b.dd28f",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "polar chart",
+        "chartType": "polar-area",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": "30",
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 2,
+        "x": 1000,
+        "y": 1160,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "ad18c6bb.5616b8",
+        "type": "ui_chart",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "group": "ef33233b.dd28f",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "label": "radar chart",
+        "chartType": "radar",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": "30",
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 2,
+        "x": 1000,
+        "y": 1220,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "549bbd5b.fb6494",
+        "type": "function",
+        "z": "c93ec0f3.64b248",
+        "name": "label",
+        "func": "var m = [\n    {label:\"A\", payload:22, series:\"X\"},\n    {label:\"B\", payload:66, series:\"X\"},\n    {label:\"C\", payload:42, series:\"X\"},\n    {label:\"A\", payload:33, series:\"Y\"},\n    {label:\"B\", payload:72, series:\"Y\"},\n    {label:\"C\", payload:12, series:\"Y\"},\n    {label:\"A\", payload:44, series:\"Z\"},\n    {label:\"B\", payload:32, series:\"Z\"},\n    {label:\"C\", payload:80, series:\"Z\"}\n    ];\nreturn [m];",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 680,
+        "y": 780,
+        "wires": [
+            [
+                "90af7f6b.a9a9e",
+                "4a76f20d.8e4ddc",
+                "650b4d79.f130c4",
+                "58ab75b.7e7d58c"
+            ]
+        ]
+    },
+    {
+        "id": "b37cbbe5.9aa2e8",
+        "type": "inject",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 530,
+        "y": 780,
+        "wires": [
+            [
+                "549bbd5b.fb6494"
+            ]
+        ]
+    },
+    {
+        "id": "5c9d5603.ee6e78",
+        "type": "ui_button",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "group": "afe97566.fbda58",
+        "order": 11,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Clear All",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "[]",
+        "payloadType": "json",
+        "topic": "",
+        "topicType": "str",
+        "x": 670,
+        "y": 740,
+        "wires": [
+            [
+                "ad18c6bb.5616b8",
+                "ecc5d625.b10208",
+                "90af7f6b.a9a9e",
+                "58ab75b.7e7d58c",
+                "4a76f20d.8e4ddc",
+                "650b4d79.f130c4"
+            ]
+        ]
+    },
+    {
+        "id": "8ca348eedd6c3179",
+        "type": "moment",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "topic": "",
+        "input": "",
+        "inputType": "msg",
+        "inTz": "Asia/Kuala_Lumpur",
+        "adjAmount": 0,
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "",
+        "locale": "en-US",
+        "output": "",
+        "outputType": "msg",
+        "outTz": "Asia/Kuala_Lumpur",
+        "x": 1060,
+        "y": 620,
+        "wires": [
+            [
+                "ebc9485f3565d3d4"
+            ]
+        ]
+    },
+    {
+        "id": "c8f0a731b6bbc9e2",
+        "type": "inject",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 770,
+        "y": 600,
+        "wires": [
+            [
+                "8ca348eedd6c3179",
+                "5fa6bf14cb58d7d7"
+            ]
+        ]
+    },
+    {
+        "id": "ebc9485f3565d3d4",
+        "type": "debug",
+        "z": "c93ec0f3.64b248",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1300,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "5fa6bf14cb58d7d7",
+        "type": "function",
+        "z": "c93ec0f3.64b248",
+        "name": "function 1",
+        "func": "msg.payload = Date(\"dd-MMM-yy\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 1,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1300,
+        "y": 720,
+        "wires": [
+            [
+                "678ff5e8bef049fd"
+            ]
+        ]
+    },
+    {
+        "id": "678ff5e8bef049fd",
+        "type": "debug",
+        "z": "c93ec0f3.64b248",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1520,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "a1622fa2e251c7a6",
+        "type": "inject",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 260,
+        "y": 1540,
+        "wires": [
+            [
+                "548f0f2ccf728f19",
+                "0f7ed7c2e6b5c686",
+                "f8bcab4b4ad7d1bd"
+            ]
+        ]
+    },
+    {
+        "id": "a77358b0525214f0",
+        "type": "debug",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 690,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "548f0f2ccf728f19",
+        "type": "function",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "func": "var timestamp = \"\";\nvar now = new Date().toLocaleString(\"DE\");\n\n\nmsg.payload = now ;\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 1500,
+        "wires": [
+            [
+                "c09811758947a2a0"
+            ]
+        ]
+    },
+    {
+        "id": "c09811758947a2a0",
+        "type": "debug",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 710,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "0f7ed7c2e6b5c686",
+        "type": "function",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "func": "\nvar now = new Date()\n\nmsg.payload = now;\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 1460,
+        "wires": [
+            [
+                "a77358b0525214f0"
+            ]
+        ]
+    },
+    {
+        "id": "f8bcab4b4ad7d1bd",
+        "type": "simpletime",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "mydate": false,
+        "myymd": false,
+        "myyear": false,
+        "mymonth": false,
+        "mymonthn": false,
+        "mydom": false,
+        "mydoy": false,
+        "myday": false,
+        "myhourpm": false,
+        "myhour": false,
+        "mytime": false,
+        "mytimes": true,
+        "myminute": false,
+        "myminutes": false,
+        "mysecond": false,
+        "mymillis": false,
+        "myepoch": false,
+        "myrawdate": false,
+        "mypm": false,
+        "x": 650,
+        "y": 1700,
+        "wires": [
+            [
+                "5d37e89053e6b267"
+            ]
+        ]
+    },
+    {
+        "id": "fe206c68160bd43c",
+        "type": "debug",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "mytimes",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1070,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "5d37e89053e6b267",
+        "type": "function",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "func": "\nvar now = new Date()\n\nmsg.payload = now;\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 1700,
+        "wires": [
+            [
+                "fe206c68160bd43c"
+            ]
+        ]
+    },
+    {
+        "id": "52d808ed7ae6c2d4",
+        "type": "ui_text_input",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "label": "start",
+        "tooltip": "",
+        "group": "365f6b900be3a1a6",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "mode": "time",
+        "delay": "0",
+        "topic": "start",
+        "sendOnBlur": false,
+        "className": "",
+        "topicType": "str",
+        "x": 290,
+        "y": 1800,
+        "wires": [
+            [
+                "2f94d0d4f3a0ddeb"
+            ]
+        ]
+    },
+    {
+        "id": "0d44203a93b85f91",
+        "type": "ui_text_input",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "label": "end",
+        "tooltip": "",
+        "group": "365f6b900be3a1a6",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "mode": "time",
+        "delay": "0",
+        "topic": "end",
+        "sendOnBlur": false,
+        "className": "",
+        "topicType": "str",
+        "x": 290,
+        "y": 1840,
+        "wires": [
+            [
+                "2f94d0d4f3a0ddeb"
+            ]
+        ]
+    },
+    {
+        "id": "2f94d0d4f3a0ddeb",
+        "type": "join",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 430,
+        "y": 1880,
+        "wires": [
+            [
+                "51617b33891cc989",
+                "78c30d91c40715f0"
+            ]
+        ]
+    },
+    {
+        "id": "042f179a09985d49",
+        "type": "ui_text",
+        "z": "c93ec0f3.64b248",
+        "group": "365f6b900be3a1a6",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "difference",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 760,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "51617b33891cc989",
+        "type": "function",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "func": "let date = new Date(msg.payload.end - msg.payload.start)\nlet hours = date.getUTCHours();\nlet minutes = \"0\" + date.getUTCMinutes();\nlet seconds = \"0\" + date.getUTCSeconds();\nmsg.payload = hours + ':' + minutes.substr(-2) + ':' + seconds.substr(-2);\nmsg.topic=\"difference\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1820,
+        "wires": [
+            [
+                "042f179a09985d49",
+                "78c30d91c40715f0"
+            ]
+        ]
+    },
+    {
+        "id": "78c30d91c40715f0",
+        "type": "debug",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 750,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "9712f63c19496dd4",
+        "type": "inject",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "this is for testing",
+        "payloadType": "str",
+        "x": 320,
+        "y": 2100,
+        "wires": [
+            [
+                "2341ca10174a6f7e"
+            ]
+        ]
+    },
+    {
+        "id": "2341ca10174a6f7e",
+        "type": "function",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "func": "node.log(\"Something happened\");\nnode.warn(\"Something happened you should know about\");\nnode.error(\"Oh no, something bad happened\");",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 2100,
+        "wires": [
+            [
+                "c6cea99ecdcf866a"
+            ]
+        ]
+    },
+    {
+        "id": "c6cea99ecdcf866a",
+        "type": "debug",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 2060,
+        "wires": []
+    },
+    {
+        "id": "7ecac352.dfff0c",
+        "type": "debug",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "active": false,
+        "console": "false",
+        "complete": "false",
+        "x": 1010,
+        "y": 2320,
+        "wires": []
+    },
+    {
+        "id": "46031e77.b3a134",
+        "type": "function",
+        "z": "c93ec0f3.64b248",
+        "name": "slice & aggregate to get plots of {timestamp,value)",
+        "func": "//solves the problem of plotting value @ timestamp data\n\nnode.log('in slicer function' + msg);\n\n//prototype safety skip if not needed\nif(msg.payload.ok !== true){\n    node.error('Missing OK property in incoming data');\n    context.set('cache',null); //wipes cache object\n    return;\n}\nelse{\n    var res = [];\n    var bNewData = false;\n    for(var ptr=0;ptr<msg.payload.data.length;ptr++){\n        var d = msg.payload.data[ptr];\n\n        var datapoints = context.get('cache'); //datapoints allready used\n        if(!datapoints)//initial const\n            datapoints = {};\n        \n        if(datapoints.hasOwnProperty(d.varId)===false)\n          {\n              var _data = {};\n              datapoints[d.varId] = _data;\n              _data.key = d.varId;\n              _data.values = []; //data for the chart contained here\n              _data.ts = []; //lookup for checking allready processed timestamps\n          }\n          \n        _data = datapoints[d.varId];\n        \n        var ts = Date.parse(d.tsLastChecked)*1; //ts is short for timestamp :-)\n        \n        \n        if(_data.ts.indexOf(ts)!==-1){\n            //do nada, got it earlier\n        }\n        else{\n            _data.ts.push(ts);\n            _data.values.push([ts, d.val])\n            bNewData = true; //trigger save to context\n        }\n    }\n    \n    if(bNewData)\n        context.set('cache', datapoints); \n    \n    //build output (chart top output shows what the target should look like)\n    var output = [];\n    for(var p in datapoints){\n        if(datapoints.hasOwnProperty(p) === true){\n            var values = datapoints[p].values;\n            output.push({key:p,values:values});\n        }\n    }\n    \n    var newMsg = {payload: output};\n    return newMsg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 451,
+        "y": 2304.27001953125,
+        "wires": [
+            [
+                "9813358f.42ced8",
+                "2b5b5e.f6cea0a2"
+            ]
+        ]
+    },
+    {
+        "id": "9813358f.42ced8",
+        "type": "ui_chart",
+        "z": "c93ec0f3.64b248",
+        "name": "Temps slice and aggregate",
+        "group": "ddff4c51.b23e",
+        "order": 0,
+        "width": "4",
+        "height": "4",
+        "label": "Temps",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "%H:%M:%S",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": "",
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 804,
+        "y": 2237.3399658203125,
+        "wires": [
+            [
+                "7ecac352.dfff0c"
+            ]
+        ]
+    },
+    {
+        "id": "2b5b5e.f6cea0a2",
+        "type": "debug",
+        "z": "c93ec0f3.64b248",
+        "name": "sl & ag output",
+        "active": true,
+        "console": "false",
+        "complete": "payload",
+        "x": 1022,
+        "y": 2401,
+        "wires": []
+    },
+    {
+        "id": "d04b8b7a.0b8c5",
+        "type": "inject",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 2302.6300048828125,
+        "wires": [
+            [
+                "46031e77.b3a134"
+            ]
+        ]
+    },
+    {
+        "id": "8a3a15fed74c7dc9",
+        "type": "ui_template",
+        "z": "c93ec0f3.64b248",
+        "group": "195cd998.7632b6",
+        "name": "",
+        "order": 18,
+        "width": 0,
+        "height": 0,
+        "format": "<div class=\"form-group\">\n    <label for=\"timeFilter\">Time Filter: {{msg.payload}} minutes</label>\n    <input type=\"range\" class=\"form-control-range\" id=\"timeFilter\" min=\"{{msg.min}}\" max=\"{{msg.max}}\" value=\"{{msg.payload}}\" oninput=\"showValue(this.value)\">\n</div>\n<script>\n    function showValue(newValue) {\n    var range = document.getElementById(\"timeFilter\");\n    var label = document.getElementById(\"timeFilterValue\");\n    range.value = newValue;\n    label.innerHTML = newValue;\n    var msg = {payload:newValue};\n    msg.topic = \"timeFilter\";\n    msg.min = range.min;\n    msg.max = range.max;\n    node.send(msg);\n  }\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 600,
+        "y": 2840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b075258b7d2b74af",
+        "type": "ui_slider",
+        "z": "c93ec0f3.64b248",
+        "name": "timeFilter",
+        "label": "timeFilter",
+        "tooltip": "timeFilter",
+        "group": "59d39777.641208",
+        "order": 19,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "60",
+        "step": 1,
+        "className": "timeFilter",
+        "x": 320,
+        "y": 2840,
+        "wires": [
+            [
+                "8a3a15fed74c7dc9"
+            ]
+        ]
+    },
+    {
+        "id": "665d232b8a8cdd9e",
+        "type": "debug",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 2680,
+        "wires": []
+    },
+    {
+        "id": "ec3062ccac698a11",
+        "type": "inject",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "props": [],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 230,
+        "y": 2600,
+        "wires": [
+            [
+                "26f17b87731d1442"
+            ]
+        ]
+    },
+    {
+        "id": "26f17b87731d1442",
+        "type": "random",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "low": 1,
+        "high": "100",
+        "inte": "true",
+        "property": "payload",
+        "x": 380,
+        "y": 2600,
+        "wires": [
+            [
+                "ee1384e5e3b2795e"
+            ]
+        ]
+    },
+    {
+        "id": "ee1384e5e3b2795e",
+        "type": "ui_chart",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "group": "44d9222c.07961c",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 710,
+        "y": 2600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d6088bb7eee835ef",
+        "type": "function",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "func": "var payload =msg.payload\nvar now = new Date();\n\nfor (let i=0; i<payload.length;i++)\n{\nvar value = msg.payload[i];\n\nvar temp1 = {\"x\": now, \"y\": payload[i]};\n}\nmsg.payload =[\n    {\n\"series\" : [\"Test Sensor\"],\n\"data\" : temp1,\n\"labels\" : [\"Temperature 1\"]\n}];\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 2520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "104da42d7cad286a",
+        "type": "function",
+        "z": "c93ec0f3.64b248",
+        "name": "graph generate",
+        "func": "\nfunction toTimestamp(strDate){\n     var datum = Date.parse(strDate);\n     return datum/1000;\n    }\nvar payload=msg.payload;\n\n\nvar data_out=[];\nvar a1=[];\nvar a2=[];\nvar a3=[];\nvar a4=[];\nfor(let i=0;i<payload.length;i++)\n{\n  \nvar Data= payload[i].Data.split(\"-\");\nvar t=Data[2]+\"/\"+Data[1]+\"/\"+Data[0];\nvar timestamp=toTimestamp(t+\" \"+payload[i][\"Godzina\"]);\n\n\nvar temp1={ \"x\": timestamp, \"y\":parseInt( payload[i][\"Temp_RS-485\"]) };\nvar temp2={ \"x\": timestamp, \"y\":parseInt( payload[i][\"Wilg_RS-485\"]) };\nvar temp3={ \"x\": timestamp, \"y\": parseInt(payload[i][\"Temperatura I\"])};\nvar temp4={\"x\": timestamp, \"y\": parseInt(payload[i][\"Wilgotność I\"])};\n\na1.push(temp1);\na2.push(temp2);\na3.push(temp3);\na4.push(temp4);\n \n \n //\n \n \n}\n\ndata_out=[a1,a2,a3,a4];\nmsg.payload=[{\n\"series\": [\"Temp_RS-485\",\"Wilg_RS-485\",\"Temperatura I\",\"Wilgotność I\"],\n\"data\":data_out,\n\"labels\": [\"Temp_RS-485\",\"Wilg_RS-485\",\"Temperatura I\",\"Wilgotność I\"]\n}];\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 2680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ce882998.462658",
+        "type": "inject",
+        "z": "c93ec0f3.64b248",
+        "name": "increment",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "increment",
+        "payload": "",
+        "payloadType": "date",
+        "x": 320,
+        "y": 3040,
+        "wires": [
+            [
+                "3afc2e42.168ee2"
+            ]
+        ]
+    },
+    {
+        "id": "3afc2e42.168ee2",
+        "type": "function",
+        "z": "c93ec0f3.64b248",
+        "name": "update element in data array ",
+        "func": "var data = context.get(\"data\") || [];\nif(data.length === 0 || msg.topic === \"clear\"){\n   data = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];\n}\nif(msg.topic === \"increment\"){\n    var hour = new Date().getHours();\n    data[hour] ++;\n}\ncontext.set(\"data\",data);\nmsg.payload = data;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 3060,
+        "wires": [
+            [
+                "ad0a04c3.a71b48"
+            ]
+        ]
+    },
+    {
+        "id": "ad0a04c3.a71b48",
+        "type": "function",
+        "z": "c93ec0f3.64b248",
+        "name": "format data for chart",
+        "func": "var data = msg.payload;\nmsg.payload = [{\n    \"series\": [ \"X\" ],\n    \"data\": [ data ],\n    \"labels\": [ \"00\",\"01\",\"02\",\"03\",\"04\",\"05\",\"06\",\"07\",\"08\",\"09\",\"10\",\"11\",\"12\",\"13\",\"14\",\"15\",\"16\",\"17\",\"18\",\"19\",\"20\",\"21\",\"22\",\"23\"]\n}];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 840,
+        "y": 3020,
+        "wires": [
+            [
+                "861ffad5.be4588"
+            ]
+        ]
+    },
+    {
+        "id": "861ffad5.be4588",
+        "type": "ui_chart",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "group": "595895b0.98866c",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "CHART",
+        "chartType": "bar",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 2,
+        "x": 1040,
+        "y": 3060,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "79b32a61.8e1b64",
+        "type": "inject",
+        "z": "c93ec0f3.64b248",
+        "name": "clear",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "clear",
+        "payload": "",
+        "payloadType": "date",
+        "x": 330,
+        "y": 3080,
+        "wires": [
+            [
+                "3afc2e42.168ee2"
+            ]
+        ]
+    },
+    {
+        "id": "191af3af.e6e50c",
+        "type": "template",
+        "z": "c93ec0f3.64b248",
+        "name": "Real Time Chart  v0.1 ",
+        "field": "payload",
+        "fieldType": "msg",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE HTML>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <meta HTTP-EQUIV=\"CACHE-CONTROL\" CONTENT=\"NO-CACHE\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" /> \n  <meta name=\"apple-mobile-web-app-capable\" content=\"yes\" />\n  <title>Real Time Chart v0.1</title>\n  <link rel=\"stylesheet\" href=\"//code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css\" />\n  <script src=\"//code.jquery.com/jquery-1.11.1.min.js\"></script>\n  <script src=\"//code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js\"></script>\n  \n  <script src=\"//cdnjs.cloudflare.com/ajax/libs/highcharts/4.0.4/highcharts.js\"></script>\n  \n  <script>//Node-Red mobi ui - LHG industrialinternet.co.uk\n\tconsole.log(\"NR Real Time Charts: v0.0.B\");\n\tvar  schedule = null;\t\t\t\t// schedule Obj \n\tvar itemLookup = null;  \t\t\t// pointer to current schedule event\n\tvar statusMsgDisplayed= false;\t// flag to stop msg disco effect\n\tvar prioritySet =false;\t\t  \t// flag showing if high prio msg being displayed\n\tvar  daiableWidgets = false;  \n\tvar connected = false;\n \tvar chart; \n \t\n \tif(location.protocol==\"https:\"){\n\t\tvar wsUri=\"wss://\"+window.location.hostname+\":1880/ws/rtchart\";\n\t} else {\n\t\tvar wsUri=\"ws://\"+window.location.hostname+\":1880/ws/rtchart\";\n\t}\n\tvar ws=null;\n\n\tfunction wsConn() {\n\t\tws = new WebSocket(wsUri);\n\t\tws.onmessage = function(m) {\n\t\t\tconsole.log('< from-node-red:',m.data);\n\t\t\tif (typeof(m.data) === \"string\" && m. data !== null){\n\t\t\t\tvar msg =JSON.parse(m.data);\n\t\t\t\tvar ftc = msg.id.substring(0, 3);\n\t\t\t\tif(ftc==\"apt\"){chartAddPoint(msg.v);}\n\t\t\t\tif(ftc==\"sta\"){statusMsgDisplayed= false;setStatus(msg.v.stMsg,msg.v.dur,msg.v.pri);}\n\t\t\t\tif(ftc==\"ack\"){clearReq();}\n\t\t\t}\n\t\t}\n\t\tws.onopen = function() { \n\t\t\tstatusMsgDisplayed=false;\n\t\t\tif(daiableWidgets==true){enablePage();}\n\t\t\tsetStatus(\"Connected\",5,0); \n\t\t\tconnected = true;\n\t\t\tvar obj = {\"id\":\"init\",\"v\":document.cookie};\n\t\t\tgetRequest = JSON.stringify(obj); \t\n\t\t\tws.send(getRequest);\t\t\t// Request ui status from NR\n\t\t\tconsole.log(\"sent init requeset\");\n\t\t}\n\t\tws.onclose   = function()  {\n\t\t\tconsole.log('Node-RED connection closed: '+new Date().toUTCString()); \n\t\t\tconnected = false; \n\t\t\tws = null;\n\t\t\tsetStatus(\"No connection to server!\",0,1);\n\t\t\tif(daiableWidgets==false){disablePage();}\n\t\t\tsetTimeout(wsConn, 10000);\n\t\t}\t\n\t\tws.onerror  = function(){\n\t\t\tconsole.log(\"connection error\");\n\t\t}\n\t}\n\twsConn(); \t\t\t\t\t// connect to Node-RED server\n\n\tfunction setStatus(msg,dur,pri){\t // show msg on status bar\n\t\tconsole.log(\"statusMsgDisplayed:\"+statusMsgDisplayed);\n\t\tif(statusMsgDisplayed== true){return};\n\t\tstatusMsgDisplayed=true;\n\t\tif(pri>0 && prioritySet == false  ){\n\t\t\tprioritySet = true;\t\t\t\n\t\t\t$(\"#statusView\").toggleClass(\"statusViewAlert\"); // toggle ON\n\t\t}  else if ( pri==0 && prioritySet == true) {\n\t\t\tprioritySet  = false;\n\t\t\t$(\"#statusView\").toggleClass(\"statusViewAlert\"); // toggle Off\n\t\t}\n\t\t$(\"#statusView\").show();\n\t\t$(\"#statusView\").html(msg);\n\t\tdur = dur*1000;\n\t\tif(dur >0){\n\t\t\tsetTimeout(function(){$(\"#statusView\").hide(200);$(\"#statusView\").html(\"\"); statusMsgDisplayed= false;prioritySet=false;},dur)\n\t\t}\n\t}\n\t\n\tfunction disablePage(){\t\t\n\t\t$(\"[data-role=flipswitch]\").flipswitch( \"disable\" );\n\t\t//$(\"[data-role=range]\").disabled = true;\n\t\t$(\"[data-role=range]\").slider( \"option\", \"disabled\", true );\n\t\t$(\"[data-rel=popup]\").toggleClass(\"ui-disabled\");\n\t\tdaiableWidgets = true;\n\t}\n\tfunction enablePage(){\n\t\t$(\"[data-role=flipswitch]\").flipswitch( \"enable\" );\n\t\t$(\"[data-role=range]\").slider( \"option\", \"enabled\", true );\n\t\t$(\"[data-role=range]\").slider( \"enable\" );\n\t\t$(\"[data-rel=popup]\").toggleClass(\"ui-disabled\");\n\t\tdaiableWidgets = false;\n\t}\n\t\n\tfunction chartAddPoint(point) {\n\t\tvar series = chart.series[0],\n\t\tshift = series.data.length > 20;\t\t\t\t\t\t // shift if the series is longer than 20\n\t\tchart.series[0].addPoint(eval(point), true, shift); \t// add the point\n\t}\n\t\n\t$(function() {\n\t\tchart = new Highcharts.Chart({\n\t\t\tchart: {\n\t\t\t\trenderTo: 'container',\n\t\t\t\tdefaultSeriesType: 'spline',\n\t\t\n\t\t\t},\n\t\t\ttitle: {\n\t\t\t\ttext: 'Live random data'\n\t\t\t},\n\t\t\txAxis: {\n\t\t\t\ttype: 'datetime',\n\t\t\t\ttickPixelInterval: 150,\n\t\t\t\tmaxZoom: 20 * 1000\n\t\t\t},\n\t\t\tyAxis: {\n\t\t\t\tminPadding: 0.2,\n\t\t\t\tmaxPadding: 0.2,\n\t\t\t\ttitle: {\n\t\t\t\t\ttext: 'Value',\n\t\t\t\t\tmargin: 80\n\t\t\t\t}\n\t\t\t},\n\t\t\tseries: [{\n\t\t\t\tname: 'Random data',\n\t\t\t\tdata: []\n\t\t\t}]\n\t\t});\t\n\t});\n      </script>\n  <style>\n\t\t#c1, #c2 {background-color: #FFF !important;}\n  \t\tdiv .ui-input-text {padding:0 .4em;} \n\t\t.valLable {float: left !important; min-width: 85px !important; margin-top:4px !important; padding: 0;}\n\t\t.valSmall {width:70px; height: 40px !important; float: left !important; margin-top:-12px !important;}\n\t\t.valMedium {width:156px; height: 40px !important; float: left !important; margin-top:-12px !important;}\n\t\t.valLarge {width:220px; height: 40px !important; float: left !important; margin-top:-12px !important;}\n\t\t.valHour {width:100px; height: 40px !important; float: left !important; margin-top:-12px !important;}\n\t\t.flipLable {float: left !important; min-width: 140px !important;}\n\t\t@media only screen and (min-width: 521px){\n\t\t\t#header1 {width: 1507px !important;  margin:auto auto !important; position: relative !important; border:1px solid #cccccc;}\n\t\t\t#c1 {width: 1475px !important; min-height:500px !important; margin:auto auto !important; position: relative !important; border:1px solid #cccccc; border-top:0px;}\n\t\t\t#c2 {width: 1475px !important; min-height:500px !important; margin:auto auto !important; position: relative !important; border:1px solid #cccccc; border-top:0px;}\n\t\t\t.t1 {width: 1506px !important; margin:auto auto !important; position: relative !important; padding-right: 4px !important;}\n\t\t\t.flipLable {float: left !important; min-width: 320px !important;}\n\t\t\t.valMedium {width:330px; height: 40px !important; float: left !important; margin-top:-12px !important;}\n\t\t\t.sep {display: none !important;}\n\t\t}\t\n\t\t.alert {font-weight: bold; color: #FF6C01;}\n\t\t.smallin .ui-input-text {width: 200px !important; color:red;}\n\t\tlegend.h1lb {padding:0 0 0 0;}\n\t\t.statusView {width: 100% !important;  margin:0px; position: relative !important; height:28px; padding:10px 0 0 0; background-color:#E9E9E9; font-weight:bold; -webkit-border-radius: 0.7em !important; border-radius: 0.7em; text-align:center; }\n\t\t.statusViewAlert {width: 100% !important;  margin:0px; position: relative !important; height:28px; padding:10px 0 0 0; background-color:#F8B584 !important; font-weight:bold; -webkit-border-radius: 0.7em !important; border-radius: 0.7em; display:none; text-align:center; }\n\t\t.ui-flipswitch {\"border-radius: 2em !important; -webkit-border-radius: 2em !important; -moz-border-radius: 2em !important;}\n\t\t/* Active button */\n\t\t.ui-page-theme-a .ui-btn.ui-btn-active,html .ui-bar-a .ui-btn.ui-btn-active,html .ui-body-a .ui-btn.ui-btn-active,html body .ui-group-theme-a .ui-btn.ui-btn-active,html head + body .ui-btn.ui-btn-a.ui-btn-active,\n\t\t/* Active checkbox icon */\n\t\t.ui-page-theme-a .ui-checkbox-on:after,html .ui-bar-a .ui-checkbox-on:after,html .ui-body-a .ui-checkbox-on:after,html body .ui-group-theme-a .ui-checkbox-on:after,.ui-btn.ui-checkbox-on.ui-btn-a:after,\n\t\t/* Active flipswitch background */.ui-page-theme-a .ui-flipswitch-active,html .ui-bar-a .ui-flipswitch-active,html .ui-body-a .ui-flipswitch-active,html body .ui-group-theme-a .ui-flipswitch-active,\n\t\thtml body .ui-flipswitch.ui-bar-a.ui-flipswitch-active,\n\t\t/* Active slider track */\n\t\t.ui-page-theme-a .ui-slider-track .ui-btn-active,html .ui-bar-a .ui-slider-track .ui-btn-active,html .ui-body-a .ui-slider-track .ui-btn-active,html body .ui-group-theme-a .ui-slider-track .ui-btn-active,html body div.ui-slider-track.ui-body-a .ui-btn-active {\n\t\t\tbackground-color: \t\t#FF6C01 !important;\n\t\t\tborder-color:\t \t\t#FF6C01 !important;\n\t\t\tcolor: \t\t\t\t\t#fff /*{a-active-color}*/;\n\t\t\ttext-shadow: 0 /*{a-active-shadow-x}*/ 1px /*{a-active-shadow-y}*/ 0 /*{a-active-shadow-radius}*/ #005599 /*{a-active-shadow-color}*/;\n\t\t}\n   </style>\n</head>\n<body>\n  <!-- Home -->\n  <div data-role=\"page\" id=\"noderedmobiui\">\n    <div id=\"header1\" data-role=\"header\">\n        <h3 style=\"color:#FF6C01\">Real Time Charts v0.1</h3>\n\t\t<a href=\"#\" title=\"reload\" class=\"ui-btn ui-shadow ui-corner-all ui-icon-refresh ui-btn-icon-notext ui-btn-inline\" id=\"b1\" >Reload</a>\t\n\t</div>\n\t\t<div id=\"c1\" class=\"ui-content\">\n\t\t\t<div id=\"statusView\" class=\"statusView\" style=\"display:none;\"></div>\t\t\n\t\t\t<div id=\"container\" style=\"width: 100%; margin-left:-5px;\"></div>\t\t\n\t\t</div>\n\t</div><!-- eof page -->\n  </body>\n</html>",
+        "x": 660,
+        "y": 3240,
+        "wires": [
+            [
+                "e50b9b00.1af468"
+            ]
+        ]
+    },
+    {
+        "id": "e50b9b00.1af468",
+        "type": "http response",
+        "z": "c93ec0f3.64b248",
+        "name": "rtchart",
+        "x": 931,
+        "y": 3239,
+        "wires": []
+    },
+    {
+        "id": "dd2a1c76.22d5e",
+        "type": "http in",
+        "z": "c93ec0f3.64b248",
+        "name": "http-get-rtchart",
+        "url": "/rtchart",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 408,
+        "y": 3239,
+        "wires": [
+            [
+                "191af3af.e6e50c"
+            ]
+        ]
+    },
+    {
+        "id": "36fa76cd.c9058a",
+        "type": "inject",
+        "z": "c93ec0f3.64b248",
+        "name": "update chart",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 421.142822265625,
+        "y": 3293.4285888671875,
+        "wires": [
+            [
+                "41bb698c.be4498"
+            ]
+        ]
+    },
+    {
+        "id": "41bb698c.be4498",
+        "type": "function",
+        "z": "c93ec0f3.64b248",
+        "name": "Real Time Chart",
+        "func": "var vr = Math.random()*42;\nif(vr > 50){vr = 50;}\nmsg.payload = {id:\"apt\", v:[msg.payload,vr]};\nreturn msg;",
+        "outputs": 1,
+        "x": 673.142822265625,
+        "y": 3295.4285888671875,
+        "wires": [
+            [
+                "6c2cfe05.93d3"
+            ]
+        ]
+    },
+    {
+        "id": "6c2cfe05.93d3",
+        "type": "websocket out",
+        "z": "c93ec0f3.64b248",
+        "name": "ws-rtchart",
+        "server": "435211f1.bcadf",
+        "x": 932,
+        "y": 3294,
+        "wires": []
+    },
+    {
+        "id": "7cab122e.784c2c",
+        "type": "function",
+        "z": "c93ec0f3.64b248",
+        "name": "Format X-Axis",
+        "func": "if(msg.topic == 'time'){\n    var x = msg.payload * 60000; //input convert to milliseconds\n    var d = new Date().getTime() - x //current time in milliseconds - input\n    delete msg.payload;\n    delete msg.topic;\n    msg.ui_control = { \n        options: {\n            scales: {\n                xAxes: [{\n                    type: 'time',\n                    time: {\n                        min: d\n                    }\n                }]\n            }\n        }\n    }\n    return msg; \n}\n\n \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 3460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "73f1e3be.f64f8c",
+        "type": "ui_text_input",
+        "z": "c93ec0f3.64b248",
+        "name": "",
+        "label": "Minutes",
+        "tooltip": "",
+        "group": "480f6c25.dd7064",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "time",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 390,
+        "y": 3460,
+        "wires": [
+            [
+                "7cab122e.784c2c"
+            ]
+        ]
+    },
+    {
+        "id": "fd6a782f.8607a8",
+        "type": "inject",
+        "z": "60463e3a.b7fb4",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "start",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 150,
+        "y": 80,
+        "wires": [
+            [
+                "f6d3c9af.1c6d18"
+            ]
+        ]
+    },
+    {
+        "id": "ff0ba1e2.f46ab",
+        "type": "ui_chart",
+        "z": "60463e3a.b7fb4",
+        "name": "",
+        "group": "2ac8e3fa.8b8584",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "2",
+        "removeOlderPoints": "1000",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "x": 590,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2466e014.fe459",
+        "type": "debug",
+        "z": "60463e3a.b7fb4",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 570,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "f6d3c9af.1c6d18",
+        "type": "file in",
+        "z": "60463e3a.b7fb4",
+        "name": "",
+        "filename": "example.csv",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 260,
+        "y": 160,
+        "wires": [
+            [
+                "3d784d1.a733332",
+                "2466e014.fe459"
+            ]
+        ]
+    },
+    {
+        "id": "3d784d1.a733332",
+        "type": "csv",
+        "z": "60463e3a.b7fb4",
+        "name": "",
+        "sep": ",",
+        "hdrin": true,
+        "hdrout": "",
+        "multi": "mult",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": false,
+        "include_null_values": false,
+        "x": 350,
+        "y": 240,
+        "wires": [
+            [
+                "f3d8e5f0.29d548",
+                "2466e014.fe459"
+            ]
+        ]
+    },
+    {
+        "id": "f3d8e5f0.29d548",
+        "type": "function",
+        "z": "60463e3a.b7fb4",
+        "name": "graph generate",
+        "func": "\nfunction toTimestamp(strDate){\n     var datum = Date.parse(strDate);\n     return datum/1000;\n    }\nvar payload=msg.payload;\n\n\nvar data_out=[];\nvar a1=[];\nvar a2=[];\nvar a3=[];\nvar a4=[];\nfor(let i=0;i<payload.length;i++)\n{\n  \nvar Data= payload[i].Data.split(\"-\");\nvar t=Data[2]+\"/\"+Data[1]+\"/\"+Data[0];\nvar timestamp=toTimestamp(t+\" \"+payload[i][\"Godzina\"]);\n\n\nvar temp1={ \"x\": timestamp, \"y\":parseInt( payload[i][\"Temp_RS-485\"]) };\nvar temp2={ \"x\": timestamp, \"y\":parseInt( payload[i][\"Wilg_RS-485\"]) };\nvar temp3={ \"x\": timestamp, \"y\": parseInt(payload[i][\"Temperatura I\"])};\nvar temp4={\"x\": timestamp, \"y\": parseInt(payload[i][\"Wilgotność I\"])};\n\na1.push(temp1);\na2.push(temp2);\na3.push(temp3);\na4.push(temp4);\n \n \n //\n \n \n}\n\ndata_out=[a1,a2,a3,a4];\nmsg.payload=[{\n\"series\": [\"Temp_RS-485\",\"Wilg_RS-485\",\"Temperatura I\",\"Wilgotność I\"],\n\"data\":data_out,\n\"labels\": [\"Temp_RS-485\",\"Wilg_RS-485\",\"Temperatura I\",\"Wilgotność I\"]\n}];\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 360,
+        "wires": [
+            [
+                "2466e014.fe459",
+                "ff0ba1e2.f46ab"
+            ]
+        ]
+    },
+    {
+        "id": "8926ee13.cae4c",
+        "type": "ui_gauge",
+        "z": "cd9e47f3.c0e718",
+        "name": "",
+        "group": "eebc9008.c66",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Melt Temperature",
+        "label": "°F",
+        "format": "{{value|number:2}}",
+        "min": 0,
+        "max": "1000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "700",
+        "seg2": "900",
+        "x": 930,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "5d1b683.cca8798",
+        "type": "ui_chart",
+        "z": "cd9e47f3.c0e718",
+        "name": "",
+        "group": "195cd998.7632b6",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Melt Temperature",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "awaiting data...",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "1000",
+        "removeOlder": "30",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 930,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9f20ea28.10c8a8",
+        "type": "ui_text_input",
+        "z": "cd9e47f3.c0e718",
+        "name": "",
+        "label": "Ymax",
+        "tooltip": "",
+        "group": "b555fa85.b63bd8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "number",
+        "delay": "300",
+        "topic": "ymax",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 384,
+        "y": 276,
+        "wires": [
+            [
+                "0a0356649bcc326c"
+            ]
+        ]
+    },
+    {
+        "id": "6a54fbe1.e17f34",
+        "type": "ui_text_input",
+        "z": "cd9e47f3.c0e718",
+        "name": "",
+        "label": "Ymin",
+        "tooltip": "",
+        "group": "b555fa85.b63bd8",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "number",
+        "delay": "300",
+        "topic": "ymin",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 384,
+        "y": 236,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5b06b35d.8aa9bc",
+        "type": "inject",
+        "z": "cd9e47f3.c0e718",
+        "name": "",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "topic": "wind",
+        "x": 110,
+        "y": 460,
+        "wires": [
+            [
+                "5dad34da.a11c7c"
+            ]
+        ]
+    },
+    {
+        "id": "5dad34da.a11c7c",
+        "type": "random",
+        "z": "cd9e47f3.c0e718",
+        "name": "random between 1 - 500",
+        "low": "1",
+        "high": "500",
+        "inte": "false",
+        "property": "payload",
+        "x": 310,
+        "y": 460,
+        "wires": [
+            [
+                "6be5639ec1170240",
+                "5d1b683.cca8798",
+                "80c8bdef6b4a8817"
+            ]
+        ]
+    },
+    {
+        "id": "ae2baf51.522b7",
+        "type": "function",
+        "z": "cd9e47f3.c0e718",
+        "name": "Format chart",
+        "func": "var y = flow.get('ychartprops'); //time back in milliseconds\n//var x = flow.get('chartprops').xaxis.min; //time back in milliseconds\nvar x = flow.get('chartprops'); //time back in milliseconds\nvar d = new Date().getTime() - x //current time in milliseconds - desired time\n\ndelete msg.payload;\ndelete msg.topic;\n\n//send all modification in one go\nmsg.ui_control = { \n    options: {\n        scales: {\n            xAxes: [{\n                type: 'time',\n                time: {\n                    min: d\n                        }\n            }],\n            yAxes: [{\n                    ticks: {\n                        fontColor: 'white',\n                        max: y\n                    }\n                }]\n            }\n    }\n    }\nreturn msg; \n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 340,
+        "wires": [
+            [
+                "5d1b683.cca8798"
+            ]
+        ]
+    },
+    {
+        "id": "90b940c6.ee8c",
+        "type": "ui_text_input",
+        "z": "cd9e47f3.c0e718",
+        "name": "",
+        "label": "Minutes",
+        "tooltip": "",
+        "group": "b555fa85.b63bd8",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "number",
+        "delay": "300",
+        "topic": "time",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 374,
+        "y": 196,
+        "wires": [
+            [
+                "88721941731a443c"
+            ]
+        ]
+    },
+    {
+        "id": "fedec5e0.22c288",
+        "type": "function",
+        "z": "cd9e47f3.c0e718",
+        "name": "Store chart options",
+        "func": "var chartprops = flow.get('chartprops')\nswitch(msg.topic){\n    case 'time':\n        chartprops.xaxis.min = msg.payload * 60000;\n        break;\n    \n    case 'ymin':\n        chartprops.yaxis.min = msg.payload;\n        break;\n    \n    case 'ymax':\n        chartprops.yaxis.max = msg.payload;\n        break;\n    \n}\n\nflow.set('chartprops',chartprops)\n// message continues to flow but in next node properties will be deleted\n// it will be used only as change event\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b0cf3b4b.89c358",
+        "type": "inject",
+        "z": "cd9e47f3.c0e718",
+        "name": "Resend chart format",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 374,
+        "y": 366,
+        "wires": [
+            [
+                "ae2baf51.522b7"
+            ]
+        ]
+    },
+    {
+        "id": "353a44f7.2200ac",
+        "type": "comment",
+        "z": "cd9e47f3.c0e718",
+        "name": "Resend - read comments !",
+        "info": "If minimum time is sent to chart, it will be absolute\nChart does not take it as time frame\nSo if change is in minutes, it is reasonable enough\nto send new min value to chart in every minute\nto hold time frame constant",
+        "x": 384,
+        "y": 326,
+        "wires": []
+    },
+    {
+        "id": "b89a6d459b505f2b",
+        "type": "ui_button",
+        "z": "cd9e47f3.c0e718",
+        "name": "",
+        "group": "eebc9008.c66",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Clear All",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "[]",
+        "payloadType": "json",
+        "topic": "",
+        "topicType": "str",
+        "x": 460,
+        "y": 140,
+        "wires": [
+            [
+                "ae2baf51.522b7"
+            ]
+        ]
+    },
+    {
+        "id": "0a0356649bcc326c",
+        "type": "function",
+        "z": "cd9e47f3.c0e718",
+        "name": "Store chart options",
+        "func": "\n\nflow.set('ychartprops',msg.payload)\n// message continues to flow but in next node properties will be deleted\n// it will be used only as change event\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 260,
+        "wires": [
+            [
+                "ae2baf51.522b7"
+            ]
+        ]
+    },
+    {
+        "id": "88721941731a443c",
+        "type": "function",
+        "z": "cd9e47f3.c0e718",
+        "name": "Store chart options",
+        "func": "\n\nflow.set('chartprops', msg.payload * 60000)\n// message continues to flow but in next node properties will be deleted\n// it will be used only as change event\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 180,
+        "wires": [
+            [
+                "ae2baf51.522b7"
+            ]
+        ]
+    },
+    {
+        "id": "38ab1825c88b7a9d",
+        "type": "debug",
+        "z": "cd9e47f3.c0e718",
+        "name": "debug 3",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "2e1be58a.27420a",
+        "type": "inject",
+        "z": "cd9e47f3.c0e718",
+        "name": "Series 1",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Series 1",
+        "payload": "",
+        "payloadType": "date",
+        "x": 360,
+        "y": 640,
+        "wires": [
+            [
+                "291b6d90.de72a2"
+            ]
+        ]
+    },
+    {
+        "id": "df56ed23.0c7bd",
+        "type": "inject",
+        "z": "cd9e47f3.c0e718",
+        "name": "Series 2",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "series 2",
+        "payload": "",
+        "payloadType": "date",
+        "x": 360,
+        "y": 780,
+        "wires": [
+            [
+                "3556ded8.422a4a"
+            ]
+        ]
+    },
+    {
+        "id": "291b6d90.de72a2",
+        "type": "random",
+        "z": "cd9e47f3.c0e718",
+        "name": "",
+        "low": "1",
+        "high": "10",
+        "inte": "true",
+        "property": "payload",
+        "x": 560,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3556ded8.422a4a",
+        "type": "random",
+        "z": "cd9e47f3.c0e718",
+        "name": "",
+        "low": "1",
+        "high": "10",
+        "inte": "true",
+        "property": "payload",
+        "x": 540,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "43631574c47899d3",
+        "type": "inject",
+        "z": "cd9e47f3.c0e718",
+        "name": "",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "topic": "speed",
+        "x": 140,
+        "y": 520,
+        "wires": [
+            [
+                "fcb493983944f53d"
+            ]
+        ]
+    },
+    {
+        "id": "fcb493983944f53d",
+        "type": "random",
+        "z": "cd9e47f3.c0e718",
+        "name": "random between 1 - 500",
+        "low": "1",
+        "high": "500",
+        "inte": "false",
+        "property": "payload",
+        "x": 350,
+        "y": 520,
+        "wires": [
+            [
+                "6be5639ec1170240",
+                "5d1b683.cca8798"
+            ]
+        ]
+    },
+    {
+        "id": "64abe439a29f3a80",
+        "type": "function",
+        "z": "cd9e47f3.c0e718",
+        "name": "function 2",
+        "func": "var speed  = msg.payload.speed;\nvar wind  = msg.payload.wind;\n\nmsg.payload =[{\n    \"series\" : [ \"wind\",\"speed\"],\n    \"data\" : [ [wind],[speed]]\n    \n}]\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 560,
+        "wires": [
+            [
+                "a781cc389e3f047c",
+                "af6da517c94082b7"
+            ]
+        ]
+    },
+    {
+        "id": "a781cc389e3f047c",
+        "type": "debug",
+        "z": "cd9e47f3.c0e718",
+        "name": "debug 4",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "1d4e7226cf02ddfd",
+        "type": "debug",
+        "z": "cd9e47f3.c0e718",
+        "name": "debug 5",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1180,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "af6da517c94082b7",
+        "type": "ui_chart",
+        "z": "cd9e47f3.c0e718",
+        "name": "",
+        "group": "195cd998.7632b6",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "1000",
+        "removeOlder": "30",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1030,
+        "y": 580,
+        "wires": [
+            [
+                "1d4e7226cf02ddfd"
+            ]
+        ]
+    },
+    {
+        "id": "6be5639ec1170240",
+        "type": "join",
+        "z": "cd9e47f3.c0e718",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": true,
+        "timeout": "",
+        "count": "1",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 670,
+        "y": 500,
+        "wires": [
+            [
+                "64abe439a29f3a80",
+                "a781cc389e3f047c"
+            ]
+        ]
+    },
+    {
+        "id": "80c8bdef6b4a8817",
+        "type": "ui_chart",
+        "z": "cd9e47f3.c0e718",
+        "name": "",
+        "group": "195cd998.7632b6",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "1000",
+        "removeOlder": "30",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 990,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "654d9a77.d5c3b4",
+        "type": "mysql",
+        "z": "6e3ea82b.1fc4d8",
+        "mydb": "d580992f.308f18",
+        "name": "MYSQL",
+        "x": 580,
+        "y": 200,
+        "wires": [
+            [
+                "ee5dfd0f.14164",
+                "a5ba77b2.19fbd8"
+            ]
+        ]
+    },
+    {
+        "id": "ee5dfd0f.14164",
+        "type": "debug",
+        "z": "6e3ea82b.1fc4d8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "5ba7df0d.a25",
+        "type": "ui_form",
+        "z": "6e3ea82b.1fc4d8",
+        "name": "",
+        "label": "",
+        "group": "2fdee068.4551f8",
+        "order": 1,
+        "width": 16,
+        "height": 5,
+        "options": [
+            {
+                "label": "Start Date",
+                "value": "startDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Start Time",
+                "value": "startTime",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "End Date",
+                "value": "endDate",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "End Time",
+                "value": "endTime",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "startDate": "",
+            "startTime": "",
+            "endDate": "",
+            "endTime": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "",
+        "topicType": "str",
+        "splitLayout": false,
+        "className": "",
+        "x": 150,
+        "y": 200,
+        "wires": [
+            [
+                "765cb185.0c279"
+            ]
+        ]
+    },
+    {
+        "id": "efba769a.c10528",
+        "type": "debug",
+        "z": "6e3ea82b.1fc4d8",
+        "name": "to DB",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 370,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "765cb185.0c279",
+        "type": "function",
+        "z": "6e3ea82b.1fc4d8",
+        "name": "",
+        "func": "let startDateTime = msg.payload.startDate.slice(0, 10) + \" \" + msg.payload.startTime\nlet endDateTime = msg.payload.endDate.slice(0, 10) + \" \" + msg.payload.endTime\n\n// SELECT * FROM exterior_climate WHERE Timestamp BETWEEN '2020-12-01 11:08:13' AND '2020-12-01 16:05:13'\nmsg.topic = `SELECT * FROM exterior_climate WHERE Timestamp BETWEEN '${startDateTime}' AND '${endDateTime}'`\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 200,
+        "wires": [
+            [
+                "efba769a.c10528",
+                "654d9a77.d5c3b4"
+            ]
+        ]
+    },
+    {
+        "id": "a5ba77b2.19fbd8",
+        "type": "function",
+        "z": "6e3ea82b.1fc4d8",
+        "name": "DB Data to Chart data",
+        "func": "var series = [];\nvar data = msg.payload;\nif (!data || !Array.isArray(data) || !data.length) {\n    node.warn(\"expected an array of data with at least 1 element\");\n    return null;\n    //alternatively return the msg with a null payload to clear graph\n}\n\nconst tsField = \"Timestamp\";\nvar _f = Object.keys(data[0]);\nvar fields = [];\nvar fi = 0;\n_f.forEach(function(elem) {\n    if (elem != tsField) {\n        fields.push(elem);\n        series[fi++] = [];\n    }\n});\n\n//loop each row and build an array in the required format\nfor (let index = 0; index < msg.payload.length; index++) {\n    const row = msg.payload[index];\n    var t = new Date(row[tsField]).valueOf()\n    var i = 0;\n    for (let f = 0; f < fields.length; f++ ) {\n        let field = fields[f];\n        series[f].push({ \"x\": t, \"y\": row[field] })\n    }\n}\n\nmsg.payload = [\n    {\n        \"series\": fields,\n        \"data\": series,\n        \"labels\": [\"\"]\n    }\n];\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 100,
+        "wires": [
+            [
+                "a01128b7.739a08",
+                "5e22f744.5c1148"
+            ]
+        ]
+    },
+    {
+        "id": "5e22f744.5c1148",
+        "type": "ui_chart",
+        "z": "6e3ea82b.1fc4d8",
+        "name": "Historical",
+        "group": "2fdee068.4551f8",
+        "order": 7,
+        "width": "13",
+        "height": "10",
+        "label": "",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "dd-D",
+        "interpolate": "linear",
+        "nodata": "No Data yet...",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "20160",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ff0000",
+            "#00b31e",
+            "#2777b4",
+            "#ffe666",
+            "#2777b4",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1040,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a01128b7.739a08",
+        "type": "debug",
+        "z": "6e3ea82b.1fc4d8",
+        "name": "DB Chart",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1040,
+        "y": 140,
+        "wires": []
     }
 ]
