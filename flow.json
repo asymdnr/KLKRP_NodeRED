@@ -32096,7 +32096,7 @@
         "type": "random",
         "z": "cd9e47f3.c0e718",
         "name": "random between 1 - 500",
-        "low": "1",
+        "low": "300",
         "high": "500",
         "inte": "false",
         "property": "payload",
@@ -32106,7 +32106,7 @@
             [
                 "6be5639ec1170240",
                 "5d1b683.cca8798",
-                "80c8bdef6b4a8817"
+                "efaaae0539a9b68d"
             ]
         ]
     },
@@ -32278,23 +32278,6 @@
         ]
     },
     {
-        "id": "38ab1825c88b7a9d",
-        "type": "debug",
-        "z": "cd9e47f3.c0e718",
-        "name": "debug 3",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 940,
-        "y": 860,
-        "wires": []
-    },
-    {
         "id": "2e1be58a.27420a",
         "type": "inject",
         "z": "cd9e47f3.c0e718",
@@ -32411,8 +32394,8 @@
         "type": "random",
         "z": "cd9e47f3.c0e718",
         "name": "random between 1 - 500",
-        "low": "1",
-        "high": "500",
+        "low": "100",
+        "high": "150",
         "inte": "false",
         "property": "payload",
         "x": 350,
@@ -32420,7 +32403,8 @@
         "wires": [
             [
                 "6be5639ec1170240",
-                "5d1b683.cca8798"
+                "5d1b683.cca8798",
+                "e823b082a132cf64"
             ]
         ]
     },
@@ -32435,8 +32419,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 800,
-        "y": 560,
+        "x": 820,
+        "y": 540,
         "wires": [
             [
                 "a781cc389e3f047c",
@@ -32459,23 +32443,6 @@
         "statusType": "auto",
         "x": 1060,
         "y": 480,
-        "wires": []
-    },
-    {
-        "id": "1d4e7226cf02ddfd",
-        "type": "debug",
-        "z": "cd9e47f3.c0e718",
-        "name": "debug 5",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1180,
-        "y": 580,
         "wires": []
     },
     {
@@ -32519,9 +32486,7 @@
         "x": 1030,
         "y": 580,
         "wires": [
-            [
-                "1d4e7226cf02ddfd"
-            ]
+            []
         ]
     },
     {
@@ -32591,11 +32556,103 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 990,
-        "y": 660,
+        "x": 1030,
+        "y": 680,
         "wires": [
-            []
+            [
+                "fda8951eae4d6a02"
+            ]
         ]
+    },
+    {
+        "id": "efaaae0539a9b68d",
+        "type": "change",
+        "z": "cd9e47f3.c0e718",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "wind",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 560,
+        "wires": [
+            [
+                "141220458c0b1818"
+            ]
+        ]
+    },
+    {
+        "id": "e823b082a132cf64",
+        "type": "change",
+        "z": "cd9e47f3.c0e718",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "speed",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 600,
+        "wires": [
+            [
+                "141220458c0b1818"
+            ]
+        ]
+    },
+    {
+        "id": "141220458c0b1818",
+        "type": "function",
+        "z": "cd9e47f3.c0e718",
+        "name": "function 3",
+        "func": "var msg1 = {};\nvar msg2 = {};\nvar speed = global.get(\"speed\");\nvar wind = global.get(\"wind\");\n\nmsg1.topic = \"speed\";\nmsg1.payload = speed;\n\nmsg2.topic = \"wind\"\nmsg2.payload = wind;\n\n\nreturn [ [msg1,msg2]];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 620,
+        "wires": [
+            [
+                "80c8bdef6b4a8817"
+            ]
+        ]
+    },
+    {
+        "id": "fda8951eae4d6a02",
+        "type": "debug",
+        "z": "cd9e47f3.c0e718",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1180,
+        "y": 660,
+        "wires": []
     },
     {
         "id": "654d9a77.d5c3b4",
