@@ -384,9 +384,7 @@
             "b81b6aa5b71dd29a"
         ],
         "x": 54,
-        "y": 19,
-        "w": 972,
-        "h": 482
+        "y": 19
     },
     {
         "id": "f840e9332560a7cf",
@@ -405,9 +403,7 @@
             "adf2b66bbfef77da"
         ],
         "x": 54,
-        "y": 519,
-        "w": 852,
-        "h": 122
+        "y": 519
     },
     {
         "id": "eb31b411689ba5ea",
@@ -433,9 +429,7 @@
             "e514383c619be0cf"
         ],
         "x": 54,
-        "y": 659,
-        "w": 1292,
-        "h": 202
+        "y": 659
     },
     {
         "id": "928ec4a3e9eb4898",
@@ -475,9 +469,7 @@
             "5e0bd196401e9f8e"
         ],
         "x": 54,
-        "y": 79,
-        "w": 1292,
-        "h": 402
+        "y": 79
     },
     {
         "id": "7afdfb632f0290dd",
@@ -543,9 +535,7 @@
             "a76fb98fc1f03921"
         ],
         "x": 54,
-        "y": 619,
-        "w": 1332,
-        "h": 822
+        "y": 619
     },
     {
         "id": "6f9ddfef4f750f18",
@@ -575,9 +565,7 @@
             "0f59d084e41e7eb0"
         ],
         "x": 54,
-        "y": 1479,
-        "w": 1312,
-        "h": 302
+        "y": 1479
     },
     {
         "id": "92ef5d8656c0079f",
@@ -643,9 +631,7 @@
             "668f193105a901a1"
         ],
         "x": 54,
-        "y": 1799,
-        "w": 1332,
-        "h": 822
+        "y": 1799
     },
     {
         "id": "9c3d9a4f6626aa35",
@@ -683,9 +669,7 @@
             "179d24b7d9192684"
         ],
         "x": 54,
-        "y": 2639,
-        "w": 1012,
-        "h": 562
+        "y": 2639
     },
     {
         "id": "276021b6752e25c2",
@@ -20014,7 +19998,7 @@
         "stateLogEnabled": false,
         "queueLogEnabled": false,
         "failureLogEnabled": true,
-        "tcpHost": "192.168.50.197",
+        "tcpHost": "100.0.0.51",
         "tcpPort": "502",
         "tcpType": "DEFAULT",
         "serialPort": "/dev/ttyUSB",
@@ -20025,11 +20009,11 @@
         "serialParity": "none",
         "serialConnectionDelay": "100",
         "serialAsciiResponseStartDelimiter": "0x3A",
-        "unit_id": "100",
-        "commandDelay": "1",
-        "clientTimeout": "1000",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
         "reconnectOnTimeout": true,
-        "reconnectTimeout": "2000",
+        "reconnectTimeout": 2000,
         "parallelUnitIdsAllowed": true,
         "showWarnings": true,
         "showLogs": true
@@ -31673,7 +31657,7 @@
         "type": "debug",
         "z": "b1eb87a69b481449",
         "name": "debug 33",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -31969,8 +31953,8 @@
         "showWarnings": true,
         "unitid": "",
         "dataType": "HoldingRegister",
-        "adr": "100",
-        "quantity": "4",
+        "adr": "4",
+        "quantity": "2",
         "rate": "1000",
         "rateUnit": "ms",
         "delayOnStart": false,
@@ -31980,12 +31964,11 @@
         "ioFile": "",
         "useIOForPayload": false,
         "emptyMsgOnFail": false,
-        "x": 650,
-        "y": 2940,
+        "x": 410,
+        "y": 2880,
         "wires": [
             [
-                "9cf2c785566a3b0c",
-                "7bb54eb037a30b65"
+                "a2758934fa7e7cf9"
             ],
             []
         ]
@@ -32018,12 +32001,10 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 910,
-        "y": 2900,
+        "x": 990,
+        "y": 2820,
         "wires": [
-            [
-                "34e13a22ae0e94d0"
-            ]
+            []
         ]
     },
     {
@@ -32075,8 +32056,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 880,
-        "y": 2840,
+        "x": 860,
+        "y": 2760,
         "wires": []
     },
     {
@@ -32100,8 +32081,7 @@
         "y": 3000,
         "wires": [
             [
-                "78b57e0cb8b141a4",
-                "7bb54eb037a30b65"
+                "78b57e0cb8b141a4"
             ],
             []
         ]
@@ -32289,7 +32269,7 @@
         "type": "debug",
         "z": "b1eb87a69b481449",
         "name": "debug 41",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -32390,5 +32370,41 @@
         "x": 280,
         "y": 2820,
         "wires": []
+    },
+    {
+        "id": "68f94274b0391c6b",
+        "type": "function",
+        "z": "b1eb87a69b481449",
+        "name": "buffer to readable value",
+        "func": "const buf = Buffer.from(msg.payload.responseBuffer.buffer);\nconst value = buf.readUInt32BE();\nmsg.value = value;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 2900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a2758934fa7e7cf9",
+        "type": "function",
+        "z": "b1eb87a69b481449",
+        "name": "buffer to readable value",
+        "func": "const buf = Buffer.from(msg.responseBuffer.buffer);\n//const value = buf.readFloatBE();\nconst value = buf.readInt32BE();\n\n\n//const value1 = value.toFixed(4);\n\nmsg.value = value;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 2800,
+        "wires": [
+            [
+                "9cf2c785566a3b0c"
+            ]
+        ]
     }
 ]
