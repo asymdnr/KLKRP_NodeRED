@@ -22,6 +22,22 @@
         "env": []
     },
     {
+        "id": "e1adb9f4e430282d",
+        "type": "tab",
+        "label": "Modbus Read (DPM)",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f49946705cc05b74",
+        "type": "tab",
+        "label": "CSV (DPM)",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "b1eb87a69b481449",
         "type": "tab",
         "label": "PLC and NodeRed",
@@ -777,11 +793,31 @@
         "h": 82
     },
     {
+        "id": "2f6b531f6170fd01",
+        "type": "group",
+        "z": "e1adb9f4e430282d",
+        "name": "Latest Time in Parse",
+        "style": {
+            "fill": "#ff7f7f",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "a8cf485c6a5ef695",
+            "66102a478a9669f0",
+            "b66d45da9617d3d6"
+        ],
+        "x": 854,
+        "y": 1119,
+        "w": 652,
+        "h": 82
+    },
+    {
         "id": "8178b9f6e8586214",
         "type": "s7 endpoint",
         "d": true,
         "transport": "iso-on-tcp",
-        "address": "100.0.0.230",
+        "address": "100.0.0.73",
         "port": "102",
         "rack": "0",
         "slot": "1",
@@ -1850,7 +1886,7 @@
         "type": "s7 endpoint",
         "d": true,
         "transport": "iso-on-tcp",
-        "address": "100.0.0.230",
+        "address": "100.0.0.73",
         "port": "102",
         "rack": "0",
         "slot": "1",
@@ -4112,7 +4148,7 @@
         "type": "s7 endpoint",
         "d": true,
         "transport": "iso-on-tcp",
-        "address": "100.0.0.230",
+        "address": "100.0.0.73",
         "port": "102",
         "rack": "0",
         "slot": "1",
@@ -5494,7 +5530,7 @@
         "type": "s7 endpoint",
         "d": true,
         "transport": "iso-on-tcp",
-        "address": "100.0.0.230",
+        "address": "100.0.0.73",
         "port": "102",
         "rack": "0",
         "slot": "1",
@@ -6876,7 +6912,7 @@
         "type": "s7 endpoint",
         "d": true,
         "transport": "iso-on-tcp",
-        "address": "100.0.0.230",
+        "address": "100.0.0.73",
         "port": "102",
         "rack": "0",
         "slot": "1",
@@ -12438,7 +12474,7 @@
         "type": "s7 endpoint",
         "d": true,
         "transport": "iso-on-tcp",
-        "address": "100.0.0.230",
+        "address": "100.0.0.73",
         "port": "102",
         "rack": "0",
         "slot": "1",
@@ -17476,7 +17512,7 @@
         "type": "s7 endpoint",
         "d": true,
         "transport": "iso-on-tcp",
-        "address": "100.0.0.230",
+        "address": "100.0.0.73",
         "port": "102",
         "rack": "0",
         "slot": "1",
@@ -18858,7 +18894,7 @@
         "type": "s7 endpoint",
         "d": true,
         "transport": "iso-on-tcp",
-        "address": "100.0.0.230",
+        "address": "100.0.0.73",
         "port": "102",
         "rack": "0",
         "slot": "1",
@@ -19384,7 +19420,7 @@
         "type": "s7 endpoint",
         "d": true,
         "transport": "iso-on-tcp",
-        "address": "100.0.0.230",
+        "address": "100.0.0.73",
         "port": "102",
         "rack": "0",
         "slot": "1",
@@ -19631,7 +19667,7 @@
         "type": "s7 endpoint",
         "d": true,
         "transport": "iso-on-tcp",
-        "address": "100.0.0.230",
+        "address": "100.0.0.73",
         "port": "102",
         "rack": "0",
         "slot": "2",
@@ -19991,14 +20027,13 @@
     {
         "id": "99f9a1d395f0d464",
         "type": "modbus-client",
-        "d": true,
-        "name": "modbus simulator",
+        "name": "L3",
         "clienttype": "tcp",
         "bufferCommands": true,
         "stateLogEnabled": false,
         "queueLogEnabled": false,
         "failureLogEnabled": true,
-        "tcpHost": "100.0.0.51",
+        "tcpHost": "100.0.0.79",
         "tcpPort": "502",
         "tcpType": "DEFAULT",
         "serialPort": "/dev/ttyUSB",
@@ -20009,11 +20044,11 @@
         "serialParity": "none",
         "serialConnectionDelay": "100",
         "serialAsciiResponseStartDelimiter": "0x3A",
-        "unit_id": 1,
-        "commandDelay": 1,
-        "clientTimeout": 1000,
+        "unit_id": "1",
+        "commandDelay": "1",
+        "clientTimeout": "1000",
         "reconnectOnTimeout": true,
-        "reconnectTimeout": 2000,
+        "reconnectTimeout": "2000",
         "parallelUnitIdsAllowed": true,
         "showWarnings": true,
         "showLogs": true
@@ -20026,6 +20061,127 @@
         "order": 3,
         "disabled": false,
         "hidden": false
+    },
+    {
+        "id": "263ee794ec42c36d",
+        "type": "ui_tab",
+        "name": "DPM ",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "7bb9e3fc9dce7ee0",
+        "type": "ui_group",
+        "name": "LINE 3",
+        "tab": "263ee794ec42c36d",
+        "order": 1,
+        "disp": true,
+        "width": 28,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "244d40fcf2e50e7a",
+        "type": "ui_group",
+        "name": "Trend",
+        "tab": "263ee794ec42c36d",
+        "order": 2,
+        "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7a0cbd3a73791689",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "klkrpnode",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "18e04a157954a7fc",
+        "type": "ui_spacer",
+        "z": "e1adb9f4e430282d",
+        "name": "spacer",
+        "group": "7bb9e3fc9dce7ee0",
+        "order": 7,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "bb315bdb9067b874",
+        "type": "ui_spacer",
+        "z": "e1adb9f4e430282d",
+        "name": "spacer",
+        "group": "7bb9e3fc9dce7ee0",
+        "order": 12,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "0a73f8cc1f776443",
+        "type": "ui_spacer",
+        "z": "e1adb9f4e430282d",
+        "name": "spacer",
+        "group": "7bb9e3fc9dce7ee0",
+        "order": 13,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "ba60ffdc24f7d2fd",
+        "type": "ui_spacer",
+        "z": "e1adb9f4e430282d",
+        "name": "spacer",
+        "group": "7bb9e3fc9dce7ee0",
+        "order": 14,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "80fe02e0ddad2977",
+        "type": "ui_spacer",
+        "z": "e1adb9f4e430282d",
+        "name": "spacer",
+        "group": "7bb9e3fc9dce7ee0",
+        "order": 19,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "968816e4a301eb7a",
+        "type": "ui_spacer",
+        "z": "e1adb9f4e430282d",
+        "name": "spacer",
+        "group": "7bb9e3fc9dce7ee0",
+        "order": 20,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "8531e02af1a381ce",
+        "type": "ui_spacer",
+        "z": "e1adb9f4e430282d",
+        "name": "spacer",
+        "group": "7bb9e3fc9dce7ee0",
+        "order": 21,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "3b938d9edddecc1f",
+        "type": "ui_spacer",
+        "z": "e1adb9f4e430282d",
+        "name": "spacer",
+        "group": "244d40fcf2e50e7a",
+        "order": 10,
+        "width": 10,
+        "height": 1
     },
     {
         "id": "1a6a73230e00c124",
@@ -20480,6 +20636,7 @@
         ],
         "seg1": "",
         "seg2": "",
+        "diff": false,
         "className": "",
         "x": 910,
         "y": 840,
@@ -21104,7 +21261,6 @@
                 "beb54117bf1798f5"
             ],
             [
-                "a53bca32c6f8c552",
                 "0823d840ca35b35a"
             ]
         ]
@@ -22560,7 +22716,7 @@
         "z": "531e23be5dd8efe8",
         "g": "8a8084342085eb6f",
         "name": "WIRE BREAK",
-        "func": "if (msg.payload == true)\n{\n    msg.payload = \"WIRE BREAK\";\n}\nelse\n{\n    msg.payload = \"___________\";\n}    \n\nreturn msg;",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"WIRE BREAK\";\n}\n\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -22580,7 +22736,7 @@
         "z": "531e23be5dd8efe8",
         "g": "8a8084342085eb6f",
         "name": "HIGH HIGH ALM",
-        "func": "if (msg.payload == true)\n{\n    msg.payload = \"ALM HIGH HIGH\";\n}\nelse\n{\n    msg.payload = \"___________\";\n}    \n\nreturn msg;",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"ALM HIGH HIGH\";\n}\n  \n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -22600,7 +22756,7 @@
         "z": "531e23be5dd8efe8",
         "g": "8a8084342085eb6f",
         "name": "HIGH ALM",
-        "func": "if (msg.payload == true)\n{\n    msg.payload = \"ALM HIGH\";\n}\nelse\n{\n    msg.payload = \"___________\";\n}    \n\nreturn msg;",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"ALM HIGH\";\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -22620,7 +22776,7 @@
         "z": "531e23be5dd8efe8",
         "g": "8a8084342085eb6f",
         "name": "LOW ALM",
-        "func": "if (msg.payload == true)\n{\n    msg.payload = \"ALM LOW\";\n}\nelse\n{\n    msg.payload = \"___________\";\n}    \n\nreturn msg;",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"ALM LOW\";\n}\n \n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -22640,7 +22796,7 @@
         "z": "531e23be5dd8efe8",
         "g": "8a8084342085eb6f",
         "name": "LOW LOW ALM",
-        "func": "if (msg.payload == true)\n{\n    msg.payload = \"ALM LOW LOW\";\n}\nelse\n{\n    msg.payload = \"___________\";\n}    \n\nreturn msg;",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"ALM LOW LOW\";\n}\n\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -22660,7 +22816,7 @@
         "z": "531e23be5dd8efe8",
         "g": "8a8084342085eb6f",
         "name": "OUT OF RANGE",
-        "func": "if (msg.payload == true)\n{\n    msg.payload = \"OUT OF RANGE\";\n}\nelse\n{\n    msg.payload = \"___________\";\n}    \n\nreturn msg;",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = \"OUT OF RANGE\";\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -29114,6 +29270,2660 @@
         ]
     },
     {
+        "id": "6f5a6625ae497456",
+        "type": "comment",
+        "z": "e1adb9f4e430282d",
+        "name": "This is node for modbus read from Modbus (DPM)",
+        "info": "Important info\n\nDPM is a 2 register for each address\nAnd value from dpm using 32bit integer",
+        "x": 250,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "a3844b7ba45edb8a",
+        "type": "modbus-read",
+        "z": "e1adb9f4e430282d",
+        "name": "L3 P1 CURRENT",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "2",
+        "quantity": "2",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "99f9a1d395f0d464",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 180,
+        "y": 100,
+        "wires": [
+            [
+                "d3b49fc0feb6802c"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "0e2f970a5f23f6e9",
+        "type": "modbus-read",
+        "z": "e1adb9f4e430282d",
+        "name": "L3 PH1 POWER",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "4",
+        "quantity": "2",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "99f9a1d395f0d464",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 180,
+        "y": 160,
+        "wires": [
+            [
+                "060c0806052a0a64"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "efd2f230e2d0ec1d",
+        "type": "modbus-read",
+        "z": "e1adb9f4e430282d",
+        "name": "L3 P1 P.FACTOR",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "12",
+        "quantity": "2",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "99f9a1d395f0d464",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 180,
+        "y": 220,
+        "wires": [
+            [
+                "a647eb54d4db6ba3"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "2549423793cf7952",
+        "type": "modbus-read",
+        "z": "e1adb9f4e430282d",
+        "name": "L3 PH1 VOLTAGE",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "62",
+        "quantity": "2",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "99f9a1d395f0d464",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 190,
+        "y": 280,
+        "wires": [
+            [
+                "9f31fbec65ba8d2f"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "3a2695d3a4f8871e",
+        "type": "modbus-read",
+        "z": "e1adb9f4e430282d",
+        "name": "L3 FREQ",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "60",
+        "quantity": "2",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "99f9a1d395f0d464",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 1600,
+        "y": 100,
+        "wires": [
+            [
+                "4c2da64092de535a"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "d3b49fc0feb6802c",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "buffer to readable value",
+        "func": "var buf = Buffer.from(msg.responseBuffer.buffer);\nvar value = buf.readInt32BE();\n\nvar newvalue = 0, rawvalue = 0;\n\nrawvalue = value /1000;\n\nnewvalue = rawvalue.toFixed(2);\n\nglobal.set(\"L3_P1_CURRENT\", newvalue);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "060c0806052a0a64",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "buffer to readable value",
+        "func": "var buf = Buffer.from(msg.responseBuffer.buffer);\nvar value = buf.readInt32BE();\n\nvar newvalue = 0, rawvalue = 0;\n\nrawvalue = value /1000;\n\nnewvalue = rawvalue.toFixed(2);\n\nglobal.set(\"L3_P1_POWER\", newvalue);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a647eb54d4db6ba3",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "buffer to readable value",
+        "func": "var buf = Buffer.from(msg.responseBuffer.buffer);\nvar value = buf.readInt32BE();\n\nvar newvalue = 0, rawvalue = 0;\n\nrawvalue = value /100;\n\nnewvalue = rawvalue.toFixed(2);\n\nglobal.set(\"L3_P1_PFACTOR\", newvalue);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9f31fbec65ba8d2f",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "buffer to readable value",
+        "func": "var buf = Buffer.from(msg.responseBuffer.buffer);\nvar value = buf.readInt32BE();\n\nvar newvalue = 0, rawvalue = 0;\n\nrawvalue = value /10;\n\nnewvalue = rawvalue.toFixed(2);\n\nglobal.set(\"L3_PH1_VOLT\", newvalue);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1c21b7a88283f0ef",
+        "type": "modbus-read",
+        "z": "e1adb9f4e430282d",
+        "name": "L3 P2 CURRENT",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "18",
+        "quantity": "2",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "99f9a1d395f0d464",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 660,
+        "y": 100,
+        "wires": [
+            [
+                "4a94a4058b9cf74c"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "5044397ae17573d2",
+        "type": "modbus-read",
+        "z": "e1adb9f4e430282d",
+        "name": "L3 P2 POWER",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "20",
+        "quantity": "2",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "99f9a1d395f0d464",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 660,
+        "y": 160,
+        "wires": [
+            [
+                "19748589974ee927"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "270529d04f55b63a",
+        "type": "modbus-read",
+        "z": "e1adb9f4e430282d",
+        "name": "L3 P2 P.FACTOR",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "28",
+        "quantity": "2",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "99f9a1d395f0d464",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 660,
+        "y": 220,
+        "wires": [
+            [
+                "4067d45df009d5b0"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "e2d825fd0736cb92",
+        "type": "modbus-read",
+        "z": "e1adb9f4e430282d",
+        "name": "L3 PH2 VOLTAGE",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "64",
+        "quantity": "2",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "99f9a1d395f0d464",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 670,
+        "y": 280,
+        "wires": [
+            [
+                "9547bf7b072b2bf0"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "4a94a4058b9cf74c",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "buffer to readable value",
+        "func": "var buf = Buffer.from(msg.responseBuffer.buffer);\nvar value = buf.readInt32BE();\n\nvar newvalue = 0, rawvalue = 0;\n\nrawvalue = value /1000;\n\nnewvalue = rawvalue.toFixed(2);\n\nglobal.set(\"L3_P2_CURRENT\", newvalue);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "19748589974ee927",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "buffer to readable value",
+        "func": "var buf = Buffer.from(msg.responseBuffer.buffer);\nvar value = buf.readInt32BE();\n\nvar newvalue = 0, rawvalue = 0;\n\nrawvalue = value /1000;\n\nnewvalue = rawvalue.toFixed(2);\n\nglobal.set(\"L3_P2_POWER\", newvalue);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4067d45df009d5b0",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "buffer to readable value",
+        "func": "var buf = Buffer.from(msg.responseBuffer.buffer);\nvar value = buf.readInt32BE();\n\nvar newvalue = 0, rawvalue = 0;\n\nrawvalue = value /100;\n\nnewvalue = rawvalue.toFixed(2);\n\nglobal.set(\"L3_P2_PFACTOR\", newvalue);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9547bf7b072b2bf0",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "buffer to readable value",
+        "func": "var buf = Buffer.from(msg.responseBuffer.buffer);\nvar value = buf.readInt32BE();\n\nvar newvalue = 0, rawvalue = 0;\n\nrawvalue = value /10;\n\nnewvalue = rawvalue.toFixed(2);\n\nglobal.set(\"L3_PH2_VOLT\", newvalue);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c094e8fe9b39c76f",
+        "type": "modbus-read",
+        "z": "e1adb9f4e430282d",
+        "name": "L3 P3 CURRENT",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "34",
+        "quantity": "2",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "99f9a1d395f0d464",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 1140,
+        "y": 100,
+        "wires": [
+            [
+                "d0e48cec8bfe63b7"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "081c29eab7de0791",
+        "type": "modbus-read",
+        "z": "e1adb9f4e430282d",
+        "name": "L3 P3 POWER",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "36",
+        "quantity": "2",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "99f9a1d395f0d464",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 1140,
+        "y": 160,
+        "wires": [
+            [
+                "775b8c861bbec32b"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "57db79a313c64017",
+        "type": "modbus-read",
+        "z": "e1adb9f4e430282d",
+        "name": "L3 P3 P.FACTOR",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "44",
+        "quantity": "2",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "99f9a1d395f0d464",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 1140,
+        "y": 220,
+        "wires": [
+            [
+                "7e0051851f59b448"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "5fa7b866957cf5d7",
+        "type": "modbus-read",
+        "z": "e1adb9f4e430282d",
+        "name": "L3 PH3 VOLTAGE",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "66",
+        "quantity": "2",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "99f9a1d395f0d464",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 1150,
+        "y": 280,
+        "wires": [
+            [
+                "a4256661556aea93"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "d0e48cec8bfe63b7",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "buffer to readable value",
+        "func": "var buf = Buffer.from(msg.responseBuffer.buffer);\nvar value = buf.readInt32BE();\n\nvar newvalue = 0, rawvalue = 0;\n\nrawvalue = value /1000;\n\nnewvalue = rawvalue.toFixed(2);\n\nglobal.set(\"L3_P3_CURRENT\", newvalue);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1370,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "775b8c861bbec32b",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "buffer to readable value",
+        "func": "var buf = Buffer.from(msg.responseBuffer.buffer);\nvar value = buf.readInt32BE();\n\nvar newvalue = 0, rawvalue = 0;\n\nrawvalue = value /1000;\n\nnewvalue = rawvalue.toFixed(2);\n\nglobal.set(\"L3_P3_POWER\", newvalue);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1370,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7e0051851f59b448",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "buffer to readable value",
+        "func": "var buf = Buffer.from(msg.responseBuffer.buffer);\nvar value = buf.readInt32BE();\n\nvar newvalue = 0, rawvalue = 0;\n\nrawvalue = value /100;\n\nnewvalue = rawvalue.toFixed(2);\n\nglobal.set(\"L3_P3_PFACTOR\", newvalue);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1370,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a4256661556aea93",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "buffer to readable value",
+        "func": "var buf = Buffer.from(msg.responseBuffer.buffer);\nvar value = buf.readInt32BE();\n\nvar newvalue = 0, rawvalue = 0;\n\nrawvalue = value /10;\n\nnewvalue = rawvalue.toFixed(2);\n\nglobal.set(\"L3_PH3_VOLT\", newvalue);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1370,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d474f3c0573239d2",
+        "type": "modbus-read",
+        "z": "e1adb9f4e430282d",
+        "name": "L3 kWh",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "221",
+        "quantity": "2",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "99f9a1d395f0d464",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 1590,
+        "y": 160,
+        "wires": [
+            [
+                "7730298199cf78d2"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "4c2da64092de535a",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "buffer to readable value",
+        "func": "var buf = Buffer.from(msg.responseBuffer.buffer);\nvar value = buf.readInt32BE();\n\nvar newvalue = 0, rawvalue = 0;\n\nrawvalue = value /100;\n\nnewvalue = rawvalue.toFixed(2);\n\nglobal.set(\"L3_DPM_FREQ\", newvalue);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1810,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7730298199cf78d2",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "buffer to readable value",
+        "func": "var buf = Buffer.from(msg.responseBuffer.buffer);\nvar value = buf.readInt32BE();\n\nvar newvalue = 0, rawvalue = 0;\n\n//rawvalue = value /10;\n\nnewvalue = value.toFixed(2);\n\nglobal.set(\"L3_DPM_KWH\", newvalue);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1810,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d956244fad5c6b21",
+        "type": "comment",
+        "z": "e1adb9f4e430282d",
+        "name": "This is node for modbus read from Modbus (DPM)",
+        "info": "",
+        "x": 230,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "f492ddff2c177193",
+        "type": "ui_gauge",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "group": "7bb9e3fc9dce7ee0",
+        "order": 2,
+        "width": 6,
+        "height": 3,
+        "gtype": "gage",
+        "title": "P1 AMPERE",
+        "label": "A",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "500",
+        "colors": [
+            "#11ee11",
+            "#11ee11",
+            "#11ee11"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 710,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "3001c5c44843e78b",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "get value from memory",
+        "func": "var value = global.get(\"L3_P1_CURRENT\");\n\nmsg.payload = value;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 420,
+        "wires": [
+            [
+                "f492ddff2c177193"
+            ]
+        ]
+    },
+    {
+        "id": "d019b9c89f183000",
+        "type": "inject",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 640,
+        "wires": [
+            [
+                "3001c5c44843e78b",
+                "aeeb14f738627097",
+                "af59106f5116ff29",
+                "52a585953201ee55",
+                "d4013c92559946e7",
+                "bdf173e9ad8b1e42",
+                "d9461d999eb8dac9",
+                "616d6eb25edb9c1f",
+                "019f4f4ab3c335af",
+                "e27360eb156ffa7f",
+                "9fafd4712477f4b5",
+                "a2c9d8a50eef1723",
+                "17bd166a952e2b5f",
+                "1c8d4377e508c01f"
+            ]
+        ]
+    },
+    {
+        "id": "3e4a5f2dc3f6be99",
+        "type": "ui_gauge",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "group": "7bb9e3fc9dce7ee0",
+        "order": 9,
+        "width": 6,
+        "height": 3,
+        "gtype": "gage",
+        "title": "P2 AMPERE",
+        "label": "A",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "500",
+        "colors": [
+            "#11ee11",
+            "#11ee11",
+            "#11ee11"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 710,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "8ad57a788369f2e6",
+        "type": "ui_gauge",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "group": "7bb9e3fc9dce7ee0",
+        "order": 16,
+        "width": 6,
+        "height": 3,
+        "gtype": "gage",
+        "title": "P3 AMPERE",
+        "label": "A",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "500",
+        "colors": [
+            "#11ee11",
+            "#11ee11",
+            "#11ee11"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 710,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "af59106f5116ff29",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "get value from memory",
+        "func": "var value = global.get(\"L3_P2_CURRENT\");\n\nmsg.payload = value;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 460,
+        "wires": [
+            [
+                "3e4a5f2dc3f6be99"
+            ]
+        ]
+    },
+    {
+        "id": "aeeb14f738627097",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "get value from memory",
+        "func": "var value = global.get(\"L3_P2_CURRENT\");\n\nmsg.payload = value;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 500,
+        "wires": [
+            [
+                "8ad57a788369f2e6"
+            ]
+        ]
+    },
+    {
+        "id": "e0334c872cc377d1",
+        "type": "ui_gauge",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "group": "7bb9e3fc9dce7ee0",
+        "order": 1,
+        "width": 6,
+        "height": 3,
+        "gtype": "gage",
+        "title": "PH1 VOLTAGE",
+        "label": "V",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "450",
+        "colors": [
+            "#11ee11",
+            "#11ee11",
+            "#11ee11"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 720,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "52a585953201ee55",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "get value from memory",
+        "func": "var value = global.get(\"L3_PH1_VOLT\");\n\nmsg.payload = value;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 560,
+        "wires": [
+            [
+                "e0334c872cc377d1"
+            ]
+        ]
+    },
+    {
+        "id": "25d3152db81d65e3",
+        "type": "ui_gauge",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "group": "7bb9e3fc9dce7ee0",
+        "order": 8,
+        "width": 6,
+        "height": 3,
+        "gtype": "gage",
+        "title": "PH2 VOLTAGE",
+        "label": "V",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "450",
+        "colors": [
+            "#11ee11",
+            "#11ee11",
+            "#11ee11"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 720,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "7b471365da35f106",
+        "type": "ui_gauge",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "group": "7bb9e3fc9dce7ee0",
+        "order": 15,
+        "width": 6,
+        "height": 3,
+        "gtype": "gage",
+        "title": "PH3 VOLTAGE",
+        "label": "V",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "450",
+        "colors": [
+            "#11ee11",
+            "#11ee11",
+            "#11ee11"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 720,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "d4013c92559946e7",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "get value from memory",
+        "func": "var value = global.get(\"L3_PH2_VOLT\");\n\nmsg.payload = value;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 600,
+        "wires": [
+            [
+                "25d3152db81d65e3"
+            ]
+        ]
+    },
+    {
+        "id": "bdf173e9ad8b1e42",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "get value from memory",
+        "func": "var value = global.get(\"L3_PH3_VOLT\");\n\nmsg.payload = value;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 640,
+        "wires": [
+            [
+                "7b471365da35f106"
+            ]
+        ]
+    },
+    {
+        "id": "fb9c04de4d02a65d",
+        "type": "ui_gauge",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "group": "7bb9e3fc9dce7ee0",
+        "order": 3,
+        "width": 6,
+        "height": 3,
+        "gtype": "gage",
+        "title": "P1 POWER",
+        "label": "kW",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#11ee11",
+            "#11ee11",
+            "#11ee11"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 710,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "d9461d999eb8dac9",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "get value from memory",
+        "func": "var value = global.get(\"L3_P1_POWER\");\n\nmsg.payload = value;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 700,
+        "wires": [
+            [
+                "fb9c04de4d02a65d"
+            ]
+        ]
+    },
+    {
+        "id": "ea1a2de90e19170a",
+        "type": "ui_gauge",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "group": "7bb9e3fc9dce7ee0",
+        "order": 10,
+        "width": 6,
+        "height": 3,
+        "gtype": "gage",
+        "title": "P2 POWER",
+        "label": "kW",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#11ee11",
+            "#11ee11",
+            "#11ee11"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 710,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "79edb19a6e2e06c0",
+        "type": "ui_gauge",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "group": "7bb9e3fc9dce7ee0",
+        "order": 17,
+        "width": 6,
+        "height": 3,
+        "gtype": "gage",
+        "title": "P3 POWER",
+        "label": "kW",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#11ee11",
+            "#11ee11",
+            "#11ee11"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 710,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "616d6eb25edb9c1f",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "get value from memory",
+        "func": "var value = global.get(\"L3_P2_POWER\");\n\nmsg.payload = value;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 740,
+        "wires": [
+            [
+                "ea1a2de90e19170a"
+            ]
+        ]
+    },
+    {
+        "id": "019f4f4ab3c335af",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "get value from memory",
+        "func": "var value = global.get(\"L3_P3_POWER\");\n\nmsg.payload = value;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 780,
+        "wires": [
+            [
+                "79edb19a6e2e06c0"
+            ]
+        ]
+    },
+    {
+        "id": "ccce7327bb1541c0",
+        "type": "ui_gauge",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "group": "7bb9e3fc9dce7ee0",
+        "order": 4,
+        "width": 6,
+        "height": 3,
+        "gtype": "gage",
+        "title": "P1 FACTOR",
+        "label": "PF",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1",
+        "colors": [
+            "#11ee11",
+            "#11ee11",
+            "#11ee11"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 710,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "e27360eb156ffa7f",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "get value from memory",
+        "func": "var value = global.get(\"L3_P1_PFACTOR\");\n\nmsg.payload = value;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 840,
+        "wires": [
+            [
+                "ccce7327bb1541c0"
+            ]
+        ]
+    },
+    {
+        "id": "86f9666e275faa71",
+        "type": "ui_gauge",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "group": "7bb9e3fc9dce7ee0",
+        "order": 11,
+        "width": 6,
+        "height": 3,
+        "gtype": "gage",
+        "title": "P2 FACTOR",
+        "label": "PF",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1",
+        "colors": [
+            "#11ee11",
+            "#11ee11",
+            "#11ee11"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 710,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "9fafd4712477f4b5",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "get value from memory",
+        "func": "var value = global.get(\"L3_P2_PFACTOR\");\n\nmsg.payload = value;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 880,
+        "wires": [
+            [
+                "86f9666e275faa71"
+            ]
+        ]
+    },
+    {
+        "id": "2ee7db6bb0d48ac9",
+        "type": "ui_gauge",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "group": "7bb9e3fc9dce7ee0",
+        "order": 18,
+        "width": 6,
+        "height": 3,
+        "gtype": "gage",
+        "title": "P3 FACTOR",
+        "label": "PF",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1",
+        "colors": [
+            "#11ee11",
+            "#11ee11",
+            "#11ee11"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 710,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "a2c9d8a50eef1723",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "get value from memory",
+        "func": "var value = global.get(\"L3_P3_PFACTOR\");\n\nmsg.payload = value;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 920,
+        "wires": [
+            [
+                "2ee7db6bb0d48ac9"
+            ]
+        ]
+    },
+    {
+        "id": "17bd166a952e2b5f",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "get value from memory",
+        "func": "var value = global.get(\"L3_DPM_KWH\");\n\nmsg.payload = value;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 1000,
+        "wires": [
+            [
+                "3e7b99478ac326a2"
+            ]
+        ]
+    },
+    {
+        "id": "1c8d4377e508c01f",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "get value from memory",
+        "func": "var value = global.get(\"L3_DPM_FREQ\");\n\nmsg.payload = value;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 1040,
+        "wires": [
+            [
+                "c76d368cc036d9b7"
+            ]
+        ]
+    },
+    {
+        "id": "3e7b99478ac326a2",
+        "type": "ui_text",
+        "z": "e1adb9f4e430282d",
+        "group": "7bb9e3fc9dce7ee0",
+        "order": 5,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "kWh",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 690,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "c76d368cc036d9b7",
+        "type": "ui_text",
+        "z": "e1adb9f4e430282d",
+        "group": "7bb9e3fc9dce7ee0",
+        "order": 6,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "FREQUENCY",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 720,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "1ecde18843d79172",
+        "type": "comment",
+        "z": "e1adb9f4e430282d",
+        "name": "Write to MySQL",
+        "info": "",
+        "x": 120,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "d1b04d823cc48dd1",
+        "type": "mysql",
+        "z": "e1adb9f4e430282d",
+        "mydb": "7a0cbd3a73791689",
+        "name": "",
+        "x": 560,
+        "y": 1160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a44bb2a54fad66e9",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "write to mysql",
+        "func": "var now = global.get(\"currenttime\");\nvar P1_CURRENT = global.get(\"L3_P1_CURRENT\");\nvar P1_POWER = global.get(\"L3_P1_POWER\");\nvar P1_PFACTOR = global.get(\"L3_P1_PFACTOR\");\nvar PH1_VOLT = global.get(\"L3_PH1_VOLT\");\n\nvar P2_CURRENT = global.get(\"L3_P2_CURRENT\");\nvar P2_POWER = global.get(\"L3_P2_POWER\");\nvar P2_PFACTOR = global.get(\"L3_P2_PFACTOR\");\nvar PH2_VOLT = global.get(\"L3_PH2_VOLT\");\n\nvar P3_CURRENT = global.get(\"L3_P3_CURRENT\");\nvar P3_POWER = global.get(\"L3_P3_POWER\");\nvar P3_PFACTOR = global.get(\"L3_P3_PFACTOR\");\nvar PH3_VOLT = global.get(\"L3_PH3_VOLT\");\n\nvar DPM_KWH = global.get(\"L3_DPM_KWH\");\nvar DPM_FREQ = global.get(\"L3_DPM_FREQ\");\n\nmsg.topic = 'INSERT INTO `klkrpnode`.`line3_dpm` (`TIMESTAMP`, `P1_POWER`, `P1_AMPERE`, `PH1_VOLTAGE`, `P1_PFACTOR`, `P2_POWER_`, `P2_AMPERE`, `PH2_VOLTAGE`, `P2_PFACTOR`, `P3_POWER`, `P3_AMPERE`, `PH3_VOLTAGE`, `P3_PFACTOR`, `PH_KWH`, `PH_FREQUENCY`) VALUES(\"' + now + '\", \"' + P1_POWER +'\", \"' + P1_CURRENT +'\", \"' + PH1_VOLT +'\", \"' + P1_PFACTOR +'\", \"' + P2_POWER +'\", \"' + P2_CURRENT +'\", \"' + PH2_VOLT +'\", \"' + P2_PFACTOR +'\", \"' + P3_POWER +'\", \"' + P3_CURRENT +'\", \"' + PH3_VOLT +'\", \"' + P3_PFACTOR +'\", \"' + DPM_KWH +'\", \"' + DPM_FREQ +'\");';\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 1160,
+        "wires": [
+            [
+                "d1b04d823cc48dd1"
+            ]
+        ]
+    },
+    {
+        "id": "dd17891c689cd43a",
+        "type": "inject",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 1160,
+        "wires": [
+            [
+                "a44bb2a54fad66e9"
+            ]
+        ]
+    },
+    {
+        "id": "0e6ecfe4e1a5dc17",
+        "type": "comment",
+        "z": "e1adb9f4e430282d",
+        "name": "Real Time and Historical trend",
+        "info": "",
+        "x": 160,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "7be45164feaa888e",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "select tag to display at trend",
+        "func": "var value = global.get(\"L3_P1_CURRENT\");\nvar updatetrend = global.get(\"updatetrend1\");\n\nif (updatetrend == true)\n{\nmsg.topic = 'SELECT `TIMESTAMP` as `x`, `P1_AMPERE` as `y` FROM `klkrpnode`.`line3_dpm`';\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 1360,
+        "wires": [
+            [
+                "20792489854c0365"
+            ]
+        ]
+    },
+    {
+        "id": "008ba0af3d98de79",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "Function to display at Chart",
+        "func": "//range setting \nvar ymax = flow.get('ychartsmax1'); //time back in milliseconds\nvar ymin = flow.get('ychartsmin1')\n\n//declare series,data and labels to show in chart \nvar series = [\"L3 P1 CURRENT\"];\nvar labels = [\"A\"];\nvar data = [];\nvar data1 = [];\n//IF WANT TO DO MORE TREND IN 1 CHART\nvar data2 = [];\n\n//1 hour in miliseconds\nvar x = 3600000;\n\n//this is to display latest 1 hour in real time chart\nvar latestime = global.get(\"parselatesttime\");\nvar d = latestime - x //current time in milliseconds - desired time\n\n//to repeate the graph process\nvar i ,len,string;\n\nfor (i=0, len = msg.payload.length, string = \"\"; i < len ; i++ )\n{\n data1.push(\n     { \"x\": Date.parse(msg.payload[i].x), \"y\": msg.payload[i].y }\n    );\n}\n\ndata = [data1];\nmsg.payload = [ {series,data,labels}];\nmsg.topic = \"L3 DPM P1\";\n\n//this is to adjust the range and y axis of the charts\nmsg.ui_control = {\n    options: {\n        scales: {\n            xAxes: [{\n                type: 'time',\n                time: {\n                    min: d\n                }\n            }],\n            yAxes: [{\n                ticks: {\n                    fontColor: 'black',\n                    max: ymax,\n                    min: ymin\n                }\n            }]\n        }\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 940,
+        "y": 1360,
+        "wires": [
+            [
+                "261180c592c59f7c"
+            ]
+        ]
+    },
+    {
+        "id": "20792489854c0365",
+        "type": "mysql",
+        "z": "e1adb9f4e430282d",
+        "mydb": "7a0cbd3a73791689",
+        "name": "",
+        "x": 700,
+        "y": 1360,
+        "wires": [
+            [
+                "008ba0af3d98de79"
+            ]
+        ]
+    },
+    {
+        "id": "261180c592c59f7c",
+        "type": "ui_chart",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "group": "244d40fcf2e50e7a",
+        "order": 2,
+        "width": 10,
+        "height": 6,
+        "label": "Real Time Chart",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "No Data Displayed",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1240,
+        "y": 1400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "43661140c0f114c5",
+        "type": "inject",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 1360,
+        "wires": [
+            [
+                "7be45164feaa888e"
+            ]
+        ]
+    },
+    {
+        "id": "b5cea25fb2d7b2e2",
+        "type": "ui_switch",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "label": "Auto Update",
+        "tooltip": "",
+        "group": "244d40fcf2e50e7a",
+        "order": 1,
+        "width": 10,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 150,
+        "y": 1300,
+        "wires": [
+            [
+                "0627e73de8c99f0d"
+            ]
+        ]
+    },
+    {
+        "id": "a658eacdb30cb9a9",
+        "type": "ui_date_picker",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "label": "Start Date",
+        "group": "244d40fcf2e50e7a",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 160,
+        "y": 1720,
+        "wires": [
+            [
+                "d0374203421c87ec"
+            ]
+        ]
+    },
+    {
+        "id": "d0374203421c87ec",
+        "type": "moment",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "Asia/Kuala_Lumpur",
+        "adjAmount": 0,
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "",
+        "locale": "en-US",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Asia/Kuala_Lumpur",
+        "x": 340,
+        "y": 1720,
+        "wires": [
+            [
+                "2b8a579f253eddec"
+            ]
+        ]
+    },
+    {
+        "id": "6667d71869dc5372",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "Update Start Time",
+        "func": "var date1 = global.get(\"startdate1\");\nvar starthour = global.get(\"starthour1\");\nvar startminute = global.get(\"startminute1\");\n\nvar date2 = date1 + \" \" + starthour + \":\" + startminute + \":00\" ;\nglobal.set(\"started1\", date2);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 870,
+        "y": 1760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2b8a579f253eddec",
+        "type": "string",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "methods": [
+            {
+                "name": "left",
+                "params": [
+                    {
+                        "type": "num",
+                        "value": "10"
+                    }
+                ]
+            }
+        ],
+        "prop": "payload",
+        "propout": "payload",
+        "object": "msg",
+        "objectout": "msg",
+        "x": 530,
+        "y": 1720,
+        "wires": [
+            [
+                "ca51297893070871"
+            ]
+        ]
+    },
+    {
+        "id": "1c21d513e62a0f4d",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "Real Time CHart",
+        "func": "global.set(\"starthour1\", msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 1760,
+        "wires": [
+            [
+                "6667d71869dc5372"
+            ]
+        ]
+    },
+    {
+        "id": "f2e438c70303238c",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "Real Time CHart",
+        "func": "global.set(\"startminute1\", msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 1800,
+        "wires": [
+            [
+                "6667d71869dc5372"
+            ]
+        ]
+    },
+    {
+        "id": "9158b78159d6559f",
+        "type": "ui_text_input",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "label": "Start Hour",
+        "tooltip": "",
+        "group": "244d40fcf2e50e7a",
+        "order": 6,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "0",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 170,
+        "y": 1760,
+        "wires": [
+            [
+                "1c21d513e62a0f4d"
+            ]
+        ]
+    },
+    {
+        "id": "d9a75f98cbf2bae6",
+        "type": "ui_text_input",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "label": "Start Minute",
+        "tooltip": "",
+        "group": "244d40fcf2e50e7a",
+        "order": 8,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "0",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 170,
+        "y": 1800,
+        "wires": [
+            [
+                "f2e438c70303238c"
+            ]
+        ]
+    },
+    {
+        "id": "a3e6a7e5c292b531",
+        "type": "ui_date_picker",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "label": "Stopped Date",
+        "group": "244d40fcf2e50e7a",
+        "order": 5,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 180,
+        "y": 1880,
+        "wires": [
+            [
+                "422e233e53baed68"
+            ]
+        ]
+    },
+    {
+        "id": "422e233e53baed68",
+        "type": "moment",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "Asia/Kuala_Lumpur",
+        "adjAmount": 0,
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "",
+        "locale": "en-US",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Asia/Kuala_Lumpur",
+        "x": 380,
+        "y": 1880,
+        "wires": [
+            [
+                "f3f908da6ac07e49"
+            ]
+        ]
+    },
+    {
+        "id": "ad3503b04f3bf3b9",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "Update Finished Time",
+        "func": "var date1 = global.get(\"stopdate1\");\nvar stophour = global.get(\"stophour1\");\nvar stopminute = global.get(\"stopminute1\");\n\n\nvar date2 = date1 + \" \" + stophour + \":\" + stopminute + \":00\" ;\nglobal.set(\"finished1\", date2);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 1940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f3f908da6ac07e49",
+        "type": "string",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "methods": [
+            {
+                "name": "left",
+                "params": [
+                    {
+                        "type": "num",
+                        "value": "10"
+                    }
+                ]
+            }
+        ],
+        "prop": "payload",
+        "propout": "payload",
+        "object": "msg",
+        "objectout": "msg",
+        "x": 550,
+        "y": 1880,
+        "wires": [
+            [
+                "a7afce0dc48f3143"
+            ]
+        ]
+    },
+    {
+        "id": "8ac79a002697893a",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "Real Time CHart",
+        "func": "global.set(\"stophour1\", msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 1920,
+        "wires": [
+            [
+                "ad3503b04f3bf3b9"
+            ]
+        ]
+    },
+    {
+        "id": "05ac44e547a91596",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "Real Time CHart",
+        "func": "global.set(\"stopminute1\", msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 1960,
+        "wires": [
+            [
+                "ad3503b04f3bf3b9"
+            ]
+        ]
+    },
+    {
+        "id": "9423e80565bdd8d9",
+        "type": "ui_text_input",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "label": "Stopped Hour",
+        "tooltip": "",
+        "group": "244d40fcf2e50e7a",
+        "order": 7,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "0",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 180,
+        "y": 1920,
+        "wires": [
+            [
+                "8ac79a002697893a"
+            ]
+        ]
+    },
+    {
+        "id": "4f0c884db94b4a5b",
+        "type": "ui_text_input",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "label": "Stopped Minute",
+        "tooltip": "",
+        "group": "244d40fcf2e50e7a",
+        "order": 9,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "0",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 180,
+        "y": 1960,
+        "wires": [
+            [
+                "05ac44e547a91596"
+            ]
+        ]
+    },
+    {
+        "id": "ca51297893070871",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "Real Time CHart",
+        "func": "global.set(\"startdate1\", msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 1720,
+        "wires": [
+            [
+                "6667d71869dc5372"
+            ]
+        ]
+    },
+    {
+        "id": "a7afce0dc48f3143",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "Stop Date set",
+        "func": "global.set(\"stopdate1\", msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 1880,
+        "wires": [
+            [
+                "ad3503b04f3bf3b9"
+            ]
+        ]
+    },
+    {
+        "id": "0627e73de8c99f0d",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "Update Trend tag memory",
+        "func": "global.set(\"updatetrend1\", msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 1300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9299ae660362cb8c",
+        "type": "ui_button",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "group": "244d40fcf2e50e7a",
+        "order": 3,
+        "width": 10,
+        "height": 1,
+        "passthru": false,
+        "label": "Filter Trend",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 150,
+        "y": 1420,
+        "wires": [
+            [
+                "639afd92dea46187"
+            ]
+        ]
+    },
+    {
+        "id": "639afd92dea46187",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "Select Data from SQL based on DATETIME",
+        "func": "var finished = global.get(\"finished1\");\nvar started = global.get(\"started1\");\nvar updatetrend = global.get(\"updatetrend1\");\n\nif (updatetrend == false)\n{\nmsg.topic = 'SELECT * FROM `klkrpnode`.`line3_dpm` WHERE `TIMESTAMP` BETWEEN \"' + started + '\" AND \"' + finished +'\"; ';\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 1420,
+        "wires": [
+            [
+                "dd7c9c751edf36da"
+            ]
+        ]
+    },
+    {
+        "id": "c85cdaf099eb6c7c",
+        "type": "ui_text_input",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "label": "Ymax",
+        "tooltip": "",
+        "group": "244d40fcf2e50e7a",
+        "order": 14,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "300",
+        "topic": "ymax",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 770,
+        "y": 1660,
+        "wires": [
+            [
+                "0f7826080c4c9c32"
+            ]
+        ]
+    },
+    {
+        "id": "8dcd7d2f352551dc",
+        "type": "ui_text_input",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "label": "Ymin",
+        "tooltip": "",
+        "group": "244d40fcf2e50e7a",
+        "order": 15,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "300",
+        "topic": "ymin",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 770,
+        "y": 1620,
+        "wires": [
+            [
+                "057a4126dcc05326"
+            ]
+        ]
+    },
+    {
+        "id": "e548be5db7ec8d82",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "Format chart",
+        "func": "var ymax = flow.get('ychartsmax1'); //time back in milliseconds\nvar ymin = flow.get('ychartsmin1')\nvar x = flow.get('chartprops1'); //time back in milliseconds\nvar latestime = global.get(\"latestime1\");\nvar d = latestime - x //current time in milliseconds - desired time\nvar updatetrend = global.get(\"updatetrend1\");\n\n//update range if update trend button is true\nvar latestime = global.get(\"parselatesttime\");\nvar e = latestime - x //current time in milliseconds - desired time\n\ndelete msg.payload;\ndelete msg.topic;\n\nif (updatetrend == false)\n{\n//send all modification in one go\nmsg.ui_control = { \n    options: {\n        scales: {\n            xAxes: [{\n                type: 'time',\n                time: {\n                    min: d\n                        }\n            }],\n            yAxes: [{\n                    ticks: {\n                        fontColor: 'red',\n                        max: ymax,\n                        min: ymin\n                    }\n                }]\n            }\n            }   \n                }\n}\nelse\n    msg.ui_control = {\n        options: {\n            scales: {\n                xAxes: [{\n                    type: 'time',\n                    time: {\n                        min: e\n                    }\n                }],\n                yAxes: [{\n                    ticks: {\n                        fontColor: 'black',\n                        max: ymax,\n                        min: ymin\n                    }\n                }]\n            }\n        }\n    }\n\nreturn msg; \n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 1540,
+        "wires": [
+            [
+                "261180c592c59f7c"
+            ]
+        ]
+    },
+    {
+        "id": "acad6fa8468675e3",
+        "type": "ui_text_input",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "label": "Minutes",
+        "tooltip": "",
+        "group": "244d40fcf2e50e7a",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "number",
+        "delay": "300",
+        "topic": "time",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 760,
+        "y": 1580,
+        "wires": [
+            [
+                "99ba9ab5a47a9c86"
+            ]
+        ]
+    },
+    {
+        "id": "057a4126dcc05326",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "y min charts",
+        "func": "\n\nflow.set('ychartsmin1', msg.payload)\n// message continues to flow but in next node properties will be deleted\n// it will be used only as change event\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 1620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0f7826080c4c9c32",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "y max chart",
+        "func": "\n\nflow.set('ychartsmax1',msg.payload)\n// message continues to flow but in next node properties will be deleted\n// it will be used only as change event\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 1660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "99ba9ab5a47a9c86",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "x charts option",
+        "func": "\n\nflow.set('chartprops1', msg.payload * 60000)\n// message continues to flow but in next node properties will be deleted\n// it will be used only as change event\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 940,
+        "y": 1580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dd7c9c751edf36da",
+        "type": "mysql",
+        "z": "e1adb9f4e430282d",
+        "mydb": "7a0cbd3a73791689",
+        "name": "",
+        "x": 700,
+        "y": 1420,
+        "wires": [
+            [
+                "422d01e184aea807",
+                "2745c163cc36ff47"
+            ]
+        ]
+    },
+    {
+        "id": "422d01e184aea807",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "Function to display at Chart",
+        "func": "//declare series,data and labels to show in chart \nvar series = [\"L3 P1 CURRENT\"];\nvar labels = [\"A\"];\nvar data = [];\nvar data1 = [];\n//IF WANT TO DO MORE TREND IN 1 CHART\nvar data2 = [];\nvar d = msg.payload[0].TIMESTAMP;\n\n//to repeate the graph process\nvar i ,len,string;\n\nfor (i=0, len = msg.payload.length, string = \"\"; i < len ; i++ )\n{\n data1.push(\n     { \"x\": Date.parse(msg.payload[i].TIMESTAMP), \"y\": msg.payload[i].P1_AMPERE }\n    );\n}\n\ndata = [data1,data2];\nmsg.payload = [ {series,data,labels}];\nmsg.topic = \"L3 DPM P1\";\n\n//send all modification in one go\nmsg.ui_control = {\n    options: {\n        scales: {\n            xAxes: [{\n                type: 'time',\n                time: {\n                    min: d\n                }\n            }]\n}\n}\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 940,
+        "y": 1400,
+        "wires": [
+            [
+                "261180c592c59f7c"
+            ]
+        ]
+    },
+    {
+        "id": "a8cf485c6a5ef695",
+        "type": "inject",
+        "z": "e1adb9f4e430282d",
+        "g": "2f6b531f6170fd01",
+        "name": "",
+        "props": [],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 950,
+        "y": 1160,
+        "wires": [
+            [
+                "66102a478a9669f0"
+            ]
+        ]
+    },
+    {
+        "id": "66102a478a9669f0",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "g": "2f6b531f6170fd01",
+        "name": "Real Time CHart",
+        "func": "var now = new Date();\n\nmsg.payload = Date.parse(now);\n\nglobal.set(\"parselatesttime\", msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1180,
+        "y": 1160,
+        "wires": [
+            [
+                "b66d45da9617d3d6"
+            ]
+        ]
+    },
+    {
+        "id": "b66d45da9617d3d6",
+        "type": "debug",
+        "z": "e1adb9f4e430282d",
+        "g": "2f6b531f6170fd01",
+        "name": "debug 48",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1400,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "2745c163cc36ff47",
+        "type": "function",
+        "z": "e1adb9f4e430282d",
+        "name": "get length of array",
+        "func": "//this is to get the last of array index\n\nvar length = msg.payload.length;\n\nmsg.payload = Date.parse(msg.payload[length-1].timestamp);\n\nglobal.set(\"latestime1\", msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 1440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5785c405c66b0c79",
+        "type": "ui_button",
+        "z": "e1adb9f4e430282d",
+        "name": "",
+        "group": "244d40fcf2e50e7a",
+        "order": 12,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Update Range",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 760,
+        "y": 1540,
+        "wires": [
+            [
+                "e548be5db7ec8d82"
+            ]
+        ]
+    },
+    {
+        "id": "5408a08dd85f9948",
+        "type": "ui_text",
+        "z": "e1adb9f4e430282d",
+        "group": "244d40fcf2e50e7a",
+        "order": 11,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Trend Range Setting",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 780,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "8355a1ea570a27a6",
+        "type": "comment",
+        "z": "f49946705cc05b74",
+        "name": "Get yesterday and current date and time",
+        "info": "",
+        "x": 200,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "5801986e5e2ea3a6",
+        "type": "simpletime",
+        "z": "f49946705cc05b74",
+        "name": "",
+        "mydate": false,
+        "myymd": true,
+        "myyear": true,
+        "mymonth": false,
+        "mymonthn": true,
+        "mydom": false,
+        "mydoy": false,
+        "myday": false,
+        "myhourpm": false,
+        "myhour": false,
+        "mytime": true,
+        "mytimes": false,
+        "myminute": false,
+        "myminutes": false,
+        "mysecond": false,
+        "mymillis": false,
+        "myepoch": false,
+        "myrawdate": false,
+        "mypm": false,
+        "x": 370,
+        "y": 120,
+        "wires": [
+            [
+                "ce3b064250e1e28a",
+                "c8908f70406e63e8"
+            ]
+        ]
+    },
+    {
+        "id": "ce3b064250e1e28a",
+        "type": "function",
+        "z": "f49946705cc05b74",
+        "name": "Save current time and current date",
+        "func": "var currenttimes = msg.mytime;\nvar currentdate = msg.myymd;\n\nglobal.set(\"savetime\", currenttimes);\nglobal.set(\"savedate\", currentdate);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ff193063f75cc669",
+        "type": "inject",
+        "z": "f49946705cc05b74",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 120,
+        "wires": [
+            [
+                "5801986e5e2ea3a6"
+            ]
+        ]
+    },
+    {
+        "id": "c8908f70406e63e8",
+        "type": "function",
+        "z": "f49946705cc05b74",
+        "name": "Save date to create new file log",
+        "func": "var d = new Date();\n//get yesterday date\nvar day = d.getDate() - 1;\n// get current year and month\nvar year = msg.myyear;\nvar month = msg.mymonthn;\n\nmsg.payload = year+\"-\"+month+\"-\"+day;\nglobal.set(\"yesterdaydate\", msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fd964d03b5232ab9",
+        "type": "json",
+        "z": "f49946705cc05b74",
+        "name": "",
+        "property": "payload",
+        "action": "str",
+        "pretty": false,
+        "x": 330,
+        "y": 360,
+        "wires": [
+            [
+                "ad1a431a8cd0c0bb",
+                "8dc1146a42a82bd2"
+            ]
+        ]
+    },
+    {
+        "id": "9fad9224f99e5195",
+        "type": "inject",
+        "z": "f49946705cc05b74",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 360,
+        "wires": [
+            [
+                "fd964d03b5232ab9"
+            ]
+        ]
+    },
+    {
+        "id": "dcca1017c6394f10",
+        "type": "csv",
+        "z": "f49946705cc05b74",
+        "name": "DPM overwrite CSV",
+        "sep": ",",
+        "hdrin": false,
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\r\\n",
+        "temp": "TIMESTAMP,P1_CURRENT,P1_POWER,P1_PFACTOR,PH1_VOLT,P2_CURRENT,P2_POWER,P2_PFACTOR,PH2_VOLT,P3_CURRENT,P3_POWER,P3_PFACTOR,PH3_VOLT,DPM_KWH,DPM_FREQ",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 760,
+        "y": 360,
+        "wires": [
+            [
+                "9ce69ac34cab3c2b"
+            ]
+        ]
+    },
+    {
+        "id": "9ce69ac34cab3c2b",
+        "type": "file",
+        "z": "f49946705cc05b74",
+        "name": "write to file",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "utf8",
+        "x": 1010,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ad1a431a8cd0c0bb",
+        "type": "function",
+        "z": "f49946705cc05b74",
+        "name": "Overwrite CSV file",
+        "func": "var savetime = global.get(\"savetime\");\nvar savedate = global.get(\"savedate\");\nvar yesterdaydate = global.get(\"yesterdaydate\");\n\nvar P1_CURRENT = global.get(\"L3_P1_CURRENT\");\nvar P1_POWER = global.get(\"L3_P1_POWER\");\nvar P1_PFACTOR = global.get(\"L3_P1_PFACTOR\");\nvar PH1_VOLT = global.get(\"L3_PH1_VOLT\");\n\nvar P2_CURRENT = global.get(\"L3_P2_CURRENT\");\nvar P2_POWER = global.get(\"L3_P2_POWER\");\nvar P2_PFACTOR = global.get(\"L3_P2_PFACTOR\");\nvar PH2_VOLT = global.get(\"L3_PH2_VOLT\");\n\nvar P3_CURRENT = global.get(\"L3_P3_CURRENT\");\nvar P3_POWER = global.get(\"L3_P3_POWER\");\nvar P3_PFACTOR = global.get(\"L3_P3_PFACTOR\");\nvar PH3_VOLT = global.get(\"L3_PH3_VOLT\");\n\nvar DPM_KWH = global.get(\"L3_DPM_KWH\");\nvar DPM_FREQ = global.get(\"L3_DPM_FREQ\");\n\n\nif (savetime > \"10:30\") {\n    //log the csv files in new files and put header and new data\n    msg.filename = \"C:/Users/masyr/Desktop/Node-Red/Project/csv/L3_DPM/KLKRP_\" + savedate + \"_DPM.csv\";\n    msg.payload = {\"TIMESTAMP\": savetime,\n        \"P1_CURRENT\": P1_CURRENT, \"P1_POWER\": P1_POWER, \"P1_PFACTOR\": P1_PFACTOR, \"PH1_VOLT\": PH1_VOLT,\n        \"P2_CURRENT\": P2_CURRENT, \"P2_POWER\": P2_POWER, \"P2_PFACTOR\": P2_PFACTOR, \"PH2_VOLT\": PH3_VOLT,\n        \"P3_CURRENT\": P3_CURRENT, \"P3_POWER\": P3_POWER, \"P3_PFACTOR\": P3_PFACTOR, \"PH3_VOLT\": PH3_VOLT,\n        \"DPM_KWH\": DPM_KWH, \"DPM_FREQ\": DPM_FREQ\n    }\n}\nelse if (savetime < \"10:30\")\n    msg.filename = \"C:/Users/masyr/Desktop/Node-Red/Project/csv/L3_DPM/KLKRP_\" +yesterdaydate+\"_DPM.csv\";\n    msg.payload = { \"TIMESTAMP\": savetime, \n    \"P1_CURRENT\": P1_CURRENT, \"P1_POWER\": P1_POWER, \"P1_PFACTOR\": P1_PFACTOR, \"PH1_VOLT\": PH1_VOLT,\n    \"P2_CURRENT\": P2_CURRENT, \"P2_POWER\": P2_POWER, \"P2_PFACTOR\": P2_PFACTOR, \"PH2_VOLT\": PH3_VOLT,\n    \"P3_CURRENT\": P3_CURRENT, \"P3_POWER\": P3_POWER, \"P3_PFACTOR\": P3_PFACTOR, \"PH3_VOLT\": PH3_VOLT,\n    \"DPM_KWH\": DPM_KWH, \"DPM_FREQ\": DPM_FREQ\n    }\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 360,
+        "wires": [
+            [
+                "dcca1017c6394f10"
+            ]
+        ]
+    },
+    {
+        "id": "8dc1146a42a82bd2",
+        "type": "function",
+        "z": "f49946705cc05b74",
+        "name": "Create new CSV file",
+        "func": "var savetime = global.get(\"savetime\");\nvar savedate = global.get(\"savedate\");\n\nvar P1_CURRENT = global.get(\"L3_P1_CURRENT\");\nvar P1_POWER = global.get(\"L3_P1_POWER\");\nvar P1_PFACTOR = global.get(\"L3_P1_PFACTOR\");\nvar PH1_VOLT = global.get(\"L3_PH1_VOLT\");\n\nvar P2_CURRENT = global.get(\"L3_P2_CURRENT\");\nvar P2_POWER = global.get(\"L3_P2_POWER\");\nvar P2_PFACTOR = global.get(\"L3_P2_PFACTOR\");\nvar PH2_VOLT = global.get(\"L3_PH2_VOLT\");\n\nvar P3_CURRENT = global.get(\"L3_P3_CURRENT\");\nvar P3_POWER = global.get(\"L3_P3_POWER\");\nvar P3_PFACTOR = global.get(\"L3_P3_PFACTOR\");\nvar PH3_VOLT = global.get(\"L3_PH3_VOLT\");\n\nvar DPM_KWH = global.get(\"L3_DPM_KWH\");\nvar DPM_FREQ = global.get(\"L3_DPM_FREQ\");\n\n\nif (savetime == \"10:30\")\n{\n    //log the csv files in new files and put header and new data\n    msg.filename = \"C:/Users/masyr/Desktop/Node-Red/Project/csv/L3_DPM/KLKRP_\" + savedate + \"_DPM.csv\";\n    msg.payload = {\n        \"TIMESTAMP\": savetime,\n        \"P1_CURRENT\": P1_CURRENT, \"P1_POWER\": P1_POWER, \"P1_PFACTOR\": P1_PFACTOR, \"PH1_VOLT\": PH1_VOLT,\n        \"P2_CURRENT\": P2_CURRENT, \"P2_POWER\": P2_POWER, \"P2_PFACTOR\": P2_PFACTOR, \"PH2_VOLT\": PH3_VOLT,\n        \"P3_CURRENT\": P3_CURRENT, \"P3_POWER\": P3_POWER, \"P3_PFACTOR\": P3_PFACTOR, \"PH3_VOLT\": PH3_VOLT,\n        \"DPM_KWH\": DPM_KWH, \"DPM_FREQ\": DPM_FREQ\n    }\n}\nelse\n//blank csv to hide the error \n    msg.filename = \"C:/Users/masyr/Desktop/Node-Red/Project/csv//L3_DPM/blank.csv\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 400,
+        "wires": [
+            [
+                "0f76c25da6f40ab3"
+            ]
+        ]
+    },
+    {
+        "id": "719c09b01aaf9b80",
+        "type": "comment",
+        "z": "f49946705cc05b74",
+        "name": "This is to write and update the csv based on time",
+        "info": "",
+        "x": 220,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "0f76c25da6f40ab3",
+        "type": "csv",
+        "z": "f49946705cc05b74",
+        "name": "DPM new CSV",
+        "sep": ",",
+        "hdrin": true,
+        "hdrout": "all",
+        "multi": "one",
+        "ret": "\\r\\n",
+        "temp": "TIMESTAMP,P1_CURRENT,P1_POWER,P1_PFACTOR,PH1_VOLT,P2_CURRENT,P2_POWER,P2_PFACTOR,PH2_VOLT,P3_CURRENT,P3_POWER,P3_PFACTOR,PH3_VOLT,DPM_KWH,DPM_FREQ",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 740,
+        "y": 400,
+        "wires": [
+            [
+                "9ce69ac34cab3c2b"
+            ]
+        ]
+    },
+    {
         "id": "fc99b6b0cdeae482",
         "type": "debug",
         "z": "b1eb87a69b481449",
@@ -30074,7 +32884,7 @@
         "z": "b1eb87a69b481449",
         "mydb": "d30d6219.8ceef",
         "name": "",
-        "x": 640,
+        "x": 620,
         "y": 940,
         "wires": [
             [
@@ -30729,7 +33539,7 @@
         "name": "Always Update the Time into Memory",
         "info": "",
         "x": 210,
-        "y": 1620,
+        "y": 1600,
         "wires": []
     },
     {
@@ -31729,13 +34539,10 @@
         "myepoch": false,
         "myrawdate": false,
         "mypm": false,
-        "x": 370,
-        "y": 2620,
+        "x": 390,
+        "y": 2680,
         "wires": [
-            [
-                "471f31ce1d190223",
-                "c08413f5c86b55c6"
-            ]
+            []
         ]
     },
     {
@@ -31750,7 +34557,7 @@
         "finalize": "",
         "libs": [],
         "x": 640,
-        "y": 2620,
+        "y": 2680,
         "wires": [
             []
         ]
@@ -31777,7 +34584,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 210,
-        "y": 2620,
+        "y": 2680,
         "wires": [
             [
                 "91cefafa0caf3cb9"
@@ -31796,7 +34603,7 @@
         "finalize": "",
         "libs": [],
         "x": 650,
-        "y": 2660,
+        "y": 2720,
         "wires": [
             []
         ]
@@ -31826,7 +34633,7 @@
         "property": "payload",
         "action": "str",
         "pretty": false,
-        "x": 450,
+        "x": 410,
         "y": 2540,
         "wires": [
             [
@@ -31845,7 +34652,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 650,
+        "x": 590,
         "y": 2540,
         "wires": [
             [
@@ -31868,7 +34675,7 @@
         "strings": true,
         "include_empty_strings": "",
         "include_null_values": "",
-        "x": 830,
+        "x": 770,
         "y": 2540,
         "wires": [
             [
@@ -31942,38 +34749,6 @@
         ]
     },
     {
-        "id": "2618d0b788aa33fd",
-        "type": "modbus-read",
-        "z": "b1eb87a69b481449",
-        "name": "",
-        "topic": "",
-        "showStatusActivities": false,
-        "logIOActivities": false,
-        "showErrors": false,
-        "showWarnings": true,
-        "unitid": "",
-        "dataType": "HoldingRegister",
-        "adr": "4",
-        "quantity": "2",
-        "rate": "1000",
-        "rateUnit": "ms",
-        "delayOnStart": false,
-        "startDelayTime": "",
-        "server": "99f9a1d395f0d464",
-        "useIOFile": false,
-        "ioFile": "",
-        "useIOForPayload": false,
-        "emptyMsgOnFail": false,
-        "x": 410,
-        "y": 2880,
-        "wires": [
-            [
-                "a2758934fa7e7cf9"
-            ],
-            []
-        ]
-    },
-    {
         "id": "34e13a22ae0e94d0",
         "type": "debug",
         "z": "b1eb87a69b481449",
@@ -31986,8 +34761,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1120,
-        "y": 2900,
+        "x": 1140,
+        "y": 3180,
         "wires": []
     },
     {
@@ -32001,8 +34776,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 990,
-        "y": 2820,
+        "x": 1090,
+        "y": 3140,
         "wires": [
             []
         ]
@@ -32018,8 +34793,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 910,
-        "y": 2940,
+        "x": 930,
+        "y": 3220,
         "wires": [
             [
                 "ce7c40a01d59de38"
@@ -32039,25 +34814,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1120,
-        "y": 2940,
-        "wires": []
-    },
-    {
-        "id": "9cf2c785566a3b0c",
-        "type": "debug",
-        "z": "b1eb87a69b481449",
-        "name": "debug 38",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 860,
-        "y": 2760,
+        "x": 1140,
+        "y": 3220,
         "wires": []
     },
     {
@@ -32077,8 +34835,8 @@
         "keepMsgProperties": false,
         "delayOnStart": false,
         "startDelayTime": "",
-        "x": 650,
-        "y": 3000,
+        "x": 670,
+        "y": 3280,
         "wires": [
             [
                 "78b57e0cb8b141a4"
@@ -32091,14 +34849,14 @@
         "type": "function",
         "z": "b1eb87a69b481449",
         "name": "buffer to readable value",
-        "func": "var fc = 3;\nvar sa = 100;\nvar addresses = 1;\n//var slave_ip=msg.payload.slave_ip;\n//msg.slave_ip=\"192.168.1.31\";\nmsg.payload = { value: msg.payload, 'fc': fc, 'unitid': 1, 'address': sa, 'quantity': addresses };\nreturn msg;",
+        "func": "var fc = 3;\nvar sa = 0;\nvar addresses = 2;\n//var slave_ip=msg.payload.slave_ip;\n//msg.slave_ip=\"192.168.1.31\";\nmsg.payload = { value: msg.payload, 'fc': fc, 'unitid': 1, 'address': sa, 'quantity': addresses };\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 390,
-        "y": 3000,
+        "x": 410,
+        "y": 3280,
         "wires": [
             [
                 "69b006595089e727"
@@ -32118,8 +34876,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1140,
-        "y": 3020,
+        "x": 1160,
+        "y": 3300,
         "wires": []
     },
     {
@@ -32143,8 +34901,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 160,
-        "y": 3000,
+        "x": 180,
+        "y": 3280,
         "wires": [
             [
                 "d2f31d6bf7dddc45"
@@ -32172,8 +34930,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 194.8958740234375,
-        "y": 3063.111328125,
+        "x": 214.8958740234375,
+        "y": 3343.111328125,
         "wires": [
             [
                 "fe048b937e3c963d"
@@ -32191,8 +34949,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 440,
-        "y": 3060,
+        "x": 460,
+        "y": 3340,
         "wires": [
             [
                 "7083ed3efc87cff2"
@@ -32212,8 +34970,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 660,
-        "y": 3060,
+        "x": 680,
+        "y": 3340,
         "wires": []
     },
     {
@@ -32227,12 +34985,10 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 480,
-        "y": 3180,
+        "x": 500,
+        "y": 3460,
         "wires": [
-            [
-                "47e9be0541c0989a"
-            ]
+            []
         ]
     },
     {
@@ -32256,8 +35012,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 260,
-        "y": 3180,
+        "x": 280,
+        "y": 3460,
         "wires": [
             [
                 "3c8dc56b7a290c3f"
@@ -32277,8 +35033,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1000,
-        "y": 3160,
+        "x": 1020,
+        "y": 3440,
         "wires": []
     },
     {
@@ -32294,8 +35050,8 @@
         "keepMsgProperties": false,
         "delayOnStart": false,
         "startDelayTime": "",
-        "x": 790,
-        "y": 3180,
+        "x": 810,
+        "y": 3460,
         "wires": [
             [
                 "3a963d49db13a63c"
@@ -32314,12 +35070,10 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 480,
-        "y": 3240,
+        "x": 500,
+        "y": 3520,
         "wires": [
-            [
-                "47e9be0541c0989a"
-            ]
+            []
         ]
     },
     {
@@ -32343,8 +35097,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 260,
-        "y": 3240,
+        "x": 280,
+        "y": 3520,
         "wires": [
             [
                 "0cbca589dc4eefd7"
@@ -32357,8 +35111,8 @@
         "z": "b1eb87a69b481449",
         "name": "This is to write and update the csv based on time",
         "info": "",
-        "x": 320,
-        "y": 2240,
+        "x": 240,
+        "y": 2220,
         "wires": []
     },
     {
@@ -32367,8 +35121,8 @@
         "z": "b1eb87a69b481449",
         "name": "This is to read and write modbus register ",
         "info": "",
-        "x": 280,
-        "y": 2820,
+        "x": 300,
+        "y": 3040,
         "wires": []
     },
     {
@@ -32382,8 +35136,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 770,
-        "y": 2900,
+        "x": 790,
+        "y": 3180,
         "wires": [
             []
         ]
@@ -32400,11 +35154,246 @@
         "finalize": "",
         "libs": [],
         "x": 650,
+        "y": 3120,
+        "wires": [
+            [
+                "69a79113bc1e6241"
+            ]
+        ]
+    },
+    {
+        "id": "7fa68d6aa00a3aa5",
+        "type": "modbus-read",
+        "z": "b1eb87a69b481449",
+        "name": "",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "4",
+        "quantity": "2",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "99f9a1d395f0d464",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 350,
+        "y": 3120,
+        "wires": [
+            [
+                "a2758934fa7e7cf9"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "69a79113bc1e6241",
+        "type": "debug",
+        "z": "b1eb87a69b481449",
+        "name": "debug 43",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 3120,
+        "wires": []
+    },
+    {
+        "id": "cf33b3361a37ccfe",
+        "type": "inject",
+        "z": "b1eb87a69b481449",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1670,
+        "y": 460,
+        "wires": [
+            [
+                "8b558f03d012645b"
+            ]
+        ]
+    },
+    {
+        "id": "8b558f03d012645b",
+        "type": "function",
+        "z": "b1eb87a69b481449",
+        "name": "Real Time CHart",
+        "func": "var now = new Date();\n\nmsg.payload = Date.parse(now);\n\nglobal.set(\"parselatesttime\", msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1900,
+        "y": 460,
+        "wires": [
+            [
+                "d5a5efbfd49d6024"
+            ]
+        ]
+    },
+    {
+        "id": "d5a5efbfd49d6024",
+        "type": "debug",
+        "z": "b1eb87a69b481449",
+        "name": "debug 47",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2120,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "4d29109425123916",
+        "type": "inject",
+        "z": "b1eb87a69b481449",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 220,
+        "y": 2760,
+        "wires": [
+            [
+                "0e0c4fc313881121"
+            ]
+        ]
+    },
+    {
+        "id": "8d63e30df292983a",
+        "type": "function",
+        "z": "b1eb87a69b481449",
+        "name": "Save date to create new file log",
+        "func": "var d = new Date();\nvar year = d.getFullYear();\nvar month = d.getMonth();\nvar day = d.getDate() -1;\n\nmsg.payload = year+\"/\"+month+\"/\"+day;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 2760,
+        "wires": [
+            [
+                "8285704e6256eeae"
+            ]
+        ]
+    },
+    {
+        "id": "8285704e6256eeae",
+        "type": "debug",
+        "z": "b1eb87a69b481449",
+        "name": "debug 49",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 2760,
+        "wires": []
+    },
+    {
+        "id": "e305e4d563846822",
+        "type": "function",
+        "z": "b1eb87a69b481449",
+        "name": "Save date to create new file log",
+        "func": "var d = new Date();\nvar day = d.getDate() - 1;\nvar year = msg.myyear;\nvar month = msg.mymonthn;\n\n\nmsg.payload = year+\"/\"+month+\"/\"+day;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
         "y": 2800,
         "wires": [
             [
-                "9cf2c785566a3b0c"
+                "b7ea4e0960902fa1"
             ]
+        ]
+    },
+    {
+        "id": "b7ea4e0960902fa1",
+        "type": "debug",
+        "z": "b1eb87a69b481449",
+        "name": "debug 50",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 2800,
+        "wires": []
+    },
+    {
+        "id": "0e0c4fc313881121",
+        "type": "simpletime",
+        "z": "b1eb87a69b481449",
+        "name": "",
+        "mydate": false,
+        "myymd": true,
+        "myyear": true,
+        "mymonth": false,
+        "mymonthn": true,
+        "mydom": false,
+        "mydoy": false,
+        "myday": false,
+        "myhourpm": false,
+        "myhour": false,
+        "mytime": false,
+        "mytimes": true,
+        "myminute": false,
+        "myminutes": false,
+        "mysecond": false,
+        "mymillis": false,
+        "myepoch": false,
+        "myrawdate": false,
+        "mypm": false,
+        "x": 390,
+        "y": 2760,
+        "wires": [
+            []
         ]
     }
 ]
