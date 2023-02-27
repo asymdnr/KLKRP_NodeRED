@@ -6,5 +6,8 @@
     "7a0cbd3a73791689": {
         "user": "user1",
         "password": "Sbpis0913*"
+    },
+    "b8b21ec90e827003": {
+        "jwtSecret": "Eh6H95gUJ0whlJ5SMK16ABcRkp3B40yg"
     }
 }
