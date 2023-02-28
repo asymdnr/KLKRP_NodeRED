@@ -46,9 +46,17 @@
         "env": []
     },
     {
-        "id": "3a486ca22e827155",
+        "id": "e7efcedd94496292",
         "type": "tab",
-        "label": "Alarm and Events Test",
+        "label": "Alarm",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e4abb199d1dcf785",
+        "type": "tab",
+        "label": "Event",
         "disabled": false,
         "info": "",
         "env": []
@@ -57,6 +65,14 @@
         "id": "82c336c0cda633ca",
         "type": "tab",
         "label": "User Login",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9b07ba984d5cb7a4",
+        "type": "tab",
+        "label": "Telegram ",
         "disabled": false,
         "info": "",
         "env": []
@@ -348,9 +364,7 @@
             "b81b6aa5b71dd29a"
         ],
         "x": 54,
-        "y": 19,
-        "w": 972,
-        "h": 482
+        "y": 19
     },
     {
         "id": "f840e9332560a7cf",
@@ -369,9 +383,7 @@
             "adf2b66bbfef77da"
         ],
         "x": 54,
-        "y": 519,
-        "w": 852,
-        "h": 122
+        "y": 519
     },
     {
         "id": "eb31b411689ba5ea",
@@ -397,9 +409,7 @@
             "e514383c619be0cf"
         ],
         "x": 54,
-        "y": 659,
-        "w": 1292,
-        "h": 202
+        "y": 659
     },
     {
         "id": "928ec4a3e9eb4898",
@@ -661,7 +671,9 @@
             "728c47daeaf5c87b"
         ],
         "x": 954,
-        "y": 59
+        "y": 59,
+        "w": 592,
+        "h": 242
     },
     {
         "id": "6868c1fe6482f423",
@@ -686,7 +698,9 @@
             "4f88e1a349fbf1c6"
         ],
         "x": 1574,
-        "y": 59
+        "y": 59,
+        "w": 952,
+        "h": 282
     },
     {
         "id": "ae68a759ae14f389",
@@ -718,7 +732,9 @@
             "8fe26ac798a127a4"
         ],
         "x": 74,
-        "y": 1239
+        "y": 1239,
+        "w": 932,
+        "h": 322
     },
     {
         "id": "900501035c01b7f7",
@@ -736,7 +752,9 @@
             "ef56e1115c92c94e"
         ],
         "x": 94,
-        "y": 1139
+        "y": 1139,
+        "w": 792,
+        "h": 82
     },
     {
         "id": "2f6b531f6170fd01",
@@ -757,38 +775,38 @@
         "y": 1119
     },
     {
-        "id": "13c292f5dcbebbd4",
+        "id": "0e42e17ff29a5de1",
         "type": "group",
-        "z": "3a486ca22e827155",
+        "z": "e7efcedd94496292",
         "name": "",
         "style": {
             "fill": "#c8e7a7",
             "label": true
         },
         "nodes": [
-            "31c4e941cad1cad4",
-            "2702045c4bf09fbf",
-            "91bcc79c66d8b7f2",
-            "f127edbd9b334c52",
-            "5b51f3da7adfc6b1",
-            "06c546c32aab06bf",
-            "c92206ed2ea3ec95",
-            "1c32aea8b817c894",
-            "084db87718f15817",
-            "9a1dea9a03cfe0a4",
-            "1a0480cbe26aa937",
-            "8874bbd860740607",
-            "34df37d2b694bc62",
-            "f708ae75c4b2f90b",
-            "69742db61c19c13d",
-            "5a6b1e55e4a15495",
-            "7ca90531667484b6",
-            "baa404e35c77f759",
-            "53260529e1a0ce62",
-            "4c230fc2441ad986",
-            "8023e32065f023b6",
-            "34f9e5e06ba39ea4",
-            "8656d4640109e90f"
+            "b5a77f6a3b20699f",
+            "a1d280f59cc41985",
+            "e6a7370b351a772b",
+            "93c95f4ed558bcd9",
+            "133660cdee6cb63d",
+            "ebbe11d2f3d0ba69",
+            "9ec57c12fccd3730",
+            "3a1e6a2443683f62",
+            "6fe9f4d1588be948",
+            "7910f57863cb20c9",
+            "4aa5779edea29d7c",
+            "cd9900c97b6ced09",
+            "8e557d5f52050eb4",
+            "e2454ae2d238ab9b",
+            "929cc51ae8528fad",
+            "6d0e03977da5dc13",
+            "0551214df96cfef2",
+            "93cb4fb8ecbf4844",
+            "5ba1692db48ca56a",
+            "8c06ee5caf1b9b94",
+            "68a85f65a990595b",
+            "ab55114140ba6821",
+            "4fe4fc49e040344a"
         ],
         "x": 54,
         "y": 19,
@@ -796,30 +814,30 @@
         "h": 442
     },
     {
-        "id": "34d2d432f7348368",
+        "id": "7ce522ee5ad49a4c",
         "type": "group",
-        "z": "3a486ca22e827155",
+        "z": "e7efcedd94496292",
         "name": "",
         "style": {
             "fill": "#c8e7a7",
             "label": true
         },
         "nodes": [
-            "c80ba9c26bbc0e97",
-            "052ec7907e94b0eb",
-            "074de201f50036ac",
-            "a85332f58ca095cf",
-            "fe351abc688b3352",
-            "99f187b1b6337429",
-            "bebe16cd9090da42",
-            "5709f30db5c8b002",
-            "3264e823445c1c2c",
-            "61e917aa7e5863c2",
-            "c992dec588f7aab6",
-            "08480d46f57155ae",
-            "aea1d4925119e3b0",
-            "c1de518b9d1737bb",
-            "3cea7d6b9e506462"
+            "3c8cabc8fb9baa2d",
+            "ddac856e0fd0935f",
+            "a6966de86d494ff9",
+            "7ce0d97b3c78fb28",
+            "9b6ab237b44d9e20",
+            "bbda80b290113d1d",
+            "c6ee64d4df618da9",
+            "772f89696a8353d2",
+            "dc30f385a9baf7a1",
+            "481a2478c45821bd",
+            "0380feb16954866d",
+            "9258f3f7488ae34f",
+            "877e099ea10504ae",
+            "d6a55c042efd3fe0",
+            "dfaf58a4a10a9589"
         ],
         "x": 54,
         "y": 479,
@@ -827,22 +845,113 @@
         "h": 502
     },
     {
-        "id": "6d480edbdddc41d1",
+        "id": "6ce79745b15a69fa",
         "type": "group",
-        "z": "3a486ca22e827155",
+        "z": "e7efcedd94496292",
         "name": "",
         "style": {
             "fill": "#c8e7a7",
             "label": true
         },
         "nodes": [
-            "64bb634fa5fa58e0",
-            "db9079d9f43c04c7",
-            "400029cc581d4954",
-            "796d2ee257e383de",
-            "215d2d3aeb2fb4f7"
+            "d3d405cf3c0a413b",
+            "3f5745181e26f299",
+            "ac521561e5997213",
+            "3990653088444bb7",
+            "1afabb22dec2bd65"
         ],
         "x": 54,
+        "y": 999,
+        "w": 952,
+        "h": 122
+    },
+    {
+        "id": "d5a6405a4469b49d",
+        "type": "group",
+        "z": "e4abb199d1dcf785",
+        "name": "",
+        "style": {
+            "fill": "#c8e7a7",
+            "label": true
+        },
+        "nodes": [
+            "8b069ae2498956f3",
+            "d3101b1e13d5bd4f",
+            "bbbd083fb0834219",
+            "ed2efe7b94353e39",
+            "589a077b2e740ea8",
+            "f8b2807efaf786e9",
+            "6919789edb39f095",
+            "9035d7abd8a92164",
+            "4e7f5d34bcac3923",
+            "dc342606a1f1633e",
+            "5377959e0cb45ca2",
+            "d578a25bf1d73d45",
+            "ed9a73ca5f74d97c",
+            "0a19515df3781b5f",
+            "9a9d2242476471a8",
+            "d336f54788f1f688",
+            "99ea01e03626f133",
+            "88e7a49d31e21f76",
+            "e55ad7873d9a5fa8",
+            "8b77db266a63875a",
+            "ab72839e1584f5d6",
+            "013b51b9cf625b1a",
+            "de362c253652fc83"
+        ],
+        "x": 34,
+        "y": 19,
+        "w": 962,
+        "h": 442
+    },
+    {
+        "id": "2cc5da9f0d5ab2e0",
+        "type": "group",
+        "z": "e4abb199d1dcf785",
+        "name": "",
+        "style": {
+            "fill": "#c8e7a7",
+            "label": true
+        },
+        "nodes": [
+            "3a45e23c2370a0ec",
+            "94e51ff3fdf953ad",
+            "1da76d507d84eb36",
+            "7e26338a01859fe6",
+            "b8b55ede633ed85b",
+            "d91b33cb77093811",
+            "f4c887f655ebb160",
+            "9d5a05a2607d8e21",
+            "7ce26462945db264",
+            "049a5b39acf8e1f9",
+            "5f7f8782025c8f6c",
+            "156aafa3fed097f1",
+            "56364fa7e897770e",
+            "52378fd44302a9ab",
+            "c5786c24cf894733"
+        ],
+        "x": 34,
+        "y": 479,
+        "w": 962,
+        "h": 502
+    },
+    {
+        "id": "4386729d53ac6292",
+        "type": "group",
+        "z": "e4abb199d1dcf785",
+        "name": "",
+        "style": {
+            "fill": "#c8e7a7",
+            "label": true
+        },
+        "nodes": [
+            "e6ef5af12d707f99",
+            "6b6e0c82bfa2c36e",
+            "dba5c29075808d36",
+            "ca8986393be60f07",
+            "9658d08a157b3187"
+        ],
+        "x": 34,
         "y": 999,
         "w": 952,
         "h": 122
@@ -1703,7 +1812,7 @@
         "type": "ui_tab",
         "name": "OVEN BURNER",
         "icon": "fa-free-code-camp",
-        "order": 1,
+        "order": 2,
         "disabled": false,
         "hidden": false
     },
@@ -1767,7 +1876,7 @@
         "type": "ui_tab",
         "name": "MOTOR",
         "icon": "toys",
-        "order": 2,
+        "order": 3,
         "disabled": false,
         "hidden": false
     },
@@ -1787,7 +1896,7 @@
         "type": "ui_tab",
         "name": "TANK",
         "icon": "broken_image",
-        "order": 3,
+        "order": 4,
         "disabled": false,
         "hidden": false
     },
@@ -20094,7 +20203,7 @@
         "type": "ui_tab",
         "name": "PLC and NodeRED",
         "icon": "dashboard",
-        "order": 3,
+        "order": 5,
         "disabled": false,
         "hidden": false
     },
@@ -20103,7 +20212,7 @@
         "type": "ui_tab",
         "name": "DPM ",
         "icon": "dashboard",
-        "order": 5,
+        "order": 6,
         "disabled": false,
         "hidden": false
     },
@@ -20220,19 +20329,10 @@
         "height": 1
     },
     {
-        "id": "f31fe467e99cae18",
-        "type": "ui_tab",
-        "name": "Alarm and Event",
-        "icon": "dashboard",
-        "order": 6,
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "c958b7f2d6665992",
         "type": "ui_group",
         "name": "Alarm",
-        "tab": "f31fe467e99cae18",
+        "tab": "",
         "order": 1,
         "disp": true,
         "width": 30,
@@ -20243,82 +20343,12 @@
         "id": "d57015e261c2f154",
         "type": "ui_group",
         "name": "Value",
-        "tab": "f31fe467e99cae18",
+        "tab": "",
         "order": 2,
         "disp": true,
         "width": "6",
         "collapse": false,
         "className": ""
-    },
-    {
-        "id": "c4f549f5ba24427e",
-        "type": "ui_spacer",
-        "z": "3a486ca22e827155",
-        "name": "spacer",
-        "group": "c958b7f2d6665992",
-        "order": 10,
-        "width": 15,
-        "height": 1
-    },
-    {
-        "id": "bb2e41a99de390c3",
-        "type": "ui_spacer",
-        "z": "3a486ca22e827155",
-        "name": "spacer",
-        "group": "c958b7f2d6665992",
-        "order": 16,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "7d825a6ca4309fa0",
-        "type": "ui_spacer",
-        "z": "3a486ca22e827155",
-        "name": "spacer",
-        "group": "c958b7f2d6665992",
-        "order": 18,
-        "width": 15,
-        "height": 1
-    },
-    {
-        "id": "7834bb7cd3f015e1",
-        "type": "ui_spacer",
-        "z": "3a486ca22e827155",
-        "name": "spacer",
-        "group": "c958b7f2d6665992",
-        "order": 20,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "a782e4d9edf057b8",
-        "type": "ui_spacer",
-        "z": "3a486ca22e827155",
-        "name": "spacer",
-        "group": "c958b7f2d6665992",
-        "order": 22,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "dacf4af1f29e7468",
-        "type": "ui_spacer",
-        "z": "3a486ca22e827155",
-        "name": "spacer",
-        "group": "c958b7f2d6665992",
-        "order": 24,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "895f19317984eaef",
-        "type": "ui_spacer",
-        "z": "3a486ca22e827155",
-        "name": "spacer",
-        "group": "c958b7f2d6665992",
-        "order": 26,
-        "width": 30,
-        "height": 1
     },
     {
         "id": "b82da486.9fc8d8",
@@ -20331,49 +20361,23 @@
         "collapse": false
     },
     {
-        "id": "c35e46a8.b04ce8",
-        "type": "ui_group",
-        "name": "SensorData",
-        "tab": "d65502b1.ee517",
-        "order": 2,
-        "disp": true,
-        "width": "6",
-        "collapse": false
-    },
-    {
-        "id": "4de9506d.e7364",
-        "type": "ui_group",
-        "name": "History",
-        "tab": "d65502b1.ee517",
-        "order": 3,
-        "disp": true,
-        "width": "6",
-        "collapse": false
-    },
-    {
         "id": "d65502b1.ee517",
         "type": "ui_tab",
-        "name": "Dashboard",
-        "icon": "dashboard",
-        "order": 1
+        "name": "SIGN IN",
+        "icon": "input",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
     },
     {
         "id": "fe762942.fd8b08",
         "type": "ui_group",
         "name": "Default",
-        "tab": "3e55b58e.55d1e2",
+        "tab": "",
         "order": 1,
         "disp": true,
         "width": "6",
         "collapse": false
-    },
-    {
-        "id": "3e55b58e.55d1e2",
-        "type": "ui_tab",
-        "name": "Home",
-        "icon": "dashboard",
-        "disabled": false,
-        "hidden": false
     },
     {
         "id": "b8b21ec90e827003",
@@ -20381,6 +20385,271 @@
         "appPath": "/users",
         "jwtCookieName": "nr.nodeUsers.jwt",
         "jwtHttpsOnly": false
+    },
+    {
+        "id": "625d3c585223b06f",
+        "type": "ui_group",
+        "name": "Alarm",
+        "tab": "bc365af51caf7a07",
+        "order": 1,
+        "disp": true,
+        "width": 30,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "b0130d6f2634c207",
+        "type": "ui_group",
+        "name": "Event",
+        "tab": "7a896048921423cb",
+        "order": 1,
+        "disp": true,
+        "width": 30,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "bc365af51caf7a07",
+        "type": "ui_tab",
+        "name": "ALARM",
+        "icon": "dashboard",
+        "order": 6,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "7a896048921423cb",
+        "type": "ui_tab",
+        "name": "EVENT",
+        "icon": "dashboard",
+        "order": 8,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "94d2b7d92ffee984",
+        "type": "ui_spacer",
+        "z": "e4abb199d1dcf785",
+        "name": "spacer",
+        "group": "625d3c585223b06f",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "330bea303a9a36e7",
+        "type": "ui_spacer",
+        "z": "e4abb199d1dcf785",
+        "name": "spacer",
+        "group": "625d3c585223b06f",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "34214d538bb8f0b5",
+        "type": "ui_spacer",
+        "z": "e4abb199d1dcf785",
+        "name": "spacer",
+        "group": "625d3c585223b06f",
+        "order": 20,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a33fa218cb246108",
+        "type": "ui_spacer",
+        "z": "e4abb199d1dcf785",
+        "name": "spacer",
+        "group": "625d3c585223b06f",
+        "order": 22,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "cad3d7d83c5db23b",
+        "type": "ui_spacer",
+        "z": "e4abb199d1dcf785",
+        "name": "spacer",
+        "group": "625d3c585223b06f",
+        "order": 24,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "6c4afa1c9a7309a1",
+        "type": "ui_spacer",
+        "z": "e4abb199d1dcf785",
+        "name": "spacer",
+        "group": "b0130d6f2634c207",
+        "order": 2,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "9fa5433350779a3e",
+        "type": "ui_spacer",
+        "z": "e4abb199d1dcf785",
+        "name": "spacer",
+        "group": "b0130d6f2634c207",
+        "order": 4,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "3767ad1aadc83182",
+        "type": "ui_spacer",
+        "z": "e4abb199d1dcf785",
+        "name": "spacer",
+        "group": "b0130d6f2634c207",
+        "order": 6,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "b7e82fdb97153896",
+        "type": "ui_spacer",
+        "z": "e4abb199d1dcf785",
+        "name": "spacer",
+        "group": "b0130d6f2634c207",
+        "order": 8,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "0627a7e1a9b5d772",
+        "type": "ui_spacer",
+        "z": "e4abb199d1dcf785",
+        "name": "spacer",
+        "group": "b0130d6f2634c207",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8eced7d05c2ec561",
+        "type": "ui_spacer",
+        "z": "e4abb199d1dcf785",
+        "name": "spacer",
+        "group": "b0130d6f2634c207",
+        "order": 22,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e2b5d661395909eb",
+        "type": "ui_spacer",
+        "z": "e4abb199d1dcf785",
+        "name": "spacer",
+        "group": "b0130d6f2634c207",
+        "order": 24,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2ed3d81711293112",
+        "type": "ui_spacer",
+        "z": "e4abb199d1dcf785",
+        "name": "spacer",
+        "group": "b0130d6f2634c207",
+        "order": 26,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d1d74a231b9df59a",
+        "type": "ui_spacer",
+        "z": "e4abb199d1dcf785",
+        "name": "spacer",
+        "group": "b0130d6f2634c207",
+        "order": 28,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "62fdb0252b656bae",
+        "type": "ui_spacer",
+        "z": "e4abb199d1dcf785",
+        "name": "spacer",
+        "group": "b0130d6f2634c207",
+        "order": 29,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "c71fa9e2d86ac9f1",
+        "type": "ui_spacer",
+        "z": "e4abb199d1dcf785",
+        "name": "spacer",
+        "group": "b0130d6f2634c207",
+        "order": 31,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "713b066af694ce0d",
+        "type": "ui_spacer",
+        "z": "e4abb199d1dcf785",
+        "name": "spacer",
+        "group": "b0130d6f2634c207",
+        "order": 32,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "06dfb53d3f0466cc",
+        "type": "ui_spacer",
+        "z": "e4abb199d1dcf785",
+        "name": "spacer",
+        "group": "b0130d6f2634c207",
+        "order": 33,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "5822fcc7ca239462",
+        "type": "ui_spacer",
+        "z": "e4abb199d1dcf785",
+        "name": "spacer",
+        "group": "b0130d6f2634c207",
+        "order": 34,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "e9a0aace9b75814a",
+        "type": "ui_spacer",
+        "z": "e4abb199d1dcf785",
+        "name": "spacer",
+        "group": "b0130d6f2634c207",
+        "order": 36,
+        "width": 20,
+        "height": 1
+    },
+    {
+        "id": "4a0577f62c0ff0f9",
+        "type": "telegram bot",
+        "botname": "Nodered_TeleBot",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksprotocol": "socks5",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
     },
     {
         "id": "1a6a73230e00c124",
@@ -20396,7 +20665,6 @@
         "id": "b97bc1c0.cb899",
         "type": "ui_template",
         "z": "531e23be5dd8efe8",
-        "d": true,
         "group": "c982fbb8.1deb38",
         "name": "Clock Toolbar",
         "order": 1,
@@ -32916,7 +33184,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 170,
+        "x": 130,
         "y": 900,
         "wires": [
             [
@@ -35549,59 +35817,33 @@
         ]
     },
     {
-        "id": "14fa6d6a4c266ab6",
+        "id": "9851277d478c846d",
         "type": "mysql",
-        "z": "3a486ca22e827155",
+        "z": "e7efcedd94496292",
         "mydb": "7a0cbd3a73791689",
         "name": "",
-        "x": 660,
-        "y": 1320,
+        "x": 620,
+        "y": 1260,
         "wires": [
             [
-                "f03bbbd13786078e"
+                "2b3e9304b6d7b0b0"
             ]
         ]
     },
     {
-        "id": "a75371f3a1c71ff7",
-        "type": "ui_numeric",
-        "z": "3a486ca22e827155",
-        "name": "Line1 Alarm",
-        "label": "Line 1 Alarm",
-        "tooltip": "",
-        "group": "d57015e261c2f154",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "wrap": false,
-        "passthru": true,
-        "topic": "topic",
-        "topicType": "msg",
-        "format": "{{value}}",
-        "min": 0,
-        "max": 10,
-        "step": 1,
-        "className": "",
-        "x": 170,
-        "y": 2300,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "8cd1b79ed3a8169f",
+        "id": "5657a7e9a75d7daa",
         "type": "comment",
-        "z": "3a486ca22e827155",
+        "z": "e7efcedd94496292",
         "name": "Alarm Logging save as global memory",
         "info": "",
         "x": 210,
-        "y": 2040,
+        "y": 1540,
         "wires": []
     },
     {
-        "id": "f6293b09c9a3a14b",
+        "id": "2262da8e3e65783f",
         "type": "function",
-        "z": "3a486ca22e827155",
+        "z": "e7efcedd94496292",
         "name": "read from mysql",
         "func": "var updatealarm = global.get(\"updatealarm\");\n\nif (updatealarm == true)\n{\nmsg.topic = 'select*from `klkrpnode`.`alarm`;';\n}\nreturn msg;",
         "outputs": 1,
@@ -35609,168 +35851,75 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 460,
-        "y": 1320,
+        "x": 420,
+        "y": 1260,
         "wires": [
             [
-                "14fa6d6a4c266ab6"
+                "9851277d478c846d"
             ]
         ]
     },
     {
-        "id": "dc6ced54fbf0a64a",
-        "type": "ui_numeric",
-        "z": "3a486ca22e827155",
-        "name": "Line2 Alarm",
-        "label": "Line2 Alarm",
-        "tooltip": "",
-        "group": "d57015e261c2f154",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "wrap": false,
-        "passthru": true,
-        "topic": "Line2_Alarm",
-        "topicType": "msg",
-        "format": "{{value}}",
-        "min": 0,
-        "max": 10,
-        "step": 1,
-        "className": "",
-        "x": 170,
-        "y": 2340,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "7cddd4e9e9f5b703",
+        "id": "430abf2f0e240bcf",
         "type": "comment",
-        "z": "3a486ca22e827155",
+        "z": "e7efcedd94496292",
         "name": "Write Alarm to Database",
         "info": "",
-        "x": 210,
-        "y": 1180,
+        "x": 170,
+        "y": 1160,
         "wires": []
     },
     {
-        "id": "c968638a76dd9593",
+        "id": "2a29e6781c2e94ef",
         "type": "comment",
-        "z": "3a486ca22e827155",
+        "z": "e7efcedd94496292",
         "name": "This is to test alarm logging",
         "info": "",
         "x": 170,
-        "y": 1680,
+        "y": 1440,
         "wires": []
     },
     {
-        "id": "fa660cf46a076937",
-        "type": "ui_switch",
-        "z": "3a486ca22e827155",
-        "name": "",
-        "label": "Line1 Alarm switch",
-        "tooltip": "",
-        "group": "d57015e261c2f154",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "LINE01_ALM1",
-        "topicType": "str",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 170,
-        "y": 2100,
-        "wires": [
-            [
-                "ee4c6fdf2c02700a"
-            ]
-        ]
-    },
-    {
-        "id": "9b6878010fa99228",
-        "type": "ui_switch",
-        "z": "3a486ca22e827155",
-        "name": "Line2_AlmSwitch",
-        "label": "Line2 Alarm Switch",
-        "tooltip": "",
-        "group": "d57015e261c2f154",
-        "order": 4,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "LINE02_ALM1",
-        "topicType": "str",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 170,
-        "y": 2160,
-        "wires": [
-            [
-                "8536cddd9a565d65"
-            ]
-        ]
-    },
-    {
-        "id": "b61ddf9aa69144c5",
+        "id": "0b61f63f34df73c6",
         "type": "mysql",
-        "z": "3a486ca22e827155",
+        "z": "e7efcedd94496292",
         "mydb": "7a0cbd3a73791689",
         "name": "",
-        "x": 660,
-        "y": 1260,
+        "x": 620,
+        "y": 1200,
         "wires": [
             []
         ]
     },
     {
-        "id": "f5979895f4faa3ab",
+        "id": "02e40187fdf5e08c",
         "type": "function",
-        "z": "3a486ca22e827155",
+        "z": "e7efcedd94496292",
         "name": "Write to mysql",
-        "func": "var currenttime = global.get(\"currenttime\");\nvar line = global.get(\"alarm1_line\");\nvar tag = global.get(\"alarm1_tag\");\nvar alarm_status = global.get(\"alarm1_status\");\n\n//to include the sql script at this variable\n\nvar sql\n\nsql = 'INSERT INTO`klkrpnode`.`alarm`(`TIMESTAMP`, `LINE`, `TAG`,`STATUS`)VALUES(\"' + currenttime + '\",\"' + line + '\",\"' + tag + '\",\"' + alarm_status +'\");';\nmsg.topic = sql;\n\n\nreturn msg;",
+        "func": "var currenttime = global.get(\"currenttime\");\nvar line = global.get(\"alarm1_line\");\nvar tag = global.get(\"alarm1_tag\");\nvar alarm_status = global.get(\"alarm1_status\");\n\n//to include the sql script at this variable\n\nvar sql\nsql = 'INSERT INTO`klkrpnode`.`alarm`(`TIMESTAMP`, `LINE`, `TAG`,`STATUS`)VALUES(\"' + currenttime + '\",\"' + line + '\",\"' + tag + '\",\"' + alarm_status +'\");';\nmsg.topic = sql;\n\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 460,
-        "y": 1260,
+        "x": 420,
+        "y": 1200,
         "wires": [
             [
-                "b61ddf9aa69144c5"
+                "0b61f63f34df73c6",
+                "7f2b5cc955d8a69b"
             ]
         ]
     },
     {
-        "id": "31c4e941cad1cad4",
+        "id": "b5a77f6a3b20699f",
         "type": "ui_date_picker",
-        "z": "3a486ca22e827155",
-        "g": "13c292f5dcbebbd4",
+        "z": "e7efcedd94496292",
+        "g": "0e42e17ff29a5de1",
         "name": "",
         "label": "Start Date",
-        "group": "c958b7f2d6665992",
-        "order": 15,
+        "group": "625d3c585223b06f",
+        "order": 10,
         "width": 7,
         "height": 1,
         "passthru": true,
@@ -35781,15 +35930,15 @@
         "y": 180,
         "wires": [
             [
-                "2702045c4bf09fbf"
+                "a1d280f59cc41985"
             ]
         ]
     },
     {
-        "id": "2702045c4bf09fbf",
+        "id": "a1d280f59cc41985",
         "type": "moment",
-        "z": "3a486ca22e827155",
-        "g": "13c292f5dcbebbd4",
+        "z": "e7efcedd94496292",
+        "g": "0e42e17ff29a5de1",
         "name": "",
         "topic": "",
         "input": "payload",
@@ -35807,15 +35956,15 @@
         "y": 180,
         "wires": [
             [
-                "f127edbd9b334c52"
+                "93c95f4ed558bcd9"
             ]
         ]
     },
     {
-        "id": "91bcc79c66d8b7f2",
+        "id": "e6a7370b351a772b",
         "type": "function",
-        "z": "3a486ca22e827155",
-        "g": "13c292f5dcbebbd4",
+        "z": "e7efcedd94496292",
+        "g": "0e42e17ff29a5de1",
         "name": "Update Start Time",
         "func": "var date1 = global.get(\"startdate2\");\nvar starthour = global.get(\"starthour2\");\nvar startminute = global.get(\"startminute2\");\n\nvar date2 = date1 + \" \" + starthour + \":\" + startminute + \":00\" ;\nglobal.set(\"started2\", date2);\n\nreturn msg;",
         "outputs": 1,
@@ -35830,10 +35979,10 @@
         ]
     },
     {
-        "id": "f127edbd9b334c52",
+        "id": "93c95f4ed558bcd9",
         "type": "string",
-        "z": "3a486ca22e827155",
-        "g": "13c292f5dcbebbd4",
+        "z": "e7efcedd94496292",
+        "g": "0e42e17ff29a5de1",
         "name": "",
         "methods": [
             {
@@ -35854,15 +36003,15 @@
         "y": 180,
         "wires": [
             [
-                "7ca90531667484b6"
+                "0551214df96cfef2"
             ]
         ]
     },
     {
-        "id": "5b51f3da7adfc6b1",
+        "id": "133660cdee6cb63d",
         "type": "function",
-        "z": "3a486ca22e827155",
-        "g": "13c292f5dcbebbd4",
+        "z": "e7efcedd94496292",
+        "g": "0e42e17ff29a5de1",
         "name": "Real Time CHart",
         "func": "global.set(\"starthour2\", msg.payload);\n\nreturn msg;",
         "outputs": 1,
@@ -35874,15 +36023,15 @@
         "y": 220,
         "wires": [
             [
-                "91bcc79c66d8b7f2"
+                "e6a7370b351a772b"
             ]
         ]
     },
     {
-        "id": "06c546c32aab06bf",
+        "id": "ebbe11d2f3d0ba69",
         "type": "function",
-        "z": "3a486ca22e827155",
-        "g": "13c292f5dcbebbd4",
+        "z": "e7efcedd94496292",
+        "g": "0e42e17ff29a5de1",
         "name": "Real Time CHart",
         "func": "global.set(\"startminute2\", msg.payload);\n\nreturn msg;",
         "outputs": 1,
@@ -35894,20 +36043,20 @@
         "y": 260,
         "wires": [
             [
-                "91bcc79c66d8b7f2"
+                "e6a7370b351a772b"
             ]
         ]
     },
     {
-        "id": "c92206ed2ea3ec95",
+        "id": "9ec57c12fccd3730",
         "type": "ui_text_input",
-        "z": "3a486ca22e827155",
-        "g": "13c292f5dcbebbd4",
+        "z": "e7efcedd94496292",
+        "g": "0e42e17ff29a5de1",
         "name": "",
         "label": "Start Hour",
         "tooltip": "",
-        "group": "c958b7f2d6665992",
-        "order": 19,
+        "group": "625d3c585223b06f",
+        "order": 17,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -35921,20 +36070,20 @@
         "y": 220,
         "wires": [
             [
-                "5b51f3da7adfc6b1"
+                "133660cdee6cb63d"
             ]
         ]
     },
     {
-        "id": "1c32aea8b817c894",
+        "id": "3a1e6a2443683f62",
         "type": "ui_text_input",
-        "z": "3a486ca22e827155",
-        "g": "13c292f5dcbebbd4",
+        "z": "e7efcedd94496292",
+        "g": "0e42e17ff29a5de1",
         "name": "",
         "label": "Start Minute",
         "tooltip": "",
-        "group": "c958b7f2d6665992",
-        "order": 21,
+        "group": "625d3c585223b06f",
+        "order": 19,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -35948,19 +36097,19 @@
         "y": 260,
         "wires": [
             [
-                "06c546c32aab06bf"
+                "ebbe11d2f3d0ba69"
             ]
         ]
     },
     {
-        "id": "084db87718f15817",
+        "id": "6fe9f4d1588be948",
         "type": "ui_date_picker",
-        "z": "3a486ca22e827155",
-        "g": "13c292f5dcbebbd4",
+        "z": "e7efcedd94496292",
+        "g": "0e42e17ff29a5de1",
         "name": "",
         "label": "Stopped Date",
-        "group": "c958b7f2d6665992",
-        "order": 17,
+        "group": "625d3c585223b06f",
+        "order": 12,
         "width": 7,
         "height": 1,
         "passthru": true,
@@ -35971,15 +36120,15 @@
         "y": 340,
         "wires": [
             [
-                "9a1dea9a03cfe0a4"
+                "7910f57863cb20c9"
             ]
         ]
     },
     {
-        "id": "9a1dea9a03cfe0a4",
+        "id": "7910f57863cb20c9",
         "type": "moment",
-        "z": "3a486ca22e827155",
-        "g": "13c292f5dcbebbd4",
+        "z": "e7efcedd94496292",
+        "g": "0e42e17ff29a5de1",
         "name": "",
         "topic": "",
         "input": "payload",
@@ -35997,17 +36146,17 @@
         "y": 340,
         "wires": [
             [
-                "8874bbd860740607"
+                "cd9900c97b6ced09"
             ]
         ]
     },
     {
-        "id": "1a0480cbe26aa937",
+        "id": "4aa5779edea29d7c",
         "type": "function",
-        "z": "3a486ca22e827155",
-        "g": "13c292f5dcbebbd4",
+        "z": "e7efcedd94496292",
+        "g": "0e42e17ff29a5de1",
         "name": "Update Finished Time",
-        "func": "var date1 = global.get(\"stopdate2\");\nvar stophour = global.get(\"stophour2\");\nvar stopminute = global.get(\"stopminute2\");\n\n\nvar date2 = date1 + \" \" + stophour + \":\" + stopminute + \":00\" ;\nglobal.set(\"finished2\", date2);\n\nreturn msg;",
+        "func": "var date1 = global.get(\"stopdate3\");\nvar stophour = global.get(\"stophour3\");\nvar stopminute = global.get(\"stopminute3\");\n\n\nvar date2 = date1 + \" \" + stophour + \":\" + stopminute + \":00\" ;\nglobal.set(\"finished3\", date2);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -36020,10 +36169,10 @@
         ]
     },
     {
-        "id": "8874bbd860740607",
+        "id": "cd9900c97b6ced09",
         "type": "string",
-        "z": "3a486ca22e827155",
-        "g": "13c292f5dcbebbd4",
+        "z": "e7efcedd94496292",
+        "g": "0e42e17ff29a5de1",
         "name": "",
         "methods": [
             {
@@ -36044,17 +36193,17 @@
         "y": 340,
         "wires": [
             [
-                "baa404e35c77f759"
+                "93cb4fb8ecbf4844"
             ]
         ]
     },
     {
-        "id": "34df37d2b694bc62",
+        "id": "8e557d5f52050eb4",
         "type": "function",
-        "z": "3a486ca22e827155",
-        "g": "13c292f5dcbebbd4",
+        "z": "e7efcedd94496292",
+        "g": "0e42e17ff29a5de1",
         "name": "Real Time CHart",
-        "func": "global.set(\"stophour2\", msg.payload);\n\nreturn msg;",
+        "func": "global.set(\"stophour3\", msg.payload);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -36064,17 +36213,17 @@
         "y": 380,
         "wires": [
             [
-                "1a0480cbe26aa937"
+                "4aa5779edea29d7c"
             ]
         ]
     },
     {
-        "id": "f708ae75c4b2f90b",
+        "id": "e2454ae2d238ab9b",
         "type": "function",
-        "z": "3a486ca22e827155",
-        "g": "13c292f5dcbebbd4",
+        "z": "e7efcedd94496292",
+        "g": "0e42e17ff29a5de1",
         "name": "Real Time CHart",
-        "func": "global.set(\"stopminute2\", msg.payload);\n\nreturn msg;",
+        "func": "global.set(\"stopminute3\", msg.payload);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -36084,19 +36233,46 @@
         "y": 420,
         "wires": [
             [
-                "1a0480cbe26aa937"
+                "4aa5779edea29d7c"
             ]
         ]
     },
     {
-        "id": "69742db61c19c13d",
+        "id": "929cc51ae8528fad",
         "type": "ui_text_input",
-        "z": "3a486ca22e827155",
-        "g": "13c292f5dcbebbd4",
+        "z": "e7efcedd94496292",
+        "g": "0e42e17ff29a5de1",
         "name": "",
         "label": "Stopped Hour",
         "tooltip": "",
-        "group": "c958b7f2d6665992",
+        "group": "625d3c585223b06f",
+        "order": 21,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "0",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 160,
+        "y": 380,
+        "wires": [
+            [
+                "8e557d5f52050eb4"
+            ]
+        ]
+    },
+    {
+        "id": "6d0e03977da5dc13",
+        "type": "ui_text_input",
+        "z": "e7efcedd94496292",
+        "g": "0e42e17ff29a5de1",
+        "name": "",
+        "label": "Stopped Minute",
+        "tooltip": "",
+        "group": "625d3c585223b06f",
         "order": 23,
         "width": 3,
         "height": 1,
@@ -36108,45 +36284,18 @@
         "className": "",
         "topicType": "msg",
         "x": 160,
-        "y": 380,
-        "wires": [
-            [
-                "34df37d2b694bc62"
-            ]
-        ]
-    },
-    {
-        "id": "5a6b1e55e4a15495",
-        "type": "ui_text_input",
-        "z": "3a486ca22e827155",
-        "g": "13c292f5dcbebbd4",
-        "name": "",
-        "label": "Stopped Minute",
-        "tooltip": "",
-        "group": "c958b7f2d6665992",
-        "order": 25,
-        "width": 3,
-        "height": 1,
-        "passthru": true,
-        "mode": "number",
-        "delay": "0",
-        "topic": "topic",
-        "sendOnBlur": true,
-        "className": "",
-        "topicType": "msg",
-        "x": 160,
         "y": 420,
         "wires": [
             [
-                "f708ae75c4b2f90b"
+                "e2454ae2d238ab9b"
             ]
         ]
     },
     {
-        "id": "7ca90531667484b6",
+        "id": "0551214df96cfef2",
         "type": "function",
-        "z": "3a486ca22e827155",
-        "g": "13c292f5dcbebbd4",
+        "z": "e7efcedd94496292",
+        "g": "0e42e17ff29a5de1",
         "name": "Real Time CHart",
         "func": "global.set(\"startdate2\", msg.payload);\n\nreturn msg;",
         "outputs": 1,
@@ -36158,17 +36307,17 @@
         "y": 180,
         "wires": [
             [
-                "91bcc79c66d8b7f2"
+                "e6a7370b351a772b"
             ]
         ]
     },
     {
-        "id": "baa404e35c77f759",
+        "id": "93cb4fb8ecbf4844",
         "type": "function",
-        "z": "3a486ca22e827155",
-        "g": "13c292f5dcbebbd4",
+        "z": "e7efcedd94496292",
+        "g": "0e42e17ff29a5de1",
         "name": "Stop Date set",
-        "func": "global.set(\"stopdate2\", msg.payload);\n\nreturn msg;",
+        "func": "global.set(\"stopdate3\", msg.payload);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -36178,22 +36327,22 @@
         "y": 340,
         "wires": [
             [
-                "1a0480cbe26aa937"
+                "4aa5779edea29d7c"
             ]
         ]
     },
     {
-        "id": "53260529e1a0ce62",
+        "id": "5ba1692db48ca56a",
         "type": "ui_button",
-        "z": "3a486ca22e827155",
-        "g": "13c292f5dcbebbd4",
+        "z": "e7efcedd94496292",
+        "g": "0e42e17ff29a5de1",
         "name": "",
-        "group": "c958b7f2d6665992",
+        "group": "625d3c585223b06f",
         "order": 2,
         "width": 15,
         "height": 1,
         "passthru": false,
-        "label": "Filter Alarm by Datetime",
+        "label": "Filter Event by Datetime",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
@@ -36207,15 +36356,15 @@
         "y": 120,
         "wires": [
             [
-                "4c230fc2441ad986"
+                "8c06ee5caf1b9b94"
             ]
         ]
     },
     {
-        "id": "4c230fc2441ad986",
+        "id": "8c06ee5caf1b9b94",
         "type": "function",
-        "z": "3a486ca22e827155",
-        "g": "13c292f5dcbebbd4",
+        "z": "e7efcedd94496292",
+        "g": "0e42e17ff29a5de1",
         "name": "Select Data from SQL based on DATETIME",
         "func": "var finished = global.get(\"finished2\");\nvar started = global.get(\"started2\");\nvar updatetrend = global.get(\"updatetrend2\");\nvar updatealarm = global.get(\"updatealarm\");\n\nif (updatealarm == false)\n{\nmsg.topic = 'SELECT * FROM `klkrpnode`.`alarm` WHERE `TIMESTAMP` BETWEEN \"' + started + '\" AND \"' + finished +'\"; ';\n}\nreturn msg;",
         "outputs": 1,
@@ -36227,33 +36376,33 @@
         "y": 120,
         "wires": [
             [
-                "8023e32065f023b6"
+                "68a85f65a990595b"
             ]
         ]
     },
     {
-        "id": "8023e32065f023b6",
+        "id": "68a85f65a990595b",
         "type": "mysql",
-        "z": "3a486ca22e827155",
-        "g": "13c292f5dcbebbd4",
+        "z": "e7efcedd94496292",
+        "g": "0e42e17ff29a5de1",
         "mydb": "7a0cbd3a73791689",
         "name": "",
         "x": 820,
         "y": 120,
         "wires": [
             [
-                "8656d4640109e90f"
+                "4fe4fc49e040344a"
             ]
         ]
     },
     {
-        "id": "ac2cd3101ab7a3ff",
+        "id": "cbbcc55a20699336",
         "type": "ui_switch",
-        "z": "3a486ca22e827155",
+        "z": "e7efcedd94496292",
         "name": "",
         "label": "Auto Update Alarm",
         "tooltip": "",
-        "group": "c958b7f2d6665992",
+        "group": "625d3c585223b06f",
         "order": 1,
         "width": 15,
         "height": 1,
@@ -36273,17 +36422,17 @@
         "animate": false,
         "className": "",
         "x": 170,
-        "y": 1720,
+        "y": 1480,
         "wires": [
             [
-                "022c4cb677daa1d1"
+                "0583ab53963876c5"
             ]
         ]
     },
     {
-        "id": "022c4cb677daa1d1",
+        "id": "0583ab53963876c5",
         "type": "function",
-        "z": "3a486ca22e827155",
+        "z": "e7efcedd94496292",
         "name": "Update Trend tag memory",
         "func": "global.set(\"updatealarm\", msg.payload);\n\nreturn msg;",
         "outputs": 1,
@@ -36292,15 +36441,15 @@
         "finalize": "",
         "libs": [],
         "x": 470,
-        "y": 1720,
+        "y": 1480,
         "wires": [
             []
         ]
     },
     {
-        "id": "c04550929b36f9c4",
+        "id": "82858719206ce339",
         "type": "inject",
-        "z": "3a486ca22e827155",
+        "z": "e7efcedd94496292",
         "name": "",
         "props": [
             {
@@ -36318,18 +36467,18 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 180,
-        "y": 1500,
+        "x": 160,
+        "y": 1360,
         "wires": [
             [
-                "0de0d35f7f319f09"
+                "6e33ed56e9fcb7f4"
             ]
         ]
     },
     {
-        "id": "0de0d35f7f319f09",
+        "id": "6e33ed56e9fcb7f4",
         "type": "function",
-        "z": "3a486ca22e827155",
+        "z": "e7efcedd94496292",
         "name": "Delete query",
         "func": "\n\n//to include the sql script at this variable\n\nvar sql\nsql = 'delete from `klkrpnode`.`alarm`'\nmsg.topic = sql;\n\n\nreturn msg;",
         "outputs": 1,
@@ -36337,83 +36486,48 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 430,
-        "y": 1500,
+        "x": 410,
+        "y": 1360,
         "wires": [
             [
-                "8b64289bce59f6ce"
+                "faba04fe4d79165a"
             ]
         ]
     },
     {
-        "id": "8b64289bce59f6ce",
+        "id": "faba04fe4d79165a",
         "type": "mysql",
-        "z": "3a486ca22e827155",
+        "z": "e7efcedd94496292",
         "mydb": "7a0cbd3a73791689",
         "name": "",
-        "x": 600,
-        "y": 1500,
+        "x": 580,
+        "y": 1360,
         "wires": [
             [
-                "f03bbbd13786078e"
+                "2b3e9304b6d7b0b0"
             ]
         ]
     },
     {
-        "id": "f03bbbd13786078e",
+        "id": "2b3e9304b6d7b0b0",
         "type": "ui_table",
-        "z": "3a486ca22e827155",
-        "group": "c958b7f2d6665992",
+        "z": "e7efcedd94496292",
+        "group": "625d3c585223b06f",
         "name": "",
-        "order": 27,
+        "order": 25,
         "width": 30,
         "height": 8,
         "columns": [],
         "outputs": 0,
         "cts": false,
-        "x": 930,
-        "y": 1300,
+        "x": 890,
+        "y": 1240,
         "wires": []
     },
     {
-        "id": "edfa484b63c5997d",
-        "type": "ui_switch",
-        "z": "3a486ca22e827155",
-        "name": "Line3_AlmSwitch",
-        "label": "Line3 Alarm Switch",
-        "tooltip": "",
-        "group": "d57015e261c2f154",
-        "order": 5,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "LINE03_ALM23",
-        "topicType": "str",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 170,
-        "y": 2220,
-        "wires": [
-            [
-                "848a61af9d01d670",
-                "13f8503a69830272"
-            ]
-        ]
-    },
-    {
-        "id": "19cc705ac6baf3ea",
+        "id": "79caf545c4f5757f",
         "type": "inject",
-        "z": "3a486ca22e827155",
+        "z": "e7efcedd94496292",
         "d": true,
         "name": "",
         "props": [
@@ -36432,66 +36546,19 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 150,
-        "y": 1300,
+        "x": 170,
+        "y": 1260,
         "wires": [
             [
-                "f6293b09c9a3a14b"
+                "2262da8e3e65783f"
             ]
         ]
     },
     {
-        "id": "ee4c6fdf2c02700a",
-        "type": "string",
-        "z": "3a486ca22e827155",
-        "name": "Extract Char from Right to Left",
-        "methods": [
-            {
-                "name": "right",
-                "params": [
-                    {
-                        "type": "num",
-                        "value": "5"
-                    }
-                ]
-            }
-        ],
-        "prop": "topic",
-        "propout": "stringconvert",
-        "object": "msg",
-        "objectout": "msg",
-        "x": 450,
-        "y": 2100,
-        "wires": [
-            [
-                "4ec3df34e3c0622c"
-            ]
-        ]
-    },
-    {
-        "id": "4ec3df34e3c0622c",
-        "type": "function",
-        "z": "3a486ca22e827155",
-        "name": "Save Alarm Status",
-        "func": "//this script is to extract the characters in the string from left to right\nvar linenumber = msg.topic.substring(0, 6);\nvar alarm1_status = msg.stringconvert;\n\nif (msg.topic == \"LINE01_ALM1\" && msg.payload == true) {\n    global.set(\"alarm1_status\", alarm1_status);\n    global.set(\"alarm1_tag\", msg.topic);\n    global.set(\"alarm1_line\", linenumber);\n}\nif (msg.topic == \"LINE01_ALM1\" && msg.payload == false) {\n    global.set(\"alarm1_status\", \"ALM RECOVERED\");\n    global.set(\"alarm1_tag\", msg.topic);\n    global.set(\"alarm1_line\", linenumber);\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 690,
-        "y": 2100,
-        "wires": [
-            [
-                "f6068878908a959e"
-            ]
-        ]
-    },
-    {
-        "id": "34f9e5e06ba39ea4",
+        "id": "ab55114140ba6821",
         "type": "comment",
-        "z": "3a486ca22e827155",
-        "g": "13c292f5dcbebbd4",
+        "z": "e7efcedd94496292",
+        "g": "0e42e17ff29a5de1",
         "name": "Alarm Filtering by DATETIME",
         "info": "",
         "x": 200,
@@ -36499,22 +36566,22 @@
         "wires": []
     },
     {
-        "id": "47268076791d8fc4",
+        "id": "85ec33ee6f2afcb5",
         "type": "comment",
-        "z": "3a486ca22e827155",
+        "z": "e7efcedd94496292",
         "name": "Manually Delete Query",
         "info": "",
-        "x": 180,
-        "y": 1460,
+        "x": 160,
+        "y": 1320,
         "wires": []
     },
     {
-        "id": "c80ba9c26bbc0e97",
+        "id": "3c8cabc8fb9baa2d",
         "type": "ui_button",
-        "z": "3a486ca22e827155",
-        "g": "34d2d432f7348368",
+        "z": "e7efcedd94496292",
+        "g": "7ce522ee5ad49a4c",
         "name": "",
-        "group": "c958b7f2d6665992",
+        "group": "625d3c585223b06f",
         "order": 3,
         "width": 15,
         "height": 1,
@@ -36533,17 +36600,17 @@
         "y": 560,
         "wires": [
             [
-                "052ec7907e94b0eb"
+                "ddac856e0fd0935f"
             ]
         ]
     },
     {
-        "id": "052ec7907e94b0eb",
+        "id": "ddac856e0fd0935f",
         "type": "function",
-        "z": "3a486ca22e827155",
-        "g": "34d2d432f7348368",
+        "z": "e7efcedd94496292",
+        "g": "7ce522ee5ad49a4c",
         "name": "Select Data from SQL based on LINE ",
-        "func": "var linefilter = global.get(\"linefilter\");\nvar updatealarm = global.get(\"updatealarm\");\n\nif (updatealarm == false && linefilter == \"ALL LINE\") \n    {\n    msg.topic = 'select * from`klkrpnode`.`alarm`;' ;\n    }\nelse if (updatealarm == false && linefilter != \"ALL LINE\")\n    {\n    msg.topic = 'select * from`klkrpnode`.`alarm` where `LINE` IN(\"'+linefilter+'\");';\n    }\n\nreturn msg;",
+        "func": "var linefilter = global.get(\"linefilter1\");\nvar updateevent = global.get(\"updateevent\");\n\nif (updateevent == false && linefilter == \"ALL LINE\") \n    {\n    msg.topic = 'select * from`klkrpnode`.`event`;' ;\n    }\nelse if (updateevent == false && linefilter != \"ALL LINE\")\n    {\n    msg.topic = 'select * from`klkrpnode`.`event` where `LINE` IN(\"'+linefilter+'\");';\n    }\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -36553,41 +36620,41 @@
         "y": 560,
         "wires": [
             [
-                "074de201f50036ac"
+                "a6966de86d494ff9"
             ]
         ]
     },
     {
-        "id": "074de201f50036ac",
+        "id": "a6966de86d494ff9",
         "type": "mysql",
-        "z": "3a486ca22e827155",
-        "g": "34d2d432f7348368",
+        "z": "e7efcedd94496292",
+        "g": "7ce522ee5ad49a4c",
         "mydb": "7a0cbd3a73791689",
         "name": "",
         "x": 820,
         "y": 560,
         "wires": [
             [
-                "3cea7d6b9e506462"
+                "dfaf58a4a10a9589"
             ]
         ]
     },
     {
-        "id": "a85332f58ca095cf",
+        "id": "7ce0d97b3c78fb28",
         "type": "comment",
-        "z": "3a486ca22e827155",
-        "g": "34d2d432f7348368",
-        "name": "Alarm Filtering by LINE",
+        "z": "e7efcedd94496292",
+        "g": "7ce522ee5ad49a4c",
+        "name": "Event Filtering by LINE",
         "info": "",
         "x": 180,
         "y": 520,
         "wires": []
     },
     {
-        "id": "64bb634fa5fa58e0",
+        "id": "d3d405cf3c0a413b",
         "type": "comment",
-        "z": "3a486ca22e827155",
-        "g": "6d480edbdddc41d1",
+        "z": "e7efcedd94496292",
+        "g": "6ce79745b15a69fa",
         "name": "Alarm Filtering by Line and Datetime",
         "info": "",
         "x": 220,
@@ -36595,12 +36662,12 @@
         "wires": []
     },
     {
-        "id": "db9079d9f43c04c7",
+        "id": "3f5745181e26f299",
         "type": "ui_button",
-        "z": "3a486ca22e827155",
-        "g": "6d480edbdddc41d1",
+        "z": "e7efcedd94496292",
+        "g": "6ce79745b15a69fa",
         "name": "",
-        "group": "c958b7f2d6665992",
+        "group": "625d3c585223b06f",
         "order": 4,
         "width": 15,
         "height": 1,
@@ -36619,15 +36686,15 @@
         "y": 1080,
         "wires": [
             [
-                "400029cc581d4954"
+                "ac521561e5997213"
             ]
         ]
     },
     {
-        "id": "400029cc581d4954",
+        "id": "ac521561e5997213",
         "type": "function",
-        "z": "3a486ca22e827155",
-        "g": "6d480edbdddc41d1",
+        "z": "e7efcedd94496292",
+        "g": "6ce79745b15a69fa",
         "name": "Select Data from SQL based on LINE ",
         "func": "var finished = global.get(\"finished2\");\nvar started = global.get(\"started2\");\nvar updatealarm = global.get(\"updatealarm\");\nvar linefilter = global.get(\"linefilter\");\n\nif (updatealarm == false && linefilter == \"ALL LINE\") {\n    msg.topic = 'select * from `klkrpnode`.`alarm` where `TIMESTAMP` between \"' + started +'\" and \"'+finished+'\";';\n    }\nelse if (updatealarm == false && linefilter != \"ALL LINE\") {\n    msg.topic = 'select * from `klkrpnode`.`alarm` where `LINE` = \"' + linefilter + '\" AND `TIMESTAMP` between \"' + started + '\" and \"' + finished + '\";';\n}\n\nreturn msg;",
         "outputs": 1,
@@ -36639,17 +36706,17 @@
         "y": 1080,
         "wires": [
             [
-                "796d2ee257e383de"
+                "3990653088444bb7"
             ]
         ]
     },
     {
-        "id": "fe351abc688b3352",
+        "id": "9b6ab237b44d9e20",
         "type": "ui_button",
-        "z": "3a486ca22e827155",
-        "g": "34d2d432f7348368",
+        "z": "e7efcedd94496292",
+        "g": "7ce522ee5ad49a4c",
         "name": "",
-        "group": "c958b7f2d6665992",
+        "group": "625d3c585223b06f",
         "order": 5,
         "width": 3,
         "height": 1,
@@ -36660,7 +36727,7 @@
         "bgcolor": "{{colour}}",
         "className": "",
         "icon": "",
-        "payload": "LINE01",
+        "payload": "L01",
         "payloadType": "str",
         "topic": "LINE01",
         "topicType": "msg",
@@ -36668,15 +36735,15 @@
         "y": 620,
         "wires": [
             [
-                "99f187b1b6337429"
+                "bbda80b290113d1d"
             ]
         ]
     },
     {
-        "id": "99f187b1b6337429",
+        "id": "bbda80b290113d1d",
         "type": "function",
-        "z": "3a486ca22e827155",
-        "g": "34d2d432f7348368",
+        "z": "e7efcedd94496292",
+        "g": "7ce522ee5ad49a4c",
         "name": "SAVE LINE FILTER ",
         "func": "global.set(\"linefilter\", msg.payload);\n\nreturn msg;",
         "outputs": 1,
@@ -36691,12 +36758,12 @@
         ]
     },
     {
-        "id": "bebe16cd9090da42",
+        "id": "c6ee64d4df618da9",
         "type": "ui_button",
-        "z": "3a486ca22e827155",
-        "g": "34d2d432f7348368",
+        "z": "e7efcedd94496292",
+        "g": "7ce522ee5ad49a4c",
         "name": "",
-        "group": "c958b7f2d6665992",
+        "group": "625d3c585223b06f",
         "order": 6,
         "width": 3,
         "height": 1,
@@ -36707,7 +36774,7 @@
         "bgcolor": "{{colour}}",
         "className": "",
         "icon": "",
-        "payload": "LINE02",
+        "payload": "L02",
         "payloadType": "str",
         "topic": "LINE02",
         "topicType": "msg",
@@ -36715,18 +36782,18 @@
         "y": 660,
         "wires": [
             [
-                "99f187b1b6337429"
+                "bbda80b290113d1d"
             ]
         ]
     },
     {
-        "id": "5709f30db5c8b002",
+        "id": "772f89696a8353d2",
         "type": "ui_button",
-        "z": "3a486ca22e827155",
-        "g": "34d2d432f7348368",
+        "z": "e7efcedd94496292",
+        "g": "7ce522ee5ad49a4c",
         "name": "",
-        "group": "c958b7f2d6665992",
-        "order": 14,
+        "group": "625d3c585223b06f",
+        "order": 16,
         "width": 6,
         "height": 1,
         "passthru": false,
@@ -36744,17 +36811,17 @@
         "y": 940,
         "wires": [
             [
-                "99f187b1b6337429"
+                "bbda80b290113d1d"
             ]
         ]
     },
     {
-        "id": "3264e823445c1c2c",
+        "id": "dc30f385a9baf7a1",
         "type": "ui_button",
-        "z": "3a486ca22e827155",
-        "g": "34d2d432f7348368",
+        "z": "e7efcedd94496292",
+        "g": "7ce522ee5ad49a4c",
         "name": "",
-        "group": "c958b7f2d6665992",
+        "group": "625d3c585223b06f",
         "order": 7,
         "width": 3,
         "height": 1,
@@ -36765,7 +36832,7 @@
         "bgcolor": "{{colour}}",
         "className": "",
         "icon": "",
-        "payload": "LINE03",
+        "payload": "L03",
         "payloadType": "str",
         "topic": "LINE03",
         "topicType": "msg",
@@ -36773,17 +36840,17 @@
         "y": 700,
         "wires": [
             [
-                "99f187b1b6337429"
+                "bbda80b290113d1d"
             ]
         ]
     },
     {
-        "id": "61e917aa7e5863c2",
+        "id": "481a2478c45821bd",
         "type": "ui_button",
-        "z": "3a486ca22e827155",
-        "g": "34d2d432f7348368",
+        "z": "e7efcedd94496292",
+        "g": "7ce522ee5ad49a4c",
         "name": "",
-        "group": "c958b7f2d6665992",
+        "group": "625d3c585223b06f",
         "order": 8,
         "width": 3,
         "height": 1,
@@ -36794,7 +36861,7 @@
         "bgcolor": "{{colour}}",
         "className": "",
         "icon": "",
-        "payload": "LINE04",
+        "payload": "L04",
         "payloadType": "str",
         "topic": "LINE04",
         "topicType": "msg",
@@ -36802,17 +36869,17 @@
         "y": 740,
         "wires": [
             [
-                "99f187b1b6337429"
+                "bbda80b290113d1d"
             ]
         ]
     },
     {
-        "id": "c992dec588f7aab6",
+        "id": "0380feb16954866d",
         "type": "ui_button",
-        "z": "3a486ca22e827155",
-        "g": "34d2d432f7348368",
+        "z": "e7efcedd94496292",
+        "g": "7ce522ee5ad49a4c",
         "name": "",
-        "group": "c958b7f2d6665992",
+        "group": "625d3c585223b06f",
         "order": 9,
         "width": 3,
         "height": 1,
@@ -36823,7 +36890,7 @@
         "bgcolor": "{{colour}}",
         "className": "",
         "icon": "",
-        "payload": "LINE05",
+        "payload": "L05",
         "payloadType": "str",
         "topic": "LINE05",
         "topicType": "msg",
@@ -36831,18 +36898,18 @@
         "y": 780,
         "wires": [
             [
-                "99f187b1b6337429"
+                "bbda80b290113d1d"
             ]
         ]
     },
     {
-        "id": "08480d46f57155ae",
+        "id": "9258f3f7488ae34f",
         "type": "ui_button",
-        "z": "3a486ca22e827155",
-        "g": "34d2d432f7348368",
+        "z": "e7efcedd94496292",
+        "g": "7ce522ee5ad49a4c",
         "name": "",
-        "group": "c958b7f2d6665992",
-        "order": 11,
+        "group": "625d3c585223b06f",
+        "order": 13,
         "width": 3,
         "height": 1,
         "passthru": false,
@@ -36852,7 +36919,7 @@
         "bgcolor": "{{colour}}",
         "className": "",
         "icon": "",
-        "payload": "LINE06",
+        "payload": "L06",
         "payloadType": "str",
         "topic": "LINE06",
         "topicType": "msg",
@@ -36860,18 +36927,18 @@
         "y": 820,
         "wires": [
             [
-                "99f187b1b6337429"
+                "bbda80b290113d1d"
             ]
         ]
     },
     {
-        "id": "aea1d4925119e3b0",
+        "id": "877e099ea10504ae",
         "type": "ui_button",
-        "z": "3a486ca22e827155",
-        "g": "34d2d432f7348368",
+        "z": "e7efcedd94496292",
+        "g": "7ce522ee5ad49a4c",
         "name": "",
-        "group": "c958b7f2d6665992",
-        "order": 12,
+        "group": "625d3c585223b06f",
+        "order": 14,
         "width": 3,
         "height": 1,
         "passthru": false,
@@ -36881,7 +36948,7 @@
         "bgcolor": "{{colour}}",
         "className": "",
         "icon": "",
-        "payload": "LINE07",
+        "payload": "L07",
         "payloadType": "str",
         "topic": "LINE07",
         "topicType": "msg",
@@ -36889,18 +36956,18 @@
         "y": 860,
         "wires": [
             [
-                "99f187b1b6337429"
+                "bbda80b290113d1d"
             ]
         ]
     },
     {
-        "id": "c1de518b9d1737bb",
+        "id": "d6a55c042efd3fe0",
         "type": "ui_button",
-        "z": "3a486ca22e827155",
-        "g": "34d2d432f7348368",
+        "z": "e7efcedd94496292",
+        "g": "7ce522ee5ad49a4c",
         "name": "",
-        "group": "c958b7f2d6665992",
-        "order": 13,
+        "group": "625d3c585223b06f",
+        "order": 15,
         "width": 3,
         "height": 1,
         "passthru": false,
@@ -36910,7 +36977,7 @@
         "bgcolor": "{{colour}}",
         "className": "",
         "icon": "",
-        "payload": "LINE08",
+        "payload": "L08",
         "payloadType": "str",
         "topic": "LINE08",
         "topicType": "msg",
@@ -36918,14 +36985,14 @@
         "y": 900,
         "wires": [
             [
-                "99f187b1b6337429"
+                "bbda80b290113d1d"
             ]
         ]
     },
     {
-        "id": "29b5f596f3d5b22c",
+        "id": "f11eaf7c579f0c08",
         "type": "function",
-        "z": "3a486ca22e827155",
+        "z": "e7efcedd94496292",
         "name": "COLOUR FUNCTION",
         "func": "var linefilter = global.get(\"linefilter\t\");\nvar updatealarm = global.get(\"updatealarm\");\n\n\nif (linefilter == \"LINE03\" && updatealarm == false)\n{\n    msg.colour = \"Green\"\n}\n\nif (linefilter == \"LINE03\" && updatealarm == true) {\n    msg.colour = \"grey\"\n}\n\nreturn msg;",
         "outputs": 1,
@@ -36940,9 +37007,9 @@
         ]
     },
     {
-        "id": "f71650ab6df0cd07",
+        "id": "86e9fbdcad1322ae",
         "type": "function",
-        "z": "3a486ca22e827155",
+        "z": "e7efcedd94496292",
         "name": "COLOUR FUNCTION",
         "func": "var linefilter = global.get(\"linefilter\t\");\nvar updatealarm = global.get(\"updatealarm\");\n\n\nif (linefilter == \"LINE04\" && updatealarm == false)\n{\n    msg.colour = \"Green\"\n}\n\nif (linefilter == \"LINE04\" && updatealarm == true) {\n    msg.colour = \"grey\"\n}\n\nreturn msg;",
         "outputs": 1,
@@ -36957,9 +37024,9 @@
         ]
     },
     {
-        "id": "637c19c54123d5a4",
+        "id": "9f766b33ed8e4565",
         "type": "function",
-        "z": "3a486ca22e827155",
+        "z": "e7efcedd94496292",
         "name": "COLOUR FUNCTION",
         "func": "var linefilter = global.get(\"linefilter\t\");\nvar updatealarm = global.get(\"updatealarm\");\n\n\nif (linefilter == \"LINE05\" && updatealarm == false)\n{\n    msg.colour = \"Green\"\n}\n\nif (linefilter == \"LINE05\" && updatealarm == true) {\n    msg.colour = \"grey\"\n}\n\nreturn msg;",
         "outputs": 1,
@@ -36974,9 +37041,9 @@
         ]
     },
     {
-        "id": "908398fc1008c1a4",
+        "id": "1f73240b711f1a00",
         "type": "function",
-        "z": "3a486ca22e827155",
+        "z": "e7efcedd94496292",
         "name": "COLOUR FUNCTION",
         "func": "var linefilter = global.get(\"linefilter\t\");\nvar updatealarm = global.get(\"updatealarm\");\n\n\nif (linefilter == \"LINE06\" && updatealarm == false)\n{\n    msg.colour = \"Green\"\n}\n\nif (linefilter == \"LINE06\" && updatealarm == true) {\n    msg.colour = \"grey\"\n}\n\nreturn msg;",
         "outputs": 1,
@@ -36991,9 +37058,9 @@
         ]
     },
     {
-        "id": "93010b4a52bb059f",
+        "id": "85b5dabe507833dd",
         "type": "function",
-        "z": "3a486ca22e827155",
+        "z": "e7efcedd94496292",
         "name": "COLOUR FUNCTION",
         "func": "var linefilter = global.get(\"linefilter\t\");\nvar updatealarm = global.get(\"updatealarm\");\n\n\nif (linefilter == \"LINE07\" && updatealarm == false)\n{\n    msg.colour = \"Green\"\n}\n\nif (linefilter == \"LINE07\" && updatealarm == true) {\n    msg.colour = \"grey\"\n}\n\nreturn msg;",
         "outputs": 1,
@@ -37008,9 +37075,9 @@
         ]
     },
     {
-        "id": "69022ced4d510aeb",
+        "id": "111e982342a2e273",
         "type": "function",
-        "z": "3a486ca22e827155",
+        "z": "e7efcedd94496292",
         "name": "COLOUR FUNCTION",
         "func": "var linefilter = global.get(\"linefilter\t\");\nvar updatealarm = global.get(\"updatealarm\");\n\n\nif (linefilter == \"LINE08\" && updatealarm == false)\n{\n    msg.colour = \"Green\"\n}\n\nif (linefilter == \"LINE08\" && updatealarm == true) {\n    msg.colour = \"grey\"\n}\n\nreturn msg;",
         "outputs": 1,
@@ -37025,9 +37092,9 @@
         ]
     },
     {
-        "id": "a794f8297912d1df",
+        "id": "0005db2165e8f6b0",
         "type": "function",
-        "z": "3a486ca22e827155",
+        "z": "e7efcedd94496292",
         "name": "COLOUR FUNCTION",
         "func": "var linefilter = global.get(\"linefilter\t\");\nvar updatealarm = global.get(\"updatealarm\");\n\n\nif (linefilter == \"ALL LINE\" && updatealarm == false)\n{\n    msg.colour = \"Green\"\n}\n\nif (linefilter == \"ALL LINE\" && updatealarm == true) {\n    msg.colour = \"grey\"\n}\n\nreturn msg;",
         "outputs": 1,
@@ -37042,85 +37109,306 @@
         ]
     },
     {
-        "id": "796d2ee257e383de",
+        "id": "3990653088444bb7",
         "type": "mysql",
-        "z": "3a486ca22e827155",
-        "g": "6d480edbdddc41d1",
+        "z": "e7efcedd94496292",
+        "g": "6ce79745b15a69fa",
         "mydb": "7a0cbd3a73791689",
         "name": "",
         "x": 860,
         "y": 1080,
         "wires": [
             [
-                "215d2d3aeb2fb4f7"
+                "1afabb22dec2bd65"
             ]
         ]
     },
     {
-        "id": "3cea7d6b9e506462",
+        "id": "dfaf58a4a10a9589",
         "type": "link out",
-        "z": "3a486ca22e827155",
-        "g": "34d2d432f7348368",
+        "z": "e7efcedd94496292",
+        "g": "7ce522ee5ad49a4c",
         "name": "Alarm Filter by LINE",
         "mode": "link",
         "links": [
-            "113ee5f2abd25681"
+            "edc0da7a5b74b2f8"
         ],
         "x": 975,
         "y": 560,
         "wires": []
     },
     {
-        "id": "8656d4640109e90f",
+        "id": "4fe4fc49e040344a",
         "type": "link out",
-        "z": "3a486ca22e827155",
-        "g": "13c292f5dcbebbd4",
+        "z": "e7efcedd94496292",
+        "g": "0e42e17ff29a5de1",
         "name": "Alarm Filter by DATETIME",
         "mode": "link",
         "links": [
-            "113ee5f2abd25681"
+            "edc0da7a5b74b2f8"
         ],
         "x": 975,
         "y": 120,
         "wires": []
     },
     {
-        "id": "215d2d3aeb2fb4f7",
+        "id": "1afabb22dec2bd65",
         "type": "link out",
-        "z": "3a486ca22e827155",
-        "g": "6d480edbdddc41d1",
+        "z": "e7efcedd94496292",
+        "g": "6ce79745b15a69fa",
         "name": "Alarm Filter by LINE and DATETIME",
         "mode": "link",
         "links": [
-            "113ee5f2abd25681"
+            "edc0da7a5b74b2f8"
         ],
         "x": 965,
         "y": 1080,
         "wires": []
     },
     {
-        "id": "113ee5f2abd25681",
+        "id": "edc0da7a5b74b2f8",
         "type": "link in",
-        "z": "3a486ca22e827155",
+        "z": "e7efcedd94496292",
         "name": "ALARM FILTERING TO TABLE",
         "links": [
-            "215d2d3aeb2fb4f7",
-            "3cea7d6b9e506462",
-            "8656d4640109e90f"
+            "1afabb22dec2bd65",
+            "dfaf58a4a10a9589",
+            "4fe4fc49e040344a"
         ],
-        "x": 825,
-        "y": 1260,
+        "x": 785,
+        "y": 1200,
         "wires": [
             [
-                "f03bbbd13786078e"
+                "2b3e9304b6d7b0b0"
             ]
         ]
     },
     {
-        "id": "848a61af9d01d670",
+        "id": "dd3367c72df74b34",
+        "type": "s7 in",
+        "z": "e7efcedd94496292",
+        "endpoint": "16a2a4d8a1d42ef4",
+        "mode": "single",
+        "variable": "L03_TIC001_H_LATCH",
+        "diff": true,
+        "name": "",
+        "x": 180,
+        "y": 1600,
+        "wires": [
+            [
+                "1da65ef92dece100"
+            ]
+        ]
+    },
+    {
+        "id": "8fc8b9d38ab155f0",
+        "type": "s7 in",
+        "z": "e7efcedd94496292",
+        "endpoint": "16a2a4d8a1d42ef4",
+        "mode": "single",
+        "variable": "L03_TIC001_L_LATCH",
+        "diff": true,
+        "name": "",
+        "x": 180,
+        "y": 1640,
+        "wires": [
+            [
+                "3c47a6166d05449c"
+            ]
+        ]
+    },
+    {
+        "id": "1da65ef92dece100",
+        "type": "string",
+        "z": "e7efcedd94496292",
+        "name": "Extract Char from Right to Left",
+        "methods": [
+            {
+                "name": "right",
+                "params": [
+                    {
+                        "type": "num",
+                        "value": "7"
+                    }
+                ]
+            }
+        ],
+        "prop": "topic",
+        "propout": "stringconvert",
+        "object": "msg",
+        "objectout": "msg",
+        "x": 510,
+        "y": 1600,
+        "wires": [
+            [
+                "18746351853ea8c6"
+            ]
+        ]
+    },
+    {
+        "id": "18746351853ea8c6",
+        "type": "function",
+        "z": "e7efcedd94496292",
+        "name": "Save Alarm Status",
+        "func": "//this script is to extract the characters in the string from left to right\nvar linenumber = msg.topic.substring(0, 3);\nvar alarm1_status = msg.stringconvert;\n\nif (msg.topic == \"L03_TIC001_H_LATCH\" && msg.payload == true) {\n    global.set(\"alarm1_status\", alarm1_status);\n    global.set(\"alarm1_tag\", msg.topic);\n    global.set(\"alarm1_line\", linenumber);\n}\nelse if (msg.topic == \"L03_TIC001_H_LATCH\" && msg.payload == false) {\n    global.set(\"alarm1_status\", \"HIGH ALM Recovered\");\n    global.set(\"alarm1_tag\", msg.topic);\n    global.set(\"alarm1_line\", linenumber);\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 1600,
+        "wires": [
+            [
+                "36984f0582616ddd"
+            ]
+        ]
+    },
+    {
+        "id": "154430253b2eb4c3",
+        "type": "s7 in",
+        "z": "e7efcedd94496292",
+        "endpoint": "16a2a4d8a1d42ef4",
+        "mode": "single",
+        "variable": "L03_TIC001_LL_LATCH",
+        "diff": true,
+        "name": "",
+        "x": 190,
+        "y": 1680,
+        "wires": [
+            [
+                "ec47981f16fbe296"
+            ]
+        ]
+    },
+    {
+        "id": "3c47a6166d05449c",
+        "type": "string",
+        "z": "e7efcedd94496292",
+        "name": "Extract Char from Right to Left",
+        "methods": [
+            {
+                "name": "right",
+                "params": [
+                    {
+                        "type": "num",
+                        "value": "7"
+                    }
+                ]
+            }
+        ],
+        "prop": "topic",
+        "propout": "stringconvert",
+        "object": "msg",
+        "objectout": "msg",
+        "x": 510,
+        "y": 1640,
+        "wires": [
+            [
+                "64b99184026d6510"
+            ]
+        ]
+    },
+    {
+        "id": "64b99184026d6510",
+        "type": "function",
+        "z": "e7efcedd94496292",
+        "name": "Save Alarm Status",
+        "func": "//this script is to extract the characters in the string from left to right\nvar linenumber = msg.topic.substring(0, 3);\nvar alarm1_status = msg.stringconvert;\n\nif (msg.topic == \"L03_TIC001_L_LATCH\" && msg.payload == true) {\n    global.set(\"alarm1_status\", alarm1_status);\n    global.set(\"alarm1_tag\", msg.topic);\n    global.set(\"alarm1_line\", linenumber);\n}\nelse if (msg.topic == \"L03_TIC001_L_LATCH\" && msg.payload == false) {\n    global.set(\"alarm1_status\", \"LOW ALM Recovered\");\n    global.set(\"alarm1_tag\", msg.topic);\n    global.set(\"alarm1_line\", linenumber);\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 1640,
+        "wires": [
+            [
+                "36984f0582616ddd"
+            ]
+        ]
+    },
+    {
+        "id": "ec47981f16fbe296",
+        "type": "string",
+        "z": "e7efcedd94496292",
+        "name": "Extract Char from Right to Left",
+        "methods": [
+            {
+                "name": "right",
+                "params": [
+                    {
+                        "type": "num",
+                        "value": "8"
+                    }
+                ]
+            }
+        ],
+        "prop": "topic",
+        "propout": "stringconvert",
+        "object": "msg",
+        "objectout": "msg",
+        "x": 510,
+        "y": 1680,
+        "wires": [
+            [
+                "f7bc55102cd1c84f"
+            ]
+        ]
+    },
+    {
+        "id": "f7bc55102cd1c84f",
+        "type": "function",
+        "z": "e7efcedd94496292",
+        "name": "Save Alarm Status",
+        "func": "//this script is to extract the characters in the string from left to right\nvar linenumber = msg.topic.substring(0, 3);\nvar alarm1_status = msg.stringconvert;\n\nif (msg.topic == \"L03_TIC001_LL_LATCH\" && msg.payload == true) {\n    global.set(\"alarm1_status\", alarm1_status);\n    global.set(\"alarm1_tag\", msg.topic);\n    global.set(\"alarm1_line\", linenumber);\n}\nelse if (msg.topic == \"L03_TIC001_LL_LATCH\" && msg.payload == false) {\n    global.set(\"alarm1_status\", \"LOW LOW ALM Recovered\");\n    global.set(\"alarm1_tag\", msg.topic);\n    global.set(\"alarm1_line\", linenumber);\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 1680,
+        "wires": [
+            [
+                "36984f0582616ddd"
+            ]
+        ]
+    },
+    {
+        "id": "36984f0582616ddd",
+        "type": "link out",
+        "z": "e7efcedd94496292",
+        "name": "Write to Alarm DB 2",
+        "mode": "link",
+        "links": [
+            "feb1279baffd1a03"
+        ],
+        "x": 1065,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "feb1279baffd1a03",
+        "type": "link in",
+        "z": "e7efcedd94496292",
+        "name": "Write to Alarm DB 1",
+        "links": [
+            "36984f0582616ddd"
+        ],
+        "x": 185,
+        "y": 1200,
+        "wires": [
+            [
+                "02e40187fdf5e08c"
+            ]
+        ]
+    },
+    {
+        "id": "7f2b5cc955d8a69b",
         "type": "debug",
-        "z": "3a486ca22e827155",
-        "name": "debug 51",
+        "z": "e7efcedd94496292",
+        "name": "debug 49",
         "active": true,
         "tosidebar": true,
         "console": false,
@@ -37129,130 +37417,1519 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 400,
-        "y": 2420,
+        "x": 640,
+        "y": 1160,
         "wires": []
     },
     {
-        "id": "8536cddd9a565d65",
-        "type": "string",
-        "z": "3a486ca22e827155",
-        "name": "Extract Char from Right to Left",
-        "methods": [
-            {
-                "name": "right",
-                "params": [
-                    {
-                        "type": "num",
-                        "value": "5"
-                    }
-                ]
-            }
-        ],
-        "prop": "topic",
-        "propout": "stringconvert",
-        "object": "msg",
-        "objectout": "msg",
-        "x": 450,
-        "y": 2160,
+        "id": "8b069ae2498956f3",
+        "type": "ui_date_picker",
+        "z": "e4abb199d1dcf785",
+        "g": "d5a6405a4469b49d",
+        "name": "",
+        "label": "Start Date",
+        "group": "b0130d6f2634c207",
+        "order": 14,
+        "width": 7,
+        "height": 1,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 120,
+        "y": 180,
         "wires": [
             [
-                "97a69ae8f0b2f8e5"
+                "d3101b1e13d5bd4f"
             ]
         ]
     },
     {
-        "id": "97a69ae8f0b2f8e5",
+        "id": "d3101b1e13d5bd4f",
+        "type": "moment",
+        "z": "e4abb199d1dcf785",
+        "g": "d5a6405a4469b49d",
+        "name": "",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "Asia/Kuala_Lumpur",
+        "adjAmount": 0,
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "",
+        "locale": "en-US",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Asia/Kuala_Lumpur",
+        "x": 300,
+        "y": 180,
+        "wires": [
+            [
+                "ed2efe7b94353e39"
+            ]
+        ]
+    },
+    {
+        "id": "bbbd083fb0834219",
         "type": "function",
-        "z": "3a486ca22e827155",
-        "name": "Save Alarm Status",
-        "func": "//this script is to extract the characters in the string from left to right\nvar linenumber = msg.topic.substring(0, 6);\nvar alarm1_status = msg.stringconvert;\n\nif (msg.topic == \"LINE02_ALM1\" && msg.payload == true) {\n    global.set(\"alarm1_status\", \"LOW LOW ALARM\");\n    global.set(\"alarm1_tag\", msg.topic);\n    global.set(\"alarm1_line\", linenumber);\n}\nif (msg.topic == \"LINE02_ALM1\" && msg.payload == false) {\n    global.set(\"alarm1_status\", \"NORMAL\");\n    global.set(\"alarm1_tag\", msg.topic);\n    global.set(\"alarm1_line\", linenumber);\n}\nreturn msg;",
+        "z": "e4abb199d1dcf785",
+        "g": "d5a6405a4469b49d",
+        "name": "Update Start Time",
+        "func": "var date1 = global.get(\"startdate3\");\nvar starthour = global.get(\"starthour3\");\nvar startminute = global.get(\"startminute3\");\n\nvar date2 = date1 + \" \" + starthour + \":\" + startminute + \":00\" ;\nglobal.set(\"started3\", date2);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 690,
-        "y": 2160,
+        "x": 830,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ed2efe7b94353e39",
+        "type": "string",
+        "z": "e4abb199d1dcf785",
+        "g": "d5a6405a4469b49d",
+        "name": "",
+        "methods": [
+            {
+                "name": "left",
+                "params": [
+                    {
+                        "type": "num",
+                        "value": "10"
+                    }
+                ]
+            }
+        ],
+        "prop": "payload",
+        "propout": "payload",
+        "object": "msg",
+        "objectout": "msg",
+        "x": 490,
+        "y": 180,
         "wires": [
             [
-                "f6068878908a959e"
+                "99ea01e03626f133"
             ]
         ]
     },
     {
-        "id": "8c031e03565f1d6d",
+        "id": "589a077b2e740ea8",
         "type": "function",
-        "z": "3a486ca22e827155",
-        "name": "Save Alarm Status",
-        "func": "//this script is to extract the characters in the string from left to right\nvar linenumber = msg.topic.substring(0, 6);\nvar alarm1_status = msg.stringconvert;\n\nif (msg.topic == \"LINE03_ALM23\" && msg.payload == true) {\n    global.set(\"alarm1_status\", alarm1_status);\n    global.set(\"alarm1_tag\", msg.topic);\n    global.set(\"alarm1_line\", linenumber);\n}\n\nif (msg.topic == \"LINE03_ALM23\" && msg.payload == false) {\n    global.set(\"alarm1_status\", \"ALM OK\");\n    global.set(\"alarm1_tag\", msg.topic);\n    global.set(\"alarm1_line\", linenumber);\n}\nreturn msg;",
+        "z": "e4abb199d1dcf785",
+        "g": "d5a6405a4469b49d",
+        "name": "Real Time CHart",
+        "func": "global.set(\"starthour3\", msg.payload);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 690,
-        "y": 2220,
+        "x": 300,
+        "y": 220,
         "wires": [
             [
-                "f6068878908a959e"
+                "bbbd083fb0834219"
             ]
         ]
     },
     {
-        "id": "13f8503a69830272",
+        "id": "f8b2807efaf786e9",
+        "type": "function",
+        "z": "e4abb199d1dcf785",
+        "g": "d5a6405a4469b49d",
+        "name": "Real Time CHart",
+        "func": "global.set(\"startminute3\", msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 260,
+        "wires": [
+            [
+                "bbbd083fb0834219"
+            ]
+        ]
+    },
+    {
+        "id": "6919789edb39f095",
+        "type": "ui_text_input",
+        "z": "e4abb199d1dcf785",
+        "g": "d5a6405a4469b49d",
+        "name": "",
+        "label": "Start Hour",
+        "tooltip": "",
+        "group": "b0130d6f2634c207",
+        "order": 21,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "0",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 130,
+        "y": 220,
+        "wires": [
+            [
+                "589a077b2e740ea8"
+            ]
+        ]
+    },
+    {
+        "id": "9035d7abd8a92164",
+        "type": "ui_text_input",
+        "z": "e4abb199d1dcf785",
+        "g": "d5a6405a4469b49d",
+        "name": "",
+        "label": "Start Minute",
+        "tooltip": "",
+        "group": "b0130d6f2634c207",
+        "order": 23,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "0",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 130,
+        "y": 260,
+        "wires": [
+            [
+                "f8b2807efaf786e9"
+            ]
+        ]
+    },
+    {
+        "id": "4e7f5d34bcac3923",
+        "type": "ui_date_picker",
+        "z": "e4abb199d1dcf785",
+        "g": "d5a6405a4469b49d",
+        "name": "",
+        "label": "Stopped Date",
+        "group": "b0130d6f2634c207",
+        "order": 16,
+        "width": 7,
+        "height": 1,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 140,
+        "y": 340,
+        "wires": [
+            [
+                "dc342606a1f1633e"
+            ]
+        ]
+    },
+    {
+        "id": "dc342606a1f1633e",
+        "type": "moment",
+        "z": "e4abb199d1dcf785",
+        "g": "d5a6405a4469b49d",
+        "name": "",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "Asia/Kuala_Lumpur",
+        "adjAmount": 0,
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "",
+        "locale": "en-US",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Asia/Kuala_Lumpur",
+        "x": 340,
+        "y": 340,
+        "wires": [
+            [
+                "d578a25bf1d73d45"
+            ]
+        ]
+    },
+    {
+        "id": "5377959e0cb45ca2",
+        "type": "function",
+        "z": "e4abb199d1dcf785",
+        "g": "d5a6405a4469b49d",
+        "name": "Update Finished Time",
+        "func": "var date1 = global.get(\"stopdate2\");\nvar stophour = global.get(\"stophour2\");\nvar stopminute = global.get(\"stopminute2\");\n\n\nvar date2 = date1 + \" \" + stophour + \":\" + stopminute + \":00\" ;\nglobal.set(\"finished2\", date2);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d578a25bf1d73d45",
         "type": "string",
-        "z": "3a486ca22e827155",
-        "name": "Extract Char from Right to Left",
+        "z": "e4abb199d1dcf785",
+        "g": "d5a6405a4469b49d",
+        "name": "",
         "methods": [
             {
-                "name": "right",
+                "name": "left",
                 "params": [
                     {
                         "type": "num",
-                        "value": "5"
+                        "value": "10"
                     }
                 ]
             }
         ],
-        "prop": "topic",
-        "propout": "stringconvert",
+        "prop": "payload",
+        "propout": "payload",
         "object": "msg",
         "objectout": "msg",
-        "x": 450,
-        "y": 2220,
+        "x": 510,
+        "y": 340,
         "wires": [
             [
-                "8c031e03565f1d6d"
+                "88e7a49d31e21f76"
             ]
         ]
     },
     {
-        "id": "f6068878908a959e",
+        "id": "ed9a73ca5f74d97c",
+        "type": "function",
+        "z": "e4abb199d1dcf785",
+        "g": "d5a6405a4469b49d",
+        "name": "Real Time CHart",
+        "func": "global.set(\"stophour2\", msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 380,
+        "wires": [
+            [
+                "5377959e0cb45ca2"
+            ]
+        ]
+    },
+    {
+        "id": "0a19515df3781b5f",
+        "type": "function",
+        "z": "e4abb199d1dcf785",
+        "g": "d5a6405a4469b49d",
+        "name": "Real Time CHart",
+        "func": "global.set(\"stopminute2\", msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 420,
+        "wires": [
+            [
+                "5377959e0cb45ca2"
+            ]
+        ]
+    },
+    {
+        "id": "9a9d2242476471a8",
+        "type": "ui_text_input",
+        "z": "e4abb199d1dcf785",
+        "g": "d5a6405a4469b49d",
+        "name": "",
+        "label": "Stopped Hour",
+        "tooltip": "",
+        "group": "b0130d6f2634c207",
+        "order": 25,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "0",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 140,
+        "y": 380,
+        "wires": [
+            [
+                "ed9a73ca5f74d97c"
+            ]
+        ]
+    },
+    {
+        "id": "d336f54788f1f688",
+        "type": "ui_text_input",
+        "z": "e4abb199d1dcf785",
+        "g": "d5a6405a4469b49d",
+        "name": "",
+        "label": "Stopped Minute",
+        "tooltip": "",
+        "group": "b0130d6f2634c207",
+        "order": 27,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "0",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 140,
+        "y": 420,
+        "wires": [
+            [
+                "0a19515df3781b5f"
+            ]
+        ]
+    },
+    {
+        "id": "99ea01e03626f133",
+        "type": "function",
+        "z": "e4abb199d1dcf785",
+        "g": "d5a6405a4469b49d",
+        "name": "Real Time CHart",
+        "func": "global.set(\"startdate3\", msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 180,
+        "wires": [
+            [
+                "bbbd083fb0834219"
+            ]
+        ]
+    },
+    {
+        "id": "88e7a49d31e21f76",
+        "type": "function",
+        "z": "e4abb199d1dcf785",
+        "g": "d5a6405a4469b49d",
+        "name": "Stop Date set",
+        "func": "global.set(\"stopdate2\", msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 340,
+        "wires": [
+            [
+                "5377959e0cb45ca2"
+            ]
+        ]
+    },
+    {
+        "id": "e55ad7873d9a5fa8",
+        "type": "ui_button",
+        "z": "e4abb199d1dcf785",
+        "g": "d5a6405a4469b49d",
+        "name": "",
+        "group": "b0130d6f2634c207",
+        "order": 7,
+        "width": 7,
+        "height": 1,
+        "passthru": false,
+        "label": "Filter Event by Datetime",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 120,
+        "wires": [
+            [
+                "8b77db266a63875a"
+            ]
+        ]
+    },
+    {
+        "id": "8b77db266a63875a",
+        "type": "function",
+        "z": "e4abb199d1dcf785",
+        "g": "d5a6405a4469b49d",
+        "name": "Select Data from SQL based on DATETIME",
+        "func": "var finished = global.get(\"finished3\");\nvar started = global.get(\"started3\");\nvar updatetrend = global.get(\"updatetrend3\");\nvar updateevent = global.get(\"updateevent\");\n\nif (updateevent == false)\n{\nmsg.topic = 'SELECT * FROM `klkrpnode`.`event` WHERE `TIMESTAMP` BETWEEN \"' + started + '\" AND \"' + finished +'\"; ';\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 120,
+        "wires": [
+            [
+                "ab72839e1584f5d6"
+            ]
+        ]
+    },
+    {
+        "id": "ab72839e1584f5d6",
+        "type": "mysql",
+        "z": "e4abb199d1dcf785",
+        "g": "d5a6405a4469b49d",
+        "mydb": "7a0cbd3a73791689",
+        "name": "",
+        "x": 800,
+        "y": 120,
+        "wires": [
+            [
+                "de362c253652fc83"
+            ]
+        ]
+    },
+    {
+        "id": "013b51b9cf625b1a",
+        "type": "comment",
+        "z": "e4abb199d1dcf785",
+        "g": "d5a6405a4469b49d",
+        "name": "Event Filtering by DATETIME",
+        "info": "",
+        "x": 180,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "de362c253652fc83",
         "type": "link out",
-        "z": "3a486ca22e827155",
-        "name": "write to DB",
+        "z": "e4abb199d1dcf785",
+        "g": "d5a6405a4469b49d",
+        "name": "Event Filter by DATETIME",
         "mode": "link",
         "links": [
-            "3f590df39606cbb0"
+            "483adf24a16d7fae"
         ],
-        "x": 915,
-        "y": 2160,
+        "x": 955,
+        "y": 120,
         "wires": []
     },
     {
-        "id": "3f590df39606cbb0",
-        "type": "link in",
-        "z": "3a486ca22e827155",
-        "name": "write to DB 1",
-        "links": [
-            "f6068878908a959e"
-        ],
-        "x": 255,
-        "y": 1240,
+        "id": "3a45e23c2370a0ec",
+        "type": "ui_button",
+        "z": "e4abb199d1dcf785",
+        "g": "2cc5da9f0d5ab2e0",
+        "name": "",
+        "group": "b0130d6f2634c207",
+        "order": 5,
+        "width": 7,
+        "height": 1,
+        "passthru": false,
+        "label": "Fillter Event by Line",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 150,
+        "y": 560,
         "wires": [
             [
-                "f5979895f4faa3ab"
+                "94e51ff3fdf953ad"
+            ]
+        ]
+    },
+    {
+        "id": "94e51ff3fdf953ad",
+        "type": "function",
+        "z": "e4abb199d1dcf785",
+        "g": "2cc5da9f0d5ab2e0",
+        "name": "Select Data from SQL based on LINE ",
+        "func": "var linefilter = global.get(\"linefilter1\");\nvar updateevent = global.get(\"updateevent\");\n\nif (updateevent == false && linefilter == \"ALL LINE\") \n    {\n    msg.topic = 'select * from`klkrpnode`.`event`;' ;\n    }\nelse if (updateevent == false && linefilter != \"ALL LINE\")\n    {\n    msg.topic = 'select * from`klkrpnode`.`event` where `LINE` IN(\"'+linefilter+'\");';\n    }\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 560,
+        "wires": [
+            [
+                "1da76d507d84eb36"
+            ]
+        ]
+    },
+    {
+        "id": "1da76d507d84eb36",
+        "type": "mysql",
+        "z": "e4abb199d1dcf785",
+        "g": "2cc5da9f0d5ab2e0",
+        "mydb": "7a0cbd3a73791689",
+        "name": "",
+        "x": 800,
+        "y": 560,
+        "wires": [
+            [
+                "c5786c24cf894733"
+            ]
+        ]
+    },
+    {
+        "id": "7e26338a01859fe6",
+        "type": "comment",
+        "z": "e4abb199d1dcf785",
+        "g": "2cc5da9f0d5ab2e0",
+        "name": "Event Filtering by LINE",
+        "info": "",
+        "x": 160,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "b8b55ede633ed85b",
+        "type": "ui_button",
+        "z": "e4abb199d1dcf785",
+        "g": "2cc5da9f0d5ab2e0",
+        "name": "",
+        "group": "b0130d6f2634c207",
+        "order": 9,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "LINE01",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{colour}}",
+        "className": "",
+        "icon": "",
+        "payload": "L01",
+        "payloadType": "str",
+        "topic": "LINE01",
+        "topicType": "msg",
+        "x": 120,
+        "y": 620,
+        "wires": [
+            [
+                "d91b33cb77093811"
+            ]
+        ]
+    },
+    {
+        "id": "d91b33cb77093811",
+        "type": "function",
+        "z": "e4abb199d1dcf785",
+        "g": "2cc5da9f0d5ab2e0",
+        "name": "SAVE LINE FILTER ",
+        "func": "global.set(\"linefilter1\", msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f4c887f655ebb160",
+        "type": "ui_button",
+        "z": "e4abb199d1dcf785",
+        "g": "2cc5da9f0d5ab2e0",
+        "name": "",
+        "group": "b0130d6f2634c207",
+        "order": 10,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "LINE02",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{colour}}",
+        "className": "",
+        "icon": "",
+        "payload": "L02",
+        "payloadType": "str",
+        "topic": "LINE02",
+        "topicType": "msg",
+        "x": 120,
+        "y": 660,
+        "wires": [
+            [
+                "d91b33cb77093811"
+            ]
+        ]
+    },
+    {
+        "id": "9d5a05a2607d8e21",
+        "type": "ui_button",
+        "z": "e4abb199d1dcf785",
+        "g": "2cc5da9f0d5ab2e0",
+        "name": "",
+        "group": "b0130d6f2634c207",
+        "order": 20,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "ALL LINE",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{colour}}",
+        "className": "",
+        "icon": "",
+        "payload": "ALL LINE",
+        "payloadType": "str",
+        "topic": "LINE02",
+        "topicType": "msg",
+        "x": 120,
+        "y": 940,
+        "wires": [
+            [
+                "d91b33cb77093811"
+            ]
+        ]
+    },
+    {
+        "id": "7ce26462945db264",
+        "type": "ui_button",
+        "z": "e4abb199d1dcf785",
+        "g": "2cc5da9f0d5ab2e0",
+        "name": "",
+        "group": "b0130d6f2634c207",
+        "order": 11,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "LINE03",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{colour}}",
+        "className": "",
+        "icon": "",
+        "payload": "L03",
+        "payloadType": "str",
+        "topic": "LINE03",
+        "topicType": "msg",
+        "x": 120,
+        "y": 700,
+        "wires": [
+            [
+                "d91b33cb77093811"
+            ]
+        ]
+    },
+    {
+        "id": "049a5b39acf8e1f9",
+        "type": "ui_button",
+        "z": "e4abb199d1dcf785",
+        "g": "2cc5da9f0d5ab2e0",
+        "name": "",
+        "group": "b0130d6f2634c207",
+        "order": 12,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "LINE04",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{colour}}",
+        "className": "",
+        "icon": "",
+        "payload": "L04",
+        "payloadType": "str",
+        "topic": "LINE04",
+        "topicType": "msg",
+        "x": 120,
+        "y": 740,
+        "wires": [
+            [
+                "d91b33cb77093811"
+            ]
+        ]
+    },
+    {
+        "id": "5f7f8782025c8f6c",
+        "type": "ui_button",
+        "z": "e4abb199d1dcf785",
+        "g": "2cc5da9f0d5ab2e0",
+        "name": "",
+        "group": "b0130d6f2634c207",
+        "order": 13,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "LINE05",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{colour}}",
+        "className": "",
+        "icon": "",
+        "payload": "L05",
+        "payloadType": "str",
+        "topic": "LINE05",
+        "topicType": "msg",
+        "x": 120,
+        "y": 780,
+        "wires": [
+            [
+                "d91b33cb77093811"
+            ]
+        ]
+    },
+    {
+        "id": "156aafa3fed097f1",
+        "type": "ui_button",
+        "z": "e4abb199d1dcf785",
+        "g": "2cc5da9f0d5ab2e0",
+        "name": "",
+        "group": "b0130d6f2634c207",
+        "order": 17,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "LINE06",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{colour}}",
+        "className": "",
+        "icon": "",
+        "payload": "L06",
+        "payloadType": "str",
+        "topic": "LINE06",
+        "topicType": "msg",
+        "x": 120,
+        "y": 820,
+        "wires": [
+            [
+                "d91b33cb77093811"
+            ]
+        ]
+    },
+    {
+        "id": "56364fa7e897770e",
+        "type": "ui_button",
+        "z": "e4abb199d1dcf785",
+        "g": "2cc5da9f0d5ab2e0",
+        "name": "",
+        "group": "b0130d6f2634c207",
+        "order": 18,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "LINE07",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{colour}}",
+        "className": "",
+        "icon": "",
+        "payload": "L07",
+        "payloadType": "str",
+        "topic": "LINE07",
+        "topicType": "msg",
+        "x": 120,
+        "y": 860,
+        "wires": [
+            [
+                "d91b33cb77093811"
+            ]
+        ]
+    },
+    {
+        "id": "52378fd44302a9ab",
+        "type": "ui_button",
+        "z": "e4abb199d1dcf785",
+        "g": "2cc5da9f0d5ab2e0",
+        "name": "",
+        "group": "b0130d6f2634c207",
+        "order": 19,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "LINE08",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{colour}}",
+        "className": "",
+        "icon": "",
+        "payload": "L08",
+        "payloadType": "str",
+        "topic": "LINE08",
+        "topicType": "msg",
+        "x": 120,
+        "y": 900,
+        "wires": [
+            [
+                "d91b33cb77093811"
+            ]
+        ]
+    },
+    {
+        "id": "c5786c24cf894733",
+        "type": "link out",
+        "z": "e4abb199d1dcf785",
+        "g": "2cc5da9f0d5ab2e0",
+        "name": "Event Filter by LINE",
+        "mode": "link",
+        "links": [
+            "483adf24a16d7fae"
+        ],
+        "x": 955,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "e6ef5af12d707f99",
+        "type": "comment",
+        "z": "e4abb199d1dcf785",
+        "g": "4386729d53ac6292",
+        "name": "Event Filtering by Line and Datetime",
+        "info": "",
+        "x": 200,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "6b6e0c82bfa2c36e",
+        "type": "ui_button",
+        "z": "e4abb199d1dcf785",
+        "g": "4386729d53ac6292",
+        "name": "",
+        "group": "b0130d6f2634c207",
+        "order": 3,
+        "width": 7,
+        "height": 1,
+        "passthru": false,
+        "label": "Filter Event by Line and Datetime",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 220,
+        "y": 1080,
+        "wires": [
+            [
+                "dba5c29075808d36"
+            ]
+        ]
+    },
+    {
+        "id": "dba5c29075808d36",
+        "type": "function",
+        "z": "e4abb199d1dcf785",
+        "g": "4386729d53ac6292",
+        "name": "Select Data from SQL based on LINE ",
+        "func": "var finished = global.get(\"finished3\");\nvar started = global.get(\"started3\");\nvar updateevent = global.get(\"updateevent\");\nvar linefilter = global.get(\"linefilter1\");\n\nif (updateevent == false && linefilter == \"ALL LINE\") {\n    msg.topic = 'select * from `klkrpnode`.`event` where `TIMESTAMP` between \"' + started +'\" and \"'+finished+'\";';\n    }\nelse if (updateevent == false && linefilter != \"ALL LINE\") {\n    msg.topic = 'select * from `klkrpnode`.`event` where `LINE` = \"' + linefilter + '\" AND `TIMESTAMP` between \"' + started + '\" and \"' + finished + '\";';\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1080,
+        "wires": [
+            [
+                "ca8986393be60f07"
+            ]
+        ]
+    },
+    {
+        "id": "ca8986393be60f07",
+        "type": "mysql",
+        "z": "e4abb199d1dcf785",
+        "g": "4386729d53ac6292",
+        "mydb": "7a0cbd3a73791689",
+        "name": "",
+        "x": 840,
+        "y": 1080,
+        "wires": [
+            [
+                "9658d08a157b3187"
+            ]
+        ]
+    },
+    {
+        "id": "9658d08a157b3187",
+        "type": "link out",
+        "z": "e4abb199d1dcf785",
+        "g": "4386729d53ac6292",
+        "name": "Event Filter by LINE and DATETIME",
+        "mode": "link",
+        "links": [
+            "483adf24a16d7fae"
+        ],
+        "x": 945,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "f9479142f709ac1e",
+        "type": "mysql",
+        "z": "e4abb199d1dcf785",
+        "mydb": "7a0cbd3a73791689",
+        "name": "",
+        "x": 620,
+        "y": 1500,
+        "wires": [
+            [
+                "b0824d69e5102287"
+            ]
+        ]
+    },
+    {
+        "id": "efa8e4eec8174c63",
+        "type": "comment",
+        "z": "e4abb199d1dcf785",
+        "name": "Event Logging save as global memory",
+        "info": "",
+        "x": 210,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "c22ffbd39c45ae39",
+        "type": "function",
+        "z": "e4abb199d1dcf785",
+        "name": "read from mysql",
+        "func": "var updateevent = global.get(\"updateevent\");\n\nif (updateevent == true)\n{\nmsg.topic = 'select*from `klkrpnode`.`event`;';\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 1500,
+        "wires": [
+            [
+                "f9479142f709ac1e"
+            ]
+        ]
+    },
+    {
+        "id": "39440aeb0bb6ac3b",
+        "type": "comment",
+        "z": "e4abb199d1dcf785",
+        "name": "Write Event to Database",
+        "info": "",
+        "x": 170,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "26c0f004fb11849b",
+        "type": "comment",
+        "z": "e4abb199d1dcf785",
+        "name": "Auto Update Event",
+        "info": "",
+        "x": 150,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "48ec18e5e18ec7fc",
+        "type": "mysql",
+        "z": "e4abb199d1dcf785",
+        "mydb": "7a0cbd3a73791689",
+        "name": "",
+        "x": 620,
+        "y": 1200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8485efde8d47b16d",
+        "type": "function",
+        "z": "e4abb199d1dcf785",
+        "name": "Write to mysql",
+        "func": "var currenttime = global.get(\"currenttime\");\nvar line = global.get(\"event1_line\");\nvar tag = global.get(\"event1_tag\");\nvar event1_status = global.get(\"event1_status\");\nvar operator = global.get(\"username\");\nvar logonstatus = global.get(\"logonstatus\");\n\n//to include the sql script at this variable\nvar sql\n\nif (logonstatus == \"Login Successful\")\n{\n    sql = 'INSERT INTO`klkrpnode`.`event`(`TIMESTAMP`, `LINE`, `TAG`,`OPERATOR`,`VALUE`)VALUES(\"' + currenttime + '\",\"' + line + '\",\"' + tag + '\",\"' + operator+'\",\"' + event1_status +'\");';\nmsg.topic = sql;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 1200,
+        "wires": [
+            [
+                "48ec18e5e18ec7fc"
+            ]
+        ]
+    },
+    {
+        "id": "20ab1b6552a562c6",
+        "type": "ui_switch",
+        "z": "e4abb199d1dcf785",
+        "name": "",
+        "label": "Auto Update Event",
+        "tooltip": "",
+        "group": "b0130d6f2634c207",
+        "order": 1,
+        "width": 7,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 170,
+        "y": 1720,
+        "wires": [
+            [
+                "e4fa7d112ea02414"
+            ]
+        ]
+    },
+    {
+        "id": "e4fa7d112ea02414",
+        "type": "function",
+        "z": "e4abb199d1dcf785",
+        "name": "Update Trend tag memory",
+        "func": "global.set(\"updateevent\", msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 1720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c3d1927072fadd56",
+        "type": "inject",
+        "z": "e4abb199d1dcf785",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 1600,
+        "wires": [
+            [
+                "6b429f00f3526c02"
+            ]
+        ]
+    },
+    {
+        "id": "6b429f00f3526c02",
+        "type": "function",
+        "z": "e4abb199d1dcf785",
+        "name": "Delete query",
+        "func": "//to include the sql script at this variable\n\nvar sql\nsql = 'delete from `klkrpnode`.`event`'\nmsg.topic = sql;\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 1600,
+        "wires": [
+            [
+                "dd03279b316e3486"
+            ]
+        ]
+    },
+    {
+        "id": "dd03279b316e3486",
+        "type": "mysql",
+        "z": "e4abb199d1dcf785",
+        "mydb": "7a0cbd3a73791689",
+        "name": "",
+        "x": 580,
+        "y": 1600,
+        "wires": [
+            [
+                "b0824d69e5102287"
+            ]
+        ]
+    },
+    {
+        "id": "b0824d69e5102287",
+        "type": "ui_table",
+        "z": "e4abb199d1dcf785",
+        "group": "b0130d6f2634c207",
+        "name": "",
+        "order": 30,
+        "width": 30,
+        "height": 8,
+        "columns": [],
+        "outputs": 0,
+        "cts": false,
+        "x": 930,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "42ada8913b260729",
+        "type": "inject",
+        "z": "e4abb199d1dcf785",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 1500,
+        "wires": [
+            [
+                "c22ffbd39c45ae39"
+            ]
+        ]
+    },
+    {
+        "id": "219a7a0c2b0b7bff",
+        "type": "comment",
+        "z": "e4abb199d1dcf785",
+        "name": "Manually Delete Query",
+        "info": "",
+        "x": 160,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "483adf24a16d7fae",
+        "type": "link in",
+        "z": "e4abb199d1dcf785",
+        "name": "EVENT FILTERING TO TABLE",
+        "links": [
+            "de362c253652fc83",
+            "9658d08a157b3187",
+            "c5786c24cf894733"
+        ],
+        "x": 855,
+        "y": 1200,
+        "wires": [
+            [
+                "b0824d69e5102287"
+            ]
+        ]
+    },
+    {
+        "id": "24215cef24f3f3dc",
+        "type": "s7 in",
+        "z": "e4abb199d1dcf785",
+        "endpoint": "3382749eee74e1cf",
+        "mode": "single",
+        "variable": "L03_TIC001_SV",
+        "diff": true,
+        "name": "",
+        "x": 160,
+        "y": 1840,
+        "wires": [
+            [
+                "d83ca57733a391cd"
+            ]
+        ]
+    },
+    {
+        "id": "d83ca57733a391cd",
+        "type": "function",
+        "z": "e4abb199d1dcf785",
+        "name": "Save Alarm Status",
+        "func": "//this script is to extract the characters in the string from left to right\nvar linenumber = msg.topic.substring(0, 3);\nvar alarm1_status = msg.stringconvert;\n\nif (msg.topic == \"L03_TIC001_SV\")\n {\n    global.set(\"event1_status\", msg.payload);\n    global.set(\"event1_tag\", msg.topic);\n    global.set(\"event1_line\", linenumber);\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 1840,
+        "wires": [
+            [
+                "0fdbfee3f8a95eb2"
+            ]
+        ]
+    },
+    {
+        "id": "3ef3e89174dc3e96",
+        "type": "function",
+        "z": "e4abb199d1dcf785",
+        "name": "Save Alarm Status",
+        "func": "//this script is to extract the characters in the string from left to right\nvar linenumber = msg.topic.substring(0, 3);\nvar alarm1_status = msg.stringconvert;\n\nif (msg.topic == \"L03_TIC001_MV\") \n{\n    global.set(\"event1_status\", msg.payload);\n    global.set(\"event1_tag\", msg.topic);\n    global.set(\"event1_line\", linenumber);\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 1880,
+        "wires": [
+            [
+                "0fdbfee3f8a95eb2"
+            ]
+        ]
+    },
+    {
+        "id": "dbfcd20908ae545b",
+        "type": "function",
+        "z": "e4abb199d1dcf785",
+        "name": "Save Alarm Status",
+        "func": "//this script is to extract the characters in the string from left to right\nvar linenumber = msg.topic.substring(0, 3);\n\nif (msg.topic == \"L03_TIC001_ALM_SV_HH\" ) \n{\n    global.set(\"event1_status\", msg.payload);\n    global.set(\"event1_tag\", msg.topic);\n    global.set(\"event1_line\", linenumber);\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 1920,
+        "wires": [
+            [
+                "0fdbfee3f8a95eb2"
+            ]
+        ]
+    },
+    {
+        "id": "0fdbfee3f8a95eb2",
+        "type": "link out",
+        "z": "e4abb199d1dcf785",
+        "name": "Write to Event DB 2",
+        "mode": "link",
+        "links": [
+            "0272508996a5108a"
+        ],
+        "x": 625,
+        "y": 1900,
+        "wires": []
+    },
+    {
+        "id": "0272508996a5108a",
+        "type": "link in",
+        "z": "e4abb199d1dcf785",
+        "name": "Write to Event DB 1",
+        "links": [
+            "0fdbfee3f8a95eb2"
+        ],
+        "x": 185,
+        "y": 1200,
+        "wires": [
+            [
+                "8485efde8d47b16d"
+            ]
+        ]
+    },
+    {
+        "id": "44c3c0f8d1b3ab76",
+        "type": "s7 in",
+        "z": "e4abb199d1dcf785",
+        "endpoint": "3382749eee74e1cf",
+        "mode": "single",
+        "variable": "L03_TIC001_MV",
+        "diff": true,
+        "name": "",
+        "x": 160,
+        "y": 1880,
+        "wires": [
+            [
+                "3ef3e89174dc3e96"
+            ]
+        ]
+    },
+    {
+        "id": "ec42beaff51c2b8c",
+        "type": "s7 in",
+        "z": "e4abb199d1dcf785",
+        "endpoint": "900c847f1836dc21",
+        "mode": "single",
+        "variable": "L03_TIC001_ALM_SV_HH",
+        "diff": true,
+        "name": "",
+        "x": 190,
+        "y": 1920,
+        "wires": [
+            [
+                "dbfcd20908ae545b"
+            ]
+        ]
+    },
+    {
+        "id": "7658f9270018cde6",
+        "type": "function",
+        "z": "e4abb199d1dcf785",
+        "name": "Save Alarm Status",
+        "func": "//this script is to extract the characters in the string from left to right\nvar linenumber = msg.topic.substring(0, 3);\n\n\nif (msg.topic == \"L03_ACT1_LT_AM\" && msg.payload == true) {\n    global.set(\"event1_status\", \"FILLING\");\n    global.set(\"event1_tag\", msg.topic);\n    global.set(\"event1_line\", linenumber);\n}\nelse if (msg.topic == \"L03_ACT1_LT_AM\" && msg.payload == false) {\n    global.set(\"event1_status\", \"DRAIN\");\n    global.set(\"event1_tag\", msg.topic);\n    global.set(\"event1_line\", linenumber);\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 1960,
+        "wires": [
+            [
+                "0fdbfee3f8a95eb2"
+            ]
+        ]
+    },
+    {
+        "id": "c0ec295034063cfe",
+        "type": "s7 in",
+        "z": "e4abb199d1dcf785",
+        "endpoint": "c2ade02cd7766c2b",
+        "mode": "single",
+        "variable": "L03_ACT1_LT_AM",
+        "diff": true,
+        "name": "",
+        "x": 170,
+        "y": 1960,
+        "wires": [
+            [
+                "7658f9270018cde6"
+            ]
+        ]
+    },
+    {
+        "id": "02dd0d4582fedd20",
+        "type": "comment",
+        "z": "e4abb199d1dcf785",
+        "name": "Write Login Status to Database",
+        "info": "",
+        "x": 190,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "0213131b3ef70ebd",
+        "type": "comment",
+        "z": "e4abb199d1dcf785",
+        "name": "Read from SQL and display to dashboard",
+        "info": "",
+        "x": 220,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "67296ddc1d72b650",
+        "type": "mysql",
+        "z": "e4abb199d1dcf785",
+        "mydb": "7a0cbd3a73791689",
+        "name": "",
+        "x": 620,
+        "y": 1300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a6bb03703f039685",
+        "type": "function",
+        "z": "e4abb199d1dcf785",
+        "name": "Write to mysql",
+        "func": "var currenttime = global.get(\"currenttime\");\nvar operator = global.get(\"username\");\nvar logonstatus = global.get(\"logonstatus\");\n\n//to include the sql script at this variable\nvar sql\n\nif (logonstatus == \"Login Successful\")\n{\n    sql = 'INSERT INTO`klkrpnode`.`event`(`TIMESTAMP`, `LINE`, `TAG`,`OPERATOR`,`VALUE`)VALUES(\"' + currenttime + '\",\"-\",\"-\",\"' + operator+'\",\"Login Successful\");';\nmsg.topic = sql;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 1300,
+        "wires": [
+            [
+                "67296ddc1d72b650"
+            ]
+        ]
+    },
+    {
+        "id": "1ad4d83817002be0",
+        "type": "link in",
+        "z": "e4abb199d1dcf785",
+        "name": "Write Login to SQL 1",
+        "links": [
+            "8034e18fdd4cc74f"
+        ],
+        "x": 185,
+        "y": 1300,
+        "wires": [
+            [
+                "a6bb03703f039685"
+            ]
+        ]
+    },
+    {
+        "id": "d1bc80eb9780db93",
+        "type": "ui_text_input",
+        "z": "e4abb199d1dcf785",
+        "name": "",
+        "label": "Insert any Value",
+        "tooltip": "",
+        "group": "b0130d6f2634c207",
+        "order": 35,
+        "width": 7,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "L03_TIC001_SV",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 220,
+        "y": 2020,
+        "wires": [
+            [
+                "d83ca57733a391cd"
             ]
         ]
     },
@@ -37323,7 +39000,7 @@
         "color": "",
         "bgcolor": "",
         "className": "",
-        "icon": "airplay",
+        "icon": "login",
         "payload": "true",
         "payloadType": "bool",
         "topic": "login",
@@ -37351,7 +39028,7 @@
         "color": "",
         "bgcolor": "",
         "className": "",
-        "icon": "input",
+        "icon": "logout",
         "payload": "true",
         "payloadType": "bool",
         "topic": "topic",
@@ -37369,7 +39046,7 @@
         "type": "function",
         "z": "82c336c0cda633ca",
         "name": "Set ID and Password empty",
-        "func": "if (msg.payload == true)\n{\n    msg.payload = [];\n    global.set(\"clientid\", []);\n    global.set(\"username\", []);\n    global.set(\"logonstatus\", []);\n    global.set(\"logontime\", []);\n    global.set(\"password\", []);\n}\n\nreturn msg;",
+        "func": "if (msg.payload == true)\n{\n    msg.payload = [];\n   // global.set(\"clientid\", []);\n    global.set(\"username\", []);\n    global.set(\"logonstatus\", []);\n    global.set(\"logontime\", []);\n    global.set(\"password\", []);\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -37492,7 +39169,7 @@
         "type": "function",
         "z": "82c336c0cda633ca",
         "name": "= 0 : Success",
-        "func": "/* activate session timer */\nvar username = global.get(\"usernamebfr\");\nvar currenttime = global.get(\"currenttime\");\n\n\nglobal.set(\"clientid\", msg.socketid);\nglobal.set(\"username\", username);\nglobal.set(\"logonstatus\", \"Succeed\");\nglobal.set(\"logontime\", currenttime);\nmsg.payload = \"Succeed\";\nreturn msg;",
+        "func": "/* activate session timer */\nvar username = global.get(\"usernamebfr\");\nvar currenttime = global.get(\"currenttime\");\n\n\nglobal.set(\"clientid\", msg.socketid);\nglobal.set(\"username\", username);\nglobal.set(\"logonstatus\", \"Login Successful\");\nglobal.set(\"logontime\", currenttime);\nmsg.payload = \"Succeed\";\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -37503,7 +39180,7 @@
         "wires": [
             [
                 "9f0c88bee76c2ef4",
-                "62d6e28462fb9b5d"
+                "8034e18fdd4cc74f"
             ]
         ]
     },
@@ -37560,7 +39237,7 @@
         "className": "",
         "topic": "Authentication Failed",
         "name": "Authentication Failure Dialog",
-        "x": 1560,
+        "x": 1600,
         "y": 200,
         "wires": [
             []
@@ -37597,8 +39274,8 @@
         "cancel": "",
         "topic": "System In Use.",
         "name": "System In-Use Dialog",
-        "x": 1499.000114440918,
-        "y": 258.00000190734863,
+        "x": 1580,
+        "y": 240,
         "wires": [
             []
         ]
@@ -37628,28 +39305,11 @@
         "className": "",
         "topic": "Authentication Success",
         "name": "Authentication Success",
-        "x": 1530,
-        "y": 140,
+        "x": 1590,
+        "y": 160,
         "wires": [
             []
         ]
-    },
-    {
-        "id": "62d6e28462fb9b5d",
-        "type": "debug",
-        "z": "82c336c0cda633ca",
-        "name": "Debug Account Log ",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1510,
-        "y": 60,
-        "wires": []
     },
     {
         "id": "bc22eeb76fe13eed",
@@ -37673,7 +39333,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 190,
-        "y": 440,
+        "y": 520,
         "wires": [
             [
                 "33bbc5b7b10a2416",
@@ -37693,7 +39353,7 @@
         "finalize": "",
         "libs": [],
         "x": 430,
-        "y": 440,
+        "y": 520,
         "wires": [
             [
                 "3c4e3e4bac2d34b1"
@@ -37710,7 +39370,7 @@
             "4d039d42a32a20e8"
         ],
         "x": 725,
-        "y": 440,
+        "y": 520,
         "wires": []
     },
     {
@@ -37720,86 +39380,7 @@
         "name": "Disable / Enable button ",
         "info": "",
         "x": 180,
-        "y": 380,
-        "wires": []
-    },
-    {
-        "id": "ad80cb13d4cab898",
-        "type": "ui_template",
-        "z": "82c336c0cda633ca",
-        "group": "fe762942.fd8b08",
-        "name": "",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(data) {\n            var elem = document.getElementById(\"headerStatus\")\n            if(elem !== null) {\n                elem.className = data.payload;\n                elem.innerHTML = data.payload;\n            }\n        });\n    })(scope);\n</script>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "global",
-        "className": "",
-        "x": 720,
-        "y": 600,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "23b4f8db35f74dfc",
-        "type": "ui_template",
-        "z": "82c336c0cda633ca",
-        "group": "fe762942.fd8b08",
-        "name": "Header Status",
-        "order": 2,
-        "width": "0",
-        "height": "0",
-        "format": "<style>\n    #headerStatus {\n        font-weight: bold;\n        text-transform: uppercase;\n    }\n    #headerStatus.online {\n        color: lime;\n    }\n    #headerStatus.offline {\n        color: tomato;\n    }\n</style>\n\n<script id=\"titleScript\" type=\"text/javascript\">\n$(function() {\n    if($('.md-toolbar-tools').length){\n        initHeader();\n    } else setTimeout(initHeader, 500)\n});\n\nfunction initHeader(){\n    if (!$('#headerStatus').length) {\n        var toolbar = $('.md-toolbar-tools');\n        var div = $('<div/>');\n        var p = $('<p id=\"headerStatus\" />');\n        div[0].style.margin = '5px 5px 5px auto';\n        div.append(p);\n        toolbar.append(div);\n    }\n}\n</script>",
-        "storeOutMessages": false,
-        "fwdInMessages": false,
-        "resendOnRefresh": false,
-        "templateScope": "global",
-        "className": "",
-        "x": 420,
-        "y": 540,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d61d32cfd6194955",
-        "type": "function",
-        "z": "82c336c0cda633ca",
-        "name": "Check log in credentials ",
-        "func": "var username = global.get(\"username\");\n\n\n\nmsg.payload = {\"Username\" : username};\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 410,
-        "y": 600,
-        "wires": [
-            [
-                "ad80cb13d4cab898",
-                "f44ab7d5629ef639"
-            ]
-        ]
-    },
-    {
-        "id": "f44ab7d5629ef639",
-        "type": "debug",
-        "z": "82c336c0cda633ca",
-        "name": "Debug Account Log ",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 690,
-        "y": 680,
+        "y": 460,
         "wires": []
     },
     {
@@ -37818,6 +39399,98 @@
         "x": 1010,
         "y": 360,
         "wires": []
+    },
+    {
+        "id": "8034e18fdd4cc74f",
+        "type": "link out",
+        "z": "82c336c0cda633ca",
+        "name": "Write Login to SQL",
+        "mode": "link",
+        "links": [
+            "1ad4d83817002be0"
+        ],
+        "x": 1465,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "d61d32cfd6194955",
+        "type": "function",
+        "z": "82c336c0cda633ca",
+        "name": "Check log in credentials ",
+        "func": "var username = global.get(\"username\");\n\n\n\nmsg.payload = {\"Username\" : username};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7579e781f128b10e",
+        "type": "telegram sender",
+        "z": "9b07ba984d5cb7a4",
+        "name": "",
+        "bot": "4a0577f62c0ff0f9",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 670,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e026d705beaca7a4",
+        "type": "inject",
+        "z": "9b07ba984d5cb7a4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 260,
+        "y": 180,
+        "wires": [
+            [
+                "1670a274266c3da9"
+            ]
+        ]
+    },
+    {
+        "id": "1670a274266c3da9",
+        "type": "function",
+        "z": "9b07ba984d5cb7a4",
+        "name": "function 7",
+        "func": "msg.payload = [];\nmsg.payload.chatId = -857203322;\nmsg.payload.type = 'message'\nmsg.payload.content = \"Test sending message to group\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 160,
+        "wires": [
+            [
+                "7579e781f128b10e"
+            ]
+        ]
     },
     {
         "id": "a6442178.6c4f3",
