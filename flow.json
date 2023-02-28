@@ -78,9 +78,9 @@
         "env": []
     },
     {
-        "id": "3bab7d86.a7d252",
+        "id": "46a77005bb2d587d",
         "type": "tab",
-        "label": "Flow 1",
+        "label": "Header Display",
         "disabled": false,
         "info": ""
     },
@@ -111,7 +111,8 @@
             "e55de3c875824d37",
             "15be5024caa79fb5",
             "3e021c1faf31bd0e",
-            "88e7e73c5e63a7a4"
+            "88e7e73c5e63a7a4",
+            "0a59531a275c7a10"
         ],
         "x": 54,
         "y": 379,
@@ -138,7 +139,8 @@
             "e7ec34159ef4ad9b",
             "5de0db2eec166b66",
             "d83b4235ddb1b280",
-            "64ac143ad0057895"
+            "64ac143ad0057895",
+            "4d039d42a32a20e8"
         ],
         "x": 54,
         "y": 99,
@@ -364,7 +366,9 @@
             "b81b6aa5b71dd29a"
         ],
         "x": 54,
-        "y": 19
+        "y": 19,
+        "w": 972,
+        "h": 482
     },
     {
         "id": "f840e9332560a7cf",
@@ -383,7 +387,9 @@
             "adf2b66bbfef77da"
         ],
         "x": 54,
-        "y": 519
+        "y": 519,
+        "w": 852,
+        "h": 122
     },
     {
         "id": "eb31b411689ba5ea",
@@ -409,7 +415,9 @@
             "e514383c619be0cf"
         ],
         "x": 54,
-        "y": 659
+        "y": 659,
+        "w": 1292,
+        "h": 202
     },
     {
         "id": "928ec4a3e9eb4898",
@@ -449,7 +457,9 @@
             "5e0bd196401e9f8e"
         ],
         "x": 54,
-        "y": 79
+        "y": 79,
+        "w": 1292,
+        "h": 402
     },
     {
         "id": "7afdfb632f0290dd",
@@ -515,7 +525,9 @@
             "a76fb98fc1f03921"
         ],
         "x": 54,
-        "y": 619
+        "y": 619,
+        "w": 1332,
+        "h": 822
     },
     {
         "id": "6f9ddfef4f750f18",
@@ -545,7 +557,9 @@
             "0f59d084e41e7eb0"
         ],
         "x": 54,
-        "y": 1479
+        "y": 1479,
+        "w": 1312,
+        "h": 302
     },
     {
         "id": "92ef5d8656c0079f",
@@ -611,7 +625,9 @@
             "668f193105a901a1"
         ],
         "x": 54,
-        "y": 1799
+        "y": 1799,
+        "w": 1332,
+        "h": 822
     },
     {
         "id": "9c3d9a4f6626aa35",
@@ -649,7 +665,9 @@
             "179d24b7d9192684"
         ],
         "x": 54,
-        "y": 2639
+        "y": 2639,
+        "w": 1012,
+        "h": 562
     },
     {
         "id": "276021b6752e25c2",
@@ -772,7 +790,9 @@
             "b66d45da9617d3d6"
         ],
         "x": 854,
-        "y": 1119
+        "y": 1119,
+        "w": 652,
+        "h": 82
     },
     {
         "id": "0e42e17ff29a5de1",
@@ -955,6 +975,81 @@
         "y": 999,
         "w": 952,
         "h": 122
+    },
+    {
+        "id": "4e4e26917b4b29e4",
+        "type": "group",
+        "z": "531e23be5dd8efe8",
+        "name": "",
+        "style": {
+            "fill": "#d1d1d1",
+            "label": true
+        },
+        "nodes": [
+            "5f18e18d611e4814",
+            "5f8ada846dc4fadc",
+            "0fe103d8a862e9f1",
+            "600e782887d15982",
+            "4349615eda7dbdb4",
+            "9c3e8781caabaff6",
+            "978429571333756f",
+            "bbfada5e88e72278",
+            "5d55666e578f0292",
+            "a3dad1aac0366692",
+            "b325fc4722598793",
+            "5d9d1656276b2b2a",
+            "03c7c082244cd929",
+            "5a76a7e40f4c0227",
+            "966ecf63762dd5b2",
+            "b2861a41ae1798cd",
+            "c192b063d1d4b584",
+            "a8b5db4f093911a3",
+            "c77bcd4eb9852cc6",
+            "a53bca32c6f8c552",
+            "0823d840ca35b35a",
+            "2cf33973122a7933",
+            "6b7d7d4c1e2e752f",
+            "af42b669f2c3614e",
+            "d00ac4e49d17989e",
+            "989bf8a02646fdf6",
+            "beb54117bf1798f5",
+            "4a0aaab9c13298b5",
+            "8bac12e9c6b17c1c",
+            "a055c06329248bd2",
+            "9b07a00133e44a66",
+            "48db4fececec8501",
+            "28bc3ae8c7d2842c",
+            "32f687b6911e4ce8",
+            "ade1d02e1f95631e",
+            "66817a09b4513270",
+            "e70a51df1fb8559b",
+            "6c158ba0bf3d2c38",
+            "fe9760669005d80c",
+            "6f170f5ad4b39a19",
+            "b1a23cfcf0ad9f8d",
+            "da4cab3e9fd47854",
+            "4db37eb9afb7d262",
+            "08c185fbce8dfb45",
+            "26ba9d7cd7b84bad",
+            "7c1d2548d52a84a6",
+            "a30956cf42a47161",
+            "8e2d26915c7e8e64",
+            "19dbbfcdd84ae20b",
+            "efc3fa68bd4bb97c",
+            "8200ab2554e28997",
+            "16dc95a950e72c28",
+            "03c7ddd8bc3af95b",
+            "ef3490673c4b9ca5",
+            "fe38426a01840231",
+            "0008e1b0c9c0a8bb",
+            "f78c83f7b2ec7d0a",
+            "a15d40d12fb17c1d",
+            "ffee37d852a26253"
+        ],
+        "x": 54,
+        "y": 699,
+        "w": 1352,
+        "h": 1002
     },
     {
         "id": "8178b9f6e8586214",
@@ -20353,12 +20448,13 @@
     {
         "id": "b82da486.9fc8d8",
         "type": "ui_group",
-        "name": "Signin",
+        "name": "SIGN IN",
         "tab": "d65502b1.ee517",
         "order": 1,
         "disp": true,
         "width": "6",
-        "collapse": false
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "d65502b1.ee517",
@@ -20652,35 +20748,12 @@
         "verboselogging": false
     },
     {
-        "id": "1a6a73230e00c124",
-        "type": "comment",
-        "z": "531e23be5dd8efe8",
-        "name": "Important Programming Notes",
-        "info": "Updated on 12/1/2023\nTo store a memory in NodeRED use global memory to store the value, so that we can call the memory elsewhere within the project.\n\nFunction \nto retrieve the memory use: example-\nglobal.get(var1)\n\nto set the global memory use: example-\nglobal.set(var1,msg.payload);\n\n\n",
-        "x": 540,
-        "y": 40,
-        "wires": []
-    },
-    {
-        "id": "b97bc1c0.cb899",
-        "type": "ui_template",
-        "z": "531e23be5dd8efe8",
-        "group": "c982fbb8.1deb38",
-        "name": "Clock Toolbar",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "format": "<script id=\"titleScript\" type=\"text/javascript\">\n\n$(function() {\n    if($('.md-toolbar-tools').length != 0){\n        loadClock();\n    }else setTimeout(loadClock, 500)\n});\n\nfunction loadClock(){\n    $('#clock').remove();\n    var toolbar = $('.md-toolbar-tools');\n    \n    var div = $('<div/>');\n    var p = $('<p/ id=\"clock\">');\n    \n    div.append(p);\n    div[0].style.margin = '5px 5px 5px auto';\n    toolbar.append(div);\n\n    function displayTitle(lh) {\n        p.text(lh); \n    }\n    \n    function upTime() {\n    var d = new Date();\n    //display the clock as dd/mm/yyyy  + timestamp\n    var formattedDate = d.toLocaleDateString(\"en-GB\")+ \" \" + d.toLocaleTimeString();\n    p.text(formattedDate);\n    }\n\n    if(document.clockInterval){ \n            clearInterval(document.clockInterval);\n            document.clockInterval = null;\n    }\n        \n    document.clockInterval = setInterval(upTime,1000);\n}\n\n</script>",
-        "storeOutMessages": false,
-        "fwdInMessages": false,
-        "resendOnRefresh": false,
-        "templateScope": "global",
-        "className": "",
-        "x": 1060,
-        "y": 40,
-        "wires": [
-            []
-        ]
+        "id": "4f23a1509af1cf33",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
     },
     {
         "id": "fa3e4d121d9191c2",
@@ -20768,8 +20841,8 @@
         "g": "8a61c8b74399b800",
         "name": "BURNER MODE",
         "info": "",
-        "x": 580,
-        "y": 160,
+        "x": 640,
+        "y": 140,
         "wires": []
     },
     {
@@ -21085,6 +21158,7 @@
         "id": "5f18e18d611e4814",
         "type": "ui_gauge",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "",
         "group": "182308aa23fdfe0c",
         "order": 8,
@@ -21214,6 +21288,7 @@
         "id": "5f8ada846dc4fadc",
         "type": "s7 in",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "endpoint": "900c847f1836dc21",
         "mode": "single",
         "variable": "L03_PCO_TT_RH",
@@ -21231,6 +21306,7 @@
         "id": "0fe103d8a862e9f1",
         "type": "function",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "GLOBAL MEM. RH",
         "func": "global.set(msg.topic,msg.payload);\n\nreturn msg;",
         "outputs": 1,
@@ -21377,6 +21453,7 @@
         "id": "600e782887d15982",
         "type": "function",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "SET COLOUR RANGE",
         "func": "var RH = global.get(\"L03_PCO_TT_RH\");\nvar HH = global.get(\"L03_PCO_TT_HH\");\nvar H = global.get(\"L03_PCO_TT_H\");\nvar L = global.get(\"L03_PCO_TT_L\");\nvar LL = global.get(\"L03_PCO_TT_LL\");\n\n\nmsg.ui_control = {options:{customSectors: {\n  percents: false, \n  ranges: [{\n    color: \"#000BFD\",\n    lo : 0,\n    hi : LL\n  },{\n    color: \"#FDF600\",\n    lo : LL,\n    hi : L\n  },{\n    color: \"#1BFD00\",\n    lo : L,\n    hi : H\n  },{\n    color: \"#FD9200\",\n    lo : H,\n    hi : HH\n  },{\n    color : \"#FF0000\",\n    lo : HH,\n    hi : RH\n  }]\n    \n}}}\ndelete msg.payload\nreturn msg;",
         "outputs": 1,
@@ -21396,6 +21473,7 @@
         "id": "4349615eda7dbdb4",
         "type": "comment",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "OVEN TT PV AND ALARM SETTING",
         "info": "",
         "x": 550,
@@ -21406,6 +21484,7 @@
         "id": "9c3e8781caabaff6",
         "type": "ui_button",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "",
         "group": "182308aa23fdfe0c",
         "order": 3,
@@ -21434,6 +21513,7 @@
         "id": "978429571333756f",
         "type": "ui_ui_control",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "",
         "events": "all",
         "x": 460,
@@ -21446,6 +21526,7 @@
         "id": "bbfada5e88e72278",
         "type": "ui_button",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "",
         "group": "10edf20cd1978f63",
         "order": 9,
@@ -21475,6 +21556,7 @@
         "id": "5d55666e578f0292",
         "type": "function",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "GLOBAL MEM. HH",
         "func": "global.set(msg.topic, msg.payload);\n\nreturn msg;",
         "outputs": 1,
@@ -21494,6 +21576,7 @@
         "id": "a3dad1aac0366692",
         "type": "function",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "GLOBAL MEM. H",
         "func": "global.set(msg.topic, msg.payload);\n\nreturn msg;",
         "outputs": 1,
@@ -21513,6 +21596,7 @@
         "id": "b325fc4722598793",
         "type": "function",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "GLOBAL MEM. L",
         "func": "global.set(msg.topic, msg.payload);\n\nreturn msg;",
         "outputs": 1,
@@ -21532,6 +21616,7 @@
         "id": "5d9d1656276b2b2a",
         "type": "function",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "GLOBAL MEM. LL",
         "func": "global.set(msg.topic,msg.payload);\n\nreturn msg;",
         "outputs": 1,
@@ -21551,6 +21636,7 @@
         "id": "03c7c082244cd929",
         "type": "ui_text_input",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "",
         "label": "PCO TT ALM HH",
         "tooltip": "ALARM HIGH HIGH SP",
@@ -21577,6 +21663,7 @@
         "id": "5a76a7e40f4c0227",
         "type": "function",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "2 Decimal Place",
         "func": "msg.payload = Number(msg.payload.toFixed(2));\n\nvar RH = global.get(\"L03_PCO_TT_RH\");\n\n//if sensor wire break or out of range\nif (msg.payload < 0 || msg.payload > RH) \n{\n    msg.payload = \"Error\"\n}\nreturn msg;",
         "outputs": 1,
@@ -21596,6 +21683,7 @@
         "id": "966ecf63762dd5b2",
         "type": "ui_text_input",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "",
         "label": "PCO TT ALM H",
         "tooltip": "ALARM HIGH SP",
@@ -21622,6 +21710,7 @@
         "id": "b2861a41ae1798cd",
         "type": "ui_text_input",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "",
         "label": "PCO TT ALM L",
         "tooltip": "ALARM LOW SP",
@@ -21648,6 +21737,7 @@
         "id": "c192b063d1d4b584",
         "type": "ui_text_input",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "",
         "label": "PCO TT ALM LL",
         "tooltip": "ALARM LOW LOW SP",
@@ -21675,6 +21765,7 @@
         "id": "a8b5db4f093911a3",
         "type": "comment",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "To include Alarm limit later if needed",
         "info": "",
         "x": 1240,
@@ -21685,6 +21776,7 @@
         "id": "c77bcd4eb9852cc6",
         "type": "switch",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "",
         "property": "payload",
         "propertyType": "msg",
@@ -21718,6 +21810,7 @@
         "id": "a53bca32c6f8c552",
         "type": "function",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "Warning Pop Up",
         "func": "var L =global.get(\"L03_PCO_TT_ALM_SV_L\");\n\nmsg.topic = \"Warning\"\nmsg.payload = \"Invalid Value Insert Between 0 -\" + L;\nreturn msg;",
         "outputs": 1,
@@ -21737,6 +21830,7 @@
         "id": "0823d840ca35b35a",
         "type": "change",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "",
         "rules": [
             {
@@ -21764,6 +21858,7 @@
         "id": "2cf33973122a7933",
         "type": "ui_toast",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "position": "dialog",
         "displayTime": "3",
         "highlight": "",
@@ -21785,6 +21880,7 @@
         "id": "6b7d7d4c1e2e752f",
         "type": "ui_text_input",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "",
         "label": "HYSTERESIS HH",
         "tooltip": "HYSTERESIS HIGH HIGH",
@@ -21811,6 +21907,7 @@
         "id": "af42b669f2c3614e",
         "type": "ui_text_input",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "",
         "label": "HYSTERESIS H",
         "tooltip": "HYSTERESIS LOW LOW",
@@ -21837,6 +21934,7 @@
         "id": "d00ac4e49d17989e",
         "type": "ui_text_input",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "",
         "label": "HYSTERESIS L",
         "tooltip": "HYSTERESIS LOW",
@@ -21863,6 +21961,7 @@
         "id": "989bf8a02646fdf6",
         "type": "ui_text_input",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "",
         "label": "HYSTERESIS LL",
         "tooltip": "HYSTERESIS LOW LOW",
@@ -21889,6 +21988,7 @@
         "id": "beb54117bf1798f5",
         "type": "s7 out",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "endpoint": "900c847f1836dc21",
         "variable": "L03_PCO_TT_ALM_SV_LL",
         "name": "",
@@ -21900,6 +22000,7 @@
         "id": "4a0aaab9c13298b5",
         "type": "s7 out",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "endpoint": "900c847f1836dc21",
         "variable": "L03_PCO_TT_HYST_HH",
         "name": "",
@@ -21911,6 +22012,7 @@
         "id": "8bac12e9c6b17c1c",
         "type": "s7 in",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "endpoint": "900c847f1836dc21",
         "mode": "single",
         "variable": "L03_PCO_TT_PV",
@@ -22001,27 +22103,6 @@
             [
                 "3c3db064774ea81a"
             ]
-        ]
-    },
-    {
-        "id": "6881e3e5.30927c",
-        "type": "ui_template",
-        "z": "531e23be5dd8efe8",
-        "group": "",
-        "name": "Custom Text Input Dashoard size",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "format": "<style id='custom-styles'>\n    .nr-dashboard-theme .nr-dashboard-textinput input {\n        border-color: #eeeeee;\n        color: #eeeeee;\n        border-bottom-width: 1px;\n        font-family: inherit;\n        padding-left: 5px;\n        font-size: 25px;\n        height: 45px;\n    }\n</style>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "global",
-        "className": "",
-        "x": 820,
-        "y": 40,
-        "wires": [
-            []
         ]
     },
     {
@@ -22506,8 +22587,8 @@
         "payloadType": "json",
         "topic": "topic",
         "topicType": "msg",
-        "x": 1710,
-        "y": 40,
+        "x": 1750,
+        "y": 120,
         "wires": [
             []
         ]
@@ -22532,8 +22613,8 @@
         "payloadType": "json",
         "topic": "topic",
         "topicType": "msg",
-        "x": 1710,
-        "y": 80,
+        "x": 1750,
+        "y": 160,
         "wires": [
             []
         ]
@@ -22880,6 +22961,7 @@
         "id": "a055c06329248bd2",
         "type": "link out",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "PCO LINK TT PV 2",
         "mode": "link",
         "links": [
@@ -22893,6 +22975,7 @@
         "id": "9b07a00133e44a66",
         "type": "link in",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "PCO LINK TT PV 1",
         "links": [
             "a055c06329248bd2"
@@ -22909,6 +22992,7 @@
         "id": "48db4fececec8501",
         "type": "trigger",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "refresh sector",
         "op1": "",
         "op2": "true",
@@ -22994,6 +23078,7 @@
         "id": "28bc3ae8c7d2842c",
         "type": "ui_text",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "group": "182308aa23fdfe0c",
         "order": 20,
         "width": 6,
@@ -23149,6 +23234,7 @@
         "id": "32f687b6911e4ce8",
         "type": "function",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "WIRE BREAK",
         "func": "if (msg.payload == true)\n{\n    msg.payload = \"WIRE BREAK\";\n}\n\n\nreturn msg;",
         "outputs": 1,
@@ -23168,6 +23254,7 @@
         "id": "ade1d02e1f95631e",
         "type": "function",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "HIGH HIGH ALM",
         "func": "if (msg.payload == true)\n{\n    msg.payload = \"ALM HIGH HIGH\";\n}\n  \n\nreturn msg;",
         "outputs": 1,
@@ -23187,6 +23274,7 @@
         "id": "66817a09b4513270",
         "type": "function",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "HIGH ALM",
         "func": "if (msg.payload == true)\n{\n    msg.payload = \"ALM HIGH\";\n}\n\nreturn msg;",
         "outputs": 1,
@@ -23206,6 +23294,7 @@
         "id": "e70a51df1fb8559b",
         "type": "function",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "LOW ALM",
         "func": "if (msg.payload == true)\n{\n    msg.payload = \"ALM LOW\";\n}\n \n\nreturn msg;",
         "outputs": 1,
@@ -23225,6 +23314,7 @@
         "id": "6c158ba0bf3d2c38",
         "type": "function",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "LOW LOW ALM",
         "func": "if (msg.payload == true)\n{\n    msg.payload = \"ALM LOW LOW\";\n}\n\n\nreturn msg;",
         "outputs": 1,
@@ -23244,6 +23334,7 @@
         "id": "fe9760669005d80c",
         "type": "function",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "name": "OUT OF RANGE",
         "func": "if (msg.payload == true)\n{\n    msg.payload = \"OUT OF RANGE\";\n}\n\nreturn msg;",
         "outputs": 1,
@@ -23411,6 +23502,7 @@
         "id": "6f170f5ad4b39a19",
         "type": "s7 in",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "endpoint": "900c847f1836dc21",
         "mode": "single",
         "variable": "L03_PCO_TT_ALM_SV_HH",
@@ -23426,6 +23518,7 @@
         "id": "b1a23cfcf0ad9f8d",
         "type": "s7 in",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "endpoint": "900c847f1836dc21",
         "mode": "single",
         "variable": "L03_PCO_TT_ALM_SV_H",
@@ -23441,6 +23534,7 @@
         "id": "da4cab3e9fd47854",
         "type": "s7 in",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "endpoint": "900c847f1836dc21",
         "mode": "single",
         "variable": "L03_PCO_TT_ALM_SV_L",
@@ -23456,6 +23550,7 @@
         "id": "4db37eb9afb7d262",
         "type": "s7 in",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "endpoint": "900c847f1836dc21",
         "mode": "single",
         "variable": "L03_PCO_TT_ALM_SV_LL",
@@ -23471,6 +23566,7 @@
         "id": "08c185fbce8dfb45",
         "type": "s7 in",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "endpoint": "900c847f1836dc21",
         "mode": "single",
         "variable": "L03_PCO_TT_HYST_HH",
@@ -23488,6 +23584,7 @@
         "id": "26ba9d7cd7b84bad",
         "type": "s7 in",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "endpoint": "900c847f1836dc21",
         "mode": "single",
         "variable": "L03_PCO_TT_HYST_H",
@@ -23505,6 +23602,7 @@
         "id": "7c1d2548d52a84a6",
         "type": "s7 in",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "endpoint": "900c847f1836dc21",
         "mode": "single",
         "variable": "L03_PCO_TT_HYST_L",
@@ -23522,6 +23620,7 @@
         "id": "a30956cf42a47161",
         "type": "s7 in",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "endpoint": "900c847f1836dc21",
         "mode": "single",
         "variable": "L03_PCO_TT_HYST_LL",
@@ -23539,6 +23638,7 @@
         "id": "8e2d26915c7e8e64",
         "type": "s7 out",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "endpoint": "900c847f1836dc21",
         "variable": "L03_PCO_TT_HYST_H",
         "name": "",
@@ -23550,6 +23650,7 @@
         "id": "19dbbfcdd84ae20b",
         "type": "s7 out",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "endpoint": "900c847f1836dc21",
         "variable": "L03_PCO_TT_HYST_L",
         "name": "",
@@ -23561,6 +23662,7 @@
         "id": "efc3fa68bd4bb97c",
         "type": "s7 out",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "endpoint": "900c847f1836dc21",
         "variable": "L03_PCO_TT_HYST_LL",
         "name": "",
@@ -23572,6 +23674,7 @@
         "id": "8200ab2554e28997",
         "type": "s7 in",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "endpoint": "3bdd59fc5d7b9906",
         "mode": "single",
         "variable": "L03_PCO_TT_HH_LATCH",
@@ -23589,6 +23692,7 @@
         "id": "16dc95a950e72c28",
         "type": "s7 in",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "endpoint": "3bdd59fc5d7b9906",
         "mode": "single",
         "variable": "L03_PCO_TT_H_LATCH",
@@ -23606,6 +23710,7 @@
         "id": "03c7ddd8bc3af95b",
         "type": "s7 in",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "endpoint": "3bdd59fc5d7b9906",
         "mode": "single",
         "variable": "L03_PCO_TT_L_LATCH",
@@ -23623,6 +23728,7 @@
         "id": "ef3490673c4b9ca5",
         "type": "s7 in",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "endpoint": "3bdd59fc5d7b9906",
         "mode": "single",
         "variable": "L03_PCO_TT_LL_LATCH",
@@ -23640,6 +23746,7 @@
         "id": "fe38426a01840231",
         "type": "s7 in",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "endpoint": "3bdd59fc5d7b9906",
         "mode": "single",
         "variable": "L03_PCO_TT_RANGE_OUT",
@@ -23657,6 +23764,7 @@
         "id": "0008e1b0c9c0a8bb",
         "type": "s7 in",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "endpoint": "3bdd59fc5d7b9906",
         "mode": "single",
         "variable": "L03_PCO_TT_INPUT_FAULT_UNACK",
@@ -24114,27 +24222,6 @@
         "events": "all",
         "x": 860,
         "y": 3180,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "916c0d69.02556",
-        "type": "ui_template",
-        "z": "531e23be5dd8efe8",
-        "group": "",
-        "name": "DASHBOARD CSS for template ",
-        "order": 5,
-        "width": 0,
-        "height": 0,
-        "format": "<Style id=\"dashboard-customm-styles\">\n\n:root{\n    --base-color:#8D8C8C;\n    --shadow-dark:0, 0, 0;\n    --shadow-light:255, 255, 255;\n    --widgetColor:#cccccc;\n    --widgetColorAccent:#625C5C;\n    --accentColor:#6a87a3;\n   \n    \n    --h1:10px;\n    --v1:10px;\n    --h2:-8px;\n    --v2:-8px;\n    --blur1:16px;\n    --blur2:12px;\n\n    --shadowColor: var(--h1) var(--v1) var(--blur1) 0 rgba(var(--shadow-dark), 0.3),\n    var(--h2) var(--v2) var(--blur2) 0 rgba(var(--shadow-light), 0.25);\n\n    --text-color:#000000;\n    --nr-dashboard-widgetTextColor:#000000;\n}\n\nbody.md-default-theme, body, html.md-default-theme, html {\n    color: var(--text-color);\n    border:3px solid #a6a6a6;\n    font-size: 18px;\n\n}\n.masonry-container {\n    position: relative;\n    width: 100%;\n    margin: 0 auto;\n    min-height:unset !important;\n}\nbody.nr-dashboard-theme {\n    background:var(--base-color)\n}\nbody.nr-dashboard-theme md-toolbar {\n   background:var(--base-color);\n    color: var(--text-color);\n}\nbody.nr-dashboard-theme md-sidenav {\n    color: var(--text-color);\n    background:var(--base-color)\n}\nbody.nr-dashboard-theme md-sidenav div.md-list-item-inner {\n    color: var(--text-color);\n    background-color: transparent;\n}\n.nr-dashboard-theme ui-card-panel {\n    background:linear-gradient(-45deg, rgba(var(--shadow-dark),0.1), rgba(var(--shadow-light),0.01));\n    border-radius: 1em;\n    box-shadow: var(--shadowColor);\n    border:none;\n\n}\n.nr-dashboard-cardpanel {\n    box-sizing: border-box;\n    border-radius: 1em;\n}\nbody.nr-dashboard-theme md-content md-card {\n    background:transparent;\n    color: var(--text-color);\n}\n.nr-dashboard-theme .nr-dashboard-template {\n    background:transparent;\n}\n.nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {\n    color:var(--text-color);\n  \n}\n\n.md-button{\n    border-radius:0.6em;\n    color: var(--text-color);\n    \n}\n.nr-dashboard-theme .nr-dashboard-button .md-button {\n    background-color: var(--widgetColor);\n    box-shadow: var(--shadowColor);\n    color: #000000;\n    border: 1.5px solid #b3b3b3;\n    \n   \n}\n.md-button.md-raised:not([disabled]) {\n    box-shadow: 2px 4px 7px 0 rgb(0 0 0 / 26%);\n}\n.md-button:not([disabled]).md-fab:active, .md-button:not([disabled]).md-raised:active {\n    box-shadow: 1px 1px 2px 0 rgb(0 0 0 / 30%);\n}\n.nr-dashboard-theme .nr-dashboard-button .md-button:hover {\n    background-color: var(--widgetColor);\n}\n.nr-dashboard-theme .nr-dashboard-button .md-button:focus {\n    background-color: var(--widgetColor);\n}\nmd-list-item.md-no-proxy.md-button, md-list-item .md-no-style.md-button {\n    box-shadow: 2px 4px 7px 0 rgb(0 0 0 / 26%);\n}\n.nr-dashboard-theme .nr-dashboard-numeric .value {\n    background:unset;\n    color:var(--text-color);\n}\n.nr-dashboard-theme .nr-dashboard-form {\n    color:var(--text-color);\n}\n.nr-dashboard-theme .nr-dashboard-form-button {\n    background-color: var(--widgetColor);\n    color:var(--text-color);\n}\n\n.nr-dashboard-theme .nr-dashboard-form-button:hover {\n    background-color: var(--widgetColor) !important;\n}\n.nr-dashboard-theme .nr-dashboard-form-button:focus {\n    background-color: var(--widgetColor) !important;\n}\n.nr-dashboard-theme md-input-container.md-default-theme .md-input, md-input-container .md-input {\n     color:var(--text-color);\n    border-color: var(--widgetColor) !important;\n}\n.nr-dashboard-theme .nr-dashboard-switch md-switch .md-thumb {\n    background-color: var(--widgetColor);\n\n}\n.nr-dashboard-theme .nr-dashboard-switch md-switch .md-bar {\n    background-color: rgb(var(--widgetColor));\n    box-shadow: inset  var(--shadowColor);\n}\n.nr-dashboard-theme .nr-dashboard-switch md-switch.md-checked .md-bar {\n    background-color: var(--widgetColorAccent);\n     box-shadow: 0 0 10px 0px var(--widgetColor);\n}\n.nr-dashboard-theme .nr-dashboard-switch md-switch.md-checked .md-thumb {\n    background-color: var(--accentColor);\n    box-shadow: 0 0 10px 0px rgba(var(--shadow-dark),25%);\n}\n.nr-dashboard-theme .nr-dashboard-slider .md-track {\n    background-color: var(--accentColor);\n}\nmd-slider .md-thumb {\n    box-shadow: var(--shadowColor)\n}\n\n.nr-dashboard-theme .nr-dashboard-slider .md-thumb:after {\n    background-color: var(--accentColor);\n    border-color: var(--accentColor);\n}\n\n.nr-dashboard-theme md-select-menu, .nr-dashboard-theme md-select-menu md-option {\n    background-color: rgb(255 255 255 / 20%);\n    color:var(--text-color);\n    border-radius:0.8em;\n}\n\n.nr-dashboard-theme .nr-dashboard-dropdown md-select .md-select-value, .nr-dashboard-theme .nr-dashboard-dropdown md-select .md-select-value.md-select-placeholder {\n    margin-top: -3px;\n    border-color: #eeeeee7a;\n    \n}\n.nr-dashboard-theme .md-select-menu-container {\n    max-height: 85%;\n    overflow-y: auto;\n    border: none;\n    border-radius: 0.8em;\n}\n\n.nr-dashboard-theme md-select-menu md-option {\n    background-color: var(--widgetColor);\n   \n    height: 29px;\n    border-radius: 0.6em;\n    margin-left: 10px;\n    margin-right: 10px;\n    margin-top: 2px;\n    box-shadow: 0 0 6px 6px #24202133;\n    transition: 0.3s;\n}\n.nr-dashboard-theme md-select-menu md-option[selected] {\n    color: var(--base-color) !important;\n    background-color: var(--accentColor) !important;\n}\n.nr-dashboard-theme md-select-menu md-option:nth-child(even) {\n    background-color: var(--widgetColorAccent);\n}\n.nr-dashboard-theme md-select-menu md-option:last-child {\n   margin-bottom: 8px;\n}\n.nr-dashboard-theme md-select-menu md-option:hover {\n    background-color: var(--widgetColorAccent) !important;\n    padding-left: 26px;\n}\n.nr-dashboard-theme md-select-menu md-option > .md-ripple-container{\n     border-radius: 14px;\n}\n.nr-dashboard-theme .nr-dashboard-dropdown md-select .md-select-value, .nr-dashboard-theme .nr-dashboard-dropdown md-select .md-select-value.md-select-placeholder {\n    color: var(--text-color);\n    border-color: var(--text-color);\n    border-bottom-width: 1px;\n    padding: 0px 2px;\n}\n\n\n  \n</style>\n",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "global",
-        "className": "",
-        "x": 1290,
-        "y": 40,
         "wires": [
             []
         ]
@@ -25271,6 +25358,7 @@
         "id": "f78c83f7b2ec7d0a",
         "type": "s7 out",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "endpoint": "900c847f1836dc21",
         "variable": "L03_PCO_TT_ALM_SV_HH",
         "name": "",
@@ -25282,6 +25370,7 @@
         "id": "a15d40d12fb17c1d",
         "type": "s7 out",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "endpoint": "900c847f1836dc21",
         "variable": "L03_PCO_TT_ALM_SV_H",
         "name": "",
@@ -25293,6 +25382,7 @@
         "id": "ffee37d852a26253",
         "type": "s7 out",
         "z": "531e23be5dd8efe8",
+        "g": "4e4e26917b4b29e4",
         "endpoint": "900c847f1836dc21",
         "variable": "L03_PCO_TT_ALM_SV_L",
         "name": "",
@@ -25340,16 +25430,36 @@
         "id": "4d039d42a32a20e8",
         "type": "link in",
         "z": "531e23be5dd8efe8",
-        "name": "disabled buton input",
+        "g": "8a61c8b74399b800",
+        "name": "Oven Burner disabled",
         "links": [
             "3c4e3e4bac2d34b1"
         ],
-        "x": 1305,
+        "x": 565,
         "y": 180,
         "wires": [
             [
                 "cfd2b4beb556b27b",
                 "b268c73d16fb60ca"
+            ]
+        ]
+    },
+    {
+        "id": "0a59531a275c7a10",
+        "type": "link in",
+        "z": "531e23be5dd8efe8",
+        "g": "d5f8d829faea4ec6",
+        "name": "Oven Burner disabled",
+        "links": [
+            "3c4e3e4bac2d34b1"
+        ],
+        "x": 385,
+        "y": 420,
+        "wires": [
+            [
+                "55fbf2ba885ed060",
+                "319589604de509b9",
+                "14f05e24f4a6f77b"
             ]
         ]
     },
@@ -39066,7 +39176,7 @@
         "type": "function",
         "z": "82c336c0cda633ca",
         "name": "Set ID and Password ",
-        "func": "//this is to add 1 or more user ID and Password if needed\nvar accounts = global.get(\"accounts\") || [{ username: \"admin\", password: \"meca1234\" }, { username: \"guest\", password: \"guest\" }];\n\nvar username = global.get(\"usernamebfr\");\nvar password = global.get(\"passwordbfr\");\n\n//msg.payload if wrong username entered\nmsg.payload = 1;\n\naccounts.forEach(function (account) {\n    if (account.username == username) {\n        msg.payload = 2;\n        if (account.password == password) {\n            msg.payload = 0;\n        }\n    }\n});\n\n//check if the ID already login, output error message\nif (msg.payload == 0) {\n    var currentsocketid = global.get(\"clientid\") || undefined;\n    if (currentsocketid !== undefined && currentsocketid !== msg.socketid)\n        msg.payload = 3;\n}\n// keep the original socketid from msg.socketid;\nreturn msg;\n",
+        "func": "//this is to add 1 or more user ID and Password if needed\nvar accounts = global.get(\"accounts\") || [{ username: \"admin\", password: \"meca1234\" }, { username: \"guest\", password: \"guest\" }];\n\nvar username = global.get(\"usernamebfr\");\nvar password = global.get(\"passwordbfr\");\n\n//msg.payload if wrong username entered\nmsg.payload = 1;\n\naccounts.forEach(function (account) {\n    if (account.username == username) {\n        msg.payload = 2;\n        if (account.password == password) {\n            msg.payload = 0;\n        }\n    }\n});\n\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -39076,8 +39186,7 @@
         "y": 240,
         "wires": [
             [
-                "c6b2b0fbd367ec2b",
-                "18b16864824fc232"
+                "c6b2b0fbd367ec2b"
             ]
         ]
     },
@@ -39159,9 +39268,7 @@
             [
                 "927beb4a7392fb26"
             ],
-            [
-                "69e42f5d149176f2"
-            ]
+            []
         ]
     },
     {
@@ -39254,8 +39361,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1269.000114440918,
-        "y": 258.00000190734863,
+        "x": 1310,
+        "y": 300,
         "wires": [
             [
                 "f80d16156268b423"
@@ -39274,8 +39381,8 @@
         "cancel": "",
         "topic": "System In Use.",
         "name": "System In-Use Dialog",
-        "x": 1580,
-        "y": 240,
+        "x": 1540,
+        "y": 300,
         "wires": [
             []
         ]
@@ -39316,28 +39423,17 @@
         "type": "inject",
         "z": "82c336c0cda633ca",
         "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
+        "props": [],
         "repeat": "1",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 190,
+        "x": 170,
         "y": 520,
         "wires": [
             [
-                "33bbc5b7b10a2416",
-                "d61d32cfd6194955"
+                "33bbc5b7b10a2416"
             ]
         ]
     },
@@ -39346,7 +39442,7 @@
         "type": "function",
         "z": "82c336c0cda633ca",
         "name": "Check log in credentials ",
-        "func": "var logonstatus = global.get(\"logonstatus\");\n\nif (logonstatus != \"Succeed\")\n{\n    msg.enabled = false;\n}\nelse msg.enabled = true;\n\n\nreturn msg;",
+        "func": "var logonstatus = global.get(\"logonstatus\");\n\nif (logonstatus != \"Login Successful\")\n{\n    msg.enabled = false;\n\n}\nelse msg.enabled = true;\n\n\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -39367,6 +39463,7 @@
         "name": "disable button",
         "mode": "link",
         "links": [
+            "0a59531a275c7a10",
             "4d039d42a32a20e8"
         ],
         "x": 725,
@@ -39384,23 +39481,6 @@
         "wires": []
     },
     {
-        "id": "18b16864824fc232",
-        "type": "debug",
-        "z": "82c336c0cda633ca",
-        "name": "Debug Account Log ",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1010,
-        "y": 360,
-        "wires": []
-    },
-    {
         "id": "8034e18fdd4cc74f",
         "type": "link out",
         "z": "82c336c0cda633ca",
@@ -39414,21 +39494,31 @@
         "wires": []
     },
     {
-        "id": "d61d32cfd6194955",
+        "id": "049556688ddb0211",
         "type": "function",
         "z": "82c336c0cda633ca",
-        "name": "Check log in credentials ",
-        "func": "var username = global.get(\"username\");\n\n\n\nmsg.payload = {\"Username\" : username};\n\nreturn msg;",
+        "name": "Set ID and Password ",
+        "func": "//this is to add 1 or more user ID and Password if needed\nvar accounts = global.get(\"accounts\") || [{ username: \"admin\", password: \"meca1234\" }, { username: \"guest\", password: \"guest\" }];\n\nvar username = global.get(\"usernamebfr\");\nvar password = global.get(\"passwordbfr\");\n\n//msg.payload if wrong username entered\nmsg.payload = 1;\n\naccounts.forEach(function (account) {\n    if (account.username == username) {\n        msg.payload = 2;\n        if (account.password == password) {\n            msg.payload = 0;\n        }\n    }\n});\n\n//check if the ID already login, output error message\nif (msg.payload == 0) {\n    var currentsocketid = global.get(\"clientid\") || undefined;\n    if (currentsocketid !== undefined && currentsocketid !== msg.socketid)\n       // msg.payload = 3;\n}\n// keep the original socketid from msg.socketid;\nreturn msg;\n",
         "outputs": 1,
-        "noerr": 0,
+        "noerr": 2,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 410,
-        "y": 680,
+        "x": 620,
+        "y": 360,
         "wires": [
             []
         ]
+    },
+    {
+        "id": "57fb919cc6a1c178",
+        "type": "comment",
+        "z": "82c336c0cda633ca",
+        "name": "to Check this later",
+        "info": "",
+        "x": 570,
+        "y": 320,
+        "wires": []
     },
     {
         "id": "7579e781f128b10e",
@@ -39438,54 +39528,25 @@
         "bot": "4a0577f62c0ff0f9",
         "haserroroutput": false,
         "outputs": 1,
-        "x": 670,
-        "y": 160,
+        "x": 1290,
+        "y": 340,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "e026d705beaca7a4",
-        "type": "inject",
-        "z": "9b07ba984d5cb7a4",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 260,
-        "y": 180,
-        "wires": [
-            [
-                "1670a274266c3da9"
-            ]
         ]
     },
     {
         "id": "1670a274266c3da9",
         "type": "function",
         "z": "9b07ba984d5cb7a4",
-        "name": "function 7",
-        "func": "msg.payload = [];\nmsg.payload.chatId = -857203322;\nmsg.payload.type = 'message'\nmsg.payload.content = \"Test sending message to group\";\n\nreturn msg;",
+        "name": "Send alarm with message to Telegram (ALARM)",
+        "func": "var groupID = global.get(\"groupID\");\n\n//s7 NODE INFO\n// THE TAG IS BASED ON MSG.TOPIC. USE THIS TAGNAME TO SEND TO TELEGRAM AS TEXT, UNLESS WANT TO CHANGE TO SOMETHING ELSE\n\n\n\nif (msg.payload == true)\n{\n    msg.payload = {};\n    msg.payload.chatId = groupID;\n    msg.payload.type = 'message'\n    msg.payload.content = msg.topic +\" ALARM TRIGGERED\";\n}\n\nif (msg.payload == false)\n{\n    msg.payload = {};\n    msg.payload.chatId = groupID;\n    msg.payload.type = 'message'\n    msg.payload.content = msg.topic + \" ALARM RECOVERED\";\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 480,
-        "y": 160,
+        "x": 920,
+        "y": 340,
         "wires": [
             [
                 "7579e781f128b10e"
@@ -39493,51 +39554,255 @@
         ]
     },
     {
-        "id": "a6442178.6c4f3",
-        "type": "ui_template",
-        "z": "3bab7d86.a7d252",
-        "group": "d8455bbb4b88ca11",
+        "id": "c38ccb124ff96bd2",
+        "type": "ui_switch",
+        "z": "9b07ba984d5cb7a4",
         "name": "",
-        "order": 0,
+        "label": "switch",
+        "tooltip": "",
+        "group": "b0130d6f2634c207",
+        "order": 36,
         "width": 0,
         "height": 0,
-        "format": "<span>Welcome, {{msg.req.user.username}}!</span>",
+        "passthru": true,
+        "decouple": "false",
+        "topic": "L03_ALARM_LOW",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 370,
+        "y": 280,
+        "wires": [
+            [
+                "1670a274266c3da9"
+            ]
+        ]
+    },
+    {
+        "id": "9e927fcd72f2fc86",
+        "type": "inject",
+        "z": "9b07ba984d5cb7a4",
+        "name": "",
+        "props": [],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 150,
+        "y": 80,
+        "wires": [
+            [
+                "01244139ad23af4d"
+            ]
+        ]
+    },
+    {
+        "id": "01244139ad23af4d",
+        "type": "function",
+        "z": "9b07ba984d5cb7a4",
+        "name": "Group ChatID ",
+        "func": "// save telegram group ID as global memory\n\nvar ID = -868147318;\nglobal.set(\"groupID\", ID);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3af0871900d622c1",
+        "type": "s7 in",
+        "z": "9b07ba984d5cb7a4",
+        "endpoint": "16a2a4d8a1d42ef4",
+        "mode": "all-split",
+        "variable": "",
+        "diff": true,
+        "name": "",
+        "x": 310,
+        "y": 340,
+        "wires": [
+            [
+                "1670a274266c3da9"
+            ]
+        ]
+    },
+    {
+        "id": "229b344ad517826b",
+        "type": "function",
+        "z": "9b07ba984d5cb7a4",
+        "name": "Send alarm with message to Telegram (GENERAL)",
+        "func": "var groupID = global.get(\"groupID\");\n\n//s7 NODE INFO\n// THE TAG IS BASED ON MSG.TOPIC. USE THIS TAGNAME TO SEND TO TELEGRAM AS TEXT, UNLESS WANT TO CHANGE TO SOMETHING ELSE\n\n\n\nif (msg.payload == true)\n{\n    msg.payload = {};\n    msg.payload.chatId = groupID;\n    msg.payload.type = 'message'\n    msg.payload.content = msg.topic +\" TRIGGERED\";\n}\n\nif (msg.payload == false)\n{\n    msg.payload = {};\n    msg.payload.chatId = groupID;\n    msg.payload.type = 'message'\n    msg.payload.content = msg.topic + \" RECOVERED\";\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 950,
+        "y": 480,
+        "wires": [
+            [
+                "7579e781f128b10e"
+            ]
+        ]
+    },
+    {
+        "id": "02983598cce44389",
+        "type": "s7 in",
+        "z": "9b07ba984d5cb7a4",
+        "endpoint": "3bdd59fc5d7b9906",
+        "mode": "single",
+        "variable": "L03_PCO_TT_TRIP",
+        "diff": true,
+        "name": "",
+        "x": 310,
+        "y": 420,
+        "wires": [
+            [
+                "229b344ad517826b"
+            ]
+        ]
+    },
+    {
+        "id": "19861532c19456ca",
+        "type": "s7 in",
+        "z": "9b07ba984d5cb7a4",
+        "endpoint": "3bdd59fc5d7b9906",
+        "mode": "single",
+        "variable": "L03_PCO_TT_INPUT_FAULT_LATCH",
+        "diff": true,
+        "name": "",
+        "x": 370,
+        "y": 460,
+        "wires": [
+            [
+                "229b344ad517826b"
+            ]
+        ]
+    },
+    {
+        "id": "9df2eb550fea3bee",
+        "type": "s7 in",
+        "z": "9b07ba984d5cb7a4",
+        "endpoint": "3bdd59fc5d7b9906",
+        "mode": "single",
+        "variable": "L03_PCO_TT_RANGE_OUT",
+        "diff": true,
+        "name": "",
+        "x": 340,
+        "y": 500,
+        "wires": [
+            [
+                "229b344ad517826b"
+            ]
+        ]
+    },
+    {
+        "id": "2982ed128d8d82ba",
+        "type": "s7 in",
+        "z": "9b07ba984d5cb7a4",
+        "endpoint": "3bdd59fc5d7b9906",
+        "mode": "single",
+        "variable": "L03_PCO_TT_HH_LATCH",
+        "diff": true,
+        "name": "",
+        "x": 330,
+        "y": 540,
+        "wires": [
+            [
+                "229b344ad517826b"
+            ]
+        ]
+    },
+    {
+        "id": "23ae6897d0cba79c",
+        "type": "s7 in",
+        "z": "9b07ba984d5cb7a4",
+        "endpoint": "3bdd59fc5d7b9906",
+        "mode": "single",
+        "variable": "L03_PCO_TT_H_LATCH",
+        "diff": true,
+        "name": "",
+        "x": 330,
+        "y": 580,
+        "wires": [
+            [
+                "229b344ad517826b"
+            ]
+        ]
+    },
+    {
+        "id": "2ef5aa4977b3c093",
+        "type": "s7 in",
+        "z": "9b07ba984d5cb7a4",
+        "endpoint": "3bdd59fc5d7b9906",
+        "mode": "single",
+        "variable": "L03_PCO_TT_L_LATCH",
+        "diff": true,
+        "name": "",
+        "x": 330,
+        "y": 620,
+        "wires": [
+            [
+                "229b344ad517826b"
+            ]
+        ]
+    },
+    {
+        "id": "c85fb706d55ce5b3",
+        "type": "s7 in",
+        "z": "9b07ba984d5cb7a4",
+        "endpoint": "3bdd59fc5d7b9906",
+        "mode": "single",
+        "variable": "L03_PCO_TT_LL_LATCH",
+        "diff": true,
+        "name": "",
+        "x": 330,
+        "y": 660,
+        "wires": [
+            [
+                "229b344ad517826b"
+            ]
+        ]
+    },
+    {
+        "id": "c6d51490a8cf7727",
+        "type": "ui_template",
+        "z": "46a77005bb2d587d",
+        "group": "b82da486.9fc8d8",
+        "name": "Widget for Sign in ",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(data) {\n            var elem = document.getElementById(\"headerStatus\")\n            if(elem !== null) {\n                elem.className = data.payload;\n                elem.innerHTML = data.payload;\n            }\n        });\n    })(scope);\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": false,
-        "templateScope": "global",
+        "templateScope": "local",
         "className": "",
-        "x": 720,
-        "y": 140,
+        "x": 1090,
+        "y": 340,
         "wires": [
             []
         ]
     },
     {
-        "id": "6e62b465.82538c",
-        "type": "ui_template",
-        "z": "3bab7d86.a7d252",
-        "group": "fe762942.fd8b08",
-        "name": "Header Status",
-        "order": 2,
-        "width": "0",
-        "height": "0",
-        "format": "<style>\n    #headerStatus {\n        font-weight: bold;\n        text-transform: uppercase;\n    }\n    #headerStatus.online {\n        color: lime;\n    }\n    #headerStatus.offline {\n        color: tomato;\n    }\n</style>\n\n<script id=\"titleScript\" type=\"text/javascript\">\n$(function() {\n    if($('.md-toolbar-tools').length){\n        initHeader();\n    } else setTimeout(initHeader, 500)\n});\n\nfunction initHeader(){\n    if (!$('#headerStatus').length) {\n        var toolbar = $('.md-toolbar-tools');\n        var div = $('<div/>');\n        var p = $('<p id=\"headerStatus\" />');\n        div[0].style.margin = '5px 5px 5px auto';\n        div.append(p);\n        toolbar.append(div);\n    }\n}\n</script>",
-        "storeOutMessages": false,
-        "fwdInMessages": false,
-        "resendOnRefresh": false,
-        "templateScope": "global",
-        "className": "",
-        "x": 360,
-        "y": 60,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "912078e92701a356",
+        "id": "51b2ecf49321c4be",
         "type": "inject",
-        "z": "3bab7d86.a7d252",
+        "z": "46a77005bb2d587d",
         "name": "",
         "props": [
             {
@@ -39553,13 +39818,163 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 440,
-        "y": 160,
+        "payload": "Logon_as_admin",
+        "payloadType": "str",
+        "x": 600,
+        "y": 280,
         "wires": [
             [
-                "a6442178.6c4f3"
+                "c6d51490a8cf7727"
+            ]
+        ]
+    },
+    {
+        "id": "135d0ff5fa55e8f3",
+        "type": "inject",
+        "z": "46a77005bb2d587d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "logout",
+        "payloadType": "str",
+        "x": 650,
+        "y": 320,
+        "wires": [
+            [
+                "c6d51490a8cf7727"
+            ]
+        ]
+    },
+    {
+        "id": "b97bc1c0.cb899",
+        "type": "ui_template",
+        "z": "46a77005bb2d587d",
+        "group": "c982fbb8.1deb38",
+        "name": "Clock Toolbar and Header status for User Login",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<script id=\"titleScript\" type=\"text/javascript\">\n    $(function() {\n        // Check if .md-toolbar-tools element exists\n        if($('.md-toolbar-tools').length){\n            // Initialize the header status element\n            initHeader();\n            // Load the clock\n            loadClock();\n        } else {\n            // If .md-toolbar-tools element does not exist, try again after 500ms\n            setTimeout(function() {\n                initHeader();\n                loadClock();\n            }, 500);\n        }\n    });\n\n    // Function to initialize the header status element\n    function initHeader(){\n        if (!$('#headerStatus').length) {\n            var toolbar = $('.md-toolbar-tools');\n            var div = $('<div/>');\n            var k = $('<k id=\"headerStatus\" />');\n            // Set the margin to align the element to the left of the header\n            // margin align is described as { top, right, bottom, left}\n            div[0].style.margin = '5px auto 5px 20px';\n            div.append(k);\n            toolbar.append(div);\n        }\n    }\n\n    // Function to load the clock\n    function loadClock(){\n        $('#clock').remove();\n        var toolbar = $('.md-toolbar-tools');\n        \n        var div = $('<div/>');\n        var p = $('<p/ id=\"clock\">');\n        \n        div.append(p);\n        // Set the margin to align the element to the right of the header\n        div[0].style.margin = '5px 5px 5px auto';\n        toolbar.append(div);\n\n        function upTime() {\n            var d = new Date();\n            //display the clock as dd/mm/yyyy  + timestamp\n            var formattedDate = d.toLocaleDateString(\"en-GB\")+ \" \" + d.toLocaleTimeString();\n            p.text(formattedDate);\n        }\n\n        if(document.clockInterval){ \n            clearInterval(document.clockInterval);\n            document.clockInterval = null;\n        }\n            \n        document.clockInterval = setInterval(upTime,1000);\n    }\n</script>\n\n<style>\n    #headerStatus {\n        font-weight: bold;\n        text-transform: uppercase;\n    }\n\n    #headerStatus.Logged in as Admin {\n        color: lime;\n    }\n\n    #headerStatus.No current user {\n        color: red;\n    }\n</style>",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "global",
+        "className": "",
+        "x": 340,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6881e3e5.30927c",
+        "type": "ui_template",
+        "z": "46a77005bb2d587d",
+        "group": "",
+        "name": "Custom Text Input Dashoard size",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "format": "<style id='custom-styles'>\n    .nr-dashboard-theme .nr-dashboard-textinput input {\n        border-color: #eeeeee;\n        color: #eeeeee;\n        border-bottom-width: 1px;\n        font-family: inherit;\n        padding-left: 5px;\n        font-size: 25px;\n        height: 45px;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "global",
+        "className": "",
+        "x": 300,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "916c0d69.02556",
+        "type": "ui_template",
+        "z": "46a77005bb2d587d",
+        "group": "",
+        "name": "DASHBOARD CSS for template ",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "format": "<Style id=\"dashboard-customm-styles\">\n\n:root{\n    --base-color:#8D8C8C;\n    --shadow-dark:0, 0, 0;\n    --shadow-light:255, 255, 255;\n    --widgetColor:#cccccc;\n    --widgetColorAccent:#625C5C;\n    --accentColor:#6a87a3;\n   \n    \n    --h1:10px;\n    --v1:10px;\n    --h2:-8px;\n    --v2:-8px;\n    --blur1:16px;\n    --blur2:12px;\n\n    /* Define shadow color */\n    --shadowColor: var(--h1) var(--v1) var(--blur1) 0 rgba(var(--shadow-dark), 0.3),\n    var(--h2) var(--v2) var(--blur2) 0 rgba(var(--shadow-light), 0.25);\n\n    /* Define text color */\n    --text-color:#000000;\n    --nr-dashboard-widgetTextColor:#000000;\n}\n\n/* Define general styles */\nbody.md-default-theme, body, html.md-default-theme, html {\n    color: var(--text-color);\n    border:3px solid #a6a6a6;\n    font-size: 18px;\n\n}\n.masonry-container {\n    position: relative;\n    width: 100%;\n    margin: 0 auto;\n    min-height:unset !important;\n}\n/* Define background color and styles for dashboard elements */\nbody.nr-dashboard-theme {\n    background:var(--base-color)\n}\nbody.nr-dashboard-theme md-toolbar {\n   background:var(--base-color);\n    color: var(--text-color);\n}\nbody.nr-dashboard-theme md-sidenav {\n    color: var(--text-color);\n    background:var(--base-color)\n}\nbody.nr-dashboard-theme md-sidenav div.md-list-item-inner {\n    color: var(--text-color);\n    background-color: transparent;\n}\n.nr-dashboard-theme ui-card-panel {\n    background:linear-gradient(-45deg, rgba(var(--shadow-dark),0.1), rgba(var(--shadow-light),0.01));\n    border-radius: 1em;\n    box-shadow: var(--shadowColor);\n    border:none;\n\n}\n.nr-dashboard-cardpanel {\n    box-sizing: border-box;\n    border-radius: 1em;\n}\nbody.nr-dashboard-theme md-content md-card {\n    background:transparent;\n    color: var(--text-color);\n}\n.nr-dashboard-theme .nr-dashboard-template {\n    background:transparent;\n}\n.nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {\n    color:var(--text-color);\n  \n}\n\n.md-button{\n    border-radius:0.6em;\n    color: var(--text-color);\n    \n}\n.nr-dashboard-theme .nr-dashboard-button .md-button {\n    background-color: var(--widgetColor);\n    box-shadow: var(--shadowColor);\n    color: #000000;\n    border: 1.5px solid #b3b3b3;\n    \n   \n}\n.md-button.md-raised:not([disabled]) {\n    box-shadow: 2px 4px 7px 0 rgb(0 0 0 / 26%);\n}\n.md-button:not([disabled]).md-fab:active, .md-button:not([disabled]).md-raised:active {\n    box-shadow: 1px 1px 2px 0 rgb(0 0 0 / 30%);\n}\n.nr-dashboard-theme .nr-dashboard-button .md-button:hover {\n    background-color: var(--widgetColor);\n}\n.nr-dashboard-theme .nr-dashboard-button .md-button:focus {\n    background-color: var(--widgetColor);\n}\nmd-list-item.md-no-proxy.md-button, md-list-item .md-no-style.md-button {\n    box-shadow: 2px 4px 7px 0 rgb(0 0 0 / 26%);\n}\n.nr-dashboard-theme .nr-dashboard-numeric .value {\n    background:unset;\n    color:var(--text-color);\n}\n.nr-dashboard-theme .nr-dashboard-form {\n    color:var(--text-color);\n}\n.nr-dashboard-theme .nr-dashboard-form-button {\n    background-color: var(--widgetColor);\n    color:var(--text-color);\n}\n\n.nr-dashboard-theme .nr-dashboard-form-button:hover {\n    background-color: var(--widgetColor) !important;\n}\n.nr-dashboard-theme .nr-dashboard-form-button:focus {\n    background-color: var(--widgetColor) !important;\n}\n.nr-dashboard-theme md-input-container.md-default-theme .md-input, md-input-container .md-input {\n     color:var(--text-color);\n    border-color: var(--widgetColor) !important;\n}\n.nr-dashboard-theme .nr-dashboard-switch md-switch .md-thumb {\n    background-color: var(--widgetColor);\n\n}\n.nr-dashboard-theme .nr-dashboard-switch md-switch .md-bar {\n    background-color: rgb(var(--widgetColor));\n    box-shadow: inset  var(--shadowColor);\n}\n.nr-dashboard-theme .nr-dashboard-switch md-switch.md-checked .md-bar {\n    background-color: var(--widgetColorAccent);\n     box-shadow: 0 0 10px 0px var(--widgetColor);\n}\n.nr-dashboard-theme .nr-dashboard-switch md-switch.md-checked .md-thumb {\n    background-color: var(--accentColor);\n    box-shadow: 0 0 10px 0px rgba(var(--shadow-dark),25%);\n}\n.nr-dashboard-theme .nr-dashboard-slider .md-track {\n    background-color: var(--accentColor);\n}\nmd-slider .md-thumb {\n    box-shadow: var(--shadowColor)\n}\n\n.nr-dashboard-theme .nr-dashboard-slider .md-thumb:after {\n    background-color: var(--accentColor);\n    border-color: var(--accentColor);\n}\n\n.nr-dashboard-theme md-select-menu, .nr-dashboard-theme md-select-menu md-option {\n    background-color: rgb(255 255 255 / 20%);\n    color:var(--text-color);\n    border-radius:0.8em;\n}\n\n.nr-dashboard-theme .nr-dashboard-dropdown md-select .md-select-value, .nr-dashboard-theme .nr-dashboard-dropdown md-select .md-select-value.md-select-placeholder {\n    margin-top: -3px;\n    border-color: #eeeeee7a;\n    \n}\n.nr-dashboard-theme .md-select-menu-container {\n    max-height: 85%;\n    overflow-y: auto;\n    border: none;\n    border-radius: 0.8em;\n}\n\n.nr-dashboard-theme md-select-menu md-option {\n    background-color: var(--widgetColor);\n   \n    height: 29px;\n    border-radius: 0.6em;\n    margin-left: 10px;\n    margin-right: 10px;\n    margin-top: 2px;\n    box-shadow: 0 0 6px 6px #24202133;\n    transition: 0.3s;\n}\n.nr-dashboard-theme md-select-menu md-option[selected] {\n    color: var(--base-color) !important;\n    background-color: var(--accentColor) !important;\n}\n.nr-dashboard-theme md-select-menu md-option:nth-child(even) {\n    background-color: var(--widgetColorAccent);\n}\n.nr-dashboard-theme md-select-menu md-option:last-child {\n   margin-bottom: 8px;\n}\n.nr-dashboard-theme md-select-menu md-option:hover {\n    background-color: var(--widgetColorAccent) !important;\n    padding-left: 26px;\n}\n.nr-dashboard-theme md-select-menu md-option > .md-ripple-container{\n     border-radius: 14px;\n}\n.nr-dashboard-theme .nr-dashboard-dropdown md-select .md-select-value, .nr-dashboard-theme .nr-dashboard-dropdown md-select .md-select-value.md-select-placeholder {\n    color: var(--text-color);\n    border-color: var(--text-color);\n    border-bottom-width: 1px;\n    padding: 0px 2px;\n}\n\n\n  \n</style>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "global",
+        "className": "",
+        "x": 290,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1a6a73230e00c124",
+        "type": "comment",
+        "z": "46a77005bb2d587d",
+        "name": "Important Programming Notes",
+        "info": "Updated on 12/1/2023\nTo store a memory in NodeRED use global memory to store the value, so that we can call the memory elsewhere within the project.\n\nFunction \nto retrieve the memory use: example-\nglobal.get(var1)\n\nto set the global memory use: example-\nglobal.set(var1,msg.payload);\n\n\n",
+        "x": 200,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "0a8745a4e0068851",
+        "type": "comment",
+        "z": "46a77005bb2d587d",
+        "name": "This template required to add to every tabs",
+        "info": "",
+        "x": 1060,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "bc74c58a78a0fbbe",
+        "type": "inject",
+        "z": "46a77005bb2d587d",
+        "name": "",
+        "props": [],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 350,
+        "y": 380,
+        "wires": [
+            [
+                "9b14e2bc55107d5d"
+            ]
+        ]
+    },
+    {
+        "id": "9b14e2bc55107d5d",
+        "type": "function",
+        "z": "46a77005bb2d587d",
+        "name": "show message at for header status",
+        "func": "var logonstatus = global.get(\"logonstatus\");\nvar username = global.get(\"username\");\n\nif (logonstatus == \"Login Successful\")\n{\n    msg.payload = \"Logged in as Admin\"\n}\nelse if (logonstatus != \"Login Successful\")\n{\n    msg.payload = \"No current user\"\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 380,
+        "wires": [
+            [
+                "c6d51490a8cf7727"
             ]
         ]
     }
