@@ -366,9 +366,7 @@
             "b81b6aa5b71dd29a"
         ],
         "x": 54,
-        "y": 19,
-        "w": 972,
-        "h": 482
+        "y": 19
     },
     {
         "id": "f840e9332560a7cf",
@@ -387,9 +385,7 @@
             "adf2b66bbfef77da"
         ],
         "x": 54,
-        "y": 519,
-        "w": 852,
-        "h": 122
+        "y": 519
     },
     {
         "id": "eb31b411689ba5ea",
@@ -415,9 +411,7 @@
             "e514383c619be0cf"
         ],
         "x": 54,
-        "y": 659,
-        "w": 1292,
-        "h": 202
+        "y": 659
     },
     {
         "id": "928ec4a3e9eb4898",
@@ -457,9 +451,7 @@
             "5e0bd196401e9f8e"
         ],
         "x": 54,
-        "y": 79,
-        "w": 1292,
-        "h": 402
+        "y": 79
     },
     {
         "id": "7afdfb632f0290dd",
@@ -525,9 +517,7 @@
             "a76fb98fc1f03921"
         ],
         "x": 54,
-        "y": 619,
-        "w": 1332,
-        "h": 822
+        "y": 619
     },
     {
         "id": "6f9ddfef4f750f18",
@@ -557,9 +547,7 @@
             "0f59d084e41e7eb0"
         ],
         "x": 54,
-        "y": 1479,
-        "w": 1312,
-        "h": 302
+        "y": 1479
     },
     {
         "id": "92ef5d8656c0079f",
@@ -625,9 +613,7 @@
             "668f193105a901a1"
         ],
         "x": 54,
-        "y": 1799,
-        "w": 1332,
-        "h": 822
+        "y": 1799
     },
     {
         "id": "9c3d9a4f6626aa35",
@@ -665,9 +651,7 @@
             "179d24b7d9192684"
         ],
         "x": 54,
-        "y": 2639,
-        "w": 1012,
-        "h": 562
+        "y": 2639
     },
     {
         "id": "276021b6752e25c2",
@@ -689,9 +673,7 @@
             "728c47daeaf5c87b"
         ],
         "x": 954,
-        "y": 59,
-        "w": 592,
-        "h": 242
+        "y": 59
     },
     {
         "id": "6868c1fe6482f423",
@@ -716,9 +698,7 @@
             "4f88e1a349fbf1c6"
         ],
         "x": 1574,
-        "y": 59,
-        "w": 952,
-        "h": 282
+        "y": 59
     },
     {
         "id": "ae68a759ae14f389",
@@ -750,9 +730,7 @@
             "8fe26ac798a127a4"
         ],
         "x": 74,
-        "y": 1239,
-        "w": 932,
-        "h": 322
+        "y": 1239
     },
     {
         "id": "900501035c01b7f7",
@@ -770,9 +748,7 @@
             "ef56e1115c92c94e"
         ],
         "x": 94,
-        "y": 1139,
-        "w": 792,
-        "h": 82
+        "y": 1139
     },
     {
         "id": "2f6b531f6170fd01",
@@ -790,9 +766,7 @@
             "b66d45da9617d3d6"
         ],
         "x": 854,
-        "y": 1119,
-        "w": 652,
-        "h": 82
+        "y": 1119
     },
     {
         "id": "0e42e17ff29a5de1",
@@ -829,9 +803,7 @@
             "4fe4fc49e040344a"
         ],
         "x": 54,
-        "y": 19,
-        "w": 962,
-        "h": 442
+        "y": 19
     },
     {
         "id": "7ce522ee5ad49a4c",
@@ -860,9 +832,7 @@
             "dfaf58a4a10a9589"
         ],
         "x": 54,
-        "y": 479,
-        "w": 962,
-        "h": 502
+        "y": 479
     },
     {
         "id": "6ce79745b15a69fa",
@@ -881,9 +851,7 @@
             "1afabb22dec2bd65"
         ],
         "x": 54,
-        "y": 999,
-        "w": 952,
-        "h": 122
+        "y": 999
     },
     {
         "id": "d5a6405a4469b49d",
@@ -38987,7 +38955,7 @@
         "type": "function",
         "z": "e4abb199d1dcf785",
         "name": "Write to mysql",
-        "func": "var currenttime = global.get(\"currenttime\");\nvar operator = global.get(\"username\");\nvar logonstatus = global.get(\"logonstatus\");\n\n//to include the sql script at this variable\nvar sql\n\nif (logonstatus == \"Login Successful\")\n{\n    sql = 'INSERT INTO`klkrpnode`.`event`(`TIMESTAMP`, `LINE`, `TAG`,`OPERATOR`,`VALUE`)VALUES(\"' + currenttime + '\",\"-\",\"-\",\"' + operator+'\",\"Login Successful\");';\nmsg.topic = sql;\n}\n\nreturn msg;",
+        "func": "var currenttime = global.get(\"currenttime\");\nvar operator = global.get(\"username\");\nvar logonstatus = global.get(\"logonstatus\");\n\n\n//to include the sql script at this variable\nvar sql\n\nif (logonstatus == \" Logged Out\") {\n    //send empty query to sql if no user logged in\n    sql = [];\n    msg.topic = sql;\n}\nelse\n    sql = 'INSERT INTO`klkrpnode`.`event`(`TIMESTAMP`, `LINE`, `TAG`,`OPERATOR`,`VALUE`)VALUES(\"' + currenttime + '\",\"-\",\"-\",\"' + operator + '\",\"' + logonstatus + '\");';\nmsg.topic = sql;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -39007,6 +38975,7 @@
         "z": "e4abb199d1dcf785",
         "name": "Write Login to SQL 1",
         "links": [
+            "36008493f665d054",
             "8034e18fdd4cc74f"
         ],
         "x": 185,
@@ -39061,7 +39030,7 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 590,
+        "x": 670,
         "y": 160,
         "wires": [
             [
@@ -39087,7 +39056,7 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 600,
+        "x": 680,
         "y": 200,
         "wires": [
             [
@@ -39115,7 +39084,7 @@
         "payloadType": "bool",
         "topic": "login",
         "topicType": "str",
-        "x": 610,
+        "x": 690,
         "y": 240,
         "wires": [
             [
@@ -39143,11 +39112,11 @@
         "payloadType": "bool",
         "topic": "topic",
         "topicType": "msg",
-        "x": 150,
-        "y": 200,
+        "x": 110,
+        "y": 180,
         "wires": [
             [
-                "65425867aac52890"
+                "6346205aa74c5a0e"
             ]
         ]
     },
@@ -39156,14 +39125,14 @@
         "type": "function",
         "z": "82c336c0cda633ca",
         "name": "Set ID and Password empty",
-        "func": "if (msg.payload == true)\n{\n    msg.payload = [];\n   // global.set(\"clientid\", []);\n    global.set(\"username\", []);\n    global.set(\"logonstatus\", []);\n    global.set(\"logontime\", []);\n    global.set(\"password\", []);\n}\n\nreturn msg;",
+        "func": "if (msg.payload == \"Continue\")\n{\n    msg.payload = [];\n   // global.set(\"clientid\", []);\n    global.set(\"username\", []);\n    global.set(\"logonstatus\", []);\n    global.set(\"logontime\", []);\n    global.set(\"password\", []);\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 360,
-        "y": 200,
+        "x": 460,
+        "y": 140,
         "wires": [
             [
                 "a77552e349c8eb54",
@@ -39182,7 +39151,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 820,
+        "x": 900,
         "y": 240,
         "wires": [
             [
@@ -39201,7 +39170,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 770,
+        "x": 850,
         "y": 160,
         "wires": [
             []
@@ -39218,7 +39187,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 800,
+        "x": 880,
         "y": 200,
         "wires": [
             []
@@ -39256,7 +39225,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 4,
-        "x": 1010,
+        "x": 1090,
         "y": 240,
         "wires": [
             [
@@ -39282,7 +39251,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1260,
+        "x": 1340,
         "y": 140,
         "wires": [
             [
@@ -39302,7 +39271,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1281.0000076293945,
+        "x": 1361.0000076293945,
         "y": 177.00000190734863,
         "wires": [
             [
@@ -39321,7 +39290,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1282.0000762939453,
+        "x": 1362.0000762939453,
         "y": 214.00001430511475,
         "wires": [
             [
@@ -39344,7 +39313,7 @@
         "className": "",
         "topic": "Authentication Failed",
         "name": "Authentication Failure Dialog",
-        "x": 1600,
+        "x": 1680,
         "y": 200,
         "wires": [
             []
@@ -39361,7 +39330,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1310,
+        "x": 1390,
         "y": 300,
         "wires": [
             [
@@ -39381,7 +39350,7 @@
         "cancel": "",
         "topic": "System In Use.",
         "name": "System In-Use Dialog",
-        "x": 1540,
+        "x": 1620,
         "y": 300,
         "wires": [
             []
@@ -39412,7 +39381,7 @@
         "className": "",
         "topic": "Authentication Success",
         "name": "Authentication Success",
-        "x": 1590,
+        "x": 1670,
         "y": 160,
         "wires": [
             []
@@ -39489,7 +39458,7 @@
         "links": [
             "1ad4d83817002be0"
         ],
-        "x": 1465,
+        "x": 1545,
         "y": 100,
         "wires": []
     },
@@ -39516,8 +39485,66 @@
         "z": "82c336c0cda633ca",
         "name": "to Check this later",
         "info": "",
-        "x": 570,
+        "x": 650,
         "y": 320,
+        "wires": []
+    },
+    {
+        "id": "6346205aa74c5a0e",
+        "type": "function",
+        "z": "82c336c0cda633ca",
+        "name": "Logout msg. to SQL",
+        "func": "var username = global.get(\"username\");\n\nvar logout = username + \" Logged Out\";\n\nif (msg.payload == true) {\n    msg.payload = \"Continue\";\n    // global.set(\"clientid\", []);\n    global.set(\"logonstatus\", logout);\n\n}\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 260,
+        "wires": [
+            [
+                "f534eb1362b615e4",
+                "36008493f665d054"
+            ]
+        ]
+    },
+    {
+        "id": "f534eb1362b615e4",
+        "type": "delay",
+        "z": "82c336c0cda633ca",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 390,
+        "y": 200,
+        "wires": [
+            [
+                "65425867aac52890"
+            ]
+        ]
+    },
+    {
+        "id": "36008493f665d054",
+        "type": "link out",
+        "z": "82c336c0cda633ca",
+        "name": "Write Logout to SQL",
+        "mode": "link",
+        "links": [
+            "1ad4d83817002be0"
+        ],
+        "x": 465,
+        "y": 300,
         "wires": []
     },
     {
